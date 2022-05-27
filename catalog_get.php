@@ -1,7 +1,10 @@
-<?php 
+<?php
 	header('Content-Type: application/json; charset=utf-8'); 
+	header('Access-Control-Allow-Origin: *');
+	header('Access-Control-Allow-Methods: GET, POST');
+	header("Access-Control-Allow-Headers: X-Requested-With");
 
-	$connect = mysqlconnect('artema41.beget.tech', 'artema41_simpro', 'QT3*a1uz', 'artema41_simpro');
+	$connect = mysqlconnect('localhost', 'artema41_simpro', 'QT3*a1uz', 'artema41_simpro');
 
 	$query = mysqlselectquery('SELECT * FROM projects');
 

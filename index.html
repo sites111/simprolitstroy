@@ -15319,7 +15319,6 @@
                     <div class="row">
                         <div class="col" style="text-align: center;">
                             <h2 class="headleadmini pb-4 pt-5"><b>Оставьте заявку</b> и мы вам перезвоним</h2>
-                            <form name="test" method="post" action="input1.php">
                                 <div class="row row-cols-1 rol-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3" style="justify-content: center;">
                                     <div class="col">
                                         <input class="namer" type="text" placeholder="Ваше имя" size="40">
@@ -15328,10 +15327,9 @@
                                         <input class="number" type="text" placeholder="Ваш номер" size="40">
                                     </div>
                                     <div class="col">
-                                        <button class="miniformbutton" type="submit">Отправить данные</button>
+                                        <button class="miniformbutton" type="submit" onclick="alert('Отправить данные');">Отправить данные</button>
                                     </div>
                                 </div>
-                               </form>
                         </div>
                     </div>
                 </div>
@@ -18583,7 +18581,7 @@
                                                 aria-describedby="uploadcare--widget__text uploadcare--widget__progress" data-status="ready"
                                                 aria-busy="false">
                                                 <div id="uploadcare--widget__text" class="uploadcare--widget__text" aria-live="polite"></div>
-                                                <button
+                                                <button onclick="return alert('Прикрепить файл');" 
                                                     type="button" class="uploadcare--widget__button uploadcare--widget__button_type_open">Прикрепить
                                                     файл
                                                 </button>
@@ -18601,28 +18599,28 @@
                                         <div class="t-img-select__container" data-check-bgcolor="#000"><label class="t-img-select__control"> <input
                                                     type="radio" name="Куда выслать наш вариант сметы" value="Telegram"
                                                     class="t-img-select js-tilda-rule">
-                                                <div class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
+                                                <div onclick="alert('telegram');" class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
                                                     data-original="https://static.tildacdn.info/tild6134-3862-4236-b339-343363373833/logos_telegram.svg"
                                                     style="background-image:url('https://static.tildacdn.info/tild6134-3862-4236-b339-343363373833/logos_telegram.svg');">
                                                 </div>
                                                 <div class="t-img-select__text t-text t-text_xs" style="color: #000"> Telegram </div>
                                             </label><label class="t-img-select__control"> <input type="radio" name="Куда выслать наш вариант сметы"
                                                     value="Viber" class="t-img-select js-tilda-rule">
-                                                <div class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
+                                                <div  onclick="alert('viber');" class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
                                                     data-original="https://static.tildacdn.info/tild3764-6630-4565-b164-656635303637/logos_whatsapp.svg"
                                                     style="background-image:url('https://static.tildacdn.info/tild3764-6630-4565-b164-656635303637/logos_whatsapp.svg');">
                                                 </div>
                                                 <div class="t-img-select__text t-text t-text_xs" style="color: #000"> Viber </div>
                                             </label><label class="t-img-select__control"> <input type="radio" name="Куда выслать наш вариант сметы"
                                                     value="Whatsapp" class="t-img-select js-tilda-rule">
-                                                <div class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
+                                                <div  onclick="alert('whatsapp');" class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
                                                     data-original="https://static.tildacdn.info/tild3336-3066-4930-b939-666362653938/logos_whatsapp-1.svg"
                                                     style="background-image:url('https://static.tildacdn.info/tild3336-3066-4930-b939-666362653938/logos_whatsapp-1.svg');">
                                                 </div>
                                                 <div class="t-img-select__text t-text t-text_xs" style="color: #000"> Whatsapp </div>
                                             </label><label class="t-img-select__control"> <input type="radio" name="Куда выслать наш вариант сметы"
                                                     value="Телефон" class="t-img-select js-tilda-rule">
-                                                <div class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
+                                                <div  onclick="alert('telephone');" class="t-bgimg t-img-select__indicator t-img-select__indicator_1-1 loaded"
                                                     data-original="https://static.tildacdn.info/tild3361-3638-4264-b336-343462363337/Frame_11.svg"
                                                     style="background-image:url('https://static.tildacdn.info/tild3361-3638-4264-b336-343462363337/Frame_11.svg');">
                                                 </div>
@@ -18754,7 +18752,7 @@
                                     </style>
                                 </div>
                                 <div class="tn-form__submit" style="text-align:center;">
-                                    <button class="knopkaNAH" type="submit" class="t-submit"
+                                    <button class="knopkaNAH" type="submit" class="t-submit" onclick="alert('получить смету');" 
                                         style="color:#fff;background-color:#8ed834;border-radius:100px;font-family:Montserrat;font-weight:500;font-size:14px;width:300px;height:70px;margin-left:auto;margin-right:auto;padding:0 15px;display:block;">
                                         Получить смету</button>
                                     </div>

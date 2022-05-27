@@ -19,6 +19,7 @@ function getCatalogProjects(){
 	  }
 	});
 	xhr.open("GET", "../api/mysql/catalog_get.php");
+	xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 	xhr.send(data);
 }
 
@@ -108,7 +109,7 @@ function getGallery(){
 		galleryBlockFill(galleryCountMax);
 	  }
 	});
-	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/gallery_get.php");
+	xhr.open("GET", "../api/mysql/gallery_get.php");
 	xhr.send(data);
 }
 
