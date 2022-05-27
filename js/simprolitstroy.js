@@ -18,7 +18,7 @@ function getCatalogProjects(){
 		projectBlockFill(projectsCountMax);
 	  }
 	});
-	xhr.open("GET", "../api/mysql/catalog_get.php");
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php");
 	xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 	xhr.send(data);
 }
@@ -51,7 +51,8 @@ function projectBlockFill(count_max){
 function clickMoreProjects(){ 
 	projectsCountMax += 3;
 	projectBlockFill(projectsCountMax);
-} 
+} 	
+		var fileName = 'file.file';
 		var inputElement = document.getElementById("inputFile");
 		inputElement.addEventListener("change", handleFiles, false);
 		function handleFiles() {
@@ -64,7 +65,9 @@ function clickMoreProjects(){
 			data.append("inputfile", this.files[0], this.files[0]['name']);
 
 			setFileNameText(this.files[0]['name']);
-			 
+			
+			fileName = this.files[0]['name'];
+
 			var xhr = new XMLHttpRequest();
 			xhr.withCredentials = true;
 
@@ -84,17 +87,18 @@ function clickMoreProjects(){
 			  }
 			}); 
 			xhr.open("POST", "https://simprolitstroy.ru/api/input.php");
+			xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 			xhr.send(data); 
 		}  
 
 		function setFileNameText(filenametext){
-			document.getElementById('fileName').innerHTML = `Выбранный файл: ${filenametext}`;
+			document.getElementById('fileName').innerHTML = `Прикреплен файл ${fileName}`;
 		}
 		function setFileUploadStatus(statustext){
-			document.getElementById('fileName').innerHTML = `Статус: ${statustext}`;
+			document.getElementById('fileName').innerHTML = `Загрузка ${fileName}`;
 		}
 		function setFileUploadedLink(link){
-			document.getElementById('fileName').innerHTML = `URL: ${link}`;
+			document.getElementById('fileName').innerHTML = `Прикреплен файл ${fileName}`;
 		}
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `
