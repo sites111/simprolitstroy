@@ -51,8 +51,51 @@ function projectBlockFill(count_max){
 function clickMoreProjects(){ 
 	projectsCountMax += 3;
 	projectBlockFill(projectsCountMax);
-}
-//"price":"931000","square":"71","levels":"1","rooms":"3","description":null
+} 
+		var inputElement = document.getElementById("inputFile");
+		inputElement.addEventListener("change", handleFiles, false);
+		function handleFiles() {
+			const fileList = this.files; /* now you can work with the file list */
+			console.log(fileList);
+			var file = this.files[0];
+		//	console.log('Загрузка файла: ' + file['name'] + ' ' + file['size'] + ' ' + file['type']);
+
+			var data = new FormData();
+			data.append("inputfile", this.files[0], this.files[0]['name']);
+
+			setFileNameText(this.files[0]['name']);
+			 
+			var xhr = new XMLHttpRequest();
+			xhr.withCredentials = true;
+
+			xhr.addEventListener("readystatechange", function() {
+			  if(this.readyState === 3) {
+			    console.log('загрузка' + xhr.responseText.length);
+			  }
+			  if(this.readyState === 4) {
+			  	var responseBody = this.responseText;
+			    console.log(responseBody);
+			    setFileUploadStatus(this.responseText);
+			    var jsonResponse = JSON.parse(responseBody);
+			    setFileUploadedLink(jsonResponse['link']);
+			  }
+			  else {
+			    setFileUploadStatus(this.responseText);
+			  }
+			}); 
+			xhr.open("POST", "https://simprolitstroy.ru/api/input.php");
+			xhr.send(data); 
+		}  
+
+		function setFileNameText(filenametext){
+			document.getElementById('fileName').innerHTML = `Выбранный файл: ${filenametext}`;
+		}
+		function setFileUploadStatus(statustext){
+			document.getElementById('fileName').innerHTML = `Статус: ${statustext}`;
+		}
+		function setFileUploadedLink(link){
+			document.getElementById('fileName').innerHTML = `URL: ${link}`;
+		}
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `
 							<div class="col">

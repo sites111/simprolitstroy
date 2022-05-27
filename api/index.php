@@ -60,10 +60,10 @@
 			document.getElementById('filename').innerHTML = `Выбранный файл: ${filenametext}`;
 		}
 		function setFileUploadStatus(statustext){
-			document.getElementById('uploadstatus').innerHTML = `Статус: ${statustext}`;
+			document.getElementById('filename').innerHTML = `Статус: ${statustext}`;
 		}
 		function setFileUploadedLink(link){
-			document.getElementById('uploadedfilelink').innerHTML = `URL: ${link}`;
+			document.getElementById('filename').innerHTML = `URL: ${link}`;
 		}
 	</script>
 </body>

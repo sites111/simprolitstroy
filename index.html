@@ -18588,16 +18588,15 @@
                                 
                                 <div class="t-input-group t-input-group_uc" data-input-lid="1652913993699" style="margin-bottom:20px;">
                                     <div class="t-input-block">
-                                        <div class="t-uploadcare" style="margin-bottom:10px;"><input type="text" role="uploadcare-uploader"
-                                                class="js-tilda-rule" name="File" data-public-key="demopublickey" style="display:none;">
+                                        <div class="t-uploadcare" style="margin-bottom:10px;">
+                                            <input id="inputFile" type="file" accept="image/*,.pdf" class="js-tilda-rule" style="display:none;">
                                             <div class="uploadcare--widget uploadcare--widget_status_ready"
                                                 aria-describedby="uploadcare--widget__text uploadcare--widget__progress" data-status="ready"
                                                 aria-busy="false">
                                                 <div id="uploadcare--widget__text" class="uploadcare--widget__text" aria-live="polite"></div>
-                                                <button onclick="return alert('Прикрепить файл');" 
-                                                    type="button" class="uploadcare--widget__button uploadcare--widget__button_type_open">Прикрепить
-                                                    файл
-                                                </button>
+                                                <label id="fileName" for="inputFile" class="uploadcare--widget__button uploadcare--widget__button_type_open">
+                                                    Прикрепить файл
+                                                </label>
                                             </div>
                                         </div>
                                         <div class="t-input-error"></div>
