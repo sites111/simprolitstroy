@@ -536,15 +536,28 @@ function createQuizPageText(ask, responsesArray){// responses: ['Через ме
 	result += `<div class="row row-cols-1 row-cols-lg-2 g-3 mt-3 " style="display: flex;">`;
 	for(var i = 0; i < responsesArray.length; i++){
 		result += `<div class="col" onclick="alert('1')" style="cursor: pointer;">
-                                        <div class="card-quizz h-100 ">
-                                            <div class="card-body ">
-                                                <img src="images/check.png" class="img-fluid"
-                                                    style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
-                                                <h5 class="">${responsesArray[i]}</h5>
-                                            </div>
-                                        </div>
+										<div class="card-quizz h-100 ">
+											<div class="h-100 align-middle p-2" style="display: inline-flex;
+												align-items: center;">
+												<img src="images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
+												<h5 class="h-100 align-middle" style="display: inline-flex;
+												align-items: center;">${responsesArray[i]}</h5>
+											</div>
+										</div> 
                                     </div>`;
 	}
+
+/*
+<div class="card-quizz h-100 ">
+	<div class="h-100 align-middle p-2" style="display: inline-flex;
+		align-items: center;">
+		<img src="images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
+		<h5 class="h-100 align-middle" style="display: inline-flex;
+		align-items: center;">Да</h5>
+	</div>
+</div>
+*/
+
 	return result + `<div class="w-100 mt-4" style="">
                                         <button type="button" onclick="backPage();" class="btn btn-light p-3 " style="background: #FFFFFF;
                                                                             border-radius: 100px;"><span style="font-family: 'Montserrat';
