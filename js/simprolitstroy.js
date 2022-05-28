@@ -91,14 +91,22 @@ function clickMoreProjects(){
 			xhr.send(data); 
 		}  
 
+		function cropTextFile(text){
+			var sliced = text.slice(0,15);
+			if (sliced.length < text.length) {
+				sliced += '...';
+			}
+			return sliced;
+		}
+
 		function setFileNameText(filenametext){
-			document.getElementById('fileName').innerHTML = `Прикреплен файл ${fileName}`;
+			document.getElementById('fileName').innerHTML = cropTextFile(fileName);
 		}
 		function setFileUploadStatus(statustext){
-			document.getElementById('fileName').innerHTML = `Загрузка ${fileName}`;
+			document.getElementById('fileName').innerHTML = 'Загрузка';
 		}
 		function setFileUploadedLink(link){
-			document.getElementById('fileName').innerHTML = `Прикреплен файл ${fileName}`;
+			document.getElementById('fileName').innerHTML = cropTextFile(fileName);
 		}
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `
