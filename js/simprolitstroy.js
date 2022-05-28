@@ -125,12 +125,24 @@ function onClickGetSmeta(){
 
 	if(phone.length < 11 || name.length < 2){
 		if(phone.length < 11){ 
+			phoneElement.style = "border: 1px solid #dc3545; color: #000000; background-color: #ffffff; border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; font-size: 16px; font-weight: 400; height: 68px;";
 		}
 		if(name.length < 2){ 
+			nameElement.style.border = "1px solid #dc3545";
 		}
 		return;
 	} 
-
+/*
+	color: #000000;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 68px;
+    */
 	var comment = generateComment();
 
 	sendAmoCRM(phone, name, comment);
