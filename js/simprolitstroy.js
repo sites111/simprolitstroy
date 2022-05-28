@@ -571,6 +571,7 @@ function createQuizPageText(ask, responsesArray){// responses: ['Через ме
                                 </div>`;
 }
 
+
 function createQuizPageForm(){
 	return `<div class="" style="display: block;">
                                     <h5 class="card-title text-right mt-4">Куда вам отправить предварительный расчёт?</h5>
