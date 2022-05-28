@@ -200,10 +200,18 @@ u{
     border-radius: 15px;
 }
 
-.contact-inactiv:hover{
-    background: #FFFFFF;
+
+
+.tabs > label:hover {
+    background: #ff4f4f;
     /* Shadow */
     
+    box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+}
+  
+.tabs > input:checked + label {
+    background: #FFFFFF;
     box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
     border-radius: 15px;
 }
