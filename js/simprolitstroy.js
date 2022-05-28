@@ -15,9 +15,57 @@ const MESSENGER_WHATSAPP = 3;
 
 var messenger = MESSENGER_PHONE;
 
+const QUIZ_ASK_TEXT = 0;
+const QUIZ_ASK_IMAGE = 1;
+const QUIZ_ASK_FORM = 2;
+var quizPage = 0;
+
+/*
+0. Есть ли готовый проект
+1. Строительство в этом году?
+2. Есть ли участок
+3. 1 или 2 этажа
+4. Ипотека, материнский капитал или обмен квартиры на дом
+5. Примерный бюджет
+6. Контакты
+*/
+
+let quizArray = [
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Есть готовый проект?',
+		responses: ['Да','Нет']
+	},
+	{
+		type: QUIZ_ASK_IMAGE,
+		ask: 'Когда планируете строительство?',
+		responses: ['Через месяц','Через 3 месяца'],
+		images: [null,null]
+	},
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Есть участок?',
+		responses: ['Да','Нет']
+	},
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Сколько этажей хотите?',
+		responses: ['1','2','3']
+	},
+	{
+		type: QUIZ_ASK_FORM,
+		ask: 'Вопрос 1'
+	}
+];
+
+/*
+alert(`Вопрос 1/1: ${quizArray[1]['ask']}`);
+alert(`Ответ ${quizArray[1]['responses'][2]}`);
+*/
+
 getCatalogProjects();
 getGallery();
-quizLoad();
+quizLoad(quizPage);
 
 function sendAmoCRM(phone, name, comment){
 	var data = JSON.stringify({
@@ -181,7 +229,7 @@ function handleFiles() {
 			    var jsonResponse = JSON.parse(responseBody);
 			    setFileUploadedLink(jsonResponse['link']);
 			    fileURL = jsonResponse['link'];
-			    alert(fileURL);
+		//	    alert(fileURL);
 			  }
 			  else {
 			    setFileUploadStatus(this.responseText);
@@ -334,28 +382,68 @@ function number_format(n) {
 	return n.replace(/([0-9U]{3})/g, "$1 ").replace(/U/g, "");
 }
 
-function quizLoad(){
+/*
+let quizArray = [
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Есть готовый проект?',
+		responses: ['Да','Нет'] 
+	},
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Когда планируете строительство?',
+		responses: ['Через месяц','Через 3 месяца'],
+	},
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Есть участок?',
+		responses: ['Да','Нет'],
+	},
+	{
+		type: QUIZ_ASK_TEXT,
+		ask: 'Сколько этажей хотите?',
+		responses: ['1','2','3'],
+	},
+	{
+		type: QUIZ_ASK_FORM,
+		ask: 'Вопрос 1'
+	}
+];
+
+const QUIZ_ASK_TEXT = 0;
+const QUIZ_ASK_IMAGE = 1;
+const QUIZ_ASK_FORM = 2;
+*/
+
+function quizLoad(page){
+	quizPage = page;
+//	alert(quizArray[page]['responses']);
 	var elementQuizBlock = document.getElementById('quizBlock');
-	elementQuizBlock.innerHTML = createQuizPageForm();
-	askNumSet(2,3);
+	if(quizArray[page]['type'] == QUIZ_ASK_TEXT)
+		elementQuizBlock.innerHTML = createQuizPageText(quizArray[page]['ask'], quizArray[page]['responses']);
+	if(quizArray[page]['type'] == QUIZ_ASK_IMAGE)
+		elementQuizBlock.innerHTML = createQuizPageImage(quizArray[page]['ask'], quizArray[page]['responses']);
+	if(quizArray[page]['type'] == QUIZ_ASK_FORM)
+		elementQuizBlock.innerHTML = createQuizPageForm();
+	askNumSet(quizPage,quizArray.length);
 }
 
 function askNumSet(n,m){
-	document.getElementById('askNum').innerHTML = `Вопрос ${n} из ${m}`;
-	var progress = 100/m*n;
+	document.getElementById('askNum').innerHTML = `Вопрос ${n+1} из ${m}`;
+	var progress = 100/m*(n+1);
 	document.getElementById('quizProgressBar').style.width = `${progress}%`;
 }
 
 function nextPage(){
-	alert('nextPage');
+	quizLoad(quizPage+1);
 }
 
 function backPage(){
-	alert('backPage');
+	quizLoad(quizPage-1);
 }
 
-function createQuizPageImage(){
-	return `<div class="row row-cols-2 row-cols-sm-2 row-cols-xl-3 g-4 " style="display: flex;">
+function createQuizPageImage(ask, responsesArray){
+	return `<h5 class="card-title text-right mt-4">${ask}</h5><div class="row row-cols-2 row-cols-sm-2 row-cols-xl-3 g-4 " style="display: flex;">
                                 <div class="col pt-4">
                                     <div style="display: flex;flex-direction: column;align-items: center;">
                                         <img class="w-100" src="images/Subtract (1).png">
@@ -443,49 +531,21 @@ function createQuizPageImage(){
                             </div>`;
 }
 
-function createQuizPageText(){
-	return `<div class="row row-cols-1 row-cols-lg-2 g-3 mt-3 " style="display: flex;">
-                                    <div class="col" onclick="alert('1')" style="cursor: pointer;">
+function createQuizPageText(ask, responsesArray){// responses: ['Через месяц','Через 3 месяца'],
+	var result = `<h5 class="card-title text-right mt-4">${ask}</h5>`;
+	result += `<div class="row row-cols-1 row-cols-lg-2 g-3 mt-3 " style="display: flex;">`;
+	for(var i = 0; i < responsesArray.length; i++){
+		result += `<div class="col" onclick="alert('1')" style="cursor: pointer;">
                                         <div class="card-quizz h-100 ">
                                             <div class="card-body ">
                                                 <img src="images/check.png" class="img-fluid"
                                                     style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
-                                                <h5 class="">Участок есть, в черте города</h5>
+                                                <h5 class="">${responsesArray[i]}</h5>
                                             </div>
                                         </div>
-                                    </div>
-                            
-                                    <div class="col" onclick="alert('2')" style="cursor: pointer;">
-                                        <div class="card-quizz h-100 ">
-                                            <div class="card-body ">
-                                                <img src="images/check.png" class="img-fluid"
-                                                    style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
-                                                <h5 class="">Участок есть, в черте города</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <div class="col" onclick="alert('3')" style="cursor: pointer;">
-                                        <div class="card-quizz h-100 ">
-                                            <div class="card-body ">
-                                                <img src="images/check.png" class="img-fluid"
-                                                    style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
-                                                <h5 class="">Участок есть, в черте города</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <div class="col" onclick="alert('4')" style="cursor: pointer;">
-                                        <div class="card-quizz h-100 ">
-                                            <div class="card-body ">
-                                                <img src="images/check.png" class="img-fluid"
-                                                    style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
-                                                <h5 class="">Участок есть, в черте города</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <div class="w-100 mt-4" style="">
+                                    </div>`;
+	}
+	return result + `<div class="w-100 mt-4" style="">
                                         <button type="button" onclick="backPage();" class="btn btn-light p-3 " style="background: #FFFFFF;
                                                                             border-radius: 100px;"><span style="font-family: 'Montserrat';
                                                 font-style: normal;
@@ -513,16 +573,16 @@ function createQuizPageText(){
 
 function createQuizPageForm(){
 	return `<div class="" style="display: block;">
-                                    <h5 class="card-title text-right mt-4">Заполните форму</h5>
+                                    <h5 class="card-title text-right mt-4">Куда вам отправить предварительный расчёт?</h5>
                             
                                     <div class="text-center p- ">
-                                        <span class=" h3 w-50 ">
+                                        <!--<span class=" h3 w-50 ">
                                             Просто прикрепите готовую смету и вы узнаете как сэкономить на постройке
                                         </span>
                             
                                         <p class="form-min-text mt-3  ">
                                             Инженер-сметчик рассчитает стоимость работ и материалов по оптовым ценам
-                                        </p>
+                                        </p> -->
                                         <div class="row row-cols-2 row-cols-lg-4 g-4 mt-3 ">
                                             <div class="col">
                                                 <div class="contact-inactiv active h-100 " onclick="onClickMessenger(MESSENGER_VIBER);" style="cursor: pointer;">
