@@ -573,16 +573,16 @@ function createQuizPageText(ask, responsesArray){// responses: ['Через ме
 
 function createQuizPageForm(){
 	return `<div class="" style="display: block;">
-                                    <h5 class="card-title text-right mt-4">Заполните форму</h5>
+                                    <h5 class="card-title text-right mt-4">Куда вам отправить предварительный расчёт?</h5>
                             
                                     <div class="text-center p- ">
-                                        <span class=" h3 w-50 ">
+                                        <!--<span class=" h3 w-50 ">
                                             Просто прикрепите готовую смету и вы узнаете как сэкономить на постройке
                                         </span>
                             
                                         <p class="form-min-text mt-3  ">
                                             Инженер-сметчик рассчитает стоимость работ и материалов по оптовым ценам
-                                        </p>
+                                        </p> -->
                                         <div class="row row-cols-2 row-cols-lg-4 g-4 mt-3 ">
                                             <div class="col">
                                                 <div class="contact-inactiv active h-100 " onclick="onClickMessenger(MESSENGER_VIBER);" style="cursor: pointer;">
