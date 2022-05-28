@@ -192,6 +192,19 @@ u{
     text-decoration: none !important;
 }
 
+.check__box {
+    background-image: url(../images/logos_whatsapp.png);
+}
+
+.check__box:checked {
+    background: #FFFFFF;
+    /* Shadow */
+    background-image: url(../images/logos_whatsapp.png);
+
+    box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+}
+
 .contact{
     background: #FFFFFF;
     /* Shadow */
@@ -200,7 +213,7 @@ u{
     border-radius: 15px;
 }
 
-.contact-inactiv:hover{
+.contact-inactiv:focus{
     background: #FFFFFF;
     /* Shadow */
     

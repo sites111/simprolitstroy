@@ -528,12 +528,12 @@ function createQuizPageForm(){
                                                 <div class="contact-inactiv active h-100 " onclick="onClickMessenger(MESSENGER_VIBER);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
-                                                            <div class="col-12">
-                                                                <img class="img-fluid" src="images/logos_whatsapp.png" alt="">
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <span>Viber</span>
-                                                            </div>
+																<div class="col-12">
+																		<img class="img-fluid" src="images/logos_whatsapp.png" alt="">
+																</div>
+																<div class="col-12">
+																	<span>Viber</span>
+																</div>
                                                         </div>
                                                     </div>
                                                 </div>
