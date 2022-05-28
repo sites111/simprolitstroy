@@ -90,6 +90,18 @@ function onClickMessenger(id){
 	messenger = id;
 }
 
+function onClickQuizMessenger(element, id){
+	document.getElementById('quizMessengerWhatsApp').style = "cursor: pointer;";
+	document.getElementById('quizMessengerViber').style = "cursor: pointer;";
+	document.getElementById('quizMessengerTelegram').style = "cursor: pointer;";
+	document.getElementById('quizMessengerPhone').style = "cursor: pointer;";
+
+	element.style = `background: #FFFFFF;
+    box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    cursor: pointer;`;
+}
+
 function generateComment(){
 	var result = `Заполнена форма: ${formName}`;
 	result += `
@@ -111,6 +123,14 @@ function onClickGetSmeta(){
 	var phone = phoneElement.value;
 	var name = nameElement.value; 
 
+	if(phone.length < 11 || name.length < 2){
+		if(phone.length < 11){ 
+		}
+		if(name.length < 2){ 
+		}
+		return;
+	} 
+
 	var comment = generateComment();
 
 	sendAmoCRM(phone, name, comment);
@@ -131,6 +151,16 @@ function onClickSendQuiz(){
 	var phone = phoneElement.value;
 	var name = nameElement.value; 
 
+	if(phone.length < 11 || name.length < 2){
+		if(phone.length < 11){
+			phoneElement.style = "border-color: #dc3545!important";
+		}
+		if(name.length < 2){
+			nameElement.style = "border-color: #dc3545!important";
+		}
+		return;
+	} 
+
 	var comment = generateComment();
 
 	sendAmoCRM(phone, name, comment);
@@ -145,6 +175,17 @@ function onClickSendFormIpoteka(){
 	var nameElement = document.getElementById('inputIpotekaName');
 	var phone = phoneElement.value;
 	var name = nameElement.value;
+
+	if(phone.length < 11 || name.length < 2){
+		if(phone.length < 11){
+			phoneElement.style = "border-color: #dc3545!important";
+		}
+		if(name.length < 2){
+			nameElement.style = "border-color: #dc3545!important";
+		}
+		return;
+	} 
+
 	var comment = generateComment();
 
 	sendAmoCRM(phone, name, comment);
@@ -599,7 +640,7 @@ function createQuizPageForm(){
                                         </p> -->
                                         <div class="row row-cols-2 row-cols-lg-4 g-4 mt-3 ">
                                             <div class="col">
-                                                <div class="contact-inactiv active h-100 " onclick="onClickMessenger(MESSENGER_VIBER);" style="cursor: pointer;">
+                                                <div id="quizMessengerViber" class="contact-inactiv active h-100 " onclick="onClickQuizMessenger(this, MESSENGER_VIBER);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
 																<div class="col-12">
@@ -615,7 +656,7 @@ function createQuizPageForm(){
                                                 </div>
                                             </div>
                                             <div class="col">
-                                                <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_WHATSAPP);" style="cursor: pointer;">
+                                                <div id="quizMessengerWhatsApp" class="contact-inactiv h-100 " onclick="onClickQuizMessenger(this, MESSENGER_WHATSAPP);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
@@ -629,7 +670,7 @@ function createQuizPageForm(){
                                                 </div>
                                             </div>
                                             <div class="col">
-                                                <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_TELEGRAM);" style="cursor: pointer;">
+                                                <div id="quizMessengerTelegram" class="contact-inactiv h-100 " onclick="onClickQuizMessenger(this, MESSENGER_TELEGRAM);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
@@ -643,7 +684,7 @@ function createQuizPageForm(){
                                                 </div>
                                             </div>
                                             <div class="col">
-                                                <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_PHONE);" style="cursor: pointer;">
+                                                <div id="quizMessengerPhone" class="contact-inactiv h-100" onclick="onClickQuizMessenger(this, MESSENGER_PHONE);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
