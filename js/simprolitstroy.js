@@ -65,7 +65,7 @@ alert(`Ответ ${quizArray[1]['responses'][2]}`);
 
 getCatalogProjects();
 getGallery();
-quizLoad(quizPage);
+quizLoad(0);
 
 function sendAmoCRM(phone, name, comment){
 	var data = JSON.stringify({
