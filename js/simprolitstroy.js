@@ -113,46 +113,51 @@ function generateComment(){
 	if(fileURL != null) result += `
 		Прикрепленный файл: ${fileURL}`;
 	return result;
-}
+} 
 
 function onClickGetSmeta(){
 	formName = "Пересчёт сметы";
+	var fileNameElement = document.getElementById('fileName');
+	var fileLabelElement = document.getElementById('labelInputFile');
 	var phoneElement = document.getElementById('inputSmetaPhone');
 	var nameElement = document.getElementById('inputSmetaName');
 
 	var phone = phoneElement.value;
 	var name = nameElement.value; 
 
-	if(phone.length < 11 || name.length < 2){
-		if(phone.length < 11){ 
-			phoneElement.style = "border: 1px solid #dc3545; color: #000000; background-color: #ffffff; border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; font-size: 16px; font-weight: 400; height: 68px;";
-		}
-		if(name.length < 2){ 
+	if(phone.length < 11 || name.length < 2 || fileURL == null){
+		if(phone.length < 11)
+			phoneElement.style.border = "1px solid #dc3545";
+		else
+			phoneElement.style.border = "1px solid #fff";
+		if(name.length < 2)
 			nameElement.style.border = "1px solid #dc3545";
-		}
-		return;
+		else
+			nameElement.style.border = "1px solid #fff";
+		if(fileURL == null)
+			fileLabelElement.style.border = "1px solid #dc3545";
+		else 
+			fileLabelElement.style.border = "1px solid #8ED834";
+	//	return false;
 	} 
-/*
-	color: #000000;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
-    border-radius: 20px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    height: 68px;
-    */
 	var comment = generateComment();
 
-	sendAmoCRM(phone, name, comment);
-
+//	sendAmoCRM(phone, name, comment);
 	phoneElement.value = "";
 	nameElement.value = "";
 
-	document.getElementById('fileName').innerHTML = cropTextFile("Прикрепить файл");
+	fileNameElement.innerHTML = cropTextFile("Прикрепить файл");
 	fileName = null;
 	fileURL = null;
+
+	phoneElement.style.border = "1px solid #fff";
+	nameElement.style.border = "1px solid #fff";
+	fileLabelElement.style.border = "1px solid #8ED834";
+
+	var modal = document.getElementById('exampleModal');
+//	let targetSelector = modal.starter.getAttribute(this.config.linkAttributeName);
+//	modal._nextWindows = document.querySelector(targetSelector);
+	modal.open();
 }
 
 function onClickSendQuiz(){
@@ -282,7 +287,6 @@ function handleFiles() {
 			    var jsonResponse = JSON.parse(responseBody);
 			    setFileUploadedLink(jsonResponse['link']);
 			    fileURL = jsonResponse['link'];
-		//	    alert(fileURL);
 			  }
 			  else {
 			    setFileUploadStatus(this.responseText);
