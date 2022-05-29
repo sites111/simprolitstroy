@@ -14847,10 +14847,10 @@
                             <h2 class="headleadmini pb-4 pt-5"><b>Оставьте заявку</b> и мы вам перезвоним</h2>
                                 <div class="row row-cols-1 rol-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3" style="justify-content: center;">
                                     <div class="col col-lg-4">
-                                        <input id="inputIpotekaName" class="namer" type="text" placeholder="Ваше имя" size="40">
+                                        <input id="inputIpotekaName" class="namer" type="text" placeholder="Ваше имя" size="40" style="border: 1px solid #fff!important;">
                                     </div>
-                                    <div class="col col-lg-4">
-                                        <input id="inputIpotekaPhone" class="number" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999">
+                                    <div class="col col-lg-4"> 
+                                        <input id="inputIpotekaPhone" class="number t-input js-tilda-rule js-tilda-mask" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="border: 1px solid #fff!important;">
                                     </div>
                                     <div class="col col-lg-3">
                                         <button class="miniformbutton" onclick="return onClickSendFormIpoteka();" type="submit">Отправить данные</button>
@@ -20642,6 +20642,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
    
   
-    <script src="js/simprolitstroy.js" charset="utf-8" async></script>
+        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
 </body>
 </html>
