@@ -2571,7 +2571,7 @@
                                                 Фундамент
                                               </button>
                                             </li>
-                                            <li ><button type="button" class=" btn-primary" data-toggle="modal" data-target="#exampleModal" style="background: none; border: none;">
+                                            <li ><button type="button" class=" btn-primary" data-toggle="modal" data-target="#successModal" style="background: none; border: none;">
                                                 Фундамент
                                               </button>
                                             </li>
@@ -2930,7 +2930,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <a class="tn-atom" href="#menuopen2">Услуги</a>
+                    <a class="tn-atom" href="#menuopen2">УСЛУГИ</a>
                 </div>
             </div>
         </div>
@@ -18090,7 +18090,7 @@
                                                 aria-describedby="uploadcare--widget__text uploadcare--widget__progress" data-status="ready"
                                                 aria-busy="false">
                                                 <div id="uploadcare--widget__text" class="uploadcare--widget__text" aria-live="polite"></div>
-                                                <label for="inputFile" class="uploadcare--widget__button uploadcare--widget__button_type_open h-100 p-4">
+                                                <label id="labelInputFile" for="inputFile" class="uploadcare--widget__button uploadcare--widget__button_type_open h-100 p-4" style="cursor: pointer;">
                                                   <span id="fileName" class="align-middle h-100 text-truncate" style="">  Прикрепить файл</span>
                                                 </label>
                                             </div>
@@ -20479,12 +20479,12 @@
             
         </div>
 
-        <!-- Button trigger modal -->
+<!--         Button trigger modal 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="amoSocialButton('runChatHide');">
     Launch demo modal
   </button>
-
-        <!-- Modal -->
+-->
+        <!-- Modal --> 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
             <div class="modal-content text-center p-2 w-100"  style="max-width: 700px !important; border-radius: 20px;">
@@ -20583,6 +20583,19 @@
                 </div>
                 
             </div>
+            </div>
+        </div>
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabelSuccess" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
+                <div class="modal-content text-center p-2 w-100"  style="max-width: 700px !important; border-radius: 20px;">
+                    <div class=""> 
+                        <button type="button" class="close w-100 text-right p-3 pb-3 " data-dismiss="modal" onclick="alert('закрывается');" style="text-align: right; max-height: 50px; margin-top: -10px !important; background: none; border: none;">
+                            <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
+                        </button>
+                        <h1 class="modal-title text-center w-100 mt-3 " id="exampleModalLabelSuccess">Заявка успешно отправлена</h1>
+                    </div>
+                    <span class="mt-2 h5" style="padding-bottom: 50px;">Ожидайте, скоро мы с вами свяжемся</span>
+                </div>
             </div>
         </div>
 
