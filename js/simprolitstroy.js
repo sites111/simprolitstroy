@@ -138,11 +138,11 @@ function onClickGetSmeta(){
 			fileLabelElement.style.border = "1px solid #dc3545";
 		else 
 			fileLabelElement.style.border = "1px solid #8ED834";
-	//	return false;
+	return false;
 	} 
 	var comment = generateComment();
 
-//	sendAmoCRM(phone, name, comment);
+	sendAmoCRM(phone, name, comment);
 	phoneElement.value = "";
 	nameElement.value = "";
 
@@ -153,11 +153,8 @@ function onClickGetSmeta(){
 	phoneElement.style.border = "1px solid #fff";
 	nameElement.style.border = "1px solid #fff";
 	fileLabelElement.style.border = "1px solid #8ED834";
-
-	var modal = document.getElementById('exampleModal');
-//	let targetSelector = modal.starter.getAttribute(this.config.linkAttributeName);
-//	modal._nextWindows = document.querySelector(targetSelector);
-	modal.open();
+	
+	$('#successModal').modal('show');
 }
 
 function onClickSendQuiz(){
@@ -184,6 +181,7 @@ function onClickSendQuiz(){
 
 	phoneElement.value = "";
 	nameElement.value = "";
+	$('#successModal').modal('show');
 }
 
 function onClickSendFormIpoteka(){
