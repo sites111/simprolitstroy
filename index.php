@@ -97,6 +97,14 @@
                 opacity: 1;
             }
         }
+        @keyframes glowing {
+            0% { background-color: #2ba805; box-shadow: 0 0 5px #ed834; }
+            50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }
+            100% { background-color: #2ba805; box-shadow: 0 0 5px #ed834; }
+        }
+        .migalka{
+            animation: glowing 1300ms infinite;
+        }
     </style>
 </head>
 
@@ -2559,7 +2567,7 @@
                         <div class="container   d-none d-lg-block " style="z-index: 1000 !important">
                             <ul class="nav nav-fill justify-content-center" style="display: flex !important;">
                                 <li class="nav-item">
-                                  <a class="nav-link active text-light menu-up" href="#">ПРОЕКТЫ ДОМОВ</a>
+                                  <a class="nav-link active text-light menu-up" href="#rec448276217">ПРОЕКТЫ ДОМОВ</a>
                                 </li>
                                 <li class="nav-item">
                                   <a class="nav-link text-light menu-up  dropdown-toggle" id="navadv" role="button" data-toggle="dropdown" aria-expanded="false" href="#">УСЛУГИ</a>
@@ -2604,7 +2612,7 @@
                                   <a class="nav-link text-light menu-up" href="#">ОТЗЫВЫ</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-light menu-up" href="#">КОНТАКТЫ</a>
+                                  <a class="nav-link text-light menu-up" href="#rec448425078">КОНТАКТЫ</a>
                                 </li>
                              
                               </ul>
@@ -2657,7 +2665,7 @@
                     data-field-width-value="5" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
-                    <div class="tn-atom"> </div>
+                    <div class="tn-atom migalka"> </div>
                 </div>
 
 
@@ -2737,9 +2745,9 @@
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
                     data-field-filewidth-value="31" data-field-fileheight-value="31">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                    <div class="tn-atom"> <a href="https://vk.me/public212435437"><img class="tn-atom__img t-img"
                             data-original="https://static.tildacdn.info/tild6563-3833-4035-a439-633435626437/vk.svg"
-                            imgfield="tn_img_1652890129613"> </div>
+                            imgfield="tn_img_1652890129613"></a></div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890129601" data-elem-id="1652890129601"
                     data-elem-type="image" data-field-top-value="40" data-field-top-res-960-value="40"
@@ -2748,9 +2756,9 @@
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
                     data-field-filewidth-value="30" data-field-fileheight-value="31">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                    <div class="tn-atom"> <a href="whatsapp://send?phone=78432126177"><img class="tn-atom__img t-img"
                             data-original="https://static.tildacdn.info/tild3065-6531-4066-b633-353563666664/logos_whatsapp.svg"
-                            imgfield="tn_img_1652890129601"> </div>
+                            imgfield="tn_img_1652890129601"></a></div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890193389" data-elem-id="1652890193389"
                     data-elem-type="text" data-field-top-value="59" data-field-top-res-960-value="59"
@@ -2977,22 +2985,44 @@
                     </div>
                     <div class="t450__menu">
                         <ul class="t450__list">
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="1">ПРОЕКТЫ ДОМОВ</a> </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="2">АКЦИИ</a> </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="3">ОТЗЫВЫ</a> </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="4">УСЛУГИ</a> </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="5">СТРОЙМАТЕРИЛЫ</a>
+                            <li class="t450__list_item"><a class="t-menu__link-item " data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="1" href="#rec448276217">ПРОЕКТЫ ДОМОВ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" data-menu-submenu-hook="link_sub3_448888611"
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="2">СТРОЙМАТЕРИЛЫ</a>
+                                   <div class="t-menusub" data-submenu-hook="link_sub3_448888611"
+                                        data-submenu-margin="15px" data-add-submenu-arrow>
+                                        <div class="t-menusub__menu">
+                                            <div class="t-menusub__content">
+                                                <ul class="t-menusub__list">
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><button type="button" class=" btn-primary" data-toggle="modal" data-target="#exampleModal" style="background: none; border: none;">
+                                                Газобетон
+                                              </button></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="2">Керамические блоки</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="3">Монолитные</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="4">Арболит</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="5">Кирпич</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="6">Теплоблоки</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
                             </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="6">ДОКУМЕНТАЦИЯ</a>
-                            </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href data-menu-submenu-hook
-                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="7">КОНТАКТЫ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="/" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="3">ДОКУМЕНТАЦИЯ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="#rec448407412" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="4">ОТЗЫВЫ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="#rec448425078" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="5">КОНТАКТЫ</a> </li> 
                         </ul>
                     </div>
                 </div>
@@ -3034,6 +3064,8 @@
                 </div>
             </div>
         </div>
+
+
         <script>t_onReady(function () {
                 var rec = document.querySelector('#rec448782828');
                 if (!rec) return;
@@ -3041,6 +3073,8 @@
                 rec.style.opacity = 1;
                 t_onFuncLoad('t450_initMenu', function () { t450_initMenu('448782828'); });
             });</script>
+
+
         <style>
             #rec448782828 .t-menu__link-item {}
 
@@ -3052,6 +3086,26 @@
                 }
             }
         </style>
+
+        <script> t_onReady(function () {
+                setTimeout(function () {
+                    t_onFuncLoad('t_menusub_init', function () {
+                        t_menusub_init('448782828');
+                    });
+                }, 500);
+            });</script>
+        <style>
+            @media screen and (max-width: 980px) {
+                #rec448782828 .t-menusub__menu .t-menusub__link-item {
+                    color: #ffffff !important;
+                }
+
+                #rec448782828 .t-menusub__menu .t-menusub__link-item.t-active {
+                    color: #ffffff !important;
+                }
+            }
+        </style>
+
     </div>
     <div id="rec448888603" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; "
         data-animationappear="off" data-record-type="450">
@@ -3085,33 +3139,33 @@
                             <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" href
                                     data-menu-submenu-hook="link_sub3_448888603" style="color:#ffffff;font-size:15px;"
                                     data-menu-item-number="3">Полусухая стяжка полов</a>
-                           <!--     <div class="t-menusub" data-submenu-hook="link_sub3_448888603"
-                                    data-submenu-margin="15px" data-add-submenu-arrow>
-                                    <div class="t-menusub__menu">
-                                        <div class="t-menusub__content">
-                                            <ul class="t-menusub__list">
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Газобетон</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Керамические блоки</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Монолитные</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Арболит</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Кирпич</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a
-                                                        class="t-menusub__link-item t-name t-name_xs" style href
-                                                        data-menu-item-number="3">Теплоблоки</a></li>
-                                            </ul>
+                                <div class="t-menusub" data-submenu-hook="link_sub3_448888603"
+                                        data-submenu-margin="15px" data-add-submenu-arrow>
+                                        <div class="t-menusub__menu">
+                                            <div class="t-menusub__content">
+                                                <ul class="t-menusub__list">
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="1">Газобетон</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="2">Керамические блоки</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="3">Монолитные</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="4">Арболит</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="5">Кирпич</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="6">Теплоблоки</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div> -->
+                                    </div> 
                             </li> 
                         </ul>
                     </div>
@@ -5129,35 +5183,33 @@
                             font-size: 25px;
                             line-height: 30px;
                             ">Ответьте всего на 5 вопросов</span> 
-</div>
+</div><!--
+        background-image: url("images/bg-adv.png") !important; -->
 <style>
-    
-  .adv{
-      border-radius: 15px;
-      background-image: url("images/bg-adv.png") !important;
-      color: white ;
-  }
+    .adv{
+        border-radius: 15px;
+        background-color: #212529!important;
+        color: white ;
+    }
 </style>
 <div class="container p-3 " >
                         <div class="quiz p-4 mt-5 text-right"style="background: #FAFAFA; border-radius: 20px; " >
                             <div class="row  g-4">
                                 <div class="col-4 mt-5 d-none d-sm-block " style="text-align: center;">
-                                    <img class="img-fluid w-50" src="images/WhatsApp_Image_2022-05-17_at_20_40_41 3.png" alt="">
+                                    <img class="img-fluid w-50" src="images/artem.png" alt="">
                                    <div class="w-100 mt-3 text-center">
                                         <span class="h4 name w-100 text-center  ">Горбатов Артём</span>
                                       <br>
                                         <span class="mt-5" >Основатель компании</span>
+                                        <br><br>
+                                        <span class="mt-4" >Здравствуйте, меня зовут Артём, и я помогу вам понять какой бюджет нужен для строительства вашего дома под ключ</span>
+                                        <br><br>
+                                        <span class="mt-4" >ОТВЕТИВ НА ВОПРОСЫ <strong>ВЫ ПОЛУЧИТЕ:</strong></span>
 
                                         <div class="row g-2 pt-4">
-                                            <div class="adv p-3 col-12">
-                                                Подробную сметус услугами и ценами на каждый этап работы
-                                            </div>
-                                            <div class="adv p-3 col-12">
-                                                Подробную сметус услугами и ценами на каждый этап работы
-                                            </div>
-                                            <div class="adv p-3 col-12">
-                                                Подробную сметус услугами и ценами на каждый этап работы
-                                            </div>
+                                            <div class="adv p-3 col-12">Ориентировочную стоимость строительства</div>
+                                            <div class="adv p-3 col-12">Точную подборку проектов</div>
+                                            <div class="adv p-3 col-12">Один из 3-х подарков при заказе строительства у нас</div>
                                         </div>
                                         
                                    </div>
@@ -20459,7 +20511,7 @@
         <div class=" p-3 mt-5 p-3">
             <ul class="nav justify-content-center mx-5 " style="display: flex !important; ">
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 "  aria-current="page" href="#" style="    margin-right: 5.3rem!important;
+                  <a class="nav-link text-light mx-5 "  aria-current="page" href="#rec448276217" style="    margin-right: 5.3rem!important;
                   margin-left: 5.3rem!important;">ПРОЕКТЫ ДОМОВ</a>
                 </li>
                 <li class="nav-item">
@@ -20467,11 +20519,11 @@
                   margin-left: 5.3rem!important;">ДОКУМЕНТАЦИЯ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 " aria-current="page" href="#" style="    margin-right: 5.3rem!important;
+                  <a class="nav-link text-light mx-5 " aria-current="page" href="#rec448407412" style="    margin-right: 5.3rem!important;
                   margin-left: 5.3rem!important;">ОТЗЫВЫ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 " aria-current="page" href="#" style="    margin-right: 5.3rem!important;
+                  <a class="nav-link text-light mx-5 " aria-current="page" href="#rec448425078" style="    margin-right: 5.3rem!important;
                   margin-left: 5.3rem!important;">КОНТАКТЫ</a>
                 </li>
                
