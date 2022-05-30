@@ -297,3 +297,14 @@ color: #FFFFFF !important;
 .img-carusel{
     border-radius: 12px !important;
 }
+
+
+.nav-fill {
+    margin: 0 !important;
+}
+.header{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url("https://psv4.vkuseraudio.net/s/v1/d/nRjOEAU_jjR33Tn4lCl9lAJQw04BD1N36_uj-wRPBvgFxccxaAdawZtP48E6u-4pinQCzkw-FrbAC2TKICGK6T4FZ-1uyIIzPAtHA_9syUltp7L2LZZ1tQ/oblozhka.png");
+}
