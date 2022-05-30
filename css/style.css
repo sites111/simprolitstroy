@@ -250,13 +250,22 @@ margin-top: 30px !important;
     border-radius: 17px !important;
 }
 
-.btn-success{
+.btn-successs{
  
-
+color: white;
 background: #8ED834 !important;
 border-radius: 67px !important;
 border: none !important;
+
 }
+.btn-success:checked{
+ 
+
+    background: #8ED834 !important;
+    border-radius: 67px !important;
+    border: none !important;
+    
+    }
 
 .menu-up{
     font-family: 'Montserrat' !important;
@@ -284,3 +293,7 @@ color: #FFFFFF !important;
     margin-left: 5.3rem!important;
 }
 
+
+.img-carusel{
+    border-radius: 12px !important;
+}
