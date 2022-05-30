@@ -2574,19 +2574,10 @@
                                   <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navadv" style="max-width:0px !important;">
                                     <div class="row text-center p-3 ">
                                         <div class="col">
-                                            <li ><button type="button" class=" btn-primary" data-toggle="modal" data-target="#exampleModal" style="background: none; border: none;">
-                                                Фундамент
-                                              </button>
-                                            </li>
-                                            <li ><button type="button" class=" btn-primary" data-toggle="modal" data-target="#exampleModal" style="background: none; border: none;">
-                                                Фундамент
-                                              </button>
-                                            </li>
-                                            <li ><button type="button" class=" btn-primary" data-toggle="modal" data-target="#successModal" style="background: none; border: none;">
-                                                Фундамент
-                                              </button>
-                                            </li>
-                         
+                                            <li onclick="modalSow('Интересует заливка фундамента?');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
+                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
+                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
+                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
                                         </div>
                                     </div>
                                 </ul>
@@ -20058,8 +20049,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild3362-6532-4261-b266-666434386330/Rectangle_126.png"
-                        style="background-image:url(&#x27;images/Rectangle_126.png&#x27;);"> </div>
+                        data-original="https://simprolitstroy.ru/images/uchastok.jpg"
+                        style="background-image:url('https://simprolitstroy.ru/images/uchastok.jpg');"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484250781653516372820" data-elem-id="1653516372820"
                     data-elem-type="shape" data-field-top-value="607" data-field-top-res-960-value="605"
@@ -20075,8 +20066,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild6537-3532-4833-b536-653432653030/Rectangle_125.png"
-                        style="background-image:url(&#x27;images/Rectangle_125.png&#x27;);"> </div>
+                        data-original="https://simprolitstroy.ru/images/office.jpeg"
+                        style="background-image:url('https://simprolitstroy.ru/images/office.jpeg');"> </div>
                 </div>
             </div>
             
@@ -20531,7 +20522,7 @@
               </ul>
             <div class="row mt-3">
                 <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4 pb-4 mt-3  text-light">
-                    <img class="w-50 pb-3" src="logotest.svg" alt="">
+                    <img class="w-50 pb-3" src="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" alt="">
                     <br>
                 
                     <p>Строим современные дома в Казани</p>
@@ -20587,17 +20578,16 @@
                 <h1 class="text-center w-100 mt-1 " id="exampleModalLabel">Оставьте свои контакты</h1>
                 
                 </div>
-                <span class="mt-2 h5">Если хотите увеличить продажи</span>
-               
+                <span class="mt-2 h5"><b>Оставьте контакты</b> и мы с вами свяжемся</span>
                
                 <div class="modal-body p-4 mt-3">
                     <div class="row row-cols-1 rol-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3 pb-4" style="justify-content: center;">
                         <div class="col col-lg-12">
-                            <input id="inputIpotekaName" class="namer" type="text" placeholder="Ваше имя" size="40" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
+                            <input id="inputFormName" class="namer" type="text" placeholder="Ваше имя" size="40" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
                             border-radius: 20px;">
                         </div> 
                         <div class="col col-lg-12">
-                            <input id="inputIpotekaPhone" class="number" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
+                            <input id="inputFormPhone" class="number" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
                             border-radius: 20px;">
                         </div>
                     </div>
@@ -20605,7 +20595,7 @@
                     <div class="row row-cols-2 row-cols-lg-4 g-4 mt-1 ">
                         
                         <div class="col">
-                            <div class="contact-inactiv active h-100 " onclick="onClickMessenger(MESSENGER_VIBER);" style="cursor: pointer;">
+                            <div id="formMessengerViber" class="contact-inactiv active h-100 " onclick="onClickFormMessenger(this, MESSENGER_VIBER);" style="cursor: pointer;">
                                 <div class="card-body text-center">
                                     <div class="row g-2">
                                             <div class="col-12">
@@ -20621,7 +20611,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_WHATSAPP);" style="cursor: pointer;">
+                            <div id="formMessengerWhatsApp" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_WHATSAPP);" style="cursor: pointer;">
                                 <div class="card-body text-center">
                                     <div class="row g-2">
                                         <div class="col-12">
@@ -20635,7 +20625,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_TELEGRAM);" style="cursor: pointer;">
+                            <div id="formMessengerTelegram" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_TELEGRAM);" style="cursor: pointer;">
                                 <div class="card-body text-center">
                                     <div class="row g-2">
                                         <div class="col-12">
@@ -20649,7 +20639,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="contact-inactiv h-100 " onclick="onClickMessenger(MESSENGER_PHONE);" style="cursor: pointer;">
+                            <div id="formMessengerPhone" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_PHONE);" style="cursor: pointer;">
                                 <div class="card-body text-center">
                                     <div class="row g-2">
                                         <div class="col-12">
@@ -20665,7 +20655,7 @@
                     </div>
                     
                         <div class="text-center mt-4">
-                            <button class="miniformbutton" onclick="return onClickSendFormIpoteka();" type="submit">Отправить данные</button>
+                            <button class="miniformbutton" onclick="return onClickSendModal();" type="submit">Отправить данные</button>
                            
                         </div>
                   

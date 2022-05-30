@@ -108,10 +108,24 @@ function onClickMessenger(id){
 }
 
 function onClickQuizMessenger(element, id){
+	onClickMessenger(id);
 	document.getElementById('quizMessengerWhatsApp').style = "cursor: pointer;";
 	document.getElementById('quizMessengerViber').style = "cursor: pointer;";
 	document.getElementById('quizMessengerTelegram').style = "cursor: pointer;";
 	document.getElementById('quizMessengerPhone').style = "cursor: pointer;";
+
+	element.style = `background: #FFFFFF;
+    box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    cursor: pointer;`;
+}
+
+function onClickFormMessenger(element, id){
+	onClickMessenger(id);//id="formMessengerWhatsApp" 
+	document.getElementById('formMessengerWhatsApp').style = "cursor: pointer;";
+	document.getElementById('formMessengerViber').style = "cursor: pointer;";
+	document.getElementById('formMessengerTelegram').style = "cursor: pointer;";
+	document.getElementById('formMessengerPhone').style = "cursor: pointer;";
 
 	element.style = `background: #FFFFFF;
     box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.07);
@@ -138,8 +152,49 @@ ${quizArray[i]['ask'].replace('?', '')}: ${quizRespons[i]}`;
 	if(messenger == MESSENGER_WHATSAPP) result += "напишите на WhatsApp";
 	if(fileURL != null) result += `
 Прикрепленный файл: ${fileURL}`;
+	result = result.replace(`
+
+`,`
+		`)
 	return result;
 } 
+
+function onClickSendModal(){
+	var phoneElement = document.getElementById('inputFormPhone');
+	var nameElement = document.getElementById('inputFormName');
+
+	var phone = phoneElement.value;
+	var name = nameElement.value; 
+
+	if(phone.length < 11 || name.length < 2){
+		if(phone.length < 11)
+			phoneElement.style.border = "1px solid #dc3545";
+		else
+			phoneElement.style.border = "1px solid #fff";
+		if(name.length < 2)
+			nameElement.style.border = "1px solid #dc3545";
+		else
+			nameElement.style.border = "1px solid #fff";
+	return false;
+	} 
+	var comment = generateComment();
+
+	sendAmoCRM(phone, name, comment);
+	phoneElement.value = "";
+	nameElement.value = "";
+
+	phoneElement.style.border = "1px solid #fff";
+	nameElement.style.border = "1px solid #fff";
+	
+	$('#exampleModal').modal('hide');
+	$('#successModal').modal('show');
+}
+
+function modalSow(title){
+	document.getElementById('exampleModalLabel').innerHTML = title;
+	$('#exampleModal').modal('show');
+	formName = title.replace('?','');
+}
 
 function onClickGetSmeta(){
 	formName = "Пересчёт сметы";
@@ -386,9 +441,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 									</div>
 									<div class="price">от ${number_format(price)} руб.</div>
 									<div class="card-bodys">
-										<a href="https://simprolitstroy.ru/projects?id=${id}">
-											<div class="p-3 border-top border-success pt-4 full">ПОДРОБНЕЕ</div>
-										</a>
+										<div class="p-3 border-top border-success pt-4 full" onclick="modalSow('Заинтересовал проект ${name}?');">ПОДРОБНЕЕ</div>
 									</div>
 								</div>
 							</div>`;
