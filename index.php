@@ -20490,72 +20490,69 @@
     </div>
  
 
-
-        
-
-
-    
-
-
-
-    <div class="bg-dark my-footer pt-1">
-        <div class=" p-3 mt-5 p-3">
-            <ul class="nav justify-content-center mx-5 " style="display: flex !important; ">
+    <div class="footer bg-dark w-100 relative-bottom">
+        <div class="container pt-4 ">
+            <ul class="nav  nav-fill  pb-4 "  style="display: flex !important;  margin: 0 !important; ">
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 "  aria-current="page" href="#rec448276217" style="    margin-right: 5.3rem!important;
-                  margin-left: 5.3rem!important;">ПРОЕКТЫ ДОМОВ</a>
+                  <a   class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448276217" >ПРОЕКТЫ ДОМОВ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 " aria-current="page" href="#" style="    margin-right: 5.3rem!important;
-                  margin-left: 5.3rem!important;">ДОКУМЕНТАЦИЯ</a>
+                  <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448337565" >ГАЛЕРЕЯ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 " aria-current="page" href="#rec448407412" style="    margin-right: 5.3rem!important;
-                  margin-left: 5.3rem!important;">ОТЗЫВЫ</a>
+                  <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448407412" >ОТЗЫВЫ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light mx-5 " aria-current="page" href="#rec448425078" style="    margin-right: 5.3rem!important;
-                  margin-left: 5.3rem!important;">КОНТАКТЫ</a>
+                  <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448415236" >НАША КОМАНДА</a>
                 </li>
-               
-               
-              </ul>
-            <div class="row mt-3">
-                <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4 pb-4 mt-3  text-light">
-                    <img class="w-50 pb-3" src="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" alt="">
-                    <br>
-                
-                    <p>Строим современные дома в Казани</p>
-                </div>
-                <div class="col-sm-1 col-md-3 col-lg-1 col-xl-2 text-light pt-3">
-                    <span class="">
-                        Сайт носит исключительно информационный характер
+                <li class="nav-item">
+                  <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448330549" >О НАШЕЙ ТЕХНОЛОГИИ</a>
+                </li>
+            </ul>
 
-                    </span>
+
+            <footer class="row row-cols-sm-5 py-4 border-top text-light">
+                <div class="col">
+                  <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" alt="">
+                  </a>
+                  <p class="text-muted">© 2021</p>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-5 col-xl-4  text-light pt-3">
-                    <span class="h5 pb-3">Контакты</span>
-                    <ul class="mt-3">
-                        <li>info@simprolitstroy.ru</li>
-                        <li>+7 (843) 212 61-77</li>
-                        <li>Пользовательское соглашение</li>
-                    </ul>
+            
+                <div class="col">
+            
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2  text-light pt-3">
-                    <span class="h5 pb-3">Категории</span>
-                    <ul class="mt-3">
-                        <li>Проекты</li>
-                        <li>Акции</li>
-                        <li>Отзывы</li>
-                        <li>Услуги</li>
-                        <li>Стройматериалы</li>
-                        <li>Документация</li>
-                        
-                    </ul>
+            
+                <div class="col">
+                  <h5>Информация</h5>
+                  <ul class="nav flex-column" style="padding-top: 15px;">
+                    <li class="nav-item mb-2 text-muted">ИНН: 165715631893</li>
+                    <li class="nav-item mb-2 text-muted">ОГРНИП: 321169000062095</li> 
+                  </ul>
                 </div>
-            </div> 
+            
+                <div class="col">
+                  <h5>Документы</h5>
+                  <ul class="nav flex-column" style="padding-top: 15px;">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Политики конфиденциальности</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Экологические сертификаты</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Карточка предприятия</a></li>
+                  </ul>
+                </div>
+            
+                <div class="col">
+                  <h5>Ссылки</h5>
+                  <ul class="nav flex-column" style="padding-top: 15px;">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наш Instagram</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наша группа ВКонтакте</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Мы в Telegram</a></li>
+                  </ul>
+                </div>
+              </footer>
         </div>
     </div>
+        
+ 
         <div class="agency bg-dark" style="background-color: #161616 !important;">
             <div class="container p-3 text-center" >
                 <a href="https://laboratorysales.ru/"><img style="width:300px;" src="images/labsales_logo.svg" alt=""></a>

@@ -766,7 +766,7 @@ function createQuizPageForm(ask){
                                             <input id="inputQuizName" type="name" class="t-input form-control p-4" name="" id="" aria-describedby="emailHelpId"
                                                 placeholder="Введите имя">
                                         </div>
-                                        <button onclick="onClickSendQuiz();" class="btn btn-success w-100 p-4 mt-4">Получить расчёт</button>
+                                        <button onclick="onClickSendQuiz();" class="btn-successs w-100 p-4 mt-4 text-light">Получить расчёт</button>
                                     </div>
                                 </div>`;
 }
