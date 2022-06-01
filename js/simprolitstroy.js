@@ -64,8 +64,8 @@ let quizArray = [
 	{//6
 		type: QUIZ_ASK_IMAGE,
 		ask: 'Выберите подарок',
-		responses: ['Мангал','Бассейн','Беседка'],
-		images: [null,null,null,null]
+		responses: ['Мангал','Бассейн','Батут'],
+		images: ['https://simprolitstroy.ru/images/mangal.png','https://simprolitstroy.ru/images/basik.png','https://simprolitstroy.ru/images/batut.png']
 	},
 	{//7
 		type: QUIZ_ASK_FORM,
@@ -567,7 +567,7 @@ function quizLoad(page){
 	if(quizArray[page]['type'] == QUIZ_ASK_TEXT)
 		elementQuizBlock.innerHTML = createQuizPageText(page, quizArray[page]['ask'], quizArray[page]['responses']);
 	if(quizArray[page]['type'] == QUIZ_ASK_IMAGE)
-		elementQuizBlock.innerHTML = createQuizPageImage(page, quizArray[page]['ask'], quizArray[page]['responses']);
+		elementQuizBlock.innerHTML = createQuizPageImage(page, quizArray[page]['ask'], quizArray[page]['responses'], quizArray[page]['images']);
 	if(quizArray[page]['type'] == QUIZ_ASK_FORM)
 		elementQuizBlock.innerHTML = createQuizPageForm(quizArray[page]['ask']);
 	askNumSet(quizPage,quizArray.length);
@@ -587,12 +587,12 @@ function backPage(){
 	quizLoad(quizPage-1);
 }
 
-function createQuizPageImage(page, ask, responsesArray){
+function createQuizPageImage(page, ask, responsesArray, imagesArray){
 	var result = `<h5 class="card-title text-right mt-4">${ask}</h5><div class="row row-cols-2 row-cols-sm-2 row-cols-xl-3 g-4 " style="display: flex;">`;
 	for(var i = 0; i < responsesArray.length; i++)
 		result += `<div class="col pt-4" style="cursor: pointer;" onclick="quizPushResponse(${page},'${responsesArray[i]}')">
                                     <div style="display: flex;flex-direction: column;align-items: center;">
-                                        <img class="w-100" src="images/Subtract (1).png">
+                                        <img class="w-100" src="${imagesArray[i]}">
                                         <div class="round pb-2">
                                             <input type="checkbox" id="checkbox" />
                                             <label for="checkbox"></label>
