@@ -331,6 +331,7 @@ line-height: 18px;
 color: #E8E8E8;
 }
 
-.modal-content{
-   
+.modal.fade .modal-dialog {
+    transition: transform .3s ease-out;
+    transform: translateX(-0) !important; 
 }
