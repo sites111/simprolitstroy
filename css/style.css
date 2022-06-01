@@ -17,6 +17,7 @@
 .card-header {
     border-bottom: 0px !important;
     backrground-color: #f2f2f2 !important;
+    padding: 0 !important;
 }
 
 .cardquiz {
@@ -307,4 +308,29 @@ color: #FFFFFF !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-image:  url("https://psv4.vkuseraudio.net/s/v1/d/nRjOEAU_jjR33Tn4lCl9lAJQw04BD1N36_uj-wRPBvgFxccxaAdawZtP48E6u-4pinQCzkw-FrbAC2TKICGK6T4FZ-1uyIIzPAtHA_9syUltp7L2LZZ1tQ/oblozhka.png");
+}
+
+.logomintext{
+    ont-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #E8E8E8;
+
+}
+
+.logo-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #E8E8E8;
+}
+
+.modal-content{
+   
 }
