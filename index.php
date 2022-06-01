@@ -19,7 +19,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('js/simprolitstroy.js'); ?>">
     <script src="js/tilda-fallback-1.0.min.js" charset="utf-8" async></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -936,7 +936,7 @@
                     z-index: 37;
                     top: 230px;
                     left: calc(50% - 600px + 20px);
-                    width: 676px;
+                    width: 980px;
                 }
 
                 #rec448206482 .tn-elem[data-elem-id="1652889517864"] .tn-atom {
@@ -2544,14 +2544,14 @@
                         data-elem-type="text" data-field-top-value="230" data-field-top-res-640-value="212"
                         data-field-top-res-480-value="212" data-field-top-res-320-value="210" data-field-left-value="20"
                         data-field-left-res-640-value="20" data-field-left-res-480-value="9"
-                        data-field-left-res-320-value="20" data-field-width-value="676"
+                        data-field-left-res-320-value="20" data-field-width-value="980"
                         data-field-width-res-640-value="575" data-field-width-res-480-value="468"
                         data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
                         data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                         data-field-heightunits-value data-field-widthunits-value="px">
                         
                         <div class="tn-atom" field="tn_text_1652889517864">Современный и уютный<br>дом в Казани и
-                            республике<br>по цене <strong>от 20 000₽ за м2</strong></div>
+                            республике Татарстан<br>по цене <strong>20 000₽ за м2</strong></div>
                             
                     </div>
                     <div class="t396__elem tn-elem tn-elem__4482064821652889517864" style="margin-top:-70px;" data-elem-id="1652889517864"
@@ -2567,17 +2567,17 @@
                         <div class="container   d-none d-lg-block " style="z-index: 1000 !important">
                             <ul class="nav nav-fill justify-content-center" style="display: flex !important;">
                                 <li class="nav-item">
-                                  <a class="nav-link active text-light menu-up" href="#rec448276217">ПРОЕКТЫ ДОМОВ</a>
+                                  <a class="nav-link active text-light menu-up" href="https://simprolitstroy.ru/#rec448276217">ПРОЕКТЫ ДОМОВ</a>
                                 </li>
                                 <li class="nav-item">
                                   <a class="nav-link text-light menu-up  dropdown-toggle" id="navadv" role="button" data-toggle="dropdown" aria-expanded="false" href="#">УСЛУГИ</a>
-                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navadv" style="max-width:0px !important;">
+                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navadv" style="max-width:230px !important; background-color: rgb(52 58 64 / 98%);">
                                     <div class="row text-center p-3 ">
                                         <div class="col">
-                                            <li onclick="modalSow('Интересует заливка фундамента?');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
-                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
-                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
-                                            <li onclick="$('#exampleModal').modal('show');" style="cursor: pointer; color: #fff;">Заливка фундамента</li>
+                                            <li onclick="modalSow('Интересует строительство под ключ?');" style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li>
+                                            <li onclick="modalSow('Интересует утепление крыш?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление крыш</li>
+                                            <li onclick="modalSow('Интересует утепление полов?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление полов</li>
+                                            <li onclick="modalSow('Интересует утепление стен?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление стен</li>
                                         </div>
                                     </div>
                                 </ul>
@@ -2585,22 +2585,21 @@
                                
                                 <li class="nav-item">
                                   <a class="nav-link text-light  menu-up  dropdown-toggle" href="#" id="navstroymat" role="button" data-toggle="dropdown" aria-expanded="false">СТРОЙМАТЕРИАЛЫ</a>
-                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-3 p-0" aria-labelledby="navstroymat" style="max-width:0px !important;">
+                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navstroymat" style="max-width:260px !important; background-color: rgb(52 58 64 / 98%);">
                                     <div class="row text-center p-3 ">
                                         <div class="col">
-                                            <li ><a class="text-light" href="">Блоки</a></li>
-                                            <li ><a class="text-light" href="">Цемент</a></li>
-                                            <li ><a class="text-light" href="">Керамзит</a></li>
+                                            <li onclick="modalSow('Интересуют пенобетонные блоки?');" style="cursor: pointer; text-align: left; color: #fff;">Пенобетонные блоки</li>
+                                            <li onclick="modalSow('Интересуют полистеролбетонные блоки?');" style="cursor: pointer; text-align: left; color: #fff;">Полистеролбетонные блоки</li> 
                                         </div>
                                     </div>
                                 </ul>
                                 </li>
                                 
                                 <li class="nav-item">
-                                  <a class="nav-link text-light menu-up" href="#">ДОКУМЕНТАЦИЯ</a>
+                                  <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#">ДОКУМЕНТАЦИЯ</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link text-light menu-up" href="#">ОТЗЫВЫ</a>
+                                  <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448407412">ОТЗЫВЫ</a>
                                 </li>
                                 <li class="nav-item">
                                   <a class="nav-link text-light menu-up" href="#rec448425078">КОНТАКТЫ</a>
@@ -2621,9 +2620,9 @@
                         data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                         data-field-widthunits-value="px">
 
-                        <div class="tn-atom" field="tn_text_1652889747439">По индивидуальному готовому проекту и
-                            по<br>собственной энерго-эффективной технологии</div>
-                            
+                        <div class="tn-atom" field="tn_text_1652889747439">По индивидуальному проекту<br>и по
+нашим типовым проектам</div>
+
                     </div>
                     <div class="t396__elem tn-elem tn-elem__4482064821652889762969" style="cursor: pointer; font-size: 18px;" data-elem-id="1652889762969"
                         data-elem-type="button" data-field-top-value="558" data-field-top-res-640-value="610"
@@ -2634,7 +2633,7 @@
                         data-field-width-res-320-value="268" data-field-axisy-value="top" data-field-axisx-value="left"
                         data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                         data-field-heightunits-value data-field-widthunits-value>
-                        <div class="tn-atom"><a href="#rec448276217" style="color: #fff;">Расчитать стоимость</a></div>
+                        <div class="tn-atom"><a href="#rec448276217" style="color: #fff; font-size: 18px; ">Расчитать стоимость</a></div>
                     </div>
                     <div class="t396__elem tn-elem tn-elem__4482064821652889876391" data-elem-id="1652889876391"
                         data-elem-type="text" data-field-top-value="30" data-field-top-res-960-value="-335"
@@ -2814,7 +2813,7 @@
                     data-field-left-res-320-value="91" data-field-width-value="157" data-field-axisy-value="top"
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890487476">Загородные<br>дома и дачи</div>
+                    <div class="tn-atom" field="tn_text_1652890487476">Коммерческая недвижимость</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890487462" data-elem-id="1652890487462"
                     data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="858"
@@ -2847,7 +2846,7 @@
                     data-field-width-res-320-value="191" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890460004">Объекты коммерческой <br>недвижимости</div>
+                    <div class="tn-atom" field="tn_text_1652890460004">Бани, гаражи и хозпостройки</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890407942" data-elem-id="1652890407942"
                     data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="742"
@@ -2880,7 +2879,7 @@
                     data-field-left-res-320-value="91" data-field-width-value="157" data-field-axisy-value="top"
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890329115">Частные дома <br>коттеджи</div>
+                    <div class="tn-atom" field="tn_text_1652890329115">Загородные частные дома</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890296134" data-elem-id="1652890296134"
                     data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="742"
@@ -3274,15 +3273,15 @@
 
             @media screen and (max-width: 959px) {
                 #rec448276217 .t396__artboard {
-                    height: 2040px;
+                    height: 920px;
                 }
 
                 #rec448276217 .t396__filter {
-                    height: 2040px;
+                    height: 920px;
                 }
 
                 #rec448276217 .t396__carrier {
-                    height: 2040px;
+                    height: 920px;
                 }
             }
 
@@ -3302,15 +3301,15 @@
 
             @media screen and (max-width: 479px) {
                 #rec448276217 .t396__artboard {
-                    height: 1770px;
+                    height: 880px;
                 }
 
                 #rec448276217 .t396__filter {
-                    height: 1770px;
+                    height: 880px;
                 }
 
                 #rec448276217 .t396__carrier {
-                    height: 1770px;
+                    height: 880px;
                 }
             }
 
@@ -5130,8 +5129,8 @@
         </style>
         <div class="t396 p-2" >
             <div class="t396__artboard" style="max-height: 1100px !important" data-artboard-recid="448276217" data-artboard-height="970"
-                data-artboard-height-res-960="1270" data-artboard-height-res-640="2040"
-                data-artboard-height-res-480="1980" data-artboard-height-res-320="1770" data-artboard-height_vh
+                data-artboard-height-res-960="925" data-artboard-height-res-640="920"
+                data-artboard-height-res-480="1980" data-artboard-height-res-320="888" data-artboard-height_vh
                 data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-upscale-res-320="window"
                 data-artboard-ovrflw>
                 <div class="t396__elem tn-elem tn-elem__4482762171652890622429" data-elem-id="1652890622429"
@@ -5173,7 +5172,7 @@
                             font-weight: 400;
                             font-size: 25px;
                             line-height: 30px;
-                            ">Ответьте всего на 5 вопросов</span> 
+                            ">Ответьте всего на 8 вопросов</span> 
 </div><!--
         background-image: url("images/bg-adv.png") !important; -->
 <style>
@@ -5187,13 +5186,13 @@
                         <div class="quiz p-4 mt-5 text-right"style="background: #FAFAFA; border-radius: 20px; " >
                             <div class="row  g-4">
                                 <div class="col-4 mt-5 d-none d-sm-block " style="text-align: center;">
-                                    <img class="img-fluid w-50" src="images/artem.png" alt="">
+                                    <img class="img-fluid w-50" src="images/arhitector.png" alt="">
                                    <div class="w-100 mt-3 text-center">
-                                        <span class="h4 name w-100 text-center  ">Горбатов Артём</span>
+                                        <span class="h4 name w-100 text-center  ">Полянцева Юлия</span>
                                       <br>
-                                        <span class="mt-5" >Основатель компании</span>
+                                        <span class="mt-5" >Главный архитектор</span>
                                         <br><br>
-                                        <span class="mt-4" >Здравствуйте, меня зовут Артём, и я помогу вам понять какой бюджет нужен для строительства вашего дома под ключ</span>
+                                        <span class="mt-4" >Здравствуйте, меня зовут Юлия, и я помогу вам подобрать и разработать проект дома под ваш участок</span>
                                         <br><br>
                                         <span class="mt-4" >ОТВЕТИВ НА ВОПРОСЫ <strong>ВЫ ПОЛУЧИТЕ:</strong></span>
 
@@ -5232,12 +5231,7 @@
                             </div>
                     
                 </section>
-        </div>
-        <script>t_onReady(function () {
-                t_onFuncLoad('t396_init', function () {
-                    t396_init('448276217');
-                });
-            });</script><!-- /T396 -->
+        </div> 
     </div>
     <div id="rec448330549" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
@@ -5831,7 +5825,7 @@
                 z-index: 22;
                 top: 420px;
                 left: calc(50% - 600px + 80px);
-                width: 357px;
+                width: 282px;
                 height: 34px;
             }
 
@@ -5847,7 +5841,7 @@
                 #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
                     top: 412px;
                     left: calc(50% - 480px + 68px);
-                    width: 271px;
+                    width: 215px;
                     height: 24px;
                 }
             }
@@ -5863,7 +5857,7 @@
                 #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
                     top: 412px;
                     left: calc(50% - 240px + 68px);
-                    width: 253px;
+                    width: 200px;
                     height: 21px;
                 }
             }
@@ -6718,7 +6712,7 @@
                 <div class="t396__elem tn-elem tn-elem__4483305491652975564476" data-elem-id="1652975564476"
                     data-elem-type="image" data-field-top-value="-480" data-field-top-res-960-value="-164"
                     data-field-top-res-640-value="-123" data-field-top-res-480-value="0"
-                    data-field-top-res-320-value="471" data-field-left-value="1056" data-field-left-res-960-value="158"
+                    data-field-top-res-320-value="415" data-field-left-value="1056" data-field-left-res-960-value="158"
                     data-field-left-res-640-value="-104" data-field-left-res-480-value="0"
                     data-field-left-res-320-value="254" data-field-width-value="41" data-field-width-res-320-value="24"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
@@ -6737,11 +6731,8 @@
                     data-field-width-res-320-value="238" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652975467798"><span style="color: rgb(255, 255, 255);">В
-                            отличие от многих зарубежных и отечественных </span><br><span
-                            style="color: rgb(255, 255, 255);">материалов, в максимальной степени удовлетворяет
-                        </span><br><span style="color: rgb(255, 255, 255);">всем современным требованиям российского
-                            климата</span></div>
+                    <div class="tn-atom" field="tn_text_1652975467798"><span style="color: rgb(255, 255, 255);">Дома возводятся быстрее </span><br><span
+                            style="color: rgb(255, 255, 255);">благодаря однослойной конструкции блока,</span><br><span style="color: rgb(255, 255, 255);">которая не нуждается в дополнительном утеплении</span></div> 
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652975467783" data-elem-id="1652975467783"
                     data-elem-type="shape" data-field-top-value="-220" data-field-top-res-960-value="-442"
@@ -6749,7 +6740,7 @@
                     data-field-top-res-320-value="296" data-field-left-value="170" data-field-left-res-960-value="616"
                     data-field-left-res-640-value="362" data-field-left-res-480-value="190"
                     data-field-left-res-320-value="20" data-field-height-value="34" data-field-height-res-960-value="24"
-                    data-field-height-res-320-value="208" data-field-width-value="357"
+                    data-field-height-res-320-value="158" data-field-width-value="357"
                     data-field-width-res-960-value="271" data-field-width-res-320-value="280"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
@@ -6778,9 +6769,9 @@
                     data-field-width-res-320-value="260" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652975753303">Может успешно применяться в строительстве,<br>ЖКХ
-                        и различных отраслях промышленности</div>
-                </div>
+                    <div class="tn-atom" field="tn_text_1652975753303">Повышенная энергоэффективность<br>полистеролбетона и строительных материалов</div>
+                </div> 
+
                 <div class="t396__elem tn-elem tn-elem__4483305491652975753315" data-elem-id="1652975753315"
                     data-elem-type="image" data-field-top-value="-470" data-field-top-res-960-value="-148"
                     data-field-top-res-640-value="-248" data-field-top-res-480-value="10"
@@ -6804,10 +6795,10 @@
                     data-field-width-res-320-value="218" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890748281"><span style="color: rgb(255, 255, 255);">В
-                            отличие от многих зарубежных</span> и отечественных<br>материалов, в максимальной степени
-                        удовлетворяет<br>всем современным требованиям российского климата</div>
+                    <div class="tn-atom" field="tn_text_1652890748281"><span style="color: rgb(255, 255, 255);">Дома возводятся быстрее </span>  благодаря однослойной конструкции блока которая не нуждается в дополнительном утеплении</div>
+
                 </div>
+
                 <div class="t396__elem tn-elem tn-elem__4483305491652890793547" data-elem-id="1652890793547"
                     data-elem-type="shape" data-field-top-value="420" data-field-top-res-960-value="412"
                     data-field-top-res-640-value="412" data-field-top-res-480-value="412"
@@ -6815,8 +6806,8 @@
                     data-field-left-res-640-value="68" data-field-left-res-480-value="68"
                     data-field-left-res-320-value="512" data-field-height-value="34"
                     data-field-height-res-960-value="24" data-field-height-res-480-value="21"
-                    data-field-height-res-320-value="152" data-field-width-value="357"
-                    data-field-width-res-960-value="271" data-field-width-res-480-value="253"
+                    data-field-height-res-320-value="152" data-field-width-value="282px"
+                    data-field-width-res-960-value="215" data-field-width-res-480-value="200"
                     data-field-width-res-320-value="252" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
@@ -6891,8 +6882,7 @@
                     data-field-width-res-960-value="407" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890910496"><span style="color: rgb(255, 255, 255);">Может
-                            успешно применяться</span> в строительстве, <br>ЖКХ и различных отраслях промышленности.
+                    <div class="tn-atom" field="tn_text_1652890910496"><span style="color: rgb(255, 255, 255);">Повышенная энергоэффективность</span> в строительстве, <br>полистеролбетона и строительных материалов.
                     </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652890910482" data-elem-id="1652890910482"
@@ -6902,7 +6892,7 @@
                     data-field-left-res-640-value="67" data-field-left-res-480-value="67"
                     data-field-left-res-320-value="547" data-field-height-value="33"
                     data-field-height-res-960-value="25" data-field-height-res-480-value="21"
-                    data-field-width-value="321" data-field-width-res-960-value="242"
+                    data-field-width-value="387" data-field-width-res-960-value="292"
                     data-field-width-res-480-value="227" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
@@ -6931,9 +6921,9 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1652890867791"><span
-                            style="color: rgb(255, 255, 255);">Значительно улучшает</span> конструкционные
-                        <br>теплотехнические и акустические показатели <br>полистиролбетона</div>
+                            style="color: rgb(255, 255, 255);">Собственное производство</span> позволяет удешевить строительство вашего дома</div>
                 </div>
+
                 <div class="t396__elem tn-elem tn-elem__4483305491652890867778" data-elem-id="1652890867778"
                     data-elem-type="shape" data-field-top-value="544" data-field-top-res-960-value="512"
                     data-field-top-res-640-value="513" data-field-top-res-480-value="520"
@@ -6941,9 +6931,9 @@
                     data-field-left-res-640-value="67" data-field-left-res-480-value="67"
                     data-field-left-res-320-value="546" data-field-height-value="35"
                     data-field-height-res-960-value="27" data-field-height-res-640-value="26"
-                    data-field-height-res-480-value="25" data-field-width-value="249"
-                    data-field-width-res-960-value="189" data-field-width-res-640-value="189"
-                    data-field-width-res-480-value="175" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-height-res-480-value="25" data-field-width-value="300"
+                    data-field-width-res-960-value="227" data-field-width-res-640-value="227"
+                    data-field-width-res-480-value="212" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom"> </div>
@@ -6970,8 +6960,7 @@
                     data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890707551">Это сверх легкий строительный материал, с
-                        наилучшими тепло-характеристиками<br>в классе бетона</div>
+                    <div class="tn-atom" field="tn_text_1652890707551">Это сверх легкий строительный материал, с наилучшими тепло-техническими свойствами</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652890690198" data-elem-id="1652890690198"
                     data-elem-type="text" data-field-top-value="75" data-field-top-res-960-value="75"
@@ -15768,16 +15757,16 @@
         <!-- T396 -->
         <style>
             #rec448415236 .t396__artboard {
-                height: 1450px;
+                height: 970px;
                 background-color: #ffffff;
             }
 
             #rec448415236 .t396__filter {
-                height: 1450px;
+                height: 970px;
             }
 
             #rec448415236 .t396__carrier {
-                height: 1450px;
+                height: 970px;
                 background-position: center center;
                 background-attachment: scroll;
                 background-size: cover;
@@ -15786,44 +15775,44 @@
 
             @media screen and (max-width: 1199px) {
                 #rec448415236 .t396__artboard {
-                    height: 1420px;
+                    height: 970px;
                 }
 
                 #rec448415236 .t396__filter {
-                    height: 1420px;
+                    height: 970px;
                 }
 
                 #rec448415236 .t396__carrier {
-                    height: 1420px;
+                    height: 970px;
                     background-attachment: scroll;
                 }
             }
 
             @media screen and (max-width: 959px) {
                 #rec448415236 .t396__artboard {
-                    height: 2330px;
+                    height: 1591px;
                 }
 
                 #rec448415236 .t396__filter {
-                    height: 2330px;
+                    height: 1591px;
                 }
 
                 #rec448415236 .t396__carrier {
-                    height: 2330px;
+                    height: 1591px;
                 }
             }
 
             @media screen and (max-width: 639px) {
                 #rec448415236 .t396__artboard {
-                    height: 1980px;
+                    height: 1258px;
                 }
 
                 #rec448415236 .t396__filter {
-                    height: 1980px;
+                    height: 1258px;
                 }
 
                 #rec448415236 .t396__carrier {
-                    height: 1980px;
+                    height: 1258px;
                 }
             }
 
@@ -16889,7 +16878,7 @@
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1652907667853">На рынке строительства мы более 14 лет. За
-                        это<br>время построили более 10000 объектов.<br><br>В отличие от многих зарубежных и
+                        это<br>время построили более 200 объектов.<br><br>В отличие от многих зарубежных и
                         отечественных<br>материалов, в максимальной степени удовлетворяет <br>всем современным
                         требованиям российского <br>климата, значительно улучшает конструкционные, <br>теплотехнические
                         и акустические показатели <br>полистиролбетона климата, <br><br>значительно улучшает
@@ -16924,81 +16913,7 @@
                         время построили более 10000 объектов.<br><br>В отличие от многих зарубежных и отечественных
                         материалов, в максимальной степени удовлетворяет всем современным требованиям российского
                         <br><br></div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652908038855" data-elem-id="1652908038855"
-                    data-elem-type="text" data-field-top-value="1010" data-field-top-res-960-value="1008"
-                    data-field-top-res-640-value="1908" data-field-top-res-480-value="1273"
-                    data-field-top-res-320-value="1315" data-field-left-value="744" data-field-left-res-960-value="526"
-                    data-field-left-res-640-value="98" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="56" data-field-width-value="338" data-field-width-res-480-value="441"
-                    data-field-width-res-320-value="210" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652908038855">3 руководителя<br>6 проектировщиков<br>1
-                        бухгалтер<br>7 менеджеров<br>3 офис-менеджера<br>3 оператора<br>4 сотрудника call-центра<br>4
-                        контент менеджера<br>1 маркетолог<br>1 ипотечный брокер<br>2 программиста</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652907992606" data-elem-id="1652907992606"
-                    data-elem-type="text" data-field-top-value="972" data-field-top-res-960-value="970"
-                    data-field-top-res-640-value="1870" data-field-top-res-480-value="1239"
-                    data-field-top-res-320-value="1284" data-field-left-value="744" data-field-left-res-960-value="526"
-                    data-field-left-res-640-value="98" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="56" data-field-width-value="338" data-field-width-res-480-value="441"
-                    data-field-width-res-320-value="209" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652907992606">35 офисных сотрудников</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652907954581" data-elem-id="1652907954581"
-                    data-elem-type="image" data-field-top-value="973" data-field-top-res-960-value="971"
-                    data-field-top-res-640-value="1870" data-field-top-res-480-value="1240"
-                    data-field-top-res-320-value="1284" data-field-left-value="690" data-field-left-res-960-value="472"
-                    data-field-left-res-640-value="44" data-field-left-res-480-value="50"
-                    data-field-left-res-320-value="20" data-field-width-value="21" data-field-width-res-320-value="17"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px" data-field-filewidth-value="21" data-field-fileheight-value="28">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3038-6334-4336-b938-373031346339/Vector.svg"
-                            imgfield="tn_img_1652907954581"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652907954573" data-elem-id="1652907954573"
-                    data-elem-type="image" data-field-top-value="970" data-field-top-res-960-value="968"
-                    data-field-top-res-640-value="1542" data-field-top-res-480-value="1656"
-                    data-field-top-res-320-value="1684" data-field-left-value="186" data-field-left-res-960-value="20"
-                    data-field-left-res-640-value="44" data-field-left-res-480-value="40"
-                    data-field-left-res-320-value="20" data-field-width-value="30" data-field-width-res-320-value="18"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px" data-field-filewidth-value="30" data-field-fileheight-value="32">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6263-3962-4637-b030-613235303235/Vector-1.svg"
-                            imgfield="tn_img_1652907954573"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652908018243" data-elem-id="1652908018243"
-                    data-elem-type="text" data-field-top-value="1010" data-field-top-res-960-value="1008"
-                    data-field-top-res-640-value="1582" data-field-top-res-480-value="1691"
-                    data-field-top-res-320-value="1710" data-field-left-value="244" data-field-left-res-960-value="78"
-                    data-field-left-res-640-value="102" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="57" data-field-width-value="338" data-field-width-res-480-value="441"
-                    data-field-width-res-320-value="240" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652908018243">6 прорабов<br>3 бригады фундаментчиков<br>4
-                        бригады каменщиков<br>5 сантехников<br>3 электрика<br>3 снабженца<br>2 бригады отделочников<br>2
-                        бригады штукатуров и др.</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4484152361652907965046" data-elem-id="1652907965046"
-                    data-elem-type="text" data-field-top-value="970" data-field-top-res-960-value="968"
-                    data-field-top-res-640-value="1542" data-field-top-res-480-value="1657"
-                    data-field-top-res-320-value="1682" data-field-left-value="244" data-field-left-res-960-value="78"
-                    data-field-left-res-640-value="102" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="57" data-field-width-value="338" data-field-width-res-480-value="441"
-                    data-field-width-res-320-value="250" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652907965046">52 человека в штате мастеров</div>
-                </div>
+                </div> 
                 <div class="t396__elem tn-elem tn-elem__4484152361652907812693" data-elem-id="1652907812693"
                     data-elem-type="image" data-field-top-value="752" data-field-top-res-960-value="775"
                     data-field-top-res-640-value="1358" data-field-top-res-480-value="1105"
@@ -17092,7 +17007,7 @@
                     data-field-width-res-320-value="134" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652907916535">9000+</div>
+                    <div class="tn-atom" field="tn_text_1652907916535">400+</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484152361652907916521" data-elem-id="1652907916521"
                     data-elem-type="text" data-field-top-value="790" data-field-top-res-960-value="813"
@@ -20079,375 +19994,7 @@
                 });
             });</script><!-- /T396 -->
     </div>
-    <section>
-    <div id="rec448421551" class="r t-rec t-rec_pt_60 t-rec_pb_75"
-        style="padding-top:60px;padding-bottom:75px;background-color:#f4f4f4; " data-animationappear="off"
-        data-record-type="849" data-bg-color="#f4f4f4">
-        <!-- t849-->
-        <div class="t849">
-            <div class="t-section__container t-container">
-                <div class="t-col t-col_12">
-                    <div class="t-section__topwrapper t-align_center">
-                        <div class="t-section__title t-title t-title_xs" field="btitle">
-                            <div style="font-size:40px;" data-customstyle="yes">
-                                <p style="text-align: left;"><span
-                                        style="font-family: Montserrat; font-weight: 600;">Вопросы-ответы</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="t-container">
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1531218331971"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;max-width:70%;">
-                                    <div style="font-size:14px;" data-customstyle="yes">Какие дома вы проектируете?
-                                    </div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1531218331971" style>В
-                                        отличие от многих зарубежных и отечественных<br><br>материалов, в максимальной
-                                        степени удовлетворяет<br>всем современным требованиям российского<br>климата,
-                                        значительно улучшает конструкционные,<br>теплотехнические и акустические
-                                        показатели<br>полистиролбетона</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1531218535874"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;;max-width:70%;">
-                                    <div style="font-size:14px;" data-customstyle="yes">С чего начинается строительство?
-                                    </div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1531218535874" style>
-                                        This service includes:<br>
-                                        <ul>
-                                            <li>choice of corporate form</li>
-                                            <li>start-up companies</li>
-                                            <li>corporate governance</li>
-                                            <li>corporate ownership and management</li>
-                                            <li>shareholder agreements</li>
-                                            <li>reorganizations</li>
-                                            <li>joint ventures</li>
-                                            <li>drafting shareholder agreements</li>
-                                            <li>legal expertise of commercial agreements</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="t849__divider"></div>
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1531218625139"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;;max-width:70%;">
-                                    <div style="font-size:14px;" data-customstyle="yes">Какие гарантии вы даете?</div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1531218625139" style>Our
-                                        work in this practice area includes:<br>
-                                        <ul>
-                                            <li>litigation</li>
-                                            <li>research and legal opinions</li>
-                                            <li>peaceful settlements</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1531218700960"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;;max-width:70%;">
-                                    <div style="font-size:14px;" data-customstyle="yes">Какие дома вы проектируете?
-                                    </div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1531218700960" style>Our
-                                        expertise in this area includes:<br>
-                                        <ul>
-                                            <li>tax structures</li>
-                                            <li>VAT</li>
-                                            <li>customs and excise duties</li>
-                                            <li>transfer pricing</li>
-                                            <li>double taxation treaties</li>
-                                            <li>capital controls</li>
-                                            <li>cross-border tax issues</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="t849__divider"></div>
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1652910638201"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;;max-width:70%;">
-                                    <div style="font-size:14px;" data-customstyle="yes">С чего начинается строительство?
-                                    </div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1652910638201" style>Our
-                                        expertise in this area includes:<br>
-                                        <ul>
-                                            <li>tax structures</li>
-                                            <li>VAT</li>
-                                            <li>customs and excise duties</li>
-                                            <li>transfer pricing</li>
-                                            <li>double taxation treaties</li>
-                                            <li>capital controls</li>
-                                            <li>cross-border tax issues</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="t849__border" style="height: 0px; background-color: #eee;"></div>
-                </div>
-                <div class="t-col t-col_6">
-                    <div class="t849__accordion" data-accordion="false">
-                        <div class="t849__wrapper">
-                            <div class="t849__header "
-                                style="padding-top: 50px; padding-bottom: 50px; border-top: 0px solid #eee;">
-                                <div class="t849__title t-name t-name_xl" field="li_title__1652910640246"
-                                    style="color:#383936;font-size:20px;font-weight:500;font-family:&#x27;Montserrat&#x27;;max-width:70% !important">
-                                    <div style="font-size:14px;" data-customstyle="yes">Какие гарантии вы даете?</div>
-                                </div>
-                                <div class="t849__icon">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#ffffff">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #8ed834"></div>
-                                </div>
-                                <div class="t849__icon t849__icon-hover">
-                                    <div class="t849__lines"> <svg role="presentation" width="24px" height="24px"
-                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            xlink="http://www.w3.org/1999/xlink">
-                                            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd"
-                                                stroke-linecap="square">
-                                                <g transform="translate(1.000000, 1.000000)" stroke="#8ed834">
-                                                    <path d="M0,11 L22,11" />
-                                                    <path d="M11,0 L11,22" />
-                                                </g>
-                                            </g>
-                                        </svg> </div>
-                                    <div class="t849__circle" style="background-color: #ffffff"></div>
-                                </div>
-                            </div>
-                            <div class="t849__content">
-                                <div class="t849__textwrapper">
-                                    <div class="t849__text t-descr t-descr_sm" field="li_descr__1652910640246" style>Our
-                                        expertise in this area includes:<br>
-                                        <ul>
-                                            <li>tax structures</li>
-                                            <li>VAT</li>
-                                            <li>customs and excise duties</li>
-                                            <li>transfer pricing</li>
-                                            <li>double taxation treaties</li>
-                                            <li>capital controls</li>
-                                            <li>cross-border tax issues</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="t849__border" style="height: 0px; background-color: #eee;"></div>
-                </div>
-                <div class="t849__divider"></div>
-            </div>
-        </div>
-        <script type="text/javascript"> t_onReady(function () {
-                t_onFuncLoad('t849_init', function () {
-                    t849_init('448421551');
-                });
-            });</script>
-    </div>
+    <section> 
     <div id="rec448423142" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
         <!-- T123 -->
         <div class="t123">
