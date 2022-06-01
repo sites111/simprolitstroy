@@ -15736,11 +15736,11 @@
         <div class="t142">
             <div class="t-container_100">
                 <div class="t142__wrapone">
-                    <div class="t142__wraptwo"> <a href="http://" target class>
+                    <div class="t142__wraptwo">  
                             <div class="t-btn t142__submit "
                                 style="color:#ffffff;background-color:#8ed834;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;font-family:Montserrat;font-weight:500;">
-                                <span class="t142__text">Оставить отзыв</span> </div>
-                        </a> </div>
+                                <span class="t142__text">Показать ещё</span> </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -19889,8 +19889,11 @@
                     <div class="tn-atom tn-atom__html">
                         <div class="overlay" onclick="style.pointerEvents='none'"></div>
                         <div id="map"> <iframe
-                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A93270dd67e1a7768e32e27dd5443d867d862039a3b18eba6ea9c101492bf501f&amp;source=constructor"
+                                src="https://yandex.ru/map-widget/v1/?z=15&ol=biz&oid=148955115319"
                                 width="100%" scrolling="no" height="435" frameborder="0"></iframe></div>
+
+
+
                         <script> $(document).ready(function () {
                                 $('.overlay').click(function () {
                                     $(this).remove();
@@ -20228,5 +20231,20 @@
    
   
         <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
-</body>
+        <!— Yandex.Metrika counter —>
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88965053, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+        });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/88965053" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!— /Yandex.Metrika counter —>
+    </body>
 </html>
