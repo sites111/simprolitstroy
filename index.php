@@ -108,8 +108,7 @@
     </style>
 </head>
 
-<body class="t-body" style="margin:0;">
-    <script>(function(a,m,o,c,r,m){a[m]={id:"171697",hash:"83c2e9c3d7109d68ff6e1614a7b6227318389bb2b286fe46357d6c3326094a3f",locale:"ru",inline:false,setMeta:function(p){this.params=(this.params||[]).concat([p])}};a[o]=a[o]||function(){(a[o].q=a[o].q||[]).push(arguments)};var d=a.document,s=d.createElement('script');s.async=true;s.id=m+'_script';s.src='https://gso.amocrm.ru/js/button.js?1653711250';d.head&&d.head.appendChild(s)}(window,0,'amoSocialButton',0,0,'amo_social_button'));</script>
+<body class="t-body" style="margin:0;"> 
     <!--allrecords-->
     <div id="allrecords" class="t-records t-records_animated t-records_visible"
         data-hook="blocks-collection-content-node" data-tilda-project-id="5603750" data-tilda-page-id="27752879"
@@ -6674,7 +6673,7 @@
                 <div class="t396__elem tn-elem tn-elem__4483305491652975639454" data-elem-id="1652975639454"
                     data-elem-type="image" data-field-top-value="-480" data-field-top-res-960-value="-146"
                     data-field-top-res-640-value="-189" data-field-top-res-480-value="0"
-                    data-field-top-res-320-value="660" data-field-left-value="1056" data-field-left-res-960-value="526"
+                    data-field-top-res-320-value="610" data-field-left-value="1056" data-field-left-res-960-value="526"
                     data-field-left-res-640-value="-49" data-field-left-res-480-value="0"
                     data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
@@ -6687,7 +6686,7 @@
                 <div class="t396__elem tn-elem tn-elem__4483305491652975621450" data-elem-id="1652975621450"
                     data-elem-type="text" data-field-top-value="-210" data-field-top-res-960-value="-341"
                     data-field-top-res-640-value="-429" data-field-top-res-480-value="-140"
-                    data-field-top-res-320-value="545" data-field-left-value="186" data-field-left-res-960-value="656"
+                    data-field-top-res-320-value="515" data-field-left-value="186" data-field-left-res-960-value="656"
                     data-field-left-res-640-value="325" data-field-left-res-480-value="366"
                     data-field-left-res-320-value="29" data-field-width-value="590" data-field-width-res-960-value="465"
                     data-field-width-res-320-value="260" data-field-axisy-value="top" data-field-axisx-value="left"
@@ -6699,7 +6698,7 @@
                 <div class="t396__elem tn-elem tn-elem__4483305491652975621434" data-elem-id="1652975621434"
                     data-elem-type="shape" data-field-top-value="-210" data-field-top-res-960-value="-310"
                     data-field-top-res-640-value="-414" data-field-top-res-480-value="-188"
-                    data-field-top-res-320-value="530" data-field-left-value="180" data-field-left-res-960-value="966"
+                    data-field-top-res-320-value="500" data-field-left-value="180" data-field-left-res-960-value="966"
                     data-field-left-res-640-value="681" data-field-left-res-480-value="276"
                     data-field-left-res-320-value="19" data-field-height-value="34" data-field-height-res-960-value="24"
                     data-field-height-res-320-value="161" data-field-width-value="357"
@@ -6714,7 +6713,7 @@
                     data-field-top-res-640-value="-123" data-field-top-res-480-value="0"
                     data-field-top-res-320-value="415" data-field-left-value="1056" data-field-left-res-960-value="158"
                     data-field-left-res-640-value="-104" data-field-left-res-480-value="0"
-                    data-field-left-res-320-value="254" data-field-width-value="41" data-field-width-res-320-value="24"
+                    data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px" data-field-filewidth-value="41" data-field-fileheight-value="41">
@@ -6777,7 +6776,7 @@
                     data-field-top-res-640-value="-248" data-field-top-res-480-value="10"
                     data-field-top-res-320-value="817" data-field-left-value="1066" data-field-left-res-960-value="40"
                     data-field-left-res-640-value="-12" data-field-left-res-480-value="10"
-                    data-field-left-res-320-value="263" data-field-width-value="41" data-field-width-res-320-value="24"
+                    data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px" data-field-filewidth-value="41" data-field-fileheight-value="41">
@@ -7011,16 +7010,16 @@
                     data-field-width-res-320-value="223" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652891000631">По своим свойствам значительно отличается от
-                        всех<br>других известных вариантов полистиролбетона.</div>
+                    <div class="tn-atom" field="tn_text_1652891000631">Наши блоки по своим свойствам значительно отличается
+от всех других известных вариантов полистеролбетона</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652974727551" data-elem-id="1652974727551"
                     data-elem-type="shape" data-field-top-value="769" data-field-top-res-960-value="687"
                     data-field-top-res-640-value="687" data-field-top-res-480-value="687"
                     data-field-top-res-320-value="878" data-field-left-value="20" data-field-left-res-960-value="10"
                     data-field-left-res-640-value="10" data-field-left-res-480-value="10"
-                    data-field-left-res-320-value="20" data-field-height-value="100"
-                    data-field-height-res-480-value="100" data-field-height-res-320-value="126"
+                    data-field-left-res-320-value="20" data-field-height-value="116"
+                    data-field-height-res-480-value="116" data-field-height-res-320-value="138"
                     data-field-width-value="491" data-field-width-res-480-value="462"
                     data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
