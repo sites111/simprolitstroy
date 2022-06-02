@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('js/simprolitstroy.js'); ?>">
     <script src="js/tilda-fallback-1.0.min.js" charset="utf-8" async></script>
-    <link rel="stylesheet" href="css/style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';">
@@ -11881,7 +11881,7 @@
                     data-field-top-res-640-value="1175" data-field-top-res-480-value="1158"
                     data-field-top-res-320-value="1128" data-field-left-value="110" data-field-left-res-960-value="114"
                     data-field-left-res-640-value="88" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="91" data-field-width-value="214" data-field-width-res-640-value="516"
+                    data-field-left-res-320-value="91" data-field-width-value="260" data-field-width-res-640-value="516"
                     data-field-width-res-480-value="331" data-field-width-res-320-value="189"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
@@ -13984,6 +13984,7 @@
                 }
             }
         </style>
+<<<<<<< HEAD
         <div class="bg" style="background: #f4f4f4;">
           <div class="container card-sec mt-5 pt-4 ">
               <div class="h1 mt-3 p-3">
@@ -14081,6 +14082,8 @@
 </div>
       
 </div>
+=======
+>>>>>>> 421c3d5b662f65d96c2e133d390febe5e40f14ca
         <div class="t396">
             <div class="t396__artboard" data-artboard-recid="448382249" data-artboard-height="790"
                 data-artboard-height-res-960="930" data-artboard-height-res-640="1390"
@@ -14120,8 +14123,6 @@
                     data-field-heightunits-value data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1652900200974">Поможем подобрать земельный участок</div>
                 </div>
-              
-
                 <div class="t396__elem tn-elem tn-elem__4483822491652902470724" data-elem-id="1652902470724"
                     data-elem-type="text" data-field-top-value="630" data-field-top-res-960-value="630"
                     data-field-top-res-640-value="1085" data-field-top-res-480-value="1170"
@@ -16847,8 +16848,7 @@
                     data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652907640651"><strong>Здравствуйте, я Горбатов
-                            Артём,</strong><br>директор и основатель компании</div>
+                    <div class="tn-atom" field="tn_text_1652907640651"><strong>Здравствуйте, я Павел Родионов,</strong><br>директор и основатель компании</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484152361652907667853" data-elem-id="1652907667853"
                     data-elem-type="text" data-field-top-value="254" data-field-top-res-960-value="284"
@@ -16887,8 +16887,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild6336-3063-4161-a565-366433613663/WhatsApp_Image_2022-.png"
-                        style="background-image:url(&#x27;images/WhatsApp_Image_2022-.png&#x27;);"> </div>
+                        data-original="https://static.tildacdn.info/111tild6336-3063-4161-a565-366433613663/WhatsApp_Image_2022-.png"
+                        style="background-image:url(&#x27;images/111WhatsApp_Image_2022-.png&#x27;);"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484152361652908777407" data-elem-id="1652908777407"
                     data-elem-type="text" data-field-top-value="-350" data-field-top-res-960-value="-358"
@@ -20066,8 +20066,8 @@
                 <div class="col">
                   <h5>Информация</h5>
                   <ul class="nav flex-column" style="padding-top: 15px;">
-                    <li class="nav-item mb-2 text-muted">ИНН: 165715631893</li>
-                    <li class="nav-item mb-2 text-muted">ОГРНИП: 321169000062095</li> 
+                    <li class="nav-item mb-2 text-muted"></li>
+                    <li class="nav-item mb-2 text-muted"></li> 
                   </ul>
                 </div>
             
