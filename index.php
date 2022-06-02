@@ -11881,7 +11881,7 @@
                     data-field-top-res-640-value="1175" data-field-top-res-480-value="1158"
                     data-field-top-res-320-value="1128" data-field-left-value="110" data-field-left-res-960-value="114"
                     data-field-left-res-640-value="88" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="91" data-field-width-value="214" data-field-width-res-640-value="516"
+                    data-field-left-res-320-value="91" data-field-width-value="260" data-field-width-res-640-value="516"
                     data-field-width-res-480-value="331" data-field-width-res-320-value="189"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
