@@ -85,6 +85,7 @@ getGallery();
 quizLoad(0);
 
 function sendAmoCRM(phone, name, comment){
+	ym(88965053,'reachGoal','lead');
 	var data = JSON.stringify({
 	  "name": name,
 	  "comment": comment,
@@ -108,6 +109,7 @@ function onClickMessenger(id){
 }
 
 function onClickQuizMessenger(element, id){
+	ym(88965053,'reachGoal','quiz');
 	onClickMessenger(id);
 	document.getElementById('quizMessengerWhatsApp').style = "cursor: pointer;";
 	document.getElementById('quizMessengerViber').style = "cursor: pointer;";
@@ -273,6 +275,7 @@ function onClickSendQuiz(){
 }
 
 function onClickSendFormIpoteka(){
+	ym(88965053,'reachGoal','ipoteka');
 	formName = "Дом в ипотеку";
 	var phoneElement = document.getElementById('inputIpotekaPhone');
 	var nameElement = document.getElementById('inputIpotekaName');

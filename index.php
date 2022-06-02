@@ -6826,8 +6826,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild3161-6131-4333-a264-313439643230/image_92_1.png"
-                        style="background-image:url(&#x27;images/image_92_1.png&#x27;);"> </div>
+                        data-original="https://simprolitstroy.ru/images/technologysimprolit1.jpeg"
+                        style="background-image:url('https://simprolitstroy.ru/images/technologysimprolit1.jpeg');"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652973731340" data-elem-id="1652973731340"
                     data-elem-type="image" data-field-top-value="731" data-field-top-res-960-value="670"
@@ -6840,8 +6840,8 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px" data-field-filewidth-value="189" data-field-fileheight-value="141">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3963-3366-4334-b332-653434346538/image_90.png"
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;"
+                            data-original="https://simprolitstroy.ru/api/gallery/1.jpeg"
                             imgfield="tn_img_1652973731340"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652973731333" data-elem-id="1652973731333"
@@ -6854,9 +6854,9 @@
                     data-field-width-res-320-value="88" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px" data-field-filewidth-value="189"
-                    data-field-fileheight-value="141">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6364-3032-4431-a166-646165633161/image_89.png"
+                    data-field-fileheight-value="141" >
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;"
+                            data-original="https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.24.jpeg"
                             imgfield="tn_img_1652973731333"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652890910507" data-elem-id="1652890910507"
@@ -6984,8 +6984,8 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px" data-field-filewidth-value="189" data-field-fileheight-value="141">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3963-3366-4334-b332-653434346538/image_90.png"
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;" 
+                            data-original="https://simprolitstroy.ru/api/gallery/5.jpeg"
                             imgfield="tn_img_1653513286295"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483305491652974838485" data-elem-id="1652974838485"
@@ -8142,7 +8142,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652969438186"><strong>Теплоизоляция</strong><br>Полистиролбетон
+                    <div class="tn-atom" field="tn_text_1652969438186"><strong>Не впитывает влагу</strong><br>Полистиролбетон
                         не впитывает влагу, поэтому отлично держит тепло внутри дома и не пускает его с улицы</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483389641652969438197" data-elem-id="1652969438197"
@@ -8219,9 +8219,9 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652969584282"><strong>Не впитывает влагу</strong><br>Содержание
-                        влаги в полистиролбетоне в 5 раз ниже чем в газобетоне. Этим способствует отсутствию
-                        микроорганизмов и плесени внутри конструкций</div>
+                    <div class="tn-atom" field="tn_text_1652969584282"><strong>Доступная цена</strong><br>Напрямую 
+                        работаем с поставщиками стройматериалов и 
+                        собственное <br>производство</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483389641652969584286" data-elem-id="1652969584286"
                     data-elem-type="image" data-field-top-value="469" data-field-top-res-960-value="468"
@@ -8928,8 +8928,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652995267034">Вы платите только после окончания <br>и проверки
-                        каждого из этапов</div>
+                    <div class="tn-atom" field="tn_text_1652995267034">4 этапа оплаты</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4487188281652995267028" data-elem-id="1652995267028"
                     data-elem-type="text" data-field-top-value="125" data-field-top-res-960-value="124"
@@ -8940,7 +8939,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652995267028">5 этапов <br>оплаты</div>
+                    <div class="tn-atom" field="tn_text_1652995267028">Гибкие условия <br>оплаты</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4487188281652995267018" data-elem-id="1652995267018"
                     data-elem-type="image" data-field-top-value="81" data-field-top-res-960-value="80"
@@ -11505,8 +11504,8 @@
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
                     data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild3761-6263-4432-a539-383665366262/Frame_105.png"
-                        style="background-image:url(&#x27;images/Frame_105.png&#x27;);"> </div>
+                        data-original="https://thumb.tildacdn.com/tild6565-3061-4430-b431-316139623165/-/cover/462x320/center/center/-/format/webp/Frame_92_1.png"
+                        style="background-image:url('https://thumb.tildacdn.com/tild6565-3061-4430-b431-316139623165/-/cover/462x320/center/center/-/format/webp/Frame_92_1.png');"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653001676478" data-elem-id="1653001676478"
                     data-elem-type="shape" data-field-top-value="151" data-field-top-res-960-value="487"
@@ -11535,8 +11534,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value="px" data-field-widthunits-value="px">
                     <div class="tn-atom t-bgimg"
-                        data-original="https://static.tildacdn.info/tild6565-3061-4430-b431-316139623165/Frame_92_1.png"
-                        style="background-image:url(&#x27;images/Frame_92_1.png&#x27;);"> </div>
+                        data-original="https://static.tildacdn.info/tild3761-6263-4432-a539-383665366262/Frame_105.png"
+                        style="background-image:url('https://static.tildacdn.info/tild3761-6263-4432-a539-383665366262/Frame_105.png');"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711652892866320" data-elem-id="1652892866320"
                     data-elem-type="image" data-field-top-value="286" data-field-top-res-960-value="70"
@@ -11593,8 +11592,8 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652892744635"><strong>Консультация по выбору</strong>
-                        материала<br>для строительства</div>
+                    <div class="tn-atom" field="tn_text_1652892744635"><strong>Консультация и помощь</strong>
+                        по выбору участка для строительства</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711652892811468" data-elem-id="1652892811468"
                     data-elem-type="image" data-field-top-value="341" data-field-top-res-640-value="340"
@@ -11616,7 +11615,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652892811457"><strong>Подбор проекта</strong> по необходимости
+                    <div class="tn-atom" field="tn_text_1652892811457"><strong>Подбор</strong> необходимого проекта
                     </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711652892712620" data-elem-id="1652892712620"
@@ -11668,7 +11667,7 @@
                     data-field-width-res-320-value="198" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653001764525">Смета</div>
+                    <div class="tn-atom" field="tn_text_1653001764525">Смета и договор</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653001764531" data-elem-id="1653001764531"
                     data-elem-type="text" data-field-top-value="383" data-field-top-res-960-value="542"
@@ -11680,7 +11679,8 @@
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1653001764531">Составляется предварительная<br>смета на
-                        выполнение работ <br>и материалы</div>
+                        выполнение работ <br>и подписывается договор</div>
+
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653001764543" data-elem-id="1653001764543"
                     data-elem-type="image" data-field-top-value="352" data-field-top-res-960-value="511"
@@ -11782,8 +11782,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002245792">Вы оплачиваете работы поэтапно по факту их
-                        выполнения</div>
+                    <div class="tn-atom" field="tn_text_1653002245792">Вносите предоплату за первый этап</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002245802" data-elem-id="1653002245802"
                     data-elem-type="image" data-field-top-value="534" data-field-top-res-960-value="674"
@@ -11823,7 +11822,7 @@
                     data-field-width-res-320-value="189" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002570290">Строители начинают<br>выполнять работу</div>
+                    <div class="tn-atom" field="tn_text_1653002570290">Доставка материалов</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002570132" data-elem-id="1653002570132"
                     data-elem-type="text" data-field-top-value="737" data-field-top-res-960-value="671"
@@ -11835,7 +11834,7 @@
                     data-field-width-res-320-value="189" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002570132">Работа</div>
+                    <div class="tn-atom" field="tn_text_1653002570132">Материал</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002353013" data-elem-id="1653002353013"
                     data-elem-type="image" data-field-top-value="742" data-field-top-res-960-value="676"
@@ -11875,7 +11874,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002434855">Доставка материалов</div>
+                    <div class="tn-atom" field="tn_text_1653002434855">Строители начинают<br>выполнять работу</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002434847" data-elem-id="1653002434847"
                     data-elem-type="text" data-field-top-value="937" data-field-top-res-960-value="841"
@@ -11887,7 +11886,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002434847">Материал</div>
+                    <div class="tn-atom" field="tn_text_1653002434847">Начало стройки</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002434819" data-elem-id="1653002434819"
                     data-elem-type="image" data-field-top-value="942" data-field-top-res-960-value="845"
@@ -11927,8 +11926,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002503440">Согласовываются условия<br>и подписывается
-                        договор</div>
+                    <div class="tn-atom" field="tn_text_1653002503440">Приём выполненной работы</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002503426" data-elem-id="1653002503426"
                     data-elem-type="text" data-field-top-value="937" data-field-top-res-960-value="1031"
@@ -11940,7 +11938,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002503426">Договор</div>
+                    <div class="tn-atom" field="tn_text_1653002503426">Сдача объекта</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002503379" data-elem-id="1653002503379"
                     data-elem-type="image" data-field-top-value="942" data-field-top-res-960-value="1035"
@@ -11980,7 +11978,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002406561">Ваш дом мечты готов!</div>
+                    <div class="tn-atom" field="tn_text_1653002406561">В дом мечты</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711653002353001" data-elem-id="1653002353001"
                     data-elem-type="text" data-field-top-value="1135" data-field-top-res-960-value="1221"
@@ -11992,7 +11990,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1653002353001">Завершение</div>
+                    <div class="tn-atom" field="tn_text_1653002353001">Переезд</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483422711652899992844" data-elem-id="1652899992844"
                     data-elem-type="image" data-field-top-value="1140" data-field-top-res-960-value="1225"
@@ -14093,63 +14091,7 @@
                     data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
                     <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901044150" data-elem-id="1652901044150"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="928" data-field-top-res-480-value="568"
-                    data-field-top-res-320-value="385" data-field-left-value="854" data-field-left-res-960-value="348"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="325"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901044166" data-elem-id="1652901044166"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="928" data-field-top-res-480-value="568"
-                    data-field-top-res-320-value="385" data-field-left-value="854" data-field-left-res-960-value="348"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="325"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652901044182,1652901044194,1652901044166"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901044182" data-elem-id="1652901044182"
-                    data-elem-type="text" data-field-top-value="223" data-field-top-res-960-value="501"
-                    data-field-top-res-640-value="954" data-field-top-res-480-value="594"
-                    data-field-top-res-320-value="417" data-field-left-value="934" data-field-left-res-960-value="428"
-                    data-field-left-res-640-value="190" data-field-left-res-480-value="149"
-                    data-field-left-res-320-value="98" data-field-width-value="213" data-field-width-res-320-value="166"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901044182">Получение ГПЗУ <br>земельного участка</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901044194" data-elem-id="1652901044194"
-                    data-elem-type="image" data-field-top-value="230" data-field-top-res-960-value="508"
-                    data-field-top-res-640-value="962" data-field-top-res-480-value="602"
-                    data-field-top-res-320-value="419" data-field-left-value="874" data-field-left-res-960-value="368"
-                    data-field-left-res-640-value="138" data-field-left-res-480-value="89"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6330-3632-4436-b634-376565643335/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652901044194"> </div>
-                </div>
+                </div>    
                 <div class="t396__elem tn-elem tn-elem__4483822491652901217849" data-elem-id="1652901217849"
                     data-elem-type="shape" data-field-top-value="325" data-field-top-res-960-value="335"
                     data-field-top-res-640-value="440" data-field-top-res-480-value="976"
@@ -14245,11 +14187,11 @@
                     data-field-top-res-640-value="589" data-field-top-res-480-value="223"
                     data-field-top-res-320-value="808" data-field-left-value="580" data-field-left-res-960-value="573"
                     data-field-left-res-640-value="200" data-field-left-res-480-value="149"
-                    data-field-left-res-320-value="98" data-field-width-value="222" data-field-width-res-320-value="167"
+                    data-field-left-res-320-value="98" data-field-width-value="240" data-field-width-res-320-value="167"
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901217914">Земельные участки <br>от 100 000 ₽ за сотку</div>
+                    <div class="tn-atom" field="tn_text_1652901217914">Помощь в оформлении документов</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652901217920" data-elem-id="1652901217920"
                     data-elem-type="image" data-field-top-value="358" data-field-top-res-960-value="364"
@@ -14261,67 +14203,9 @@
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
                     data-field-filewidth-value="41" data-field-fileheight-value="42">
                     <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6136-3165-4631-a536-643235353135/bi_shield-fill-check.svg"
+                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
                             imgfield="tn_img_1652901217920"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217926" data-elem-id="1652901217926"
-                    data-elem-type="shape" data-field-top-value="324" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="684" data-field-top-res-480-value="696"
-                    data-field-top-res-320-value="647" data-field-left-value="841" data-field-left-res-960-value="690"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-960-value="111" data-field-height-res-640-value="111"
-                    data-field-height-res-480-value="111" data-field-height-res-320-value="111"
-                    data-field-width-value="325" data-field-width-res-960-value="260"
-                    data-field-width-res-640-value="401" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217932" data-elem-id="1652901217932"
-                    data-elem-type="shape" data-field-top-value="324" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="684" data-field-top-res-480-value="696"
-                    data-field-top-res-320-value="647" data-field-left-value="841" data-field-left-res-960-value="690"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-960-value="111" data-field-height-res-640-value="111"
-                    data-field-height-res-480-value="111" data-field-height-res-320-value="111"
-                    data-field-width-value="325" data-field-width-res-960-value="260"
-                    data-field-width-res-640-value="401" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652901217938,1652901217945,1652901217932"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217938" data-elem-id="1652901217938"
-                    data-elem-type="text" data-field-top-value="350" data-field-top-res-960-value="501"
-                    data-field-top-res-640-value="710" data-field-top-res-480-value="722"
-                    data-field-top-res-320-value="682" data-field-left-value="921" data-field-left-res-960-value="770"
-                    data-field-left-res-640-value="200" data-field-left-res-480-value="150"
-                    data-field-left-res-320-value="98" data-field-width-value="213" data-field-width-res-640-value="175"
-                    data-field-width-res-320-value="124" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901217938">Помощь <br>в сопровождении</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217945" data-elem-id="1652901217945"
-                    data-elem-type="image" data-field-top-value="358" data-field-top-res-960-value="508"
-                    data-field-top-res-640-value="718" data-field-top-res-480-value="730"
-                    data-field-top-res-320-value="681" data-field-left-value="861" data-field-left-res-960-value="710"
-                    data-field-left-res-640-value="140" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6330-3632-4436-b634-376565643335/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652901217945"> </div>
-                </div>
+                </div> 
                 <div class="t396__elem tn-elem tn-elem__4483822491652901304663" data-elem-id="1652901304663"
                     data-elem-type="shape" data-field-top-value="458" data-field-top-res-960-value="474"
                     data-field-top-res-640-value="806" data-field-top-res-480-value="442"
@@ -14363,7 +14247,7 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901304693">Помощь в оформлении<br>документов</div>
+                    <div class="tn-atom" field="tn_text_1652901304693">Помощь<br>в сопровождении</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652901304705" data-elem-id="1652901304705"
                     data-elem-type="image" data-field-top-value="492" data-field-top-res-960-value="508"
@@ -14375,7 +14259,7 @@
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
                     data-field-filewidth-value="41" data-field-fileheight-value="42">
                     <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6136-3165-4631-a536-643235353135/bi_shield-fill-check.svg"
+                            data-original="https://static.tildacdn.info/tild6330-3632-4436-b634-376565643335/bi_shield-fill-check.svg"
                             imgfield="tn_img_1652901304705"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652900787277" data-elem-id="1652900787277"
@@ -14387,7 +14271,7 @@
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
                     data-field-filewidth-value="41" data-field-fileheight-value="42">
                     <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6136-3165-4631-a536-643235353135/bi_shield-fill-check.svg"
+                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
                             imgfield="tn_img_1652900787277"> </div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652900787258" data-elem-id="1652900787258"
@@ -14398,7 +14282,7 @@
                     data-field-width-res-320-value="163" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652900787258">Более 100 участков<br>в нашем каталоге</div>
+                    <div class="tn-atom" field="tn_text_1652900787258">Получение ГПЗУ<br>земельного участка</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652900787242" data-elem-id="1652900787242"
                     data-elem-type="shape" data-field-top-value="196" data-field-top-res-640-value="318"
@@ -14459,7 +14343,7 @@
                     data-field-left-res-320-value="56" data-field-width-value="199" data-field-axisy-value="top"
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902527217">Ипотека от 2.7% годовых</div>
+                    <div class="tn-atom" field="tn_text_1652902527217">Ипотека от 3.0% годовых</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483822491652902520739" data-elem-id="1652902520739"
                     data-elem-type="image" data-field-top-value="695" data-field-top-res-960-value="695"
@@ -16876,12 +16760,20 @@
                     data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
                     data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
                     data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652907667853">На рынке строительства мы более 14 лет. За
-                        это<br>время построили более 200 объектов.<br><br>В отличие от многих зарубежных и
-                        отечественных<br>материалов, в максимальной степени удовлетворяет <br>всем современным
-                        требованиям российского <br>климата, значительно улучшает конструкционные, <br>теплотехнические
-                        и акустические показатели <br>полистиролбетона климата, <br><br>значительно улучшает
-                        конструкционные, <br>теплотехнические и акустические показатели <br>полистиролбетона</div>
+                    <div class="tn-atom" field="tn_text_1652907667853">На рынке строительства мы более 14 лет. За это
+<br>время построили более 200 реализованных объектов.
+<br>
+<br>В отличие от многих зарубежных и отечественных
+<br>материалов, в максимальной степени удовлетворяет
+<br>всем современным требованиям российского
+<br>климата, значительно улучшает конструкционные,
+<br>теплотехнические и акустические показатели
+<br>полистиролбетона климата,
+<br>
+<br>значительно улучшает конструкционные,
+<br>теплотехнические и акустические показатели
+<br>полистиролбетона</div>
+
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484152361652907705051" data-elem-id="1652907705051"
                     data-elem-type="shape" data-field-top-value="20" data-field-top-res-960-value="76"
