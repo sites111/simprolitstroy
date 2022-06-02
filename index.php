@@ -13987,7 +13987,9 @@
         <div class="bg" style="background: #f4f4f4;">
           <div class="container card-sec mt-5 pt-4 ">
               <div class="h1 mt-3 p-3">
-              Поможем подобрать <br> земельный участок
+              Проверка земельного
+участка на юридическую чистоту
+
               </div>
   <div class="row row-cols-1 row-cols-lg-3 g-3 mt-4 p-3" style="  ">
         
@@ -13998,8 +14000,10 @@
                 <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
             </div>
             <div class="col">
-                <span class="cardd-text w-100">Помощь в получении уведомления 
-                    о начале строительства
+                <span class="cardd-text w-100">Проверка земельного
+участка на юридическую чистоту
+
+
                 </span>
             </div>
         </div>
@@ -14008,13 +14012,13 @@
     
 <div class="col">
     <div class="cardd h-100  p-4 rounded-4 ">
-        <div class="row g-3 p-2" style="">
+        <div class="row g-3 p-2  h-100" style="">
             <div class="col-auto">
                 <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
             </div>
             <div class="col">
-                <span class="cardd-text w-100">Помощь в получении уведомления 
-                    о начале строительства
+                <span class="cardd-text w-100 ">Получение ГПЗУ
+земельного <br> участка
                 </span>
             </div>
         </div>
@@ -14028,8 +14032,8 @@
                 <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
             </div>
             <div class="col">
-                <span class="cardd-text w-100">Помощь в получении уведомления 
-                    о начале строительства
+                <span class="cardd-text w-100">Помощь в получении  уведомления
+о начале строительства
                 </span>
             </div>
         </div>
@@ -14043,8 +14047,7 @@
                 <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
             </div>
             <div class="col">
-                <span class="cardd-text w-100">Помощь в получении уведомления 
-                    о начале строительства
+                <span class="cardd-text w-100">Помощь в оформлении <br> документов
                 </span>
             </div>
         </div>
@@ -14058,8 +14061,8 @@
                 <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
             </div>
             <div class="col">
-                <span class="cardd-text w-100">Помощь в получении уведомления 
-                    о начале строительства
+                <span class="cardd-text w-100">Помощь
+в сопровождении
                 </span>
             </div>
         </div>
