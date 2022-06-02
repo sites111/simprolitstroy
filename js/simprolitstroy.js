@@ -313,11 +313,11 @@ function getCatalogProjects(){
 	  if(this.readyState === 4) {
 	    projectsCatalogArray = this.responseText;
 	//    alert(projectsCatalogArray);
+		console.log(projectsCatalogArray);
 		projectBlockFill(projectsCountMax);
 	  }
-	});
-	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php");
-	xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+	}); 
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?s=qwfqwfgtrg34");
 	xhr.send(data);
 }
 
