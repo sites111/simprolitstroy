@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('js/simprolitstroy.js'); ?>">
     <script src="js/tilda-fallback-1.0.min.js" charset="utf-8" async></script>
-    
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';">
@@ -13984,6 +13984,100 @@
                 }
             }
         </style>
+        <div class="bg" style="background: #f4f4f4;">
+          <div class="container card-sec mt-5 pt-4 ">
+              <div class="h1 mt-3 p-3">
+              Поможем подобрать <br> земельный участок
+              </div>
+  <div class="row row-cols-1 row-cols-lg-3 g-3 mt-4 p-3" style="  ">
+        
+<div class="col">
+    <div class="cardd h-100  p-4 rounded-4 ">
+        <div class="row g-3 p-2" style="">
+            <div class="col-auto">
+                <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
+            </div>
+            <div class="col">
+                <span class="cardd-text w-100">Помощь в получении уведомления 
+                    о начале строительства
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="col">
+    <div class="cardd h-100  p-4 rounded-4 ">
+        <div class="row g-3 p-2" style="">
+            <div class="col-auto">
+                <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
+            </div>
+            <div class="col">
+                <span class="cardd-text w-100">Помощь в получении уведомления 
+                    о начале строительства
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="cardd h-100  p-4 rounded-4 ">
+        <div class="row g-3 p-2" style="">
+            <div class="col-auto">
+                <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
+            </div>
+            <div class="col">
+                <span class="cardd-text w-100">Помощь в получении уведомления 
+                    о начале строительства
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="col">
+    <div class="cardd h-100  p-4 rounded-4 ">
+        <div class="row g-3 p-2" style="">
+            <div class="col-auto">
+                <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
+            </div>
+            <div class="col">
+                <span class="cardd-text w-100">Помощь в получении уведомления 
+                    о начале строительства
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="col">
+    <div class="cardd h-100  p-4 rounded-4 ">
+        <div class="row g-3 p-2" style="">
+            <div class="col-auto">
+                <img class="h-100 img-fluid" style="max-height: 1000px !important;" src="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg" alt="">
+            </div>
+            <div class="col">
+                <span class="cardd-text w-100">Помощь в получении уведомления 
+                    о начале строительства
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    
+ 
+  
+  
+
+    
+
+  </div>
+</div>
+      
+</div>
         <div class="t396">
             <div class="t396__artboard" data-artboard-recid="448382249" data-artboard-height="790"
                 data-artboard-height-res-960="930" data-artboard-height-res-640="1390"
@@ -14023,6 +14117,8 @@
                     data-field-heightunits-value data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1652900200974">Поможем подобрать земельный участок</div>
                 </div>
+              
+
                 <div class="t396__elem tn-elem tn-elem__4483822491652902470724" data-elem-id="1652902470724"
                     data-elem-type="text" data-field-top-value="630" data-field-top-res-960-value="630"
                     data-field-top-res-640-value="1085" data-field-top-res-480-value="1170"

@@ -335,3 +335,30 @@ color: #E8E8E8;
     transition: transform .3s ease-out;
     transform: translateX(-0) !important; 
 }
+
+.rounded-4{
+    border-radius: 20px;
+}
+
+.cardd{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.cardd{
+    color: #000000 !important;
+}
+
+.cardd:hover{
+    background-color:#8ED834 !important;    
+    transition: all 0.7s;
+    color: #fff !important;
+}
+
+.cardd-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 24px !important;
+
+}
