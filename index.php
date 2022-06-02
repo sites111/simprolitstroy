@@ -13984,13 +13984,9 @@
                 }
             }
         </style>
-<<<<<<< HEAD
         <div class="bg" style="background: #f4f4f4;">
-          <div class="container card-sec mt-5 pt-4 ">
-              <div class="h1 mt-3 p-3">
-              Проверка земельного
-участка на юридическую чистоту
-
+          <div class="container card-sec pt-4 ">
+              <div class="h1 mt-3 p-3">Поможем подобрать земельный участок
               </div>
   <div class="row row-cols-1 row-cols-lg-3 g-3 mt-4 p-3" style="  ">
         
@@ -14003,8 +13999,6 @@
             <div class="col">
                 <span class="cardd-text w-100">Проверка земельного
 участка на юридическую чистоту
-
-
                 </span>
             </div>
         </div>
@@ -14081,9 +14075,7 @@
   </div>
 </div>
       
-</div>
-=======
->>>>>>> 421c3d5b662f65d96c2e133d390febe5e40f14ca
+</div> 
         <div class="t396">
             <div class="t396__artboard" data-artboard-recid="448382249" data-artboard-height="790"
                 data-artboard-height-res-960="930" data-artboard-height-res-640="1390"
@@ -15595,7 +15587,7 @@
                         <div class="card-body" style="align-items: center;">
                             <div class="row" style="align-items: center;">
                                 <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                                    <img src="images/ava.png" align="left" class="img-fluid" alt="" style="
+                                    <img src="https://stroy-vladivostok.ru/files/catpage/faces/s1200.jpg" align="left" class="img-fluid" alt="" style="
                                     border-radius: 100px; min-width: 0px !important; ">
                                 </div>
 
@@ -15607,7 +15599,7 @@
                                     line-height: 24px;
                                     
                                     font-feature-settings: 'pnum' on, 'lnum' on;">
-                                        Александр Добронравов 
+                                        Даниил Виноградов 
                                         <span style="font-family: 'Montserrat';
                                         font-style: normal;
                                         font-weight: 400;
@@ -15616,7 +15608,7 @@
                                         font-feature-settings: 'pnum' on, 'lnum' on;
                                         
                                         color: #958585;
-                                        "><br>12.11.2020</span>
+                                        "><br>12.10.2021</span>
                                     </div>
                                 </div>
                                 <div class="col-2">
@@ -15626,23 +15618,13 @@
 
                             <br>
                             <div class="div">
-                                <h5 class="card-title">Давно хотели построить дом на участке
-                                    но все искали подходящую компанию</h5>
-                                  <p class="card-text">Lörem ipsum diaganas flossa jag nen. Alternativa fakta pon div om äsm. 
-                                    Minnesprick miljonsvenska depp räddningskort. Vägon conversesjukan. 
-                                    Självradikalisering rutkod, jobbtorg. 
-                                    <br><br>
-                                    Tidsfönster en. Linat hybridkrig alfanummer i fån. Kalkstenssångare 
-                                    gåvadumost. Elektromani mansskatt, hybridkrig doliga. 
-                                    Delningsekonomi bloggare. Aquafaba groma. Ade daseskade. Tvodd ad
-                                     ogödubel. Miligen väng förstärkt verklighet trihet. Favis beliga. 
-                                    Dylanman derade och fimpomat ossade. </p>
+                                <h5 class="card-title">Строят качественно, добросовестно</h5>
+                                  <p class="card-text">Данная компания разработала проект дома, помогли и подсказали, где лучше построить дом на участке. Строят качественно. По ходу строительства уточняется проект, подсказывают, как лучше сделать</p>
                             </div>
                             <br>    
-                          <img src="images/Rectangle 120.png" alt="">
-                          <img src="images/Rectangle 121.png" alt="">
-                          <img src="images/Rectangle 122.png" alt="">
-                          <img src="images/Rectangle 118.png" alt="">
+                          <img src="https://simprolitstroy.ru/api/gallery/7.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">  
+                          <img src="https://simprolitstroy.ru/api/gallery/9.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt=""> 
+                          <img src="https://simprolitstroy.ru/api/gallery/8.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">
                         
                         </div>
                       </div>
@@ -15653,7 +15635,7 @@
                           <div class="card-body" style="align-items: center;">
                               <div class="row" style="align-items: center;">
                                   <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                                      <img src="images/ava.png" align="left" class="img-fluid" alt="" style="
+                                      <img src="https://stroy-vladivostok.ru/files/catpage/faces/gEhjkDZ5ZY8.jpg" align="left" class="img-fluid" alt="" style="
                                       border-radius: 100px; min-width: 0px !important; ">
                                   </div>
   
@@ -15665,7 +15647,7 @@
                                       line-height: 24px;
                                       
                                       font-feature-settings: 'pnum' on, 'lnum' on;">
-                                          Александр Добронравов 
+                                          Ленар Зайцев 
                                           <span style="font-family: 'Montserrat';
                                           font-style: normal;
                                           font-weight: 400;
@@ -15674,7 +15656,7 @@
                                           font-feature-settings: 'pnum' on, 'lnum' on;
                                           
                                           color: #958585;
-                                          "><br>12.11.2020</span>
+                                          "><br>17.07.2021</span>
                                       </div>
                                   </div>
                                   <div class="col-2">
@@ -15684,24 +15666,12 @@
   
                               <br>
                               <div class="div">
-                                  <h5 class="card-title">Давно хотели построить дом на участке
-                                      но все искали подходящую компанию</h5>
-                                    <p class="card-text">Lörem ipsum diaganas flossa jag nen. Alternativa fakta pon div om äsm. 
-                                      Minnesprick miljonsvenska depp räddningskort. Vägon conversesjukan. 
-                                      Självradikalisering rutkod, jobbtorg. 
-                                      <br><br>
-                                      Tidsfönster en. Linat hybridkrig alfanummer i fån. Kalkstenssångare 
-                                      gåvadumost. Elektromani mansskatt, hybridkrig doliga. 
-                                      Delningsekonomi bloggare. Aquafaba groma. Ade daseskade. Tvodd ad
-                                       ogödubel. Miligen väng förstärkt verklighet trihet. Favis beliga. 
-                                      Dylanman derade och fimpomat ossade. </p>
+                                  <h5 class="card-title">Рекомендую</h5>
+                                    <p class="card-text">Заказывал проект дома в компании СимпролитСтрой. Завершили строительство в срок. Вносил оплату частями, согласно договора. Работают четко, быстро и профессионально. Рекомендую.</p>
                               </div>
                               <br>    
-                            <img src="images/Rectangle 120.png" alt="">
-                            <img src="images/Rectangle 121.png" alt="">
-                            <img src="images/Rectangle 122.png" alt="">
-                            <img src="images/Rectangle 118.png" alt="">
-                          
+                            <img src="https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.23.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">
+                            <img src="https://simprolitstroy.ru/api/gallery/2.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">                          
                           </div>
                         </div>
                       </div>
