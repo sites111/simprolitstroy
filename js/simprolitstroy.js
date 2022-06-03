@@ -599,27 +599,17 @@ function createQuizPageImage(page, ask, responsesArray, imagesArray){
 
 	result += `<div class="w-100" style="">`;
 	if(page != 0){
-		result += `<button type="button" onclick="backPage();" class="btn btn-light p-3 " style="background: #FFFFFF;
-                                                                            border-radius: 100px;"><span style="font-family: 'Montserrat';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 15px;
-                                                line-height: 18px;
-                                                text-align: center;
-                                                padding-right: 25px;
-                                                padding-left: 25px;
-                                                color: #000000;">Назад</span></button>`;
+		result += `
+		<div class="row g-2">
+		  <div class="col">
+		    <button type="button" onclick="backPage();" class="w-100 btn-successs p-3 text-dark" style="background: #FFFFFF !important;
+		    border-radius: 100px;">Назад</button>
+		  </div>`;
 	}
-	result += `<button type="button" onclick="nextPage();" class="btn btn-light p-3" style="background: #8ED834;
-                                                     border-radius: 100px;"><span style="font-family: 'Montserrat';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 15px;
-                                                line-height: 18px;
-                                                text-align: center;
-                                                padding-right: 40px;
-                                                padding-left: 40px;
-                                                color: #ffffff;">Пропустить</span></button>`;
+	result += `<div class="col">
+	    <button type="button" onclick="nextPage();" class="w-100 p-3 btn-successs">Пропустить</button>
+	  </div>
+	</div>`;
 	return result + `</div></div></div>`;  
 }
 
@@ -656,27 +646,17 @@ function createQuizPageText(page, ask, responsesArray){// responses: ['Чере�
 */
 	result += `<div class="w-100 mt-4" style="">`;
 	if(page != 0){
-		result += `<button type="button" onclick="backPage();" class="btn btn-light p-3 " style="background: #FFFFFF;
-                                                                            border-radius: 100px;"><span style="font-family: 'Montserrat';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 15px;
-                                                line-height: 18px;
-                                                text-align: center;
-                                                padding-right: 25px;
-                                                padding-left: 25px;
-                                                color: #000000;">Назад</span></button>`;
+		result += `
+		<div class="row g-2">
+		  <div class="col">
+		    <button type="button" onclick="backPage();" class="w-100 btn-successs p-3 text-dark" style="background: #FFFFFF !important;
+		    border-radius: 100px;">Назад</button>
+		  </div>`;
 	}
-	result += `<button type="button" onclick="nextPage();" class="btn btn-light p-3" style="background: #8ED834;
-                                                     border-radius: 100px;"><span style="font-family: 'Montserrat';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 15px;
-                                                line-height: 18px;
-                                                text-align: center;
-                                                padding-right: 40px;
-                                                padding-left: 40px;
-                                                color: #ffffff;">Пропустить</span></button>`;
+	result += `<div class="col">
+	    <button type="button" onclick="nextPage();" class="w-100 p-3 btn-successs">Пропустить</button>
+	  </div>
+	</div>`;
 	return result + `</div></div>`; 
 }
 
