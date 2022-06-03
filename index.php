@@ -8117,7 +8117,7 @@
                     data-field-heightunits-value data-field-widthunits-value="px">
                     <div class="tn-atom" field="tn_text_1652969405080"><strong>Экологичность</strong><br>Полистиролбетон
                         состоит из экологичных материалов вода, вспененный пищевой полистирол, цемент и
-                        воздухоотвлекающие добавки</div>
+                        воздухововлекающие добавки</div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4483389641652969405098" data-elem-id="1652969405098"
                     data-elem-type="image" data-field-top-value="330" data-field-top-res-960-value="330"

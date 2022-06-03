@@ -313,11 +313,11 @@ function getCatalogProjects(){
 	  if(this.readyState === 4) {
 	    projectsCatalogArray = this.responseText;
 	//    alert(projectsCatalogArray);
-		console.log(projectsCatalogArray);
+	//	console.log(projectsCatalogArray);
 		projectBlockFill(projectsCountMax);
 	  }
 	}); 
-	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?s=qwfqwfgtrg34");
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php");
 	xhr.send(data);
 }
 
@@ -327,6 +327,7 @@ function projectBlockFill(count_max){
 	let jsonObjectParse = JSON.parse(projectsCatalogArray);
 	for (var i = 0; i < jsonObjectParse.length; i++) { 
 		if(count >= count_max) break;
+		if(jsonObjectParse[i]['image'] == null) continue;
 		projectBlockElementContent += createProject(
 			jsonObjectParse[i]['id'], 
 			jsonObjectParse[i]['name'], 
@@ -424,25 +425,17 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="rooms.svg">Комнат: ${rooms}</div>
+													<div class="pt-2"><img class="icon" src="rooms.svg">Этажей: ${levels}</div>
 												</div>
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
 													<div class="pt-2"><img class="icon" src="resize2.svg">Площадь: ${square} м²</div>
 												</div>
-											</div>
-											<div class="col">
-												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="resize2.svg">Этажей: ${levels}</div>
-												</div>
-											</div>
+											</div> 
 										</div>
-									</div>
-									<div class="vstack gap-2 desc">
-										<div class=""><img class="icon" src="type.svg">Тип дома: полистеролбетон</div>
-									</div>
-									<div class="price">от ${number_format(price)} руб.</div>
+									</div> 
+									<div class="price desc">от ${number_format(price)} руб.</div>
 									<div class="card-bodys">
 										<div class="p-3 border-top border-success pt-4 full" onclick="modalSow('Заинтересовал проект ${name}?');">ПОДРОБНЕЕ</div>
 									</div>
