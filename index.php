@@ -12051,7 +12051,7 @@
         <!-- T396 -->
         <style>
             #rec448382249 .t396__artboard {
-                height: 790px;
+                height: 290px;
                 background-color: #f4f4f4;
             }
 
@@ -12069,7 +12069,7 @@
 
             @media screen and (max-width: 1199px) {
                 #rec448382249 .t396__artboard {
-                    height: 930px;
+                    height: 300px;
                 }
 
                 #rec448382249 .t396__filter {
@@ -12084,7 +12084,7 @@
 
             @media screen and (max-width: 959px) {
                 #rec448382249 .t396__artboard {
-                    height: 1390px;
+                    height: 310px;
                 }
 
                 #rec448382249 .t396__filter {
@@ -12098,7 +12098,7 @@
 
             @media screen and (max-width: 639px) {
                 #rec448382249 .t396__artboard {
-                    height: 1550px;
+                    height: 450px;
                 }
 
                 #rec448382249 .t396__filter {
@@ -12112,7 +12112,7 @@
 
             @media screen and (max-width: 479px) {
                 #rec448382249 .t396__artboard {
-                    height: 1480px;
+                    height: 410px;
                 }
 
                 #rec448382249 .t396__filter {
@@ -14092,543 +14092,153 @@
     
 
   </div>
-</div>
-      
-</div> 
-        <div class="t396">
-            <div class="t396__artboard" data-artboard-recid="448382249" data-artboard-height="790"
-                data-artboard-height-res-960="930" data-artboard-height-res-640="1390"
-                data-artboard-height-res-480="1550" data-artboard-height-res-320="1480" data-artboard-height_vh
-                data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-upscale-res-320="window"
-                data-artboard-ovrflw>
-                <div class="t396__carrier" data-artboard-recid="448382249"></div>
-                <div class="t396__filter" data-artboard-recid="448382249"></div>
-                <div class="t396__elem tn-elem tn-elem__4483822491470209944682" data-elem-id="1470209944682"
-                    data-elem-type="text" data-field-top-value="60" data-field-left-value="20"
-                    data-field-width-value="660" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1470209944682"></div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491470210011265" data-elem-id="1470210011265"
-                    data-elem-type="text" data-field-top-value="70" data-field-left-value="782"
-                    data-field-width-value="410" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1470210011265"></div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491470233923389" data-elem-id="1470233923389"
-                    data-elem-type="text" data-field-top-value="196" data-field-left-value="20"
-                    data-field-width-value="410" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1470233923389"></div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900200974" data-elem-id="1652900200974"
-                    data-elem-type="text" data-field-top-value="50" data-field-top-res-640-value="50"
-                    data-field-top-res-480-value="50" data-field-top-res-320-value="31" data-field-left-value="20"
-                    data-field-left-res-640-value="40" data-field-left-res-480-value="15"
-                    data-field-left-res-320-value="20" data-field-width-value="560" data-field-width-res-480-value="451"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652900200974">Поможем подобрать земельный участок</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902470724" data-elem-id="1652902470724"
-                    data-elem-type="text" data-field-top-value="630" data-field-top-res-960-value="630"
-                    data-field-top-res-640-value="1085" data-field-top-res-480-value="1170"
-                    data-field-top-res-320-value="1060" data-field-left-value="150" data-field-left-res-960-value="30"
-                    data-field-left-res-640-value="-4" data-field-left-res-480-value="41"
-                    data-field-left-res-320-value="20" data-field-width-value="901" data-field-width-res-640-value="648"
-                    data-field-width-res-480-value="399" data-field-width-res-320-value="280"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902470724"><strong>Поможем с</strong> оформлением ипотеки
-                    </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900367062" data-elem-id="1652900367062"
-                    data-elem-type="image" data-field-top-value="230" data-field-top-res-960-value="230"
-                    data-field-top-res-640-value="230" data-field-top-res-480-value="858"
-                    data-field-top-res-320-value="169" data-field-left-value="40" data-field-left-res-960-value="30"
-                    data-field-left-res-640-value="140" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652900367062"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900335015" data-elem-id="1652900335015"
-                    data-elem-type="text" data-field-top-value="223" data-field-top-res-960-value="223"
-                    data-field-top-res-640-value="209" data-field-top-res-480-value="851"
-                    data-field-top-res-320-value="160" data-field-left-value="100" data-field-left-res-960-value="90"
-                    data-field-left-res-640-value="200" data-field-left-res-480-value="150"
-                    data-field-left-res-320-value="100" data-field-width-value="317"
-                    data-field-width-res-640-value="296" data-field-width-res-480-value="246"
-                    data-field-width-res-320-value="179" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652900335015">Проверка земельного <br>участка на юридическую
-                        чистоту</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900282889" data-elem-id="1652900282889"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-960-value="196"
-                    data-field-top-res-640-value="196" data-field-top-res-480-value="824"
-                    data-field-top-res-320-value="136" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-480-value="133" data-field-height-res-320-value="111"
-                    data-field-width-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900528347" data-elem-id="1652900528347"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-960-value="196"
-                    data-field-top-res-640-value="196" data-field-top-res-480-value="824"
-                    data-field-top-res-320-value="137" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-480-value="133" data-field-height-res-320-value="110"
-                    data-field-width-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>    
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217849" data-elem-id="1652901217849"
-                    data-elem-type="shape" data-field-top-value="325" data-field-top-res-960-value="335"
-                    data-field-top-res-640-value="440" data-field-top-res-480-value="976"
-                    data-field-top-res-320-value="899" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="19" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="140"
-                    data-field-height-res-320-value="110" data-field-width-value="460"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="341"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217864" data-elem-id="1652901217864"
-                    data-elem-type="shape" data-field-top-value="325" data-field-top-res-960-value="335"
-                    data-field-top-res-640-value="440" data-field-top-res-480-value="976"
-                    data-field-top-res-320-value="899" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="19" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="140"
-                    data-field-height-res-320-value="111" data-field-width-value="460"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="341"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652901217878,1652901217892,1652901217864"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217878" data-elem-id="1652901217878"
-                    data-elem-type="text" data-field-top-value="352" data-field-top-res-960-value="362"
-                    data-field-top-res-640-value="453" data-field-top-res-480-value="1003"
-                    data-field-top-res-320-value="924" data-field-left-value="100" data-field-left-res-960-value="90"
-                    data-field-left-res-640-value="200" data-field-left-res-480-value="150"
-                    data-field-left-res-320-value="99" data-field-width-value="363" data-field-width-res-640-value="283"
-                    data-field-width-res-480-value="241" data-field-width-res-320-value="203"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901217878">Помощь в получении уведомления<br>о начале
-                        строительства</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217892" data-elem-id="1652901217892"
-                    data-elem-type="image" data-field-top-value="359" data-field-top-res-960-value="369"
-                    data-field-top-res-640-value="474" data-field-top-res-480-value="1010"
-                    data-field-top-res-320-value="933" data-field-left-value="40" data-field-left-res-960-value="30"
-                    data-field-left-res-640-value="140" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="39" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652901217892"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217900" data-elem-id="1652901217900"
-                    data-elem-type="shape" data-field-top-value="324" data-field-top-res-960-value="330"
-                    data-field-top-res-640-value="562" data-field-top-res-480-value="196"
-                    data-field-top-res-320-value="773" data-field-left-value="500" data-field-left-res-960-value="493"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="320"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="342"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217906" data-elem-id="1652901217906"
-                    data-elem-type="shape" data-field-top-value="324" data-field-top-res-960-value="330"
-                    data-field-top-res-640-value="562" data-field-top-res-480-value="196"
-                    data-field-top-res-320-value="773" data-field-left-value="500" data-field-left-res-960-value="493"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="320"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="342"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652901217906,1652901217914,1652901217920"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217914" data-elem-id="1652901217914"
-                    data-elem-type="text" data-field-top-value="350" data-field-top-res-960-value="356"
-                    data-field-top-res-640-value="589" data-field-top-res-480-value="223"
-                    data-field-top-res-320-value="808" data-field-left-value="580" data-field-left-res-960-value="573"
-                    data-field-left-res-640-value="200" data-field-left-res-480-value="149"
-                    data-field-left-res-320-value="98" data-field-width-value="240" data-field-width-res-320-value="167"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901217914">Помощь в оформлении документов</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901217920" data-elem-id="1652901217920"
-                    data-elem-type="image" data-field-top-value="358" data-field-top-res-960-value="364"
-                    data-field-top-res-640-value="596" data-field-top-res-480-value="230"
-                    data-field-top-res-320-value="807" data-field-left-value="520" data-field-left-res-960-value="513"
-                    data-field-left-res-640-value="140" data-field-left-res-480-value="89"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652901217920"> </div>
-                </div> 
-                <div class="t396__elem tn-elem tn-elem__4483822491652901304663" data-elem-id="1652901304663"
-                    data-elem-type="shape" data-field-top-value="458" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="806" data-field-top-res-480-value="442"
-                    data-field-top-res-320-value="521" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="320"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="339"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901304678" data-elem-id="1652901304678"
-                    data-elem-type="shape" data-field-top-value="458" data-field-top-res-960-value="474"
-                    data-field-top-res-640-value="806" data-field-top-res-480-value="442"
-                    data-field-top-res-320-value="521" data-field-left-value="20" data-field-left-res-960-value="10"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="70"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-640-value="111" data-field-height-res-480-value="111"
-                    data-field-height-res-320-value="111" data-field-width-value="320"
-                    data-field-width-res-640-value="400" data-field-width-res-480-value="339"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652901304693,1652901304705,1652901304678"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901304693" data-elem-id="1652901304693"
-                    data-elem-type="text" data-field-top-value="484" data-field-top-res-960-value="500"
-                    data-field-top-res-640-value="832" data-field-top-res-480-value="469"
-                    data-field-top-res-320-value="556" data-field-left-value="100" data-field-left-res-960-value="90"
-                    data-field-left-res-640-value="198" data-field-left-res-480-value="150"
-                    data-field-left-res-320-value="98" data-field-width-value="225" data-field-width-res-320-value="194"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652901304693">Помощь<br>в сопровождении</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652901304705" data-elem-id="1652901304705"
-                    data-elem-type="image" data-field-top-value="492" data-field-top-res-960-value="508"
-                    data-field-top-res-640-value="840" data-field-top-res-480-value="476"
-                    data-field-top-res-320-value="555" data-field-left-value="40" data-field-left-res-960-value="30"
-                    data-field-left-res-640-value="138" data-field-left-res-480-value="90"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6330-3632-4436-b634-376565643335/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652901304705"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900787277" data-elem-id="1652900787277"
-                    data-elem-type="image" data-field-top-value="230" data-field-top-res-640-value="352"
-                    data-field-top-res-480-value="352" data-field-top-res-320-value="294" data-field-left-value="458"
-                    data-field-left-res-640-value="140" data-field-left-res-480-value="89"
-                    data-field-left-res-320-value="40" data-field-width-value="41" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="41" data-field-fileheight-value="42">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild3736-3333-4533-b433-343464623936/bi_shield-fill-check.svg"
-                            imgfield="tn_img_1652900787277"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900787258" data-elem-id="1652900787258"
-                    data-elem-type="text" data-field-top-value="223" data-field-top-res-640-value="345"
-                    data-field-top-res-480-value="345" data-field-top-res-320-value="295" data-field-left-value="518"
-                    data-field-left-res-640-value="200" data-field-left-res-480-value="149"
-                    data-field-left-res-320-value="98" data-field-width-value="301" data-field-width-res-480-value="237"
-                    data-field-width-res-320-value="163" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652900787258">Получение ГПЗУ<br>земельного участка</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900787242" data-elem-id="1652900787242"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-640-value="318"
-                    data-field-top-res-480-value="318" data-field-top-res-320-value="259" data-field-left-value="438"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-480-value="111" data-field-height-res-320-value="111"
-                    data-field-width-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900787258,1652900787277,1652900787242"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652900787228" data-elem-id="1652900787228"
-                    data-elem-type="shape" data-field-top-value="196" data-field-top-res-640-value="318"
-                    data-field-top-res-480-value="318" data-field-top-res-320-value="259" data-field-left-value="438"
-                    data-field-left-res-640-value="120" data-field-left-res-480-value="69"
-                    data-field-left-res-320-value="20" data-field-height-value="111"
-                    data-field-height-res-480-value="111" data-field-height-res-320-value="111"
-                    data-field-width-value="400" data-field-width-res-480-value="340"
-                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
-                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-                    data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="hover"
-                    data-animate-sbs-trgels="1652900282889,1652900335015,1652900367062"
-                    data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]">
-                    <div class="tn-atom"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902553024" data-elem-id="1652902553024"
-                    data-elem-type="text" data-field-top-value="700" data-field-top-res-960-value="700"
-                    data-field-top-res-640-value="1156" data-field-top-res-480-value="1286"
-                    data-field-top-res-320-value="1212" data-field-left-value="310" data-field-left-res-960-value="333"
-                    data-field-left-res-640-value="357" data-field-left-res-480-value="102"
-                    data-field-left-res-320-value="58" data-field-width-value="222" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902553024">99% запросов одобряются</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902553007" data-elem-id="1652902553007"
-                    data-elem-type="image" data-field-top-value="694" data-field-top-res-960-value="694"
-                    data-field-top-res-640-value="1150" data-field-top-res-480-value="1280"
-                    data-field-top-res-320-value="1206" data-field-left-value="270" data-field-left-res-960-value="293"
-                    data-field-left-res-640-value="318" data-field-left-res-480-value="64"
-                    data-field-left-res-320-value="20" data-field-width-value="33" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="33" data-field-fileheight-value="33">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6535-3436-4539-a562-363735313938/bi_check_1.svg"
-                            imgfield="tn_img_1652902553007"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902527217" data-elem-id="1652902527217"
-                    data-elem-type="text" data-field-top-value="700" data-field-top-res-960-value="699"
-                    data-field-top-res-640-value="1154" data-field-top-res-480-value="1336"
-                    data-field-top-res-320-value="1262" data-field-left-value="60" data-field-left-res-960-value="84"
-                    data-field-left-res-640-value="107" data-field-left-res-480-value="102"
-                    data-field-left-res-320-value="56" data-field-width-value="199" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902527217">Ипотека от 3.0% годовых</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902520739" data-elem-id="1652902520739"
-                    data-elem-type="image" data-field-top-value="695" data-field-top-res-960-value="695"
-                    data-field-top-res-640-value="1150" data-field-top-res-480-value="1332"
-                    data-field-top-res-320-value="1258" data-field-left-value="20" data-field-left-res-960-value="44"
-                    data-field-left-res-640-value="69" data-field-left-res-480-value="64"
-                    data-field-left-res-320-value="20" data-field-width-value="33" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="33" data-field-fileheight-value="33">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6535-3436-4539-a562-363735313938/bi_check_1.svg"
-                            imgfield="tn_img_1652902520739"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902591247" data-elem-id="1652902591247"
-                    data-elem-type="text" data-field-top-value="700" data-field-top-res-960-value="750"
-                    data-field-top-res-640-value="1206" data-field-top-res-480-value="1390"
-                    data-field-top-res-320-value="1315" data-field-left-value="944" data-field-left-res-960-value="387"
-                    data-field-left-res-640-value="45" data-field-left-res-480-value="104"
-                    data-field-left-res-320-value="58" data-field-width-value="227" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902591247">Более 20 банков партнеров</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902591233" data-elem-id="1652902591233"
-                    data-elem-type="image" data-field-top-value="694" data-field-top-res-960-value="744"
-                    data-field-top-res-640-value="1200" data-field-top-res-480-value="1384"
-                    data-field-top-res-320-value="1310" data-field-left-value="904" data-field-left-res-960-value="347"
-                    data-field-left-res-640-value="5" data-field-left-res-480-value="64"
-                    data-field-left-res-320-value="20" data-field-width-value="33" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="33" data-field-fileheight-value="33">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6535-3436-4539-a562-363735313938/bi_check_1.svg"
-                            imgfield="tn_img_1652902591233"> </div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902576116" data-elem-id="1652902576116"
-                    data-elem-type="text" data-field-top-value="700" data-field-top-res-960-value="700"
-                    data-field-top-res-640-value="1207" data-field-top-res-480-value="1442"
-                    data-field-top-res-320-value="1362" data-field-left-value="580" data-field-left-res-960-value="604"
-                    data-field-left-res-640-value="318" data-field-left-res-480-value="102"
-                    data-field-left-res-320-value="56" data-field-width-value="312" data-field-width-res-320-value="243"
-                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
-                    data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652902576116">Используем ваш материнский капитал</div>
-                </div>
-                <div class="t396__elem tn-elem tn-elem__4483822491652902576103" data-elem-id="1652902576103"
-                    data-elem-type="image" data-field-top-value="694" data-field-top-res-960-value="694"
-                    data-field-top-res-640-value="1201" data-field-top-res-480-value="1436"
-                    data-field-top-res-320-value="1366" data-field-left-value="540" data-field-left-res-960-value="564"
-                    data-field-left-res-640-value="280" data-field-left-res-480-value="64"
-                    data-field-left-res-320-value="20" data-field-width-value="33" data-field-axisy-value="top"
-                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
-                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
-                    data-field-filewidth-value="33" data-field-fileheight-value="33">
-                    <div class="tn-atom"> <img class="tn-atom__img t-img"
-                            data-original="https://static.tildacdn.info/tild6535-3436-4539-a562-363735313938/bi_check_1.svg"
-                            imgfield="tn_img_1652902576103"> </div>
+
+   <!-- Блок  с инфой   -->
+
+   <div class="contaner pb-5 mt-5">
+                <div class="text-center">
+                    <span class="big-text" style="  font-weight: 600;font-size: 30px;line-height: 37px;">Поможем с</span>
+                    <span class="little-text" style="font-weight: 400;font-size: 30px;line-height: 37px;"> оформлением ипотеки</span>
                 </div>
             </div>
-        </div>
+                <div class="container">
+                <div class="  row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3" style="display:flex !important; justify-content:center; font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+ ">
+                   <div class="col">
+                       <div class="row g-2">
+                            <div class="col-auto">
+                                <img src="images/Vector.svg" alt="">
+                            </div>
+                            <div class="col">
+                            99% запросов одобряются
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class="col">
+                       <div class="row g-2">
+                            <div class="col-auto">
+                                <img src="images/Vector.svg" alt="">
+                            </div>
+                            <div class="col">
+                            Ипотека от 3% годовых
+
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class="col">
+                       <div class="row g-2">
+                            <div class="col-auto">
+                                <img src="images/Vector.svg" alt="">
+                            </div>
+                            <div class="col">
+                            Более 20 банков партнеров
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class="col">
+                       <div class="row g-2">
+                            <div class="col-auto">
+                                <img src="images/Vector.svg" alt="">
+                            </div>
+                            <div class="col">
+                            Используем ваш материнский капитал
+                            </div>
+                       </div>
+                   </div>
+                </div>
+                
+                <div id="carouselId" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6">
+                                <div class="col">
+                                    <img style="max-width: 150px;" src="images/akb.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/alfa.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/gazp.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/sber.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/uralsib.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/rosselhoz.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6">
+                                <div class="col">
+                                    <img style="max-width: 150px;" src="images/akb.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/alfa.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/gazp.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/sber.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/uralsib.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img style="max-width: 150px;"  src="images/rosselhoz.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+</div>
+          
+                    
+
+
     </section>
+
+    <section></section>
         <script>t_onReady(function () {
                 t_onFuncLoad('t396_init', function () {
                     t396_init('448382249');
                 });
             });</script><!-- /T396 -->
     </div>
-    <div id="rec448395838" class="r t-rec t-rec_pt_0 t-rec_pb_0"
-        style="padding-top:0px;padding-bottom:0px;background-color:#f4f4f4; " data-record-type="738"
-        data-bg-color="#f4f4f4">
-        <!-- t738 -->
-        <div class="t738 t738__witharrows">
-            <div class="t-slds" style="visibility: hidden;">
-                <div class="t-slds__main t-container">
-                    <div class="t-slds__container">
-                        <div class="t-slds__items-wrapper t-slds_animated-none" data-slider-transition="300"
-                            data-slider-with-cycle="true" data-slider-correct-height="true"
-                            data-auto-correct-mobile-width="false">
-                            <div class="t-slds__item t-slds__item_active" data-slide-index="1">
-                                <div class="t-width t738__width_12 t-margin_auto">
-                                    <div class="t738__slds-wrapper t-slds__wrapper t-align_center">
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/akb.png" class="t738__img t-img " imgfield="li_img__1481692290784"> </div>
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/alfa.png" class="t738__img t-img " imgfield="li_img__1481771908709"> </div>
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/gazp.png" class="t738__img t-img " imgfield="li_img__1481692319184"> </div>
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/rosselhoz.png" class="t738__img t-img " imgfield="li_img__1481695425422"> </div>
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/sber.png" class="t738__img t-img " imgfield="li_img__1481695427218"> </div>
-                                        <div class="t-col t738__item t738__item_6-in-row"> 
-                                            <img src="img/uralsib.png" class="t738__img t-img " imgfield="li_img__1481717865677"> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="t-slds__item " data-slide-index="2">
-                                <div class="t-width t738__width_12 t-margin_auto">
-                                    <div class="t738__slds-wrapper t-slds__wrapper t-align_center">
-                                        <div class="t-col t738__item t738__item_6-in-row"> <img src="img/vtb.png" class="t738__img t-img " imgfield="li_img__1481695805357"> </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="t-slds__arrow_container ">
-                        <div class="t-slds__arrow_wrapper t-slds__arrow_wrapper-left" data-slide-direction="left">
-                            <div class="t-slds__arrow t-slds__arrow-left t-slds__arrow-withbg"
-                                style="width: 30px; height: 30px;background-color: rgba(232,232,232,1);">
-                                <div class="t-slds__arrow_body t-slds__arrow_body-left" style="width: 7px;"> <svg
-                                        style="display: block" viewBox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg"
-                                        xlink="http://www.w3.org/1999/xlink">
-                                        <desc>Left</desc>
-                                        <polyline fill="none" stroke="#222222" stroke-linejoin="butt"
-                                            stroke-linecap="butt" stroke-width="1" points="0.5,0.5 6.5,6.5 0.5,12.5" />
-                                    </svg> </div>
-                            </div>
-                        </div>
-                        <div class="t-slds__arrow_wrapper t-slds__arrow_wrapper-right" data-slide-direction="right">
-                            <div class="t-slds__arrow t-slds__arrow-right t-slds__arrow-withbg"
-                                style="width: 30px; height: 30px;background-color: rgba(232,232,232,1);">
-                                <div class="t-slds__arrow_body t-slds__arrow_body-right" style="width: 7px;"> <svg
-                                        style="display: block" viewBox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg"
-                                        xlink="http://www.w3.org/1999/xlink">
-                                        <desc>Right</desc>
-                                        <polyline fill="none" stroke="#222222" stroke-linejoin="butt"
-                                            stroke-linecap="butt" stroke-width="1" points="0.5,0.5 6.5,6.5 0.5,12.5" />
-                                    </svg> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script>t_onReady(function () {
-                    t_onFuncLoad('t_sldsInit', function () {
-                        t_sldsInit('448395838');
-                    });
-                });</script>
-            <style>
-                #rec448395838 .t-slds__bullet_active .t-slds__bullet_body {
-                    background-color: #222 !important;
-                }
-
-                #rec448395838 .t-slds__bullet:hover .t-slds__bullet_body {
-                    background-color: #222 !important;
-                }
-            </style>
-            <script type="text/javascript"> t_onReady(function () {
-                    if (typeof jQuery !== 'undefined') {
-                        $('.t738').bind('displayChanged', function () {
-                            t_onFuncLoad('t_slds_updateSlider', function () {
-                                t_slds_updateSlider('448395838');
-                            });
-                        });
-                    } else {
-                        var rec = document.querySelector('#rec448395838');
-                        if (!rec) return;
-                        var wrapper = rec.querySelector('.t738');
-                        if (wrapper) {
-                            wrapper.addEventListener('displayChanged', function () {
-                                t_onFuncLoad('t_slds_updateSlider', function () {
-                                    t_slds_updateSlider('448395838');
-                                });
-                            });
-                        }
-                    }
-                });
-            </script>
-        </div>
-    </div>
+   
     <div id="rec448392623" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+     
+               
+            </div>
+                </div>
+                
         <!-- T396 -->
         <style>
             #rec448392623 .t396__artboard {
@@ -20048,7 +19658,7 @@
                   <p class="text-muted">© 2021</p>
                 </div>
             
-                <div class="col">
+                <div class="col d-none d-sm-block">
             
                 </div>
             
