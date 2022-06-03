@@ -2530,6 +2530,24 @@
                     }
                 }
             </style>
+
+            <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
+
+                <div class="row g-1 p-2">
+                   <div class="col">
+                       <a href="tel:+7 (843) 212 61-77">
+                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                       </a>
+                    </div>
+                   <div class="col">
+                    <a href="whatsapp://send?phone=78432126177">
+                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                    </a>
+                    </div>
+
+                </div>    
+
+            </div>
             <div class="t396">
                 <div class="t396__artboard" data-artboard-recid="448206482" data-artboard-height="825"
                     data-artboard-height-res-640="995" data-artboard-height-res-480="1035"
