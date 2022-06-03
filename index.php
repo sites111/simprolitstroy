@@ -2530,6 +2530,25 @@
                     }
                 }
             </style>
+
+            <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
+
+                <div class="row g-1 p-2">
+                   <div class="col">
+                       <a href="tel:+7 (843) 212 61-77">
+                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                       </a>
+                    </div>
+                   <div class="col">
+                    <a href="whatsapp://send?phone=78432126177">
+                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                    </a>
+                    </div>
+
+                </div>    
+
+            </div>
+            
             <div class="t396">
                 <div class="t396__artboard" data-artboard-recid="448206482" data-artboard-height="825"
                     data-artboard-height-res-640="995" data-artboard-height-res-480="1035"
@@ -5182,7 +5201,7 @@
     }
 </style>
 <div class="container p-3 " >
-                        <div class="quiz p-4 mt-5 text-right"style="background: #FAFAFA; border-radius: 20px; " >
+                        <div class="quiz p-4 mt-4 text-right"style="background: #FAFAFA; border-radius: 20px; " >
                             <div class="row  g-4">
                                 <div class="col-4 mt-5 d-none d-sm-block " style="text-align: center;">
                                     <img class="img-fluid w-50" src="images/arhitector.png" alt="">
@@ -20184,6 +20203,7 @@
                 </div>
             </div>
         </div>
+
 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

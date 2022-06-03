@@ -317,7 +317,7 @@ function getCatalogProjects(){
 		projectBlockFill(projectsCountMax);
 	  }
 	}); 
-	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php");
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?v="+Date());
 	xhr.send(data);
 }
 
@@ -673,7 +673,7 @@ function createQuizPageForm(ask){
                                             Инженер-сметчик рассчитает стоимость работ и материалов по оптовым ценам
                                         </p> -->
                                         <div class="row row-cols-2 row-cols-lg-4 g-4 mt-3 ">
-                                            <div class="col">
+                                            <div class="col" style="margin-top: 0px;">
                                                 <div id="quizMessengerViber" class="contact-inactiv active h-100 " onclick="onClickQuizMessenger(this, MESSENGER_VIBER);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
@@ -689,7 +689,7 @@ function createQuizPageForm(ask){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col" style="margin-top: 0px;">
                                                 <div id="quizMessengerWhatsApp" class="contact-inactiv h-100 " onclick="onClickQuizMessenger(this, MESSENGER_WHATSAPP);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
@@ -703,7 +703,7 @@ function createQuizPageForm(ask){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col" style="margin-top: 0px;">
                                                 <div id="quizMessengerTelegram" class="contact-inactiv h-100 " onclick="onClickQuizMessenger(this, MESSENGER_TELEGRAM);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
@@ -717,7 +717,7 @@ function createQuizPageForm(ask){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col" style="margin-top: 0px;">
                                                 <div id="quizMessengerPhone" class="contact-inactiv h-100" onclick="onClickQuizMessenger(this, MESSENGER_PHONE);" style="cursor: pointer;">
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
