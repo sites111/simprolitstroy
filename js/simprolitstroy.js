@@ -1,4 +1,4 @@
-var projectsCountMax = 3;
+var projectsCountMax = 9;
 var projectsCatalogArray = null;
 
 var galleryCountMax = 2+4;
@@ -348,7 +348,7 @@ function projectBlockFill(count_max){
 }
 
 function clickMoreProjects(){ 
-	projectsCountMax += 3;
+	projectsCountMax += 9;
 	projectBlockFill(projectsCountMax);
 } 	
 		var fileName = 'file.file';
@@ -408,6 +408,17 @@ function handleFiles() {
 		function setFileUploadedLink(link){
 			document.getElementById('fileName').innerHTML = cropTextFile(fileName);
 		}
+
+/*
+var x = 5.0364342423;
+print(x.toFixed(1));
+*/
+
+function toFixed(value, precision) {
+    var power = Math.pow(10, precision || 0);
+    return String(Math.round(value * power) / power);
+}
+
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `
 							<div class="col">
@@ -420,17 +431,17 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 										<div class="row row-cols-1 row-cols-md-1 row-cols-xl-2 g-0">
 											<div class="col ">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="resize.svg">Размеры: ${width}х${length}</div>
+													<div class="pt-2"><img class="icon" src="resize.svg">Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)}</div>
 												</div>
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="rooms.svg">Этажей: ${levels}</div>
+													<div class="pt-2"><img class="icon" src="rooms.svg">Этажей: ${toFixed(parseFloat(levels),1)}</div>
 												</div>
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="resize2.svg">Площадь: ${square} м²</div>
+													<div class="pt-2"><img class="icon" src="resize2.svg">Площадь: ${toFixed(parseFloat(square),1)} м²</div>
 												</div>
 											</div> 
 										</div>
@@ -732,17 +743,17 @@ function createQuizPageForm(ask){
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mb-1">
+                                        <div class="">
                                             <label for="" class="form-label"></label>
                                             <input id="inputQuizPhone" type="tel" name="Phone" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" class="t-input form-control p-4"
                                                 placeholder="Введите телефон">
                                         </div>
-                                        <div class="mb-1">
+                                        <div class="">
                                             <label for="" class="form-label"></label>
                                             <input id="inputQuizName" type="name" class="t-input form-control p-4" name="" id="" aria-describedby="emailHelpId"
                                                 placeholder="Введите имя">
                                         </div>
-                                        <button onclick="onClickSendQuiz();" class="btn-successs w-100 p-4 mt-4 text-light">Получить расчёт</button>
+                                        <button onclick="onClickSendQuiz();" class="btn-successs w-100 p-4 mt-3 text-light">Получить расчёт</button>
                                     </div>
                                 </div>`;
 }
