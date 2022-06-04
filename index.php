@@ -14220,14 +14220,14 @@ color: #000000;
                 </div>
 </div>
 <div class="container">
-                    <div class="row">
+                    <div class="row  pb-5 ">
                         <div class="col" style="text-align: center;">
                             <h2 class="headleadmini pb-4 pt-5"><b>Оставьте заявку</b> и мы вам перезвоним</h2>
                                 <div class="row row-cols-1 rol-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3" style="justify-content: center;">
                                     <div class="col col-lg-4">
-                                        <input id="inputIpotekaName" class="namer" type="text" placeholder="Ваше имя" size="40" style="border: 1px solid #fff!important;">
+                                        <input id="inputIpotekaName " class="namer t-input " type="text" placeholder="Ваше имя" size="40" style="border: 1px solid #fff!important;">
                                     </div>
-                                    <div class="col col-lg-4 pb-5"> 
+                                    <div class="col col-lg-4"> 
                                         <input id="inputIpotekaPhone" class="number t-input js-tilda-rule js-tilda-mask" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="border: 1px solid #fff!important;">
                                     </div>
                                     <div class="col col-lg-3">
@@ -14238,7 +14238,7 @@ color: #000000;
                     </div>
                 </div>
 
-          
+                    
 
 
     </section>
