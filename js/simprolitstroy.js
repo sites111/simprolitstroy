@@ -305,20 +305,19 @@ function onClickSendFormIpoteka(){
 	$('#successModal').modal('show');
 }
 
-function getCatalogProjects(){
-	var data = new FormData();
-	var xhr = new XMLHttpRequest();
-	xhr.withCredentials = true;
-	xhr.addEventListener("readystatechange", function() {
-	  if(this.readyState === 4) {
-	    projectsCatalogArray = this.responseText;
-	//    alert(projectsCatalogArray);
-	//	console.log(projectsCatalogArray);
-		projectBlockFill(projectsCountMax);
-	  }
-	}); 
+function getCatalogProjects(){ 
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
 	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?v="+Date());
-	xhr.send(data);
+	xhr.onload = function() {
+	    projectsCatalogArray = this.responseText;
+		projectBlockFill(projectsCountMax);
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.send();
+ 
 }
 
 function projectBlockFill(count_max){
@@ -387,7 +386,8 @@ function handleFiles() {
 			    setFileUploadStatus(this.responseText);
 			  }
 			}); 
-			xhr.open("POST", "https://simprolitstroy.ru/api/input.php"); 
+			xhr.open("POST", "https://simprolitstroy.ru/api/input.php");   
+			xhr.setRequestHeader("Content-Type", "multipart/form-data");
 			xhr.send(data); 
 		}  
 
@@ -455,19 +455,18 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 }
 
 function getGallery(){
-	var data = new FormData();
-	var xhr = new XMLHttpRequest();
-	xhr.withCredentials = true;
-	xhr.addEventListener("readystatechange", function() {
-	  if(this.readyState === 4) {
-	    galleryArray = this.responseText;
-	//	alert(galleryArray);
+	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/gallery_get.php", true);
+	xhr.onload = function() {
+		galleryArray = this.responseText;
 		galleryBlockFill(galleryCountMax);
 		galleryBlockMobFill(galleryCountMax);
-	  }
-	});
-	xhr.open("GET", "../api/mysql/gallery_get.php");
-	xhr.send(data);
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.send();
 }
 
 function galleryBlockFill(count_max){

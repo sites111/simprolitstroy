@@ -1,5 +1,7 @@
 <?php
 	header('Content-Type: application/json; charset=utf-8'); 
+	header("Access-Control-Allow-Origin: *");
+	header("Access-Control-Allow-Headers: *");
 
 	$connect = mysqlconnect('artema41.beget.tech', 'artema41_simpro', 'QT3*a1uz', 'artema41_simpro');
 
