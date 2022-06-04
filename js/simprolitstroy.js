@@ -448,7 +448,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 	return `
 							<div class="col">
 								<div class="card row-cols-1 h-100">
-									<img src="${image}" class="rounded-4"" style="border-radius: 20px; height: 270px; object-fit: cover;">
+									<img src="${image}" class="rounded-4" onclick="modalSow('Заинтересовал проект ${name}?');" style="cursor:pointer; border-radius: 20px; height: 270px; object-fit: cover;">
 									<div class="card-body">
 										<h5 class="card-title pt-4">${name}</h5>
 									</div>
@@ -472,7 +472,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 										</div>
 									</div> 
 									<div class="price desc">от ${number_format(price)} руб.</div>
-									<div class="card-bodys">
+									<div class="card-bodys" style="cursor: pointer;">
 										<div class="p-3 border-top border-success pt-4 full" onclick="modalSow('Заинтересовал проект ${name}?');">ПОДРОБНЕЕ</div>
 									</div>
 								</div>
