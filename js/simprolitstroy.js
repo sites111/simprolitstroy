@@ -317,7 +317,6 @@ function getCatalogProjects(){
 	  alert( 'Ошибка ' + this.status );
 	}
 	xhr.send();
- 
 }
 
 function projectBlockFill(count_max){
@@ -350,9 +349,10 @@ function clickMoreProjects(){
 	projectsCountMax += 9;
 	projectBlockFill(projectsCountMax);
 } 	
-		var fileName = 'file.file';
-		var inputElement = document.getElementById("inputFile");
-		inputElement.addEventListener("change", handleFiles, false);
+
+var fileName = 'file.file';
+var inputElement = document.getElementById("inputFile");
+inputElement.addEventListener("change", handleFiles, false);
 
 function handleFiles() {
 	const fileList = this.files; /* now you can work with the file list */
@@ -361,35 +361,60 @@ function handleFiles() {
 		//	console.log('Загрузка файла: ' + file['name'] + ' ' + file['size'] + ' ' + file['type']);
 
 	var data = new FormData();
-			data.append("inputfile", this.files[0], this.files[0]['name']);
+	data.append("inputfile", this.files[0], this.files[0]['name']);
 
-			setFileNameText(this.files[0]['name']);
+	setFileNameText(this.files[0]['name']);
 			
-			fileName = this.files[0]['name'];
+	fileName = this.files[0]['name'];
 
-			var xhr = new XMLHttpRequest();
-			xhr.withCredentials = true;
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+/*
+	xhr.addEventListener("readystatechange", function() {
+		if(this.readyState === 3) {
+			console.log('загрузка' + xhr.responseText.length);
+		}
+		if(this.readyState === 4) {
+			var responseBody = this.responseText;
+			console.log(responseBody);
+			setFileUploadStatus(this.responseText);
+			var jsonResponse = JSON.parse(responseBody);
+			setFileUploadedLink(jsonResponse['link']);
+			fileURL = jsonResponse['link'];
+		}
+		else {
+			setFileUploadStatus(this.responseText);
+		}
+	}); */
+	xhr.open("POST", "https://simprolitstroy.ru/api/input.php", true);   
+	xhr.onload = function() {
+		var responseBody = this.responseText;
+		console.log(responseBody);
+		setFileUploadStatus(this.responseText);
+		var jsonResponse = JSON.parse(responseBody);
+		setFileUploadedLink(jsonResponse['link']);
+		fileURL = jsonResponse['link'];
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.setRequestHeader("Content-Type", "multipart/form-data");
+	xhr.send(data); 
+}  
 
-			xhr.addEventListener("readystatechange", function() {
-			  if(this.readyState === 3) {
-			    console.log('загрузка' + xhr.responseText.length);
-			  }
-			  if(this.readyState === 4) {
-			  	var responseBody = this.responseText;
-			    console.log(responseBody);
-			    setFileUploadStatus(this.responseText);
-			    var jsonResponse = JSON.parse(responseBody);
-			    setFileUploadedLink(jsonResponse['link']);
-			    fileURL = jsonResponse['link'];
-			  }
-			  else {
-			    setFileUploadStatus(this.responseText);
-			  }
-			}); 
-			xhr.open("POST", "https://simprolitstroy.ru/api/input.php");   
-			xhr.setRequestHeader("Content-Type", "multipart/form-data");
-			xhr.send(data); 
-		}  
+/*
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?v="+Date());
+	xhr.onload = function() {
+	    projectsCatalogArray = this.responseText;
+		projectBlockFill(projectsCountMax);
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.send();
+*/
 
 		function cropTextFile(text){
 			var sliced = text.slice(0,15);

@@ -1,6 +1,7 @@
 <?php
 	header('Content-Type: application/json');
-	header('Access-Control-Allow-Origin: http://example.com/');
+	header("Access-Control-Allow-Origin: *");
+	header("Access-Control-Allow-Headers: *");
 	$result = array();
 	if(isset($_FILES)){ // Проверяем, загрузил ли пользователь файл
 		$destiation_dir = 'downloads/'.$_FILES['inputfile']['name']; // Директория для размещения файла
