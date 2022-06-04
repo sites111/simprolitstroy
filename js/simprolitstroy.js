@@ -456,17 +456,17 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 										<div class="row row-cols-1 row-cols-md-1 row-cols-xl-2 g-0">
 											<div class="col ">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="resize.svg">Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)}</div>
+													<div class="pt-2"><img class="icon" src="icons/размердома.svg" style="height: 20px; fill: blue;">Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)}</div>
 												</div>
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="rooms.svg">Этажей: ${toFixed(parseFloat(levels),1)}</div>
+													<div class="pt-2"><img class="icon" src="icons/этажей.svg" style="height: 20px;">Этажей: ${toFixed(parseFloat(levels),1)}</div>
 												</div>
 											</div>
 											<div class="col">
 												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="resize2.svg">Площадь: ${toFixed(parseFloat(square),1)} м²</div>
+													<div class="pt-2"><img class="icon" src="icons/площадь.svg" style="height: 20px;">Площадь: ${toFixed(parseFloat(square),1)} м²</div>
 												</div>
 											</div> 
 										</div>
