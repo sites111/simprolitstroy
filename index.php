@@ -14227,7 +14227,7 @@ color: #000000;
                                     <div class="col col-lg-4">
                                         <input id="inputIpotekaName" class="namer" type="text" placeholder="Ваше имя" size="40" style="border: 1px solid #fff!important;">
                                     </div>
-                                    <div class="col col-lg-4"> 
+                                    <div class="col col-lg-4 pb-5"> 
                                         <input id="inputIpotekaPhone" class="number t-input js-tilda-rule js-tilda-mask" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="border: 1px solid #fff!important;">
                                     </div>
                                     <div class="col col-lg-3">
