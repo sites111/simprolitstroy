@@ -393,3 +393,10 @@ color: #000000;
 .bg-none{
     background:none;
 }
+
+
+.border-success{
+
+    border-color: #8ED834 !important;
+}
+

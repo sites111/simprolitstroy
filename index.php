@@ -2777,7 +2777,7 @@
                     data-field-width-res-320-value="153" data-field-axisy-value="top" data-field-axisx-value="left"
                     data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
                     data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890193389"><u>Звоните, мы на связи</u></div>
+                    <div class="tn-atom " field="tn_text_1652890193389"><u>Звоните, мы на связи</u></div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652890154364" data-elem-id="1652890154364"
                     data-elem-type="text" data-field-top-value="28" data-field-top-res-960-value="28"
@@ -2787,7 +2787,7 @@
                     data-field-left-res-320-value="118" data-field-width-value="182" data-field-axisy-value="top"
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652890154364"><a href="tel:+7 (843) 212 61-77" style="color: #fff;">+7 (843) 212 61-77</a></div>
+                    <div class="tn-atom user-select-all" field="tn_text_1652890154364"><a href="tel:+7 (843) 212 61-77" style="color: #fff;" class="user-select-all">+7 (843) 212 61-77</a></div>
                     
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4482064821652977244961" data-elem-id="1652977244961"
@@ -19409,7 +19409,7 @@ color: #000000;
                     data-field-left-res-320-value="91" data-field-width-value="132" data-field-axisy-value="top"
                     data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
                     data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
-                    <div class="tn-atom" field="tn_text_1652912781213">Почта:<br><a href="mailto:info@simprolitstroy.ru" style="color: #000; text-decoration: none">info@simprolitstroy.ru</a></div>
+                    <div class="tn-atom " field="tn_text_1652912781213 ">Почта:<br><a class="user-select-all" href="mailto:info@simprolitstroy.ru" style="color: #000; text-decoration: none">info@simprolitstroy.ru</a></div>
                 </div>
                 <div class="t396__elem tn-elem tn-elem__4484250781652910946421" data-elem-id="1652910946421"
                     data-elem-type="image" data-field-top-value="893" data-field-top-res-960-value="860"
