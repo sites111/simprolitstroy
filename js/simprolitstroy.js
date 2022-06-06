@@ -189,13 +189,30 @@ function onClickSendModal(){
 	nameElement.style.border = "1px solid #fff";
 	
 	$('#exampleModal').modal('hide');
-	$('#successModal').modal('show');
+	successModalShow();
 }
+
+$(document).ready(function(){
+    $("#exampleModal").on('hide.bs.modal', function () {
+       console.log('exampleModal hide');
+		showMobFixedButtomButton();
+    });
+    $("#successModal").on('hide.bs.modal', function () {
+       console.log('successModal hide');
+		showMobFixedButtomButton();
+    });
+});
 
 function modalSow(title){
 	document.getElementById('exampleModalLabel').innerHTML = title;
 	$('#exampleModal').modal('show');
 	formName = title.replace('?','');
+	hideMobFixedButtomButton();
+}
+
+function successModalShow(){
+	$('#successModal').modal('show');
+	hideMobFixedButtomButton();
 }
 
 function onClickGetSmeta(){
@@ -237,7 +254,7 @@ function onClickGetSmeta(){
 	nameElement.style.border = "1px solid #fff";
 	fileLabelElement.style.border = "1px solid #8ED834";
 	
-	$('#successModal').modal('show');
+	successModalShow();
 }
 
 function onClickSendQuiz(){
@@ -271,7 +288,7 @@ function onClickSendQuiz(){
 	phoneElement.style = "border: 1px solid #fff!important";
 	nameElement.style = "border: 1px solid #fff!important";
 	quizLoad(0);
-	$('#successModal').modal('show');
+	successModalShow();
 }
 
 function onClickSendFormIpoteka(){
@@ -302,7 +319,28 @@ function onClickSendFormIpoteka(){
 	nameElement.value = "";
 	phoneElement.style.border = "1px solid #fff";
 	nameElement.style.border = "1px solid #fff";
-	$('#successModal').modal('show');
+	successModalShow();
+}
+
+function hideMobFixedButtomButton(){
+	document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: none!important';
+}
+
+function showMobFixedButtomButton(){
+	document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: flex!important';
+}
+
+let inputs = document.getElementsByTagName('input');
+
+for (let input of inputs) {
+	input.onblur = function() {
+		console.log('onblur');
+		document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: flex!important';
+	};
+	input.onfocus = function() {
+		console.log('onfocus');
+		document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: none!important';
+	};
 }
 
 function getCatalogProjects(){ 
@@ -444,11 +482,24 @@ function toFixed(value, precision) {
     return String(Math.round(value * power) / power);
 }
 
+function clickProject(name){
+	var link = `${location.protocol}//${window.location.hostname}/${name}`;
+
+	if(window.location.hostname == 'localhost'){
+		link = `${window.location}${name}`;
+		alert(link);
+	}
+
+	link = link.replace(' ','%20');
+	location=link;
+	document.location.href=link;
+}
+
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `
 							<div class="col">
 								<div class="card row-cols-1 h-100">
-									<img src="${image}" class="rounded-4" onclick="modalSow('Заинтересовал проект ${name}?');" style="cursor:pointer; border-radius: 0px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 270px; object-fit: cover;">
+									<img src="${image}" class="rounded-4" onclick="return clickProject('${name}');" style="cursor:pointer; border-radius: 0px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 270px; object-fit: cover;">
 									<div class="card-body">
 										<h5 class="card-title pt-4">${name}</h5>
 									</div>
@@ -769,12 +820,12 @@ function createQuizPageForm(ask){
                                         </div>
                                         <div class="">
                                             <label for="" class="form-label"></label>
-                                            <input id="inputQuizPhone" type="tel" name="Phone" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" class="t-input form-control p-4"
+                                            <input id="inputQuizPhone" type="tel" name="Phone" size="40" onfocus="hideMobFixedButtomButton();" onblur="showMobFixedButtomButton();" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" class="t-input form-control p-4"
                                                 placeholder="Введите телефон">
                                         </div>
                                         <div class="">
                                             <label for="" class="form-label"></label>
-                                            <input id="inputQuizName" type="name" class="t-input form-control p-4" name="" id="" aria-describedby="emailHelpId"
+                                            <input id="inputQuizName" type="name" class="t-input form-control p-4" onfocus="hideMobFixedButtomButton();" onblur="showMobFixedButtomButton();" name="" id="" aria-describedby="emailHelpId"
                                                 placeholder="Введите имя">
                                         </div>
                                         <button onclick="onClickSendQuiz();" class="btn-successs w-100 p-4 mt-3 text-light">Получить расчёт</button>

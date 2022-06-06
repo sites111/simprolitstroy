@@ -19,9 +19,9 @@ php_value upload_max_filesize 500M
 # Максимально разрешённое количество одновременно загружаемых файлов
 php_value max_file_uploads 10
 
-RewriteEngine on   
-RewriteCond %{ENV:HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [NC,R=301,L]
+# RewriteEngine on   
+# RewriteCond %{ENV:HTTPS} !on
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [NC,R=301,L]
 
 SetEnvIfNoCase User-Agent "^Black Hole" bad_bot
 SetEnvIfNoCase User-Agent "^Titan" bad_bot
@@ -129,6 +129,16 @@ Order Allow,Deny
 Allow from all
 Deny from env=bad_bot
 </limit>
+
+Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+RewriteRule ^(.*)$ ./projects/index.php?name=$1 
+
+ErrorDocument 404 https://simprolitstroy.ru
 
 <IfModule mod_deflate.c>
   <FilesMatch "\.(css|js|x?html?|php)$">
