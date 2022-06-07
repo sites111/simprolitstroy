@@ -136,7 +136,7 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
  
-RewriteRule ^(.*)$ ./projects/index.php?name=$1 
+RewriteRule ^(.*)$ ./project.php?name=$1 
 
 ErrorDocument 404 https://simprolitstroy.ru
 
