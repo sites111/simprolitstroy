@@ -6,6 +6,8 @@ var galleryArray = null;
 
 var fileURL = null;
 
+var modalOpenStatus = false;
+
 var formName = "Нет данных";
 
 const MESSENGER_PHONE = 0;
@@ -196,10 +198,22 @@ $(document).ready(function(){
     $("#exampleModal").on('hide.bs.modal', function () {
        console.log('exampleModal hide');
 		showMobFixedButtomButton();
+		modalOpenStatus = false;
     });
     $("#successModal").on('hide.bs.modal', function () {
        console.log('successModal hide');
 		showMobFixedButtomButton();
+		modalOpenStatus = false;
+    });
+    $("#exampleModal").on('show.bs.modal', function () {
+       console.log('exampleModal show');
+		hideMobFixedButtomButton();
+		modalOpenStatus = true;
+    });
+    $("#successModal").on('show.bs.modal', function () {
+       console.log('successModal show');
+		hideMobFixedButtomButton();
+		modalOpenStatus = true;
     });
 });
 
@@ -210,7 +224,7 @@ function modalSow(title){
 	hideMobFixedButtomButton();
 }
 
-function successModalShow(){
+function successModalShow(){ 
 	$('#successModal').modal('show');
 	hideMobFixedButtomButton();
 }
@@ -335,13 +349,19 @@ let inputs = document.getElementsByTagName('input');
 for (let input of inputs) {
 	input.onblur = function() {
 		console.log('onblur');
-		document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: flex!important';
+		if(!modalOpenStatus) document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: flex!important';
 	};
 	input.onfocus = function() {
 		console.log('onfocus');
 		document.getElementById('mobFixedBottomsPhoneWhatsApp').style = 'display: none!important';
 	};
 }
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 2000) {
+    	showMobFixedButtomButton();
+    }
+});
 
 function getCatalogProjects(){ 
  	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
@@ -361,6 +381,9 @@ function projectBlockFill(count_max){
 	var count = 0;
 	var projectBlockElementContent = '';
 	let jsonObjectParse = JSON.parse(projectsCatalogArray);
+	if(count_max >= jsonObjectParse.length) {
+		document.getElementById('btnMoreProjects').style.display = "none";
+	}
 	for (var i = 0; i < jsonObjectParse.length; i++) { 
 		if(count >= count_max) break;
 		if(jsonObjectParse[i]['image'] == null) continue;
@@ -376,9 +399,6 @@ function projectBlockFill(count_max){
 			jsonObjectParse[i]['length']
 		);
 		count++;
-	}
-	if(count >= jsonObjectParse.length) {
-		document.getElementById('btnMoreProjects').style.display = "none";
 	}
 	document.getElementById('projects_block').innerHTML = projectBlockElementContent;
 }
@@ -495,11 +515,11 @@ function clickProject(name){
 	document.location.href=link;
 }
 
-function createProject(id, name, image, price, square, levels, rooms, width, length){
+function createProject(id, name, image, price, square, levels, rooms, width, length){//onclick="return clickProject('${name}');"
 	return `
 							<div class="col">
 								<div class="card row-cols-1 h-100">
-									<img src="${image}" class="rounded-4" onclick="return clickProject('${name}');" style="cursor:pointer; border-radius: 0px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 270px; object-fit: cover;">
+									<img src="${image}" class="rounded-4" onclick="modalSow('Заинтересовал проект ${name}?');" style="cursor:pointer; border-radius: 0px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 270px; object-fit: cover;">
 									<div class="card-body">
 										<h5 class="card-title pt-4">${name}</h5>
 									</div>

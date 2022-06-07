@@ -2533,7 +2533,7 @@
 
             <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
 
-                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2">
+                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2" style="display: none!important">
                    <div class="col">
                        <a href="tel:+7 (843) 212 61-77">
                        <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
