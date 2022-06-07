@@ -82,9 +82,9 @@ alert(`Вопрос 1/1: ${quizArray[1]['ask']}`);
 alert(`Ответ ${quizArray[1]['responses'][2]}`);
 */
 
-getCatalogProjects();
-getGallery();
-quizLoad(0);
+//quizLoad(0);
+//getCatalogProjects();
+//getGallery();
 
 function sendAmoCRM(phone, name, comment){
 	ym(88965053,'reachGoal','lead');

@@ -19,7 +19,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
-    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('js/simprolitstroy.js'); ?>">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('css/style.css'); ?>">
     <script src="js/tilda-fallback-1.0.min.js" charset="utf-8" async></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -58,6 +58,9 @@
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+
+    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
+
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
     <script type="text/javascript">(function () {
             if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
@@ -5248,7 +5251,12 @@
                     
                 </section>
         </div> 
-    </div>
+    </div> 
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        quizLoad(0);
+    });
+</script>
     <div id="rec448330549" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
         <style>
@@ -7162,7 +7170,7 @@
                 <h1 class="f pb-4">Проекты</h1>
                
                 <div id="projects_block" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-2 ">
-                    <div class="col" style="">
+                    <!--<div class="col" style="">
                         <div class="card row-cols-1 h-100">
                             <img src="image.png" style="border-radius: 20px;" class="rounded-4">
                             <div class="card-body">
@@ -7200,18 +7208,19 @@
                                 <div class="p-3 border-top border-success pt-4 full">ПОДРОБНЕЕ</div>
                             </div>
                         </div>
-                    </div> 
+                    </div> -->
                 </div>
+
                 <div class="w-100 pt-4 mx-auto d-flex justify-content-center">
                     <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
                 </div>
             </div>
         </section>
-        <script>t_onReady(function () {
-                t_onFuncLoad('t396_init', function () {
-                    t396_init('448333531');
-                });
-            });</script><!-- /T396 -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                getCatalogProjects();
+            });
+        </script>
     </div>
     <div id="rec448337565" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
@@ -7223,15 +7232,15 @@
 				<div class="div p-2">
 				<h1 class="f pb-4">Галерея</h1>
                 <div id="galleryFirstBox" class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
+                    <!--<div class="col">
                         <img class="w-100" src="one.webp">
                     </div>
                     <div class="col">
                         <img class="w-100" src="two.webp">
-                    </div>
+                    </div>-->
                 </div>
                 <div id="gallerySecondBox" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-3">
-                    <div class="col"> 
+                    <!--<div class="col"> 
                         <img class="w-100" src="three.webp">
                     </div>
                     <div class="col"> 
@@ -7242,7 +7251,7 @@
                     </div>
                     <div class="col"> 
                         <img class="w-100" src="six.webp">
-                    </div>
+                    </div>-->
 				</div>
             </div>
 			<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
@@ -7258,15 +7267,15 @@
 			<div class="div">
 			<h1 class="f pb-4">Галерея</h1>
 			<div id="galleryMobFirstBox" class="row row-cols-1 row-cols-md-2 g-4">
-				<div class="col">
+				<!--<div class="col">
 					<img class="w-100" src="one.webp">
 				</div>
 				<div class="col">
 					<img class="w-100" src="two.webp">
-				</div>
+				</div>-->
 			</div>
 			<div id="galleryMobSecondBox" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-3">
-				<div class="col"> 
+				<!--<div class="col"> 
 					<img class="w-100" src="three.webp">
 				</div>
 				<div class="col"> 
@@ -7277,7 +7286,7 @@
 				</div>
 				<div class="col"> 
 					<img class="w-100" src="six.webp">
-				</div>
+				</div>-->
 			</div>
 		</div>
 		<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
@@ -7286,11 +7295,11 @@
 	</div>
 </section>
         </div>
-        <script>t_onReady(function () {
-                t_onFuncLoad('t396_init', function () {
-                    t396_init('448337565');
-                });
-            });</script><!-- /T396 -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                getGallery();
+            });
+        </script>
     </div>
     <div id="rec448338964" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
@@ -19707,23 +19716,5 @@ color: #000000;
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   
-  
-        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
-        <!— Yandex.Metrika counter —>
-        <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(88965053, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-        });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/88965053" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!— /Yandex.Metrika counter —>
     </body>
 </html>

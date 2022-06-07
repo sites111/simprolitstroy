@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('css/style.css'); ?>">
+    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
+    <link rel="icon" href="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" type=" image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Document</title>
+    <title><?php echo $_GET['name']; ?></title>
     <style>
       .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1190px !important;
-} 
+        max-width: 1190px !important;
+      } 
     </style>
 </head>
 <body>
-
-
-
-  <div class="header bg-dark" style="background-image: url(bg.png)  ">
+  <div class="header bg-dark" style="background-image: url(images/header_bg.jpg)  ">
     <nav class="navbar navbar-expand-lg navbar-light w-100 h-100 " style=" padding-top: 0 !important;">
      
       <div class="container w-100 ">
@@ -28,7 +28,7 @@
           <div class="col-6 col-sm-3  col-md-2 col-lg-2 col-xl-4 col-xxl-4  d-lg-none d-xl-block ">
             <div class="row gx-lg-0 gx-xl-1 ">
               <div class="col-auto">
-                <a class="navbar-brand text-light" href="#">
+                <a class="navbar-brand text-light" href="/">
                   <img class="" src="images/Group 1.svg"  alt="">
                  </a>
               </div>
@@ -547,82 +547,13 @@
   </div>
 </div>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                getCatalogProjects();
+            });
+        </script>
 
-
-
-
-
-
-    
-             
-
-            
-<div class="footer bg-dark w-100 relative-bottom">
-  <div class="container pt-4 ">
-      <ul class="nav  nav-fill  pb-4 "  style="display: flex !important;  margin: 0 !important; ">
-          <li class="nav-item">
-            <a   class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448276217" >ПРОЕКТЫ ДОМОВ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448337565" >ГАЛЕРЕЯ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448407412" >ОТЗЫВЫ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448415236" >НАША КОМАНДА</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448330549" >О НАШЕЙ ТЕХНОЛОГИИ</a>
-          </li>
-      </ul>
-
-
-      <footer class="row row-cols-sm-5 py-4 border-top text-light">
-          <div class="col">
-            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-              <img src="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" alt="">
-            </a>
-            <p class="text-muted">© 2021</p>
-          </div>
-      
-          <div class="col d-none d-sm-block">
-      
-          </div>
-      
-          <div class="col">
-            <h5>Информация</h5>
-            <ul class="nav flex-column" style="padding-top: 15px;">
-              <li class="nav-item mb-2 text-muted"></li>
-              <li class="nav-item mb-2 text-muted"></li> 
-            </ul>
-          </div>
-      
-          <div class="col">
-            <h5>Документы</h5>
-            <ul class="nav flex-column" style="padding-top: 15px;">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Политики конфиденциальности</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Экологические сертификаты</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Карточка предприятия</a></li>
-            </ul>
-          </div>
-      
-          <div class="col">
-            <h5>Ссылки</h5>
-            <ul class="nav flex-column" style="padding-top: 15px;">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наш Instagram</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наша группа ВКонтакте</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Мы в Telegram</a></li>
-            </ul>
-          </div>
-        </footer>
-  </div>
-
-        
-    </div>
-
-
- 
+      <?php include "layouts/footer.php"; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
