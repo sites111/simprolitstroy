@@ -1,4 +1,3 @@
-<!-- Modal -->
 <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen w-75 ">
     <div class="modal-content bg-dark text-light">
@@ -11,7 +10,7 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <span class="h5 ">ПРОЕКТЫ ДОМОВ</span>
+            <span class="h5 ">ПРОЕКТЫ ДОМОВ333</span>
             <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
 
             <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
@@ -100,4 +99,3 @@
     </div>
   </div>
 </div>
-    

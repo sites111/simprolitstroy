@@ -59,7 +59,7 @@
     });
   </script>
 <?php
-  require 'layouts/header_page.php';
+  include 'layouts/header_page.php';
 ?>
 
 

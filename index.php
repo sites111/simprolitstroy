@@ -113,7 +113,7 @@
 <body class="t-body" style="margin:0;"> 
 
 <?php
-  require 'layouts/header_dom.php';
+  include 'layouts/header_dom.php';
 ?>
 
       
