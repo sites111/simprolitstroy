@@ -640,10 +640,11 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `      <div class="col">
         
-        <div class="card " style="background: #FFFFFF;
+        <div class="card h-100" style="background: #FFFFFF;
         box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
         border-radius: 18px !important; border: none;">
-        <img src="image 13.png" style="border-radius: 18px;" alt="">
+        <img src="${image}" style="border-radius: 0px; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; border-top-right-radius: 20px;" 
+        	onclick="return clickProject('${name}');" class="h-100" alt="">
         <div class="p-3">
           <span class="pb-3" style="font-family: 'Montserrat';
           font-style: normal;
@@ -651,7 +652,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
           font-size: 25px;
           line-height: 30px;
           
-          color: #383936;">“Дом11”</span>
+          color: #383936;">${name}</span>
 
           <div class="row row-cols-2 p-3 gy-3 pb-4">
             <div class="col">
@@ -660,7 +661,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
                   <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
                 </div>
                 <div class="col">
-                  <span>Размеры: 16х12</span>
+                  <span>Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)} м</span>
                 </div>
               </div>
               
@@ -672,7 +673,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
                   <img class="w-100" style="max-width:20px;" src="icons/этажей.svg" alt="">
                 </div>
                 <div class="col">
-                  <span>Этажей: 6</span>
+                  <span>Этажей: ${toFixed(parseFloat(levels),1)}</span>
                 </div>
               </div>
              
@@ -685,7 +686,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
                   <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
                 </div>
                 <div class="col">
-                  <span>Площадь: 128.4 м²</span>
+                  <span>Площадь: ${toFixed(parseFloat(square),1)} м²</span>
                 </div>
               </div>
              
