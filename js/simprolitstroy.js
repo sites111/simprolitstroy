@@ -597,7 +597,7 @@ function toFixed(value, precision) {
     var power = Math.pow(10, precision || 0);
     return String(Math.round(value * power) / power);
 }
-
+/*
 function clickProject(name){
 	var link = `${location.protocol}//${window.location.hostname}/${name}`;
 
@@ -605,6 +605,18 @@ function clickProject(name){
 		link = `${window.location}${name}`;
 	//	alert(link);
 	}
+
+	link = link.replace(' ','%20');
+	location=link;
+	document.location.href=link;
+} 
+*/
+function clickProject(name){
+	var link = `https://simprolitstroy.ru/${name}`;
+
+/*	if(window.location.hostname == 'localhost'){
+		link = `${window.location}${name}`;
+	}*/
 
 	link = link.replace(' ','%20');
 	location=link;

@@ -58,8 +58,7 @@
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
-
-
+    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
     <script type="text/javascript">(function () {
             if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
@@ -2176,7 +2175,7 @@
         </div> 
     </div> 
 <script>
-    document.addEventListener("DOMContentLoaded", function(event) {
+    $(document).ready(function(){ 
         quizLoad(0);
     });
 </script>
@@ -4141,7 +4140,7 @@
             </div>
         </section>
         <script>
-            document.addEventListener("DOMContentLoaded", function(event) {
+            $(document).ready(function(){ 
                 getCatalogProjects();
             });
         </script>
@@ -4220,7 +4219,7 @@
 </section>
         </div>
         <script>
-            document.addEventListener("DOMContentLoaded", function(event) {
+            $(document).ready(function(){ 
                 getGallery();
             });
         </script>
@@ -16634,12 +16633,33 @@ color: #000000;
                 </div>
             </div>
         </div>
+        <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
+
+                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2" style="display: none!important">
+                   <div class="col">
+                       <a href="tel:+7 (843) 212 61-77">
+                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                       </a>
+                    </div>
+                   <div class="col">
+                    <a href="whatsapp://send?phone=78432126177">
+                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                    </a>
+                    </div>
+
+                </div>    
+
+            </div>
 
 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
+        <script>
+            quizLoad(0);
+            getCatalogProjects();
+            getGallery();
+        </script>
     </body>
 </html>

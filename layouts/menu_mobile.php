@@ -10,23 +10,22 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <span class="h5 ">ПРОЕКТЫ ДОМОВ333</span>
-            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
-
-            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
+            <a href="https://simprolitstroy.ru/#rec448276217" style="text-decoration: none !important; color: #fff;"><span class="h5">ПРОЕКТЫ ДОМОВ</span></a>
           </div>
           <div class="col-12">
-            <span class="h5">ПРОЕКТЫ ДОМОВ</span>
+            <span class="h5 ">СТРОЙМАТЕРИАЛЫ</span>
+            <li class=" nav-link text-light "><a class=" border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют пенобетонные блоки?');">Пенобетонные блоки</a> </li>
+            <li class=" nav-link text-light "><a class=" border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют полистеролбетонные блоки?');">Полистеролбетонные блоки</a> </li>
           </div>
           <div class="col-12">
-            <span class="h5">ПРОЕКТЫ ДОМОВ</span>
-          </div>
+            <a href="https://simprolitstroy.ru/" style="text-decoration: none !important; color: #fff;"><span class="h5">ДОКУМЕНТАЦИЯ</span></a>
+          </div> 
           <div class="col-12">
-            <span class="h5">ПРОЕКТЫ ДОМОВ</span>
-          </div>
+            <a href="https://simprolitstroy.ru/#rec448407412" style="text-decoration: none !important; color: #fff;"><span class="h5">ОТЗЫВЫ</span></a>
+          </div> 
           <div class="col-12">
-            <span class="h5">ПРОЕКТЫ ДОМОВ</span>
-          </div>
+            <a href="https://simprolitstroy.ru/#rec448425078" style="text-decoration: none !important; color: #fff;"><span class="h5">КОНТАКТЫ</span></a>
+          </div>  
         </div>
         
         
@@ -63,21 +62,17 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <span class="h5">УСЛУГИ ДОМОВ</span>
+            <span class="h5" onclick="modalSow('Интересует строительство под ключ?');">Строительство под ключ</span>
           </div>
           <div class="col-12">
-            <span class="h5">УСЛУГИ ДОМОВ</span>
+            <span class="h5" onclick="modalSow('Интересует утепление крыш?');">Утепление крыш</span>
           </div>
           <div class="col-12">
-            <span class="h5">УСЛУГИ ДОМОВ</span>
+            <span class="h5" onclick="modalSow('Интересует утепление полов?');">Утепление полов</span>
           </div>
           <div class="col-12">
-            <span class="h5">УСЛУГИ ДОМОВ</span>
-          </div>
-          <div class="col-12">
-            <span class="h5">УСЛУГИ ДОМОВ</span>
-          </div>
-          
+            <span class="h5" onclick="modalSow('Интересует утепление стен?');">Утепление стен</span>
+          </div>  
         </div>
         
         
