@@ -125,22 +125,92 @@
     </div>
     <!-- Button trigger modal -->
     <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
-     
-     Современный и уютный<br>дом в Казани и республике Татарстан<br>по цене <strong>20 000₽ за м2</strong>
-      <br><br>
-
+      <span style="    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;">
+     Современный и уютный<br>дом в Казани и республике Татарстан<br>по цене  <strong>20 000₽ за м2</strong>
+    </span>
+<br><br>
+<span style="    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;">
+    
     По индивидуальному проекту<br>и по
     нашим типовым проектам
-    <br><br>
+  </span>
 
-    Расчитать стоимость
-    <br><br>
+  <br>
 
-    - Загородные частные дома
-    <br><br>
-    - Коммерческая недвижимость
-    <br><br>
-    - Бани, гаражи и хозпостройки
+<button class="p-4 mt-4" style="    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-radius: 100px;
+    background-color: #8ed834;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+   
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}"><span style=" padding-right: 40px; padding-left: 40px;">Расчитать стоимость</span> </button>
+
+  <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mt-5 pb-4 g-3">
+    <div class="col">
+      <div class="card-first p-4" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
+          <div class="row">
+            <div class="col-auto">
+                <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="">
+            </div>
+            <div class="col">
+                <span style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
+                ">Загородные <br> частные дома</span>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card-first p-4" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
+          <div class="row">
+            <div class="col-auto">
+                <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="">
+            </div>
+            <div class="col">
+                <span style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
+                ">Бани, гаражи и <br> хозпостройки</span>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card-first p-4" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
+          <div class="row">
+            <div class="col-auto">
+                <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="">
+            </div>
+            <div class="col">
+                <span style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
+                ">Коммерческая <br> недвижимость</span>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
     </div>
 
 <!-- Modal -->
