@@ -125,13 +125,13 @@
     </div>
     <!-- Button trigger modal -->
     <div class="container  mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
-      <h1 style="    color: #ffffff;
+      <span style="    color: #ffffff;
     font-size: 45px;
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.55;
     font-weight: 400;">
      Современный и уютный<br>дом в Казани и республике Татарстан<br>по цене  <strong>20 000₽ за м2</strong>
-    </h1>
+    </span>
 <br><br>
 <span style="    color: #ffffff;
     font-size: 20px;
