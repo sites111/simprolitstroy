@@ -58,8 +58,7 @@
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
-
-
+    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
     <script type="text/javascript">(function () {
             if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
@@ -16657,8 +16656,7 @@ color: #000000;
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async>
+        <script>
             quizLoad(0);
             getCatalogProjects();
             getGallery();
