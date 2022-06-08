@@ -383,7 +383,7 @@
                 <br>
                 <span class="h1" id="projectPrice"></span>
                 <br>
-                <button class="mt-3 p-3 btn-successs" style=""><span style=" padding-left: 20px;
+                <button class="mt-3 p-3 btn-successs" onclick="modalSow('Интересует строительство под ключ?');"><span style=" padding-left: 20px;
                   padding-right: 20px;"> Заказать обратный звонок</span></button>
                 <div class="row row-cols-1 row-cols-md-3 g-2 mt-3">
                     <div class="col">
@@ -549,6 +549,107 @@
         </script>
 
       <?php include "layouts/footer.php"; ?>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
+            <div class="modal-content text-center p-2 w-100 pb-4"  style="max-width: 700px !important; border-radius: 20px;">
+             
+                
+
+                <div class="">
+                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#exampleModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
+
+                        <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
+                    </button>
+                <h1 class="text-center w-100 mt-1 " id="exampleModalLabel">Оставьте свои контакты</h1>
+                
+                </div>
+                <span class="mt-2 h5"><b>Оставьте контакты</b> и мы с вами свяжемся</span>
+               
+                <div class="modal-body p-4 mt-3">
+                    <div class="row row-cols-1 rol-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3 pb-4" style="justify-content: center;">
+                        <div class="col col-lg-12">
+                            <input id="inputFormName" onfocus="hideMobFixedButtomButton();" onblur="showMobFixedButtomButton();" class="namer" type="text" placeholder="Ваше имя" size="40" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
+                            border-radius: 20px;">
+                        </div> 
+                        <div class="col col-lg-12">
+                            <input id="inputFormPhone" onfocus="hideMobFixedButtomButton();" onblur="showMobFixedButtomButton();" class="number" type="tel" name="Phone" placeholder="Ваш номер" size="40" data-tilda-rule="phone" data-tilda-mask="+7(999) 999-9999" style="box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.04);
+                            border-radius: 20px;">
+                        </div>
+                    </div>
+                    <span class="p-3 mt-3 h5">Удобный способ связи</span>
+                    <div class="row row-cols-2 row-cols-lg-4 g-4 mt-1 ">
+                        
+                        <div class="col">
+                            <div id="formMessengerViber" class="contact-inactiv active h-100 " onclick="onClickFormMessenger(this, MESSENGER_VIBER);" style="cursor: pointer;">
+                                <div class="card-body text-center">
+                                    <div class="row g-2">
+                                            <div class="col-12">
+                                                    <img class="img-fluid" src="images/logos_whatsapp.png" alt="">
+                                            </div>
+                                            <div class="col-12">
+                                                <span>Viber</span>
+                                            </div>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="formMessengerWhatsApp" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_WHATSAPP);" style="cursor: pointer;">
+                                <div class="card-body text-center">
+                                    <div class="row g-2">
+                                        <div class="col-12">
+                                            <img class="img-fluid" src="images/logos_whatsapp-1.png" alt="">
+                                        </div>
+                                        <div class="col-12">
+                                            <span>Whatsapp</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="formMessengerTelegram" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_TELEGRAM);" style="cursor: pointer;">
+                                <div class="card-body text-center">
+                                    <div class="row g-2">
+                                        <div class="col-12">
+                                            <img class="img-fluid" src="images/logos_telegram.png" alt="">
+                                        </div>
+                                        <div class="col-12">
+                                            <span>Telegram</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="formMessengerPhone" class="contact-inactiv h-100 " onclick="onClickFormMessenger(this, MESSENGER_PHONE);" style="cursor: pointer;">
+                                <div class="card-body text-center">
+                                    <div class="row g-2">
+                                        <div class="col-12">
+                                            <img class="img-fluid" src="images/Frame 11.png" alt="">
+                                        </div>
+                                        <div class="col-12">
+                                            <span>Телефон</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="text-center mt-4">
+                            <button class="miniformbutton" onclick="return onClickSendModal();" type="submit">Отправить данные</button>
+                           
+                        </div>
+                  
+                </div>
+                
+            </div>
+            </div>
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

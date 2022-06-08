@@ -603,47 +603,14 @@ function clickProject(name){
 	location=link;
 	document.location.href=link;
 } 
-function createProject(id, name, image, price, square, levels, rooms, width, length){//onclick="return clickProject('${name}');"
-	return `
-							<div class="col">
-								<div class="card row-cols-1 h-100">
-									<img src="${image}" class="rounded-4" onclick="return clickProject('${name}');" style="cursor:pointer; border-radius: 0px; border-top-left-radius: 20px; border-top-right-radius: 20px; height: 270px; object-fit: cover;">
-									<div class="card-body">
-										<h5 class="card-title pt-4">${name}</h5>
-									</div>
-									<div class="row row-cols-1  row-cols-md-1 row-cols-lg-1 g-0">
-										<div class="row row-cols-1 row-cols-md-1 row-cols-xl-2 g-0">
-											<div class="col ">
-												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="icons/размердома.svg" style="height: 20px; fill: blue;">Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)}</div>
-												</div>
-											</div>
-											<div class="col">
-												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="icons/этажей.svg" style="height: 20px;">Этажей: ${toFixed(parseFloat(levels),1)}</div>
-												</div>
-											</div>
-											<div class="col">
-												<div class="vstack gap-3">
-													<div class="pt-2"><img class="icon" src="icons/площадь.svg" style="height: 20px;">Площадь: ${toFixed(parseFloat(square),1)} м²</div>
-												</div>
-											</div> 
-										</div>
-									</div> 
-									<div class="price desc">от ${number_format(price)} руб.</div>
-									<div class="card-bodys" style="cursor: pointer;">
-										<div class="p-3 border-top border-success pt-4 full" onclick="modalSow('Заинтересовал проект ${name}?');">ПОДРОБНЕЕ</div>
-									</div>
-								</div>
-							</div>`;
-} 
+ 
 function createProject(id, name, image, price, square, levels, rooms, width, length){
 	return `      <div class="col">
         
         <div class="card h-100" style="background: #FFFFFF;
         box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
         border-radius: 18px !important; border: none;">
-        <img src="${image}" style="border-radius: 0px; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; border-top-right-radius: 20px;" 
+        <img src="${image}" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; border-top-right-radius: 20px;" 
         	onclick="return clickProject('${name}');" class="h-100" alt="">
         <div class="p-3">
           <span class="pb-3" style="font-family: 'Montserrat';
@@ -661,7 +628,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
                   <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
                 </div>
                 <div class="col">
-                  <span>Размеры: ${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)} м</span>
+                  <span>Размеры: <br>${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)} м</span>
                 </div>
               </div>
               
@@ -686,7 +653,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
                   <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
                 </div>
                 <div class="col">
-                  <span>Площадь: ${toFixed(parseFloat(square),1)} м²</span>
+                  <span>Площадь: <br>${toFixed(parseFloat(square),1)} м²</span>
                 </div>
               </div>
              
