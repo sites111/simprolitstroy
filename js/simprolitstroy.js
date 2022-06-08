@@ -436,7 +436,8 @@ function setAdditionImages(images){
 	for(var i = 0; i < images.length; i++){
 		result += `<div class="col">
                       <span data-bs-target="#carouselId" data-bs-slide-to="${i}" ${i == 0 ? 'class="active"' : ""}>
-                                      <img class="w-100 img-carusel" src="${images[i]}" alt="">
+                                      <img class="w-100 img-carusel" style="max-height: 119.78px;
+    object-fit: cover;" src="${images[i]}" alt="">
                       </span> 
                     </div>`;
             //      alert(images[i]);
@@ -601,8 +602,7 @@ function clickProject(name){
 	link = link.replace(' ','%20');
 	location=link;
 	document.location.href=link;
-}
-
+} 
 function createProject(id, name, image, price, square, levels, rooms, width, length){//onclick="return clickProject('${name}');"
 	return `
 							<div class="col">
@@ -636,7 +636,90 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
 									</div>
 								</div>
 							</div>`;
+} 
+function createProject(id, name, image, price, square, levels, rooms, width, length){
+	return `      <div class="col">
+        
+        <div class="card " style="background: #FFFFFF;
+        box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
+        border-radius: 18px !important; border: none;">
+        <img src="image 13.png" style="border-radius: 18px;" alt="">
+        <div class="p-3">
+          <span class="pb-3" style="font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 30px;
+          
+          color: #383936;">“Дом11”</span>
+
+          <div class="row row-cols-2 p-3 gy-3 pb-4">
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Размеры: 16х12</span>
+                </div>
+              </div>
+              
+             
+            </div>
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/этажей.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Этажей: 6</span>
+                </div>
+              </div>
+             
+        
+       
+            </div>
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Площадь: 128.4 м²</span>
+                </div>
+              </div>
+             
+        
+       
+            </div>
+           
+          </div>
+		<div class="w-100 text-center">
+              <span class="w-100 text-center" style="font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 19px;
+              line-height: 23px;
+              
+              color: #6AA91B;"> 
+              от ${number_format(price)} руб.
+              </span>
+          </div>
+          
+        </div>
+        <span onclick="return clickProject('${name}');" class="p-4 text-center border-top border-2 border-success" style="font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        border-top: 1px solid #6AA91B !important;
+        line-height: 24px;
+       cursor: pointer;
+        color: #6AA91B;
+        ">Подробнее</span>
+        </div>
+      </div>`;
 }
+
 
 function getGallery(){
 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;

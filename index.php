@@ -7165,11 +7165,101 @@
 
         </style>
 
+<div class="container mt-4 p-4">
+  <h1 class="f pb-4">Проекты</h1>
+ 
+  <div id="projects_block1" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        
+        <div class="card " style="background: #FFFFFF;
+        box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
+        border-radius: 18px !important; border: none;">
+        <img src="image 13.png" style="border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;" alt="">
+        <div class="p-3">
+          <span class="pb-3" style="font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 30px;
+          
+          color: #383936;">“Дом”</span>
+
+          <div class="row row-cols-2 p-3 gy-3 pb-4">
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Размеры: 16х12</span>
+                </div>
+              </div>
+              
+             
+            </div>
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/этажей.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Этажей: 6</span>
+                </div>
+              </div>
+             
+        
+       
+            </div>
+            <div class="col">
+              <div class="row g-2">
+                <div class="col-auto">
+                  <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
+                </div>
+                <div class="col">
+                  <span>Площадь: 128.4 м²</span>
+                </div>
+              </div>
+             
+        
+       
+            </div>
+           
+          </div>
+          <div class="w-100 text-center">
+              <span class="w-100 text-center" style="font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 19px;
+              line-height: 23px;
+              
+              color: #6AA91B;"> 
+              от 5 000 000 руб.
+              </span>
+          </div>
+        </div>
+        <span class="p-4 text-center border-top border-2 border-success" style="font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        border-top: 1px solid #6AA91B !important;
+        line-height: 24px;
+       
+        color: #6AA91B;
+        ">Подробнее</span>
+        </div>
+      </div>
+        
+</div>
+</div>
+
         <section class="pt-5">
             <div class="container p-3">
                 <h1 class="f pb-4">Проекты</h1>
                
                 <div id="projects_block" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-2 ">
+
                     <!--<div class="col" style="">
                         <div class="card row-cols-1 h-100">
                             <img src="image.png" style="border-radius: 20px;" class="rounded-4">

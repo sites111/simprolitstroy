@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('css/style.css'); ?>">
     <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     <link rel="icon" href="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" type=" image/svg+xml">
@@ -449,10 +448,10 @@
     </div>
 </div>
 
-<div class="container mt-4">
+<div class="container mt-4 ">
   <h1 class="f pb-4">Проекты</h1>
  
-  <div id="projects_block" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4  ">
+  <div id="projects_block" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col">
         
         <div class="card " style="background: #FFFFFF;
