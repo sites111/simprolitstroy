@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('css/style.css'); ?>">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     <link rel="icon" href="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" type=" image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -14,6 +14,43 @@
         max-width: 1190px !important;
       } 
     </style>
+    <style>
+                    .namer, .number {
+                        color: #000;
+                        border: 1px solid #ffffff;
+                        background-color: #fff;
+                        border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        -webkit-border-radius: 20px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        height: 78px;
+                        padding-left: 25px;
+                        font-family: 'Montserrat';
+                        width: 100%;
+                    }
+
+                    .namer:focus, .number:focus {
+                        outline: none;
+                    }
+
+                    .miniformbutton {
+                        color: #fff;
+                        background-color: #8ed834;
+                        border-radius: 67px;
+                        font-family: Montserrat;
+                        font-weight: 500;
+                        font-size: 14px;
+                        width: 295px;
+                        height: 78px;
+                        border: none;
+                    }
+
+                    .headleadmini {
+                        font-family: 'Montserrat';
+                    }
+                </style>
+    <script src="js/jquery-1.10.2.min.js"></script>
 </head>
 <body>
   <script>
@@ -118,7 +155,7 @@
                 <br>
                 <span class="h1" id="projectPrice"></span>
                 <br>
-                <button class="mt-3 p-3 btn-successs" onclick="modalSow('Интересует строительство под ключ?');"><span style=" padding-left: 20px;
+                <button class="mt-3 p-3 btn-successs" onclick="modalSow('Заинтересовал проект <?php echo $_GET['name']; ?>?');"><span style=" padding-left: 20px;
                   padding-right: 20px;"> Заказать обратный звонок</span></button>
                 <div class="row row-cols-1 row-cols-md-3 g-2 mt-3">
                     <div class="col">
@@ -285,18 +322,18 @@
 
       <?php include "layouts/footer.php"; ?>
 
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
             <div class="modal-content text-center p-2 w-100 pb-4"  style="max-width: 700px !important; border-radius: 20px;">
              
                 
 
                 <div class="">
-                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#exampleModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
+                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#formModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
 
                         <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
                     </button>
-                <h1 class="text-center w-100 mt-1 " id="exampleModalLabel">Оставьте свои контакты</h1>
+                <h1 class="text-center w-100 mt-1 " id="formModalLabel">Оставьте свои контакты</h1>
                 
                 </div>
                 <span class="mt-2 h5"><b>Оставьте контакты</b> и мы с вами свяжемся</span>
@@ -385,6 +422,37 @@
             </div>
             </div>
         </div>
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="newleadModalLabelSuccess" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
+                <div class="modal-content text-center p-2 w-100"  style="max-width: 700px !important; border-radius: 20px;">
+                    <div class=""> 
+                        <button type="button" class="close w-100 text-right p-3 pb-3 " data-dismiss="modal" onclick="$('#successModal').modal('hide');" style="text-align: right; max-height: 50px; margin-top: -10px !important; background: none; border: none;">
+                            <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
+                        </button>
+                        <h1 class="modal-title text-center w-100 mt-3 " id="newleadModalLabelSuccess">Заявка успешно отправлена</h1>
+                    </div>
+                    <span class="mt-2 h5" style="padding-bottom: 50px;">Ожидайте, скоро мы с вами свяжемся</span>
+                </div>
+            </div>
+        </div>
+
+<div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
+
+                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2" style="display: none!important">
+                   <div class="col">
+                       <a href="tel:+7 (843) 212 61-77">
+                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                       </a>
+                    </div>
+                   <div class="col">
+                    <a href="whatsapp://send?phone=78432126177">
+                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                    </a>
+                    </div>
+
+                </div>    
+
+            </div>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>

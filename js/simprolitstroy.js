@@ -190,13 +190,13 @@ function onClickSendModal(){
 	phoneElement.style.border = "1px solid #fff";
 	nameElement.style.border = "1px solid #fff";
 	
-	$('#exampleModal').modal('hide');
+	$('#formModal').modal('hide');
 	successModalShow();
 }
 
-$(document).ready(function(){
-    $("#exampleModal").on('hide.bs.modal', function () {
-       console.log('exampleModal hide');
+$(document.ready(function(){
+    $("#formModal").on('hide.bs.modal', function () {
+       console.log('formModal hide');
 		showMobFixedButtomButton();
 		modalOpenStatus = false;
     });
@@ -205,8 +205,8 @@ $(document).ready(function(){
 		showMobFixedButtomButton();
 		modalOpenStatus = false;
     });
-    $("#exampleModal").on('show.bs.modal', function () {
-       console.log('exampleModal show');
+    $("#formModal").on('show.bs.modal', function () {
+       console.log('formModal show');
 		hideMobFixedButtomButton();
 		modalOpenStatus = true;
     });
@@ -215,11 +215,11 @@ $(document).ready(function(){
 		hideMobFixedButtomButton();
 		modalOpenStatus = true;
     });
-});
+}));
 
 function modalSow(title){
-	document.getElementById('exampleModalLabel').innerHTML = title;
-	$('#exampleModal').modal('show');
+	document.getElementById('formModalLabel').innerHTML = title;
+	$('#formModal').modal('show');
 	formName = title.replace('?','');
 	hideMobFixedButtomButton();
 }
