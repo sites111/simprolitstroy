@@ -17,6 +17,11 @@
     </style>
 </head>
 <body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      getProject('<?php echo $_GET['name']; ?>');
+    });
+  </script>
   <div class="header bg-dark" style="background-image: url(images/header_bg.jpg)  ">
     <nav class="navbar navbar-expand-lg navbar-light w-100 h-100 " style=" padding-top: 0 !important;">
      
@@ -299,13 +304,8 @@
             <div class="col">
               <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
              
-                <div class="carousel-inner" role="listbox" style="border-radius: 15px;" >
-                  <div class="carousel-item active " data-toggle="modal" data-target="#caruselModal">
-                    <img  src="https://фабрика-каркасов.рф/wp-content/uploads/2022/02/flat_ekp_17.jpg" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                   
-                    </div>
-                  </div>
+                <div id="carouselElement" class="carousel-inner" role="listbox" style="border-radius: 15px;" >
+                  <!--
                   <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
                     <img  src="https://фабрика-каркасов.рф/wp-content/uploads/2022/04/gelenjik01-600x338.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
@@ -320,12 +320,12 @@
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" style="">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Далее</span>
                   </button>
                   <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next" style="">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
+                    <span class="visually-hidden">Назад</span>
+                    </button> -->
                 </div>
                
         <!-- Modal -->
@@ -341,7 +341,7 @@
   </div>
 </div>
             
-                  <div class="row row-cols-3 mt-1 g-3 ">
+                  <div class="row row-cols-3 mt-1 g-3 " id="carouseladditionimages">
                     <div class="col">
                       <span data-bs-target="#carouselId" data-bs-slide-to="0" class="active">
                                       <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/02/flat_ekp_17.jpg" alt="">
@@ -376,17 +376,13 @@
             </div>
 
             <div class="col">
-                <span class="h2">
-                    «Flat house» экспл. кровля
-                </span>
+                <span class="h2" id="projectName"></span>
                 <br> <br>
                 <span class="h4 text-secondary">
-                    Стоимость металлокаркаса от:
+                    Стоимость проекта от:
                 </span>
                 <br>
-                <span class="h1">
-                    931,000₽
-                </span>
+                <span class="h1" id="projectPrice"></span>
                 <br>
                 <button class="mt-3 p-3 btn-successs" style=""><span style=" padding-left: 20px;
                   padding-right: 20px;"> Заказать обратный звонок</span></button>
@@ -423,7 +419,7 @@
                     </span>      
                 </div>
 
-                <span>
+                <span id="projectDescription">
                     Проект «Flat house» с эксплуатируемой кровлей.
 
                     Общая площадь71,5 м2
@@ -438,11 +434,11 @@
 
                 <br><br>
 
-                <span class="h2 ">
+                <span class="h2 " style="display: none;"> 
                     В стоимость входит:
                 </span>
                 <br>
-                <span>
+                <span style="display: none;">
                     Каркас внешних стен в соответствии с СП 260.1325800.2016
                     Каркас внутренних перегородок
                     Каркас стропильной системы

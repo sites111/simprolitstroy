@@ -377,6 +377,94 @@ function getCatalogProjects(){
 	xhr.send();
 }
 
+function getProject(name){ 
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+	xhr.open("GET", `https://simprolitstroy.ru/api/mysql/project_get.php?name=${name}&v=${Date()}`);
+	xhr.onload = function() { 
+		setProjectCart(JSON.parse(this.responseText));
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.send();
+}
+
+/*
+{"data":
+{"id":"1",
+"image":"https:\/\/simprolitstroy.ru\/api\/gallery\/K1\/8566c9e0dfc7d9f8dde632cf962bd0fc.jpg",
+"name":"Проект К-1",
+"price":"1746000",
+"square":"97",
+"levels":"1",
+"rooms":"0",
+"description":"Дом размерами в осях 8,15х11,9 с интересным \r\nпланирововчным решением рассчитан на большую \r\nсемью. В доме расположены просторная кухня-гостиная с выходом на веранду, три просторные \r\nкомнаты, гардеробная и постирочная, а также \r\nпомещения санитарно-технического назначения.\r\n\r\nЭкспликация 1-го этажа\r\n01 Тамбур\r\n02 С\/у\r\n03 Кухня\r\n04 Гостиная\r\n05 Ванная\r\n06 Спальня\r\n07 Детская 1\r\n08 Детская 2\r\n09 Коридор",
+"width":"8.15",
+"length":"11.9"},
+"images":[{"url":"qwgqwgqwgqwg"}]}
+*/
+
+function setProjectCart(project){
+	let images = new Array();
+	images.push(project['data']['image']);
+
+	for(var i = 0; i < project['images'].length; i++){
+		images.push(project['images'][i]['url']);
+	}
+	var projectName = project['data']['name'];
+	var projectPrice = project['data']['price'];
+	var projectSquare = project['data']['square'];
+	var projectLevels = project['data']['levels'];
+	var projectDescription = project['data']['description'];
+	var projectWidth = project['data']['width'];
+	var projectLength = project['data']['length'];
+
+	document.getElementById('projectName').innerHTML = projectName;
+	document.getElementById('projectPrice').innerHTML = `${number_format(projectPrice)}₽`;
+	document.getElementById('projectDescription').innerHTML = projectDescription;
+//number_format
+
+
+//	alert(images);
+	setCarouselImages(images);
+	setAdditionImages(images);
+}
+
+function setAdditionImages(images){
+	var result = "";
+	for(var i = 0; i < images.length; i++){
+		result += `<div class="col">
+                      <span data-bs-target="#carouselId" data-bs-slide-to="${i}" ${i == 0 ? 'class="active"' : ""}>
+                                      <img class="w-100 img-carusel" src="${images[i]}" alt="">
+                      </span> 
+                    </div>`;
+            //      alert(images[i]);
+	}
+	document.getElementById('carouseladditionimages').innerHTML = result;
+}
+
+function setCarouselImages(images){
+	var result = "";
+	for(var i = 0; i < images.length; i++){
+		result += `<div class="carousel-item ${i == 0 ? 'active' : ""} " data-toggle="modal" data-target="#caruselModal">
+                    <img  src="${images[i]}" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>`;
+                 // alert(images[i]);
+	}
+	result += `<button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" style="">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Далее</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next" style="">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Назад</span>
+                    </button>`;
+	document.getElementById('carouselElement').innerHTML = result;
+}
+
 function projectBlockFill(count_max){
 	var count = 0;
 	var projectBlockElementContent = '';
