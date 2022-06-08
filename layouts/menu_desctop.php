@@ -1,7 +1,7 @@
 <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important">
       <ul class="nav nav-fill justify-content-center" style="display: flex !important;">
           <li class="nav-item">
-            <a class="nav-link active text-light menu-up" href="https://simprolitstroy.ru/#rec448276217">ПРОЕКТЫ ДОМОВ222</a>
+            <a class="nav-link active text-light menu-up" href="https://simprolitstroy.ru/#rec448276217">ПРОЕКТЫ ДОМОВ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light menu-up dropdown-toggle" id="navadv" role="button" data-toggle="dropdown" aria-expanded="false" href="#">УСЛУГИ</a>
@@ -36,7 +36,7 @@
             <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448407412">ОТЗЫВЫ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light menu-up" href="#rec448425078">КОНТАКТЫ</a>
+            <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448425078">КОНТАКТЫ</a>
           </li>
        
         </ul>
