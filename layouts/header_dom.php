@@ -1,4 +1,4 @@
-<div class="  ">
+<div class="header bg-dark" style="background-image: url(bg.png)  ">
     <nav class="navbar navbar-expand-lg navbar-light w-100 h-100 " style=" padding-top: 0 !important;">
      
       <div class="container w-100 ">
@@ -165,7 +165,9 @@
       </div>
     </div>
     <!-- Button trigger modal -->
-
+    <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important">
+     <h1 style="color: #fff;">Сюда оффер, и кнопочки</h1> 
+    </div>
 
 <!-- Modal -->
 <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

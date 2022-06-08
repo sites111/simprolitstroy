@@ -58,14 +58,9 @@
       getProject('<?php echo $_GET['name']; ?>');
     });
   </script>
-  <div class="header bg-dark" style="background-image: url(images/header_bg.jpg)  ">
- 
-       
-    <?php
-                    require 'layouts/header.php';
-                ?>
-    
-  </div>
+<?php
+  require 'layouts/header_page.php';
+?>
 
 
   
