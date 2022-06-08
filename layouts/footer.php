@@ -85,9 +85,14 @@
         </div>
     </div>
 </div>
-<div class="agency bg-dark" style="background-color: #161616 !important;">
-    <div class="container p-3 text-center" >
+<div class="agency bg-dark" >
+    <div class="container p-3 text-center border-top" >
+    <SPAN class="text-light">Сделано с 💖</SPAN>
+    <br><br>
         <a href="https://laboratorysales.ru/"><img style="width:300px;" src="images/labsales_logo.svg" alt=""></a>
+    
+  
+
     </div>
 </div>
 <!— Yandex.Metrika counter —>

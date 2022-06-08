@@ -185,12 +185,11 @@
         <div class="row gy-3">
           <div class="col-12">
             <span class="h5 ">ПРОЕКТЫ ДОМОВ</span>
-            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
-
-            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Кирпичные дома</a> </li>
           </div>
           <div class="col-12">
-            <span class="h5">ПРОЕКТЫ ДОМОВ</span>
+            <span class="h5">СТРОЙМАТЕРИАЛЫ</span>
+            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Пенобетонные блоки</a> </li>
+            <li class=" nav-link text-light"><a class=" border-bottom border-1 border-light text-light text-decoration-none" href="">Полистеролбетонные блоки</a> </li>
           </div>
           <div class="col-12">
             <span class="h5">ПРОЕКТЫ ДОМОВ</span>
