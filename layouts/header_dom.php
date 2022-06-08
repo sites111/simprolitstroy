@@ -124,8 +124,23 @@
       </div>
     </div>
     <!-- Button trigger modal -->
-    <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important">
-     <h1 style="color: #fff;">Сюда оффер, и кнопочки</h1> 
+    <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
+     
+     Современный и уютный<br>дом в Казани и республике Татарстан<br>по цене <strong>20 000₽ за м2</strong>
+      <br><br>
+
+    По индивидуальному проекту<br>и по
+    нашим типовым проектам
+    <br><br>
+
+    Расчитать стоимость
+    <br><br>
+
+    - Загородные частные дома
+    <br><br>
+    - Коммерческая недвижимость
+    <br><br>
+    - Бани, гаражи и хозпостройки
     </div>
 
 <!-- Modal -->
