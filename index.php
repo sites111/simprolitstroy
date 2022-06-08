@@ -7164,7 +7164,6 @@
             }
 
         </style>
- 
 
         <section class="pt-5">
             <div class="container p-3">
@@ -19599,18 +19598,18 @@ color: #000000;
       <?php include "layouts/footer.php"; ?>
 </footer>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
             <div class="modal-content text-center p-2 w-100 pb-4"  style="max-width: 700px !important; border-radius: 20px;">
              
                 
 
                 <div class="">
-                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#exampleModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
+                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#formModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
 
                         <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
                     </button>
-                <h1 class="text-center w-100 mt-1 " id="exampleModalLabel">Оставьте свои контакты</h1>
+                <h1 class="text-center w-100 mt-1 " id="formModalLabel">Оставьте свои контакты</h1>
                 
                 </div>
                 <span class="mt-2 h5"><b>Оставьте контакты</b> и мы с вами свяжемся</span>
@@ -19699,14 +19698,14 @@ color: #000000;
             </div>
             </div>
         </div>
-        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabelSuccess" aria-hidden="true">
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="newleadModalLabelSuccess" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
                 <div class="modal-content text-center p-2 w-100"  style="max-width: 700px !important; border-radius: 20px;">
                     <div class=""> 
                         <button type="button" class="close w-100 text-right p-3 pb-3 " data-dismiss="modal" onclick="$('#successModal').modal('hide');" style="text-align: right; max-height: 50px; margin-top: -10px !important; background: none; border: none;">
                             <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
                         </button>
-                        <h1 class="modal-title text-center w-100 mt-3 " id="exampleModalLabelSuccess">Заявка успешно отправлена</h1>
+                        <h1 class="modal-title text-center w-100 mt-3 " id="newleadModalLabelSuccess">Заявка успешно отправлена</h1>
                     </div>
                     <span class="mt-2 h5" style="padding-bottom: 50px;">Ожидайте, скоро мы с вами свяжемся</span>
                 </div>
@@ -19718,5 +19717,6 @@ color: #000000;
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     </body>
 </html>
