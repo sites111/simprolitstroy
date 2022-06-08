@@ -1,4 +1,4 @@
-<div class="header bg-dark" style="background-image: url(bg.png)  ">
+<div class="header bg-dark" style="background-image: url('https://sun7-6.userapi.com/s/v1/d/N8aALwnmnh8IP0dChqRjyR-B0id0I4WTkyhJQ2QFd7SxMUSeqKel-v8-5bfoF8k72F6iTErEeepXtyWIV6hcsBgLxy-YSxOkKxxljeBLoP4XdGfDF6Iehw/oblozhka.png')  ">
   <nav class="navbar navbar-expand-lg navbar-light w-100 h-100 " style=" padding-top: 0 !important;">
 
     <div class="container w-100 ">
@@ -136,14 +136,7 @@
 
     <!-- Button trigger modal -->
     <div class="container  mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
-      <span style="    color: #ffffff;
-    font-size: 45px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 400;">
-     Современный и уютный<br>дом в Казани и республике Татарстан<br>по цене  <strong>20 000₽ за м2</strong>
-
-    </span>
+       
 
     <br>
 
