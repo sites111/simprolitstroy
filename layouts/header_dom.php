@@ -124,7 +124,7 @@
       </div>
     </div>
     <!-- Button trigger modal -->
-    <div class="container   d-none d-sm-block mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
+    <div class="container  mt-4 pb-4 " style="z-index: 1000 !important; color: #fff;">
       <span style="    color: #ffffff;
     font-size: 45px;
     font-family: 'Montserrat', Arial, sans-serif;
