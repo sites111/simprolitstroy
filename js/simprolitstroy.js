@@ -194,7 +194,7 @@ function onClickSendModal(){
 	successModalShow();
 }
 
-$(document.ready(function(){
+document.addEventListener("DOMContentLoaded", function(event) {
     $("#formModal").on('hide.bs.modal', function () {
        console.log('formModal hide');
 		showMobFixedButtomButton();
@@ -215,7 +215,9 @@ $(document.ready(function(){
 		hideMobFixedButtomButton();
 		modalOpenStatus = true;
     });
-}));
+
+});
+ 
 
 function modalSow(title){
 	document.getElementById('formModalLabel').innerHTML = title;
@@ -422,6 +424,11 @@ function setProjectCart(project){
 
 	document.getElementById('projectName').innerHTML = projectName;
 	document.getElementById('projectPrice').innerHTML = `${number_format(projectPrice)}₽`;
+
+	document.getElementById('projectWidthLength').innerHTML = `${projectWidth}x${projectLength} м`;
+	document.getElementById('projectSquare').innerHTML = `${projectSquare} м²`;
+	document.getElementById('projectLevels').innerHTML = projectLevels;
+
 	document.getElementById('projectDescription').innerHTML = projectDescription;
 //number_format
 
@@ -499,7 +506,7 @@ function clickMoreProjects(){
 
 var fileName = 'file.file';
 var inputElement = document.getElementById("inputFile");
-inputElement.addEventListener("change", handleFiles, false);
+//inputElement.addEventListener("change", handleFiles, false);
 
 function handleFiles() {
 	const fileList = this.files; /* now you can work with the file list */

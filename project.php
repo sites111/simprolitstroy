@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
     <link rel="icon" href="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" type=" image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title><?php echo $_GET['name']; ?></title>
@@ -51,6 +50,7 @@
                     }
                 </style>
     <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
 </head>
 <body>
   <script>
@@ -426,8 +426,8 @@
                     <div class="col">
                       <div class="card rounded-3  h-100">
                         <div class="card-body">
-                          <h5 class="card-title">71</h5>
-                          <p class="card-text">Площадь</p>
+                          <h5 class="card-title" id="projectWidthLength">71</h5>
+                          <p class="card-text">Размеры</p>
                         </div>
                       </div>
                     </div>
@@ -435,7 +435,7 @@
                     <div class="col">
                         <div class="card rounded-3  h-100">
                           <div class="card-body">
-                            <h5 class="card-title">71</h5>
+                            <h5 class="card-title" id="projectSquare">71 м²</h5>
                             <p class="card-text">Площадь</p>
                           </div>
                         </div>
@@ -444,8 +444,8 @@
                     <div class="col">
                         <div class="card rounded-3   h-100">
                           <div class="card-body">
-                            <h5 class="card-title">71</h5>
-                            <p class="card-text">Площадь</p>
+                            <h5 class="card-title" id="projectLevels">71</h5>
+                            <p class="card-text">Этажей</p>
                           </div>
                         </div>
                     </div>
