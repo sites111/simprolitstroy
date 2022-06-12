@@ -50,7 +50,7 @@
                     }
                 </style>
     <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async>
+    <script src="js/simprolitstroy.js?v=<?php echo rand(); ?>" charset="utf-8">
     </script>
 </head>
 <body> 
@@ -211,8 +211,6 @@
         </div>
     </div>
 </div>
-
-
 
 <div class="container mt-4 ">
   <h1 class="f pb-4">Проекты</h1>
