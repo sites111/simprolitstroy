@@ -29,23 +29,23 @@
         </div>
       </div>
       <div class="modal-footer border-0 display-flex justify-content-start">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99" space="preserve">
+        <a href="https://vk.me/public212435437"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99" space="preserve">
           <path
             style="fill:#ffffff;"
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM22 34C22.4442 55.3198 33.1042 68.1323 51.7933 68.1323H52.8527V55.9351C59.7202 56.6182 64.9132 61.6409 66.9973 68.1323H76.7008C74.0359 58.4292 67.0314 53.0649 62.658 51.0149C67.0314 48.4866 73.1814 42.3367 74.6505 34H65.8353C63.922 40.7649 58.251 46.915 52.8527 47.4958V34H44.0374V57.6433C38.5707 56.2766 31.6692 49.6482 31.3617 34H22Z"
           ></path>
-        </svg>
-        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
+        </svg></a>
+        <a href="https://t.me/simprolitstoy_bot"><svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
           <desc>Telegram</desc>
           <path
             style="fill:#ffffff;"
             d="M30 0C13.4 0 0 13.4 0 30s13.4 30 30 30 30-13.4 30-30S46.6 0 30 0zm16.9 13.9l-6.7 31.5c-.1.6-.8.9-1.4.6l-10.3-6.9-5.5 5.2c-.5.4-1.2.2-1.4-.4L18 32.7l-9.5-3.9c-.7-.3-.7-1.5 0-1.8l37.1-14.1c.7-.2 1.4.3 1.3 1z"
           ></path>
           <path style="fill:#ffffff;" d="M22.7 40.6l.6-5.8 16.8-16.3-20.2 13.3"></path>
-        </svg>
-        <svg
+        </svg></a>
+        <a href="whatsapp://send?phone=78432126177"><svg
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@
             clip-rule="evenodd"
             d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM50.221 17C58.238 17.003 65.763 20.124 71.421 25.789C77.08 31.454 80.194 38.983 80.189 46.992C80.182 63.515 66.737 76.96 50.22 76.96H50.208C45.193 76.958 40.264 75.7 35.887 73.312L20 77.479L24.252 61.949C21.63 57.405 20.25 52.249 20.252 46.967C20.258 30.443 33.703 17 50.221 17Z"
           ></path>
-        </svg>
+        </svg></a>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <span class="h5" onclick="modalSow('Интересует строительство под ключ?');">Строительство под ключ</span>
+            <a href="../../" style="text-decoration: none !important; color: #fff;"><span class="h5">Строительство под ключ</span></a>
           </div>
           <div class="col-12">
             <span class="h5" onclick="modalSow('Интересует утепление крыш?');">Утепление крыш</span>
@@ -101,23 +101,23 @@
         </div>
       </div>
       <div class="modal-footer border-0 display-flex justify-content-start">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99" space="preserve">
+        <a href="https://vk.me/public212435437"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99" space="preserve">
           <path
             style="fill:#ffffff;"
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM22 34C22.4442 55.3198 33.1042 68.1323 51.7933 68.1323H52.8527V55.9351C59.7202 56.6182 64.9132 61.6409 66.9973 68.1323H76.7008C74.0359 58.4292 67.0314 53.0649 62.658 51.0149C67.0314 48.4866 73.1814 42.3367 74.6505 34H65.8353C63.922 40.7649 58.251 46.915 52.8527 47.4958V34H44.0374V57.6433C38.5707 56.2766 31.6692 49.6482 31.3617 34H22Z"
           ></path>
-        </svg>
-        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
+        </svg></a>
+        <a href="https://t.me/simprolitstoy_bot"><svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
           <desc>Telegram</desc>
           <path
             style="fill:#ffffff;"
             d="M30 0C13.4 0 0 13.4 0 30s13.4 30 30 30 30-13.4 30-30S46.6 0 30 0zm16.9 13.9l-6.7 31.5c-.1.6-.8.9-1.4.6l-10.3-6.9-5.5 5.2c-.5.4-1.2.2-1.4-.4L18 32.7l-9.5-3.9c-.7-.3-.7-1.5 0-1.8l37.1-14.1c.7-.2 1.4.3 1.3 1z"
           ></path>
           <path style="fill:#ffffff;" d="M22.7 40.6l.6-5.8 16.8-16.3-20.2 13.3"></path>
-        </svg>
-        <svg
+        </svg></a>
+        <a href="whatsapp://send?phone=78432126177"><svg
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@
             clip-rule="evenodd"
             d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM50.221 17C58.238 17.003 65.763 20.124 71.421 25.789C77.08 31.454 80.194 38.983 80.189 46.992C80.182 63.515 66.737 76.96 50.22 76.96H50.208C45.193 76.958 40.264 75.7 35.887 73.312L20 77.479L24.252 61.949C21.63 57.405 20.25 52.249 20.252 46.967C20.258 30.443 33.703 17 50.221 17Z"
           ></path>
-        </svg>
+        </svg></a>
       </div>
     </div>
   </div>

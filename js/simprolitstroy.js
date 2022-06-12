@@ -408,6 +408,9 @@ function getProject(name){
 */
 
 function setProjectCart(project){
+	if(project['data'] == null) 
+		return document.location.href = `../../`;
+
 	let images = new Array();
 	images.push(project['data']['image']);
 
@@ -893,7 +896,7 @@ function createQuizPageText(page, ask, responsesArray){// responses: ['Чере�
 										<div class="card-quizz h-100 ">
 											<div class="h-100 align-middle p-2" style="display: inline-flex;
 												align-items: center;">
-												<img src="images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
+												<img src="../images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
 												<h5 class="h-100 align-middle" style="display: inline-flex;
 												align-items: center;">${responsesArray[i]}</h5>
 											</div>
@@ -945,7 +948,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
 																<div class="col-12">
-																		<img class="img-fluid" src="images/logos_whatsapp.png" alt="">
+																		<img class="img-fluid" src="../images/logos_whatsapp.png" alt="">
 																</div>
 																<div class="col-12">
 																	<span>Viber</span>
@@ -961,7 +964,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/logos_whatsapp-1.png" alt="">
+                                                                <img class="img-fluid" src="../images/logos_whatsapp-1.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Whatsapp</span>
@@ -975,7 +978,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/logos_telegram.png" alt="">
+                                                                <img class="img-fluid" src="../images/logos_telegram.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Telegram</span>
@@ -989,7 +992,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/Frame 11.png" alt="">
+                                                                <img class="img-fluid" src="../images/Frame 11.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Телефон</span>
