@@ -301,8 +301,8 @@
       
   </div>
   <div class="w-100 pt-4 mx-auto d-flex justify-content-center pb-4">
-      <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-successs p-4" style=""><span class="w-100 f " style=" padding-left: 50px;
-        padding-right: 50px;">СМОТРЕТЬ ЕЩЕ</span></button>
+  <button style="max-width: 250px"  id="btnMoreProjects" onclick="return clickMoreProjects();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
+    
   </div>
 </div> 
 

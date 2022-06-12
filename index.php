@@ -4134,8 +4134,9 @@
                     </div> -->
                 </div>
 
-                <div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-                    <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
+                <div class=" pt-4 mx-auto d-flex justify-content-center">
+                    <button style="max-width: 250px"  id="btnMoreProjects" onclick="return clickMoreProjects();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
+                  
                 </div>
             </div>
         </section>
@@ -4178,7 +4179,7 @@
 				</div>
             </div>
 			<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-				<button id="btnMoreGallery" onclick="return clickMoreGallery();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
+                <button style="max-width: 250px"   id="btnMoreGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
 			</div>
         </div>
     </section>
@@ -4213,7 +4214,8 @@
 			</div>
 		</div>
 		<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-			<button id="btnMoreMobGallery" onclick="return clickMoreGallery();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
+        <button style="max-width: 250px"  id="btnMoreMobGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
+			
 		</div>
 	</div>
 </section>
@@ -12250,9 +12252,8 @@ color: #000000;
             <div class="t-container_100">
                 <div class="t142__wrapone">
                     <div class="t142__wraptwo">  
-                            <div class="t-btn t142__submit "
-                                style="color:#ffffff;background-color:#8ed834;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;font-family:Montserrat;font-weight:500;">
-                                <span class="t142__text">Показать ещё</span> </div>
+                    <button style="max-width: 250px"   id="btnMoreGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Показать ещё</button>
+                        
                         </div>
                 </div>
             </div>
