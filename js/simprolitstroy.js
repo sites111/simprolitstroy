@@ -631,7 +631,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
         border-radius: 18px !important; border: none;">
     	 
 			<a href="//${window.location.hostname + "/" + name}" style="display: contents;"> 
-				<img src="${image}" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; 
+				<img src="${image}" loading="lazy" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; 
 	    	border-top-right-radius: 20px;" alt="">
 	    	</a>
         <div class="p-3">
