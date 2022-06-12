@@ -190,13 +190,13 @@ function onClickSendModal(){
 	phoneElement.style.border = "1px solid #fff";
 	nameElement.style.border = "1px solid #fff";
 	
-	$('#exampleModal').modal('hide');
+	$('#formModal').modal('hide');
 	successModalShow();
 }
 
-$(document).ready(function(){
-    $("#exampleModal").on('hide.bs.modal', function () {
-       console.log('exampleModal hide');
+document.addEventListener("DOMContentLoaded", function(event) {
+    $("#formModal").on('hide.bs.modal', function () {
+       console.log('formModal hide');
 		showMobFixedButtomButton();
 		modalOpenStatus = false;
     });
@@ -205,8 +205,8 @@ $(document).ready(function(){
 		showMobFixedButtomButton();
 		modalOpenStatus = false;
     });
-    $("#exampleModal").on('show.bs.modal', function () {
-       console.log('exampleModal show');
+    $("#formModal").on('show.bs.modal', function () {
+       console.log('formModal show');
 		hideMobFixedButtomButton();
 		modalOpenStatus = true;
     });
@@ -215,11 +215,13 @@ $(document).ready(function(){
 		hideMobFixedButtomButton();
 		modalOpenStatus = true;
     });
+
 });
+ 
 
 function modalSow(title){
-	document.getElementById('exampleModalLabel').innerHTML = title;
-	$('#exampleModal').modal('show');
+	document.getElementById('formModalLabel').innerHTML = title;
+	$('#formModal').modal('show');
 	formName = title.replace('?','');
 	hideMobFixedButtomButton();
 }
@@ -422,6 +424,11 @@ function setProjectCart(project){
 
 	document.getElementById('projectName').innerHTML = projectName;
 	document.getElementById('projectPrice').innerHTML = `${number_format(projectPrice)}₽`;
+
+	document.getElementById('projectWidthLength').innerHTML = `${projectWidth}x${projectLength} м`;
+	document.getElementById('projectSquare').innerHTML = `${projectSquare} м²`;
+	document.getElementById('projectLevels').innerHTML = projectLevels;
+
 	document.getElementById('projectDescription').innerHTML = projectDescription;
 //number_format
 
@@ -499,7 +506,7 @@ function clickMoreProjects(){
 
 var fileName = 'file.file';
 var inputElement = document.getElementById("inputFile");
-inputElement.addEventListener("change", handleFiles, false);
+//inputElement.addEventListener("change", handleFiles, false);
 
 function handleFiles() {
 	const fileList = this.files; /* now you can work with the file list */
@@ -590,7 +597,7 @@ function toFixed(value, precision) {
     var power = Math.pow(10, precision || 0);
     return String(Math.round(value * power) / power);
 }
-
+/*
 function clickProject(name){
 	var link = `${location.protocol}//${window.location.hostname}/${name}`;
 
@@ -598,6 +605,18 @@ function clickProject(name){
 		link = `${window.location}${name}`;
 	//	alert(link);
 	}
+
+	link = link.replace(' ','%20');
+	location=link;
+	document.location.href=link;
+} 
+*/
+function clickProject(name){
+	var link = `https://simprolitstroy.ru/${name}`;
+
+/*	if(window.location.hostname == 'localhost'){
+		link = `${window.location}${name}`;
+	}*/
 
 	link = link.replace(' ','%20');
 	location=link;
