@@ -650,7 +650,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/размердома.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Размеры: <br>${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)} м</span>
@@ -662,7 +662,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/этажей.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/этажей.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Этажей: ${toFixed(parseFloat(levels),1)}</span>
@@ -675,7 +675,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/площадь.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Площадь: <br>${toFixed(parseFloat(square),1)} м²</span>
