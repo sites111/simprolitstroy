@@ -629,8 +629,11 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
         <div class="card h-100" style="background: #FFFFFF;
         box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
         border-radius: 18px !important; border: none;">
-        <img src="${image}" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; border-top-right-radius: 20px;" 
-        	onclick="return clickProject('${name}');" class="h-100" alt="">
+    	 
+			<a href="//${window.location.hostname + "/" + name}" style="display: contents;"> 
+				<img src="${image}" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; 
+	    	border-top-right-radius: 20px;" alt="">
+	    	</a>
         <div class="p-3">
           <span class="pb-3" style="font-family: 'Montserrat';
           font-style: normal;
@@ -694,15 +697,15 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
           </div>
           
         </div>
-        <span onclick="return clickProject('${name}');" class="p-4 text-center border-top border-2 border-success" style="font-family: 'Montserrat';
+        <a href="//${window.location.hostname + "/" + name}" class="p-4 text-center border-top border-1 border-success" style="text-decoration: none !important;">
+        <span onclick="return clickProject('${name}');" class="text-center border-success" style="font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        border-top: 1px solid #6AA91B !important;
         line-height: 24px;
        cursor: pointer;
         color: #6AA91B;
-        ">Подробнее</span>
+        ">Подробнее</span> </a>
         </div>
       </div>`;
 }
