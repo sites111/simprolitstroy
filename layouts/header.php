@@ -1,9 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light w-100 h-100" style=" padding-top: 0 !important;">
     <div class="container w-100">
-
-      <a class="navbar-brand text-light d-sm-none d-lg-block d-xl-none d-none d-sm-block" href="https://simprolitstroy.ru/">
-        <img class="h-100" src="images/Group 1.svg " style="padding-top: 0 !important; width: 85px; height: 105px;" />
-
+ 
       <a class="navbar-brand text-light d-sm-none d-lg-block d-xl-none d-none d-sm-block" href="../../">
         <img class="h-100" src="../images/Group 1.svg " style="padding-top: 0 !important; width: 85px; height: 105px;" />
 
@@ -12,10 +9,7 @@
         <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-4 col-xxl-4 d-lg-none d-xl-block">
           <div class="row gx-lg-0 gx-xl-1">
             <div class="col-auto">
-
-              <a class="navbar-brand text-light" href="https://simprolitstroy.ru/">
-                <img class="" src="images/Group 1.svg"style="width: 85px; height: 105px;" alt="" />
-
+ 
               <a class="navbar-brand text-light" href="../../">
                 <img class="" src="../images/Group 1.svg"style="width: 85px; height: 105px;" alt="" />
 

@@ -56,7 +56,7 @@
       Казань и Республика Татарстан<br />
     </span>
     <!-- Button trigger modal -->
-    <div class="container mt-4 pb-4" style="z-index: 1000 !important; color: #fff;">
+      <br />
       <br />
 
       <a href="#rec448276217"><button
@@ -125,7 +125,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 
   <!-- mob -->

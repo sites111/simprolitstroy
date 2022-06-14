@@ -59,8 +59,6 @@
 ?>
 
 
-  
-
     <div class="container mt-4">
         <div class="row row-cols-1  row-cols-sm-1 row-cols-md-2 gy-5 ">
             <div class="col">
@@ -92,14 +90,8 @@
                
         <!-- Modal -->
 <div class="modal fade" id="caruselModal" tabindex="-1" aria-labelledby="caruselModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
-    
-        <button type="button" class="btn close" data-dismiss="modal" aria-label="Close" style="position: absolute; font-size: 50px; margin-left: 20px;">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down ">
         <img class="w-100" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
-      
-    
   </div>
 </div>
             

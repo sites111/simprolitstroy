@@ -9,9 +9,8 @@
         <div class="row text-center p-3">
           <div class="col">
 
-            <li onclick="modalSow('Интересует строительство под ключ?');" style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li>
-
-            <a href="../../" style="text-decoration: none !important;"><li style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li></a> 
+            <a href="/" style="text-decoration: none !important;"><li style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li></a>
+            <a href="../../roof" style="text-decoration: none !important;"><li style="cursor: pointer; text-align: left; color: #fff;">Утепление крыш</li></a> 
             <li onclick="modalSow('Интересует утепление полов?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление полов</li>
             <li onclick="modalSow('Интересует утепление стен?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление стен</li>
           </div>
