@@ -1,19 +1,11 @@
 <div class="header bg-dark" style="background-image: url('https://sun7-6.userapi.com/s/v1/d/N8aALwnmnh8IP0dChqRjyR-B0id0I4WTkyhJQ2QFd7SxMUSeqKel-v8-5bfoF8k72F6iTErEeepXtyWIV6hcsBgLxy-YSxOkKxxljeBLoP4XdGfDF6Iehw/oblozhka.png')  ">
   
-  <?php
-
-  include 'layouts/header.php';
+  <?php 
+  include 'header.php';
   ?>
-
+ 
   <?php
-  include 'layouts/menu_desctop.php';
-
-  include '../layouts/header.php';
-  ?>
-
-  <?php
-  include '../layouts/menu_desctop.php';
-
+  include 'menu_desctop.php'; 
   ?>
 
   <!-- мобильное -->
@@ -221,11 +213,7 @@
     </div>
   </div>
   <!-- Modal -->
-  <?php
-
-  include 'layouts/menu_mobile.php';
-
-  include '../layouts/menu_mobile.php';
-
+  <?php 
+  include 'menu_mobile.php'; 
   ?>
 </div>

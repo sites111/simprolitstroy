@@ -104,7 +104,7 @@
 
           </div>
           <div class="col-12">
-            <span class="h5" onclick="modalSow('Интересует утепление крыш?');">Утепление крыш</span>
+            <a href="../../roof" style="text-decoration: none !important; color: #fff;"><span class="h5">Утепление крыш</span></a>
           </div>
           <div class="col-12">
             <span class="h5" onclick="modalSow('Интересует утепление полов?');">Утепление полов</span>
