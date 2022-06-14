@@ -74,7 +74,7 @@
 	                        'created_at' => time(),
 	                        'status_id' => $status_id,
 	                        'price' => '0',
-	                		'tags' => 'Тестирование',
+	                		'tags' => 'Заявка из сайта',
 	                        'notes'=> array(
 	                        	0 => array(
 									'note_type'=> "4",

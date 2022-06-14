@@ -3582,7 +3582,7 @@
                     </div> 
                 </div>
                 <div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-                    <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
+                    <button style="max-width: 250px"  id="btnMoreProjects" onclick="return clickMoreProjects();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
                 </div>
             </div>
         </section>

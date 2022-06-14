@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" type=" image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title><?php echo $_GET['name']; ?></title>
+    <title>Document</title>
     <style>
       .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1190px !important;
@@ -22,15 +21,15 @@
     <nav class="navbar navbar-expand-lg navbar-light w-100 h-100 " style=" padding-top: 0 !important;">
      
       <div class="container w-100 ">
-        <a class="navbar-brand text-light d-sm-none d-lg-block d-xl-none  d-none d-sm-block " href="/">
-          <img class="h-100 " src="images/Group 1.svg " style="padding-top: 0 !important;">
+        <a class="navbar-brand text-light d-sm-none d-lg-block d-xl-none  d-none d-sm-block " href="#">
+          <img class="h-100 " src="images/Group 1.svg " style="padding-top: 0 !important; max-width: 100px;">
          </a>
         <div class="row gx-1 w-100 ">
           <div class="col-6 col-sm-3  col-md-2 col-lg-2 col-xl-4 col-xxl-4  d-lg-none d-xl-block ">
             <div class="row gx-lg-0 gx-xl-1 ">
               <div class="col-auto">
-                <a class="navbar-brand text-light" href="/">
-                  <img class="" src="images/Group 1.svg"  alt="">
+                <a class="navbar-brand text-light" href="#">
+                  <img class="" src="images/Group 1.svg"  style=" max-width: 100px;" alt="">
                  </a>
               </div>
               
@@ -158,7 +157,7 @@
             <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448407412">ОТЗЫВЫ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448425078">КОНТАКТЫ</a>
+            <a class="nav-link text-light menu-up" href="#rec448425078">КОНТАКТЫ</a>
           </li>
        
         </ul>
@@ -331,11 +330,9 @@
                
         <!-- Modal -->
 <div class="modal fade" id="caruselModal" tabindex="-1" aria-labelledby="caruselModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down ">
     
-        <button type="button" class="btn close" data-dismiss="modal" aria-label="Close" style="position: absolute; font-size: 50px; margin-left: 20px;">
-          <span aria-hidden="true">&times;</span>
-        </button>
+     
         <img class="w-100" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
       
     
@@ -531,7 +528,8 @@
       
   </div>
   <div class="w-100 pt-4 mx-auto d-flex justify-content-center pb-4">
-  <button style="max-width: 250px"  id="btnMoreProjects" onclick="return clickMoreProjects();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
+      <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-successs p-4" style=""><span class="w-100 f " style=" padding-left: 50px;
+        padding-right: 50px;">СМОТРЕТЬ ЕЩЕ</span></button>
   </div>
 </div>
 
@@ -545,10 +543,69 @@
              
 
             
+<div class="footer bg-dark w-100 relative-bottom">
+  <div class="container pt-4 ">
+      <ul class="nav  nav-fill  pb-4 "  style="display: flex !important;  margin: 0 !important; ">
+          <li class="nav-item">
+            <a   class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448276217" >ПРОЕКТЫ ДОМОВ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448337565" >ГАЛЕРЕЯ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448407412" >ОТЗЫВЫ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448415236" >НАША КОМАНДА</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light "  aria-current="page" href="https://simprolitstroy.ru/#rec448330549" >О НАШЕЙ ТЕХНОЛОГИИ</a>
+          </li>
+      </ul>
 
-<footer>
-      <?php include "../layouts/footer.php"; ?>
-</footer>
+
+      <footer class="row row-cols-sm-5 py-4 border-top text-light">
+          <div class="col">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <img src="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg" alt="">
+            </a>
+            <p class="text-muted">© 2021</p>
+          </div>
+      
+          <div class="col d-none d-sm-block">
+      
+          </div>
+      
+          <div class="col">
+            <h5>Информация</h5>
+            <ul class="nav flex-column" style="padding-top: 15px;">
+              <li class="nav-item mb-2 text-muted"></li>
+              <li class="nav-item mb-2 text-muted"></li> 
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5>Документы</h5>
+            <ul class="nav flex-column" style="padding-top: 15px;">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Политики конфиденциальности</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Экологические сертификаты</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Карточка предприятия</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5>Ссылки</h5>
+            <ul class="nav flex-column" style="padding-top: 15px;">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наш Instagram</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Наша группа ВКонтакте</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Мы в Telegram</a></li>
+            </ul>
+          </div>
+        </footer>
+  </div>
+
+        
+    </div>
 
 
  

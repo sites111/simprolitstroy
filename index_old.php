@@ -19,7 +19,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
-    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('css/style.css'); ?>">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filectime('js/simprolitstroy.js'); ?>">
     <script src="js/tilda-fallback-1.0.min.js" charset="utf-8" async></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -58,7 +58,6 @@
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
-    <script src="js/simprolitstroy.js?v=<?php echo rand(); ?>" charset="utf-8"></script>
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
     <script type="text/javascript">(function () {
             if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
@@ -110,12 +109,2869 @@
 </head>
 
 <body class="t-body" style="margin:0;"> 
+    <!--allrecords-->
+    <div id="allrecords" class="t-records t-records_animated t-records_visible"
+        data-hook="blocks-collection-content-node" data-tilda-project-id="5603750" data-tilda-page-id="27752879"
+        data-tilda-formskey="4fe9567ede43508393793cf685603750" data-tilda-lazy="yes">
+        <div id="rec448206482" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>
+                #rec448206482 .t396__artboard {
+                    height: 825px;
+                    background-color: #ffffff;
+                }
 
-<?php
-  include 'layouts/header_dom.php';
-?>
+                #rec448206482 .t396__filter {
+                    height: 825px;
+                }
 
-      
+                #rec448206482 .t396__carrier {
+                    height: 825px;
+                    background-position: center center;
+                    background-attachment: scroll;
+                    background-image: url('images/image_4_3_1_1.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .t396__artboard {}
+
+                    #rec448206482 .t396__filter {}
+
+                    #rec448206482 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .t396__artboard {
+                        height: 995px;
+                    }
+
+                    #rec448206482 .t396__filter {
+                        height: 995px;
+                    }
+
+                    #rec448206482 .t396__carrier {
+                        height: 995px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .t396__artboard {
+                        height: 1035px;
+                    }
+
+                    #rec448206482 .t396__filter {
+                        height: 1035px;
+                    }
+
+                    #rec448206482 .t396__carrier {
+                        height: 1035px;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .t396__artboard {
+                        height: 895px;
+                    }
+
+                    #rec448206482 .t396__filter {
+                        height: 895px;
+                    }
+
+                    #rec448206482 .t396__carrier {
+                        height: 895px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053164"] {
+                    z-index: 1;
+                    top: 2268px;
+                    left: calc(50% - 600px + 629px);
+                    width: 100px;
+                    height: 43px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053164"] .tn-atom {
+                    border-radius: 77px;
+                    background-color: #191151;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053164"] {
+                        top: 2268px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053164"] {
+                        top: 2926px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053164"] {
+                        top: 3304px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053175"] {
+                    z-index: 2;
+                    top: 2268px;
+                    left: calc(50% - 600px + 743px);
+                    width: 184px;
+                    height: 43px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053175"] .tn-atom {
+                    border-radius: 77px;
+                    background-color: #191151;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053175"] {
+                        top: 2268px;
+                        left: calc(50% - 480px + 610px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053175"] {
+                        top: 2926px;
+                        left: calc(50% - 320px + 1022px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053175"] {
+                        top: 3304px;
+                        left: calc(50% - 240px + 904px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053182"] {
+                    color: #ffffff;
+                    text-align: CENTER;
+                    z-index: 3;
+                    top: 2281px;
+                    left: calc(50% - 600px + 653px);
+                    width: 52px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053182"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053182"] {
+                        top: 2281px;
+                        left: calc(50% - 480px + 520px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053182"] {
+                        top: 2939px;
+                        left: calc(50% - 320px + 932px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053182"] {
+                        top: 3317px;
+                        left: calc(50% - 240px + 814px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053188"] {
+                    color: #ffffff;
+                    text-align: CENTER;
+                    z-index: 4;
+                    top: 2281px;
+                    left: calc(50% - 600px + 776px);
+                    width: 118px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053188"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053188"] {
+                        top: 2281px;
+                        left: calc(50% - 480px + 643px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053188"] {
+                        top: 2939px;
+                        left: calc(50% - 320px + 1055px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053188"] {
+                        top: 3317px;
+                        left: calc(50% - 240px + 937px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053193"] {
+                    z-index: 5;
+                    top: 1730px;
+                    left: calc(50% - 600px + 629px);
+                    width: 460px;
+                    height: 510px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053193"] .tn-atom {
+                    border-radius: 15px;
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053193"] {
+                        top: 1730px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053193"] {
+                        top: 2388px;
+                        left: calc(50% - 320px + 908px);
+                        width: 597px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053193"] {
+                        top: 2766px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053201"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 6;
+                    top: 2352px;
+                    left: calc(50% - 600px + 629px);
+                    width: 219px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053201"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 27px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 100;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053201"] {
+                        top: 2352px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053201"] {
+                        top: 3010px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053201"] {
+                        top: 3388px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053231"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 11;
+                    top: 2433px;
+                    left: calc(50% - 600px + 629px);
+                    width: 473px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053231"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 17px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053231"] {
+                        top: 2433px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053231"] {
+                        top: 3091px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053231"] {
+                        top: 3469px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053238"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 13;
+                    top: 2530px;
+                    left: calc(50% - 600px + 630px);
+                    width: 160px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053238"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 20.83333396911621px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 100;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053238"] {
+                        top: 2530px;
+                        left: calc(50% - 480px + 497px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053238"] {
+                        top: 3188px;
+                        left: calc(50% - 320px + 909px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053238"] {
+                        top: 3566px;
+                        left: calc(50% - 240px + 791px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053245"] {
+                    z-index: 15;
+                    top: 2556px;
+                    left: calc(50% - 600px + 629px);
+                    width: 180px;
+                    height: 0px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880053245"] .tn-atom {
+                    border-width: 1px;
+                    background-position: center center;
+                    border-color: #ffffff;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053245"] {
+                        top: 2556px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053245"] {
+                        top: 3214px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880053245"] {
+                        top: 3592px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119061"] {
+                    z-index: 19;
+                    top: 2268px;
+                    left: calc(50% - 600px + 629px);
+                    width: 100px;
+                    height: 43px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119061"] .tn-atom {
+                    border-radius: 77px;
+                    background-color: #191151;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119061"] {
+                        top: 2268px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119061"] {
+                        top: 2926px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119061"] {
+                        top: 3304px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119072"] {
+                    z-index: 20;
+                    top: 2268px;
+                    left: calc(50% - 600px + 743px);
+                    width: 184px;
+                    height: 43px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119072"] .tn-atom {
+                    border-radius: 77px;
+                    background-color: #191151;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119072"] {
+                        top: 2268px;
+                        left: calc(50% - 480px + 610px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119072"] {
+                        top: 2926px;
+                        left: calc(50% - 320px + 1022px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119072"] {
+                        top: 3304px;
+                        left: calc(50% - 240px + 904px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119084"] {
+                    color: #ffffff;
+                    text-align: CENTER;
+                    z-index: 21;
+                    top: 2281px;
+                    left: calc(50% - 600px + 653px);
+                    width: 52px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119084"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119084"] {
+                        top: 2281px;
+                        left: calc(50% - 480px + 520px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119084"] {
+                        top: 2939px;
+                        left: calc(50% - 320px + 932px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119084"] {
+                        top: 3317px;
+                        left: calc(50% - 240px + 814px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119092"] {
+                    color: #ffffff;
+                    text-align: CENTER;
+                    z-index: 22;
+                    top: 2281px;
+                    left: calc(50% - 600px + 776px);
+                    width: 118px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119092"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119092"] {
+                        top: 2281px;
+                        left: calc(50% - 480px + 643px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119092"] {
+                        top: 2939px;
+                        left: calc(50% - 320px + 1055px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119092"] {
+                        top: 3317px;
+                        left: calc(50% - 240px + 937px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119100"] {
+                    z-index: 23;
+                    top: 1730px;
+                    left: calc(50% - 600px + 629px);
+                    width: 460px;
+                    height: 510px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119100"] .tn-atom {
+                    border-radius: 15px;
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119100"] {
+                        top: 1730px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119100"] {
+                        top: 2388px;
+                        left: calc(50% - 320px + 908px);
+                        width: 597px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119100"] {
+                        top: 2766px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119111"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 24;
+                    top: 2352px;
+                    left: calc(50% - 600px + 629px);
+                    width: 219px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119111"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 27px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 100;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119111"] {
+                        top: 2352px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119111"] {
+                        top: 3010px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119111"] {
+                        top: 3388px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119136"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 29;
+                    top: 2433px;
+                    left: calc(50% - 600px + 629px);
+                    width: 473px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119136"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 17px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119136"] {
+                        top: 2433px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119136"] {
+                        top: 3091px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119136"] {
+                        top: 3469px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119145"] {
+                    color: #ffffff;
+                    text-align: LEFT;
+                    z-index: 31;
+                    top: 2530px;
+                    left: calc(50% - 600px + 630px);
+                    width: 160px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119145"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 20.83333396911621px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: NaN;
+                    font-weight: 100;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119145"] {
+                        top: 2530px;
+                        left: calc(50% - 480px + 497px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119145"] {
+                        top: 3188px;
+                        left: calc(50% - 320px + 909px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119145"] {
+                        top: 3566px;
+                        left: calc(50% - 240px + 791px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119152"] {
+                    z-index: 33;
+                    top: 2556px;
+                    left: calc(50% - 600px + 629px);
+                    width: 180px;
+                    height: 0px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652880119152"] .tn-atom {
+                    border-width: 1px;
+                    background-position: center center;
+                    border-color: #ffffff;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119152"] {
+                        top: 2556px;
+                        left: calc(50% - 480px + 496px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119152"] {
+                        top: 3214px;
+                        left: calc(50% - 320px + 908px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652880119152"] {
+                        top: 3592px;
+                        left: calc(50% - 240px + 790px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889517864"] {
+                    color: #ffffff;
+                    z-index: 37;
+                    top: 230px;
+                    left: calc(50% - 600px + 20px);
+                    width: 980px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889517864"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 45px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889517864"] {
+                        top: 212px;
+                        left: calc(50% - 320px + 20px);
+                        width: 575px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889517864"] {
+                        top: 212px;
+                        left: calc(50% - 240px + 9px);
+                        width: 468px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652889517864"] .tn-atom {
+                        font-size: 35px;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889517864"] {
+                        top: 210px;
+                        left: calc(50% - 160px + 20px);
+                        width: 280px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652889517864"] .tn-atom {
+                        font-size: 22px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889747439"] {
+                    color: #ffffff;
+                    z-index: 45;
+                    top: 464px;
+                    left: calc(50% - 600px + 20px);
+                    width: 560px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889747439"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889747439"] {
+                        top: 514px;
+                        left: calc(50% - 320px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889747439"] {
+                        top: 450px;
+                        left: calc(50% - 240px + 9px);
+                        width: 454px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652889747439"] .tn-atom {
+                        font-size: 15px;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889747439"] {
+                        top: 370px;
+                        left: calc(50% - 160px + 20px);
+                        width: 233px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889762969"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 46;
+                    top: 558px;
+                    left: calc(50% - 600px + 20px);
+                    width: 360px;
+                    height: 86px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889762969"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    border-radius: 100px;
+                    background-color: #8ed834;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889762969"] {
+                        top: 610px;
+                        left: calc(50% - 320px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889762969"] {
+                        top: 521px;
+                        left: calc(50% - 240px + 8px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889762969"] {
+                        top: 490px;
+                        left: calc(50% - 160px + 20px);
+                        width: 268px;
+                        height: 65px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889876391"] {
+                    color: #ffffff;
+                    z-index: 49;
+                    top: 30px;
+                    left: calc(50% - 600px + 150px);
+                    width: 208px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889876391"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889876391"] {
+                        top: -335px;
+                        left: calc(50% - 480px + 80px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889876391"] {
+                        top: -469px;
+                        left: calc(50% - 320px + 68px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1653508529601"] {
+                    z-index: 85;
+                    top: 69px;
+                    left: calc(50% - 600px + 997px);
+                    width: 5px;
+                    height: 5px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1653508529601"] .tn-atom {
+                    border-radius: 100px;
+                    background-color: #8ed834;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653508529601"] {
+                        top: 69px;
+                        left: calc(50% - 480px + 770px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653508529601"] {
+                        top: 73px;
+                        left: calc(50% - 320px + 448px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653508529601"] {
+                        left: calc(50% - 240px + 278px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653508529601"] {
+                        top: 73px;
+                        left: calc(50% - 160px + 145px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889701907"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 44;
+                    top: 147px;
+                    left: calc(50% - 600px + 1090px);
+                    width: 91px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889701907"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889701907"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 859px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889701907"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 841px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889693633"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 43;
+                    top: 147px;
+                    left: calc(50% - 600px + 894px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889693633"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889693633"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 675px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889693633"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 657px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889683873"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 42;
+                    top: 147px;
+                    left: calc(50% - 600px + 674px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889683873"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889683873"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 468px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889683873"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 450px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889670462"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 41;
+                    top: 147px;
+                    left: calc(50% - 600px + 510px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889670462"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889670462"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 359px);
+                        width: 64px;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889670462"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 341px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889658379"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 40;
+                    top: 147px;
+                    left: calc(50% - 600px + 346px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889658379"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889658379"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 241px);
+                        width: 73px;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889658379"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 223px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889644910"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 39;
+                    top: 147px;
+                    left: calc(50% - 600px + 182px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889644910"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889644910"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 137px);
+                        width: 59px;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889644910"] {
+                        top: -293px;
+                        left: calc(50% - 320px + 119px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889619898"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 38;
+                    top: 147px;
+                    left: calc(50% - 600px + 20px);
+                    width: 106px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889619898"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889619898"] {
+                        top: 147px;
+                        left: calc(50% - 480px + 10px);
+                        width: 82px;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889619898"] {
+                        top: -293px;
+                        left: calc(50% - 320px + -8px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652890019758"] {
+                    z-index: 59;
+                    top: 75px;
+                    left: calc(50% - 600px + 689px);
+                    width: 81px;
+                    height: 1px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890019758"] .tn-atom {
+                    background-color: #8ed834;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890019758"] {
+                        top: 74px;
+                        left: calc(50% - 480px + 459px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890019758"] {
+                        top: -170px;
+                        left: calc(50% - 320px + -97px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889988277"] {
+                    z-index: 58;
+                    top: 53px;
+                    left: calc(50% - 600px + 689px);
+                    width: 99px;
+                    height: 1px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889988277"] .tn-atom {
+                    background-color: #8ed834;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889988277"] {
+                        top: 52px;
+                        left: calc(50% - 480px + 459px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889988277"] {
+                        top: -192px;
+                        left: calc(50% - 320px + -97px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889967579"] {
+                    color: #ffffff;
+                    z-index: 57;
+                    top: 30px;
+                    left: calc(50% - 600px + 688px);
+                    width: 132px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889967579"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889967579"] {
+                        top: 30px;
+                        left: calc(50% - 480px + 459px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889967579"] {
+                        top: -214px;
+                        left: calc(50% - 320px + -97px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889925174"] {
+                    z-index: 53;
+                    top: 30px;
+                    left: calc(50% - 600px + 618px);
+                    width: 51px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889925174"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889925174"] {
+                        top: 30px;
+                        left: calc(50% - 480px + 390px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889925174"] {
+                        top: -214px;
+                        left: calc(50% - 320px + -165px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889955121"] {
+                    color: #ffffff;
+                    z-index: 55;
+                    top: 30px;
+                    left: calc(50% - 600px + 448px);
+                    width: 132px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889955121"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889955121"] {
+                        top: 30px;
+                        left: calc(50% - 480px + 219px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889955121"] {
+                        top: 32px;
+                        left: calc(50% - 320px + 218px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889955121"] {
+                        top: -70px;
+                        left: calc(50% - 240px + 378px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652889941287"] {
+                    z-index: 52;
+                    top: 30px;
+                    left: calc(50% - 600px + 378px);
+                    width: 52px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889941287"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889941287"] {
+                        top: 30px;
+                        left: calc(50% - 480px + 150px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889941287"] {
+                        top: 32px;
+                        left: calc(50% - 320px + 149px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889941287"] {
+                        top: -70px;
+                        left: calc(50% - 240px + 309px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129622"] {
+                    z-index: 62;
+                    top: 40px;
+                    left: calc(50% - 600px + 930px);
+                    width: 32px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129622"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129622"] {
+                        top: 40px;
+                        left: calc(50% - 480px + 701px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129622"] {
+                        top: -211px;
+                        left: calc(50% - 320px + 424px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129613"] {
+                    z-index: 61;
+                    top: 40px;
+                    left: calc(50% - 600px + 890px);
+                    width: 31px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129613"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129613"] {
+                        top: 40px;
+                        left: calc(50% - 480px + 661px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129613"] {
+                        top: -211px;
+                        left: calc(50% - 320px + 384px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129601"] {
+                    z-index: 60;
+                    top: 40px;
+                    left: calc(50% - 600px + 850px);
+                    width: 30px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890129601"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129601"] {
+                        top: 40px;
+                        left: calc(50% - 480px + 622px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890129601"] {
+                        top: -211px;
+                        left: calc(50% - 320px + 346px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {}
+
+                @media screen and (max-width: 479px) {}
+
+                #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                    color: #8ed834;
+                    text-align: center;
+                    z-index: 64;
+                    top: 59px;
+                    left: calc(50% - 600px + 1010px);
+                    width: 172px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890193389"] .tn-atom {
+                    color: #8ed834;
+                    font-size: 15px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                        top: 59px;
+                        left: calc(50% - 480px + 781px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                        top: 63px;
+                        left: calc(50% - 320px + 459px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                        top: 63px;
+                        left: calc(50% - 240px + 288px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                        top: 63px;
+                        left: calc(50% - 160px + 147px);
+                        width: 153px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] {
+                        text-align: right;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890193389"] .tn-atom {
+                        font-size: 13px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                    color: #ffffff;
+                    text-align: center;
+                    z-index: 63;
+                    top: 28px;
+                    left: calc(50% - 600px + 1000px);
+                    width: 182px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890154364"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                        top: 28px;
+                        left: calc(50% - 480px + 771px);
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                        top: 32px;
+                        left: calc(50% - 320px + 449px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                        top: 32px;
+                        left: calc(50% - 240px + 278px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                        top: 32px;
+                        left: calc(50% - 160px + 118px);
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] {
+                        text-align: right;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890154364"] .tn-atom {
+                        font-size: 17px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652977244961"] {
+                    z-index: 79;
+                    top: -120px;
+                    left: calc(50% - 600px + 260px);
+                    width: 52px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652977244961"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977244961"] {
+                        top: 157px;
+                        left: calc(50% - 320px + 100px);
+                        width: 17px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652977244961"] .tn-atom {
+                        -webkit-transform: rotate(180deg);
+                        -moz-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977244961"] {
+                        top: 157px;
+                        left: calc(50% - 240px + 89px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977244961"] {
+                        top: 157px;
+                        left: calc(50% - 160px + 100px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652977095391"] {
+                    color: #000000;
+                    z-index: 74;
+                    top: -105px;
+                    left: calc(50% - 600px + 130px);
+                    width: 560px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652977095391"] .tn-atom {
+                    color: #000000;
+                    font-size: 20px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977095391"] {
+                        top: 150px;
+                        left: calc(50% - 320px + 20px);
+                        width: 74px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652977095391"] {
+                        color: #ffffff;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652977095391"] .tn-atom {
+                        color: #ffffff;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977095391"] {
+                        top: 150px;
+                        left: calc(50% - 240px + 9px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652977095391"] {
+                        top: 150px;
+                        left: calc(50% - 160px + 20px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487488"] {
+                    z-index: 73;
+                    top: 710px;
+                    left: calc(50% - 600px + 710px);
+                    width: 45px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487488"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487488"] {
+                        top: 886px;
+                        left: calc(50% - 320px + 48px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487488"] {
+                        top: 790px;
+                        left: calc(50% - 240px + 48px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487488"] {
+                        top: 696px;
+                        left: calc(50% - 160px + 37px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487476"] {
+                    color: #000000;
+                    z-index: 72;
+                    top: 704px;
+                    left: calc(50% - 600px + 780px);
+                    width: 157px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487476"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487476"] {
+                        top: 880px;
+                        left: calc(50% - 320px + 118px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487476"] {
+                        top: 784px;
+                        left: calc(50% - 240px + 118px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487476"] {
+                        top: 696px;
+                        left: calc(50% - 160px + 91px);
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890487476"] .tn-atom {
+                        font-size: 15px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487462"] {
+                    z-index: 71;
+                    top: 682px;
+                    left: calc(50% - 600px + 682px);
+                    width: 276px;
+                    height: 101px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890487462"] .tn-atom {
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487462"] {
+                        top: 858px;
+                        left: calc(50% - 320px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487462"] {
+                        top: 762px;
+                        left: calc(50% - 240px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890487462"] {
+                        top: 676px;
+                        left: calc(50% - 160px + 20px);
+                        width: 255px;
+                        height: 84px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890460016"] {
+                    z-index: 70;
+                    top: 708px;
+                    left: calc(50% - 600px + 333px);
+                    width: 45px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890460016"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460016"] {
+                        top: 768px;
+                        left: calc(50% - 320px + 332px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460016"] {
+                        top: 906px;
+                        left: calc(50% - 240px + 42px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460016"] {
+                        top: 789px;
+                        left: calc(50% - 160px + 37px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890460004"] {
+                    color: #000000;
+                    z-index: 69;
+                    top: 702px;
+                    left: calc(50% - 600px + 403px);
+                    width: 256px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890460004"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460004"] {
+                        top: 762px;
+                        left: calc(50% - 320px + 386px);
+                        width: 231px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460004"] {
+                        top: 900px;
+                        left: calc(50% - 240px + 96px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890460004"] {
+                        top: 789px;
+                        left: calc(50% - 160px + 91px);
+                        width: 191px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890460004"] .tn-atom {
+                        font-size: 15px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890407942"] {
+                    z-index: 68;
+                    top: 682px;
+                    left: calc(50% - 600px + 311px);
+                    width: 356px;
+                    height: 101px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890407942"] .tn-atom {
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890407942"] {
+                        top: 742px;
+                        left: calc(50% - 320px + 310px);
+                        width: 319px;
+                        height: 101px;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890407942"] {
+                        top: 880px;
+                        left: calc(50% - 240px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890407942"] {
+                        top: 770px;
+                        left: calc(50% - 160px + 20px);
+                        width: 280px;
+                        height: 84px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890357567"] {
+                    z-index: 67;
+                    top: 711px;
+                    left: calc(50% - 600px + 48px);
+                    width: 45px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890357567"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890357567"] {
+                        top: 770px;
+                        left: calc(50% - 320px + 48px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890357567"] {
+                        top: 674px;
+                        left: calc(50% - 240px + 48px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890357567"] {
+                        top: 602px;
+                        left: calc(50% - 160px + 38px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890329115"] {
+                    color: #000000;
+                    z-index: 66;
+                    top: 705px;
+                    left: calc(50% - 600px + 118px);
+                    width: 157px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890329115"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 400;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890329115"] {
+                        top: 764px;
+                        left: calc(50% - 320px + 118px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890329115"] {
+                        top: 668px;
+                        left: calc(50% - 240px + 118px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890329115"] {
+                        top: 602px;
+                        left: calc(50% - 160px + 91px);
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1652890329115"] .tn-atom {
+                        font-size: 15px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890296134"] {
+                    z-index: 65;
+                    top: 682px;
+                    left: calc(50% - 600px + 20px);
+                    width: 276px;
+                    height: 101px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652890296134"] .tn-atom {
+                    border-radius: 20px;
+                    background-color: #ffffff;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890296134"] {
+                        top: 742px;
+                        left: calc(50% - 320px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890296134"] {
+                        top: 646px;
+                        left: calc(50% - 240px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652890296134"] {
+                        top: 582px;
+                        left: calc(50% - 160px + 21px);
+                        width: 255px;
+                        height: 84px;
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652978256491"] {
+                    z-index: 84;
+                    top: 13px;
+                    left: calc(50% - 600px + 48px);
+                    width: 40px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652978256491"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {}
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652978256491"] {
+                        top: 13px;
+                        left: calc(50% - 240px + 39px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652978256491"] {
+                        top: 13px;
+                        left: calc(50% - 160px + 48px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889837016"] {
+                    color: #000000;
+                    text-align: center;
+                    z-index: 82;
+                    top: 60px;
+                    left: calc(50% - 600px + 33px);
+                    width: 71px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889837016"] .tn-atom {
+                    color: #000000;
+                    font-size: 10px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 700;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889837016"] {
+                        top: 60px;
+                        left: calc(50% - 320px + 33px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889837016"] {
+                        top: 60px;
+                        left: calc(50% - 240px + 24px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889837016"] {
+                        top: 60px;
+                        left: calc(50% - 160px + 33px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889825109"] {
+                    z-index: 77;
+                    top: 0px;
+                    left: calc(50% - 600px + 20px);
+                    width: 97px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1652889825109"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889825109"] {
+                        top: 0px;
+                        left: calc(50% - 320px + 20px);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889825109"] {
+                        top: 0px;
+                        left: calc(50% - 240px + 11px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1652889825109"] {
+                        top: 0px;
+                        left: calc(50% - 160px + 20px);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1653010128302"] {
+                    z-index: 80;
+                    top: -176px;
+                    left: calc(50% - 600px + 260px);
+                    width: 52px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1653010128302"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] {
+                        top: 157px;
+                        left: calc(50% - 320px + 528px);
+                        width: 17px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] .tn-atom {
+                        -webkit-transform: rotate(0deg);
+                        -moz-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] {
+                        top: 157px;
+                        left: calc(50% - 240px + 368px);
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] .tn-atom {
+                        -webkit-transform: rotate(0deg);
+                        -moz-transform: rotate(0deg);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] {
+                        top: 157px;
+                        left: calc(50% - 160px + 196px);
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1653010128302"] .tn-atom {
+                        -webkit-transform: rotate(0deg);
+                        -moz-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1653010128310"] {
+                    color: #000000;
+                    z-index: 75;
+                    top: -161px;
+                    left: calc(50% - 600px + 130px);
+                    width: 560px;
+                }
+
+                #rec448206482 .tn-elem[data-elem-id="1653010128310"] .tn-atom {
+                    color: #000000;
+                    font-size: 20px;
+                    font-family: 'Montserrat', Arial, sans-serif;
+                    line-height: 1.55;
+                    font-weight: 600;
+                    background-position: center center;
+                    border-color: transparent;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {}
+
+                @media screen and (max-width: 959px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128310"] {
+                        top: 150px;
+                        left: calc(50% - 320px + 558px);
+                        width: 74px;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1653010128310"] {
+                        color: #ffffff;
+                    }
+
+                    #rec448206482 .tn-elem[data-elem-id="1653010128310"] .tn-atom {
+                        color: #ffffff;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128310"] {
+                        top: 150px;
+                        left: calc(50% - 240px + 398px);
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec448206482 .tn-elem[data-elem-id="1653010128310"] {
+                        top: 150px;
+                        left: calc(50% - 160px + 226px);
+                    }
+                }
+            </style>
+
+            <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
+
+                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2" style="display: none!important">
+                   <div class="col">
+                       <a href="tel:+7 (843) 212 61-77">
+                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                       </a>
+                    </div>
+                   <div class="col">
+                    <a href="whatsapp://send?phone=78432126177">
+                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
+                    </a>
+                    </div>
+
+                </div>    
+
+            </div>
+            
+            <div class="t396">
+                <div class="t396__artboard" data-artboard-recid="448206482" data-artboard-height="825"
+                    data-artboard-height-res-640="995" data-artboard-height-res-480="1035"
+                    data-artboard-height-res-320="895" data-artboard-height_vh data-artboard-valign="center"
+                    data-artboard-upscale="grid" data-artboard-upscale-res-320="window" data-artboard-ovrflw>
+                    <div class="t396__carrier t-bgimg" data-artboard-recid="448206482"
+                        data-original="https://psv4.vkuseraudio.net/s/v1/d/nRjOEAU_jjR33Tn4lCl9lAJQw04BD1N36_uj-wRPBvgFxccxaAdawZtP48E6u-4pinQCzkw-FrbAC2TKICGK6T4FZ-1uyIIzPAtHA_9syUltp7L2LZZ1tQ/oblozhka.png">
+                    </div>  
+
+                    <div class="t396__elem tn-elem tn-elem__4482064821652889517864" data-elem-id="1652889517864"
+                        data-elem-type="text" data-field-top-value="230" data-field-top-res-640-value="212"
+                        data-field-top-res-480-value="212" data-field-top-res-320-value="210" data-field-left-value="20"
+                        data-field-left-res-640-value="20" data-field-left-res-480-value="9"
+                        data-field-left-res-320-value="20" data-field-width-value="980"
+                        data-field-width-res-640-value="575" data-field-width-res-480-value="468"
+                        data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                        data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                        data-field-heightunits-value data-field-widthunits-value="px">
+                        
+                        <div class="tn-atom" field="tn_text_1652889517864">Современный и уютный<br>дом в Казани и
+                            республике Татарстан<br>по цене <strong>20 000₽ за м2</strong></div>
+                            
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__4482064821652889517864" style="margin-top:-70px;" data-elem-id="1652889517864"
+                        data-elem-type="text" data-field-top-value="230" data-field-top-res-640-value="212"
+                        data-field-top-res-480-value="212" data-field-top-res-320-value="210" data-field-left-value="20"
+                        data-field-left-res-640-value="20" data-field-left-res-480-value="9"
+                        data-field-left-res-320-value="20" data-field-width-value="1160"
+                        data-field-width-res-640-value="575" data-field-width-res-480-value="468"
+                        data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                        data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                        data-field-heightunits-value data-field-widthunits-value="px">
+                        
+                        <div class="container   d-none d-lg-block " style="z-index: 1000 !important">
+                            <ul class="nav nav-fill justify-content-center" style="display: flex !important;">
+                                <li class="nav-item">
+                                  <a class="nav-link active text-light menu-up" href="https://simprolitstroy.ru/#rec448276217">ПРОЕКТЫ ДОМОВ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-light menu-up  dropdown-toggle" id="navadv" role="button" data-toggle="dropdown" aria-expanded="false" href="#">УСЛУГИ</a>
+                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navadv" style="max-width:230px !important; background-color: rgb(52 58 64 / 98%);">
+                                    <div class="row text-center p-3 ">
+                                        <div class="col">
+                                            <li onclick="modalSow('Интересует строительство под ключ?');" style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li>
+                                            <li onclick="modalSow('Интересует утепление крыш?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление крыш</li>
+                                            <li onclick="modalSow('Интересует утепление полов?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление полов</li>
+                                            <li onclick="modalSow('Интересует утепление стен?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление стен</li>
+                                        </div>
+                                    </div>
+                                </ul>
+                                </li>
+                               
+                                <li class="nav-item">
+                                  <a class="nav-link text-light  menu-up  dropdown-toggle" href="#" id="navstroymat" role="button" data-toggle="dropdown" aria-expanded="false">СТРОЙМАТЕРИАЛЫ</a>
+                                  <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navstroymat" style="max-width:260px !important; background-color: rgb(52 58 64 / 98%);">
+                                    <div class="row text-center p-3 ">
+                                        <div class="col">
+                                            <li onclick="modalSow('Интересуют пенобетонные блоки?');" style="cursor: pointer; text-align: left; color: #fff;">Пенобетонные блоки</li>
+                                            <li onclick="modalSow('Интересуют полистеролбетонные блоки?');" style="cursor: pointer; text-align: left; color: #fff;">Полистеролбетонные блоки</li> 
+                                        </div>
+                                    </div>
+                                </ul>
+                                </li>
+                                
+                                <li class="nav-item">
+                                  <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#">ДОКУМЕНТАЦИЯ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-light menu-up" href="https://simprolitstroy.ru/#rec448407412">ОТЗЫВЫ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-light menu-up" href="#rec448425078">КОНТАКТЫ</a>
+                                </li>
+                             
+                              </ul>
+                            
+                        </div>
+                            
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__4482064821652889747439" data-elem-id="1652889747439"
+                        data-elem-type="text" data-field-top-value="464" data-field-top-res-640-value="514"
+                        data-field-top-res-480-value="450" data-field-top-res-320-value="370" data-field-left-value="20"
+                        data-field-left-res-640-value="20" data-field-left-res-480-value="9"
+                        data-field-left-res-320-value="20" data-field-width-value="560"
+                        data-field-width-res-480-value="454" data-field-width-res-320-value="233"
+                        data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                        data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                        data-field-widthunits-value="px">
+
+                        <div class="tn-atom" field="tn_text_1652889747439">По индивидуальному проекту<br>и по
+нашим типовым проектам</div>
+
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__4482064821652889762969" style="cursor: pointer; font-size: 18px;" data-elem-id="1652889762969"
+                        data-elem-type="button" data-field-top-value="558" data-field-top-res-640-value="610"
+                        data-field-top-res-480-value="521" data-field-top-res-320-value="490" data-field-left-value="20"
+                        data-field-left-res-640-value="20" data-field-left-res-480-value="8"
+                        data-field-left-res-320-value="20" data-field-height-value="86"
+                        data-field-height-res-320-value="65" data-field-width-value="360"
+                        data-field-width-res-320-value="268" data-field-axisy-value="top" data-field-axisx-value="left"
+                        data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                        data-field-heightunits-value data-field-widthunits-value>
+                        <div class="tn-atom"><a href="#rec448276217" style="color: #fff; font-size: 18px; ">Расчитать стоимость</a></div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__4482064821652889876391" data-elem-id="1652889876391"
+                        data-elem-type="text" data-field-top-value="30" data-field-top-res-960-value="-335"
+                        data-field-top-res-640-value="-469" data-field-left-value="150"
+                        data-field-left-res-960-value="80" data-field-left-res-640-value="68"
+                        data-field-width-value="208" data-field-axisy-value="top" data-field-axisx-value="left"
+                        data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                        data-field-heightunits-value data-field-widthunits-value="px">
+                        <div class="tn-atom" field="tn_text_1652889876391"><strong>Строим современные </strong><br>дома
+                            в Казани и республике</div>
+                                
+                    </div>
+                   
+                <div class="t396__elem tn-elem tn-elem__4482064821653508529601" data-elem-id="1653508529601"
+                    data-elem-type="shape" data-field-top-value="69" data-field-top-res-960-value="69"
+                    data-field-top-res-640-value="73" data-field-top-res-320-value="73" data-field-left-value="997"
+                    data-field-left-res-960-value="770" data-field-left-res-640-value="448"
+                    data-field-left-res-480-value="278" data-field-left-res-320-value="145" data-field-height-value="5"
+                    data-field-width-value="5" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom migalka"> </div>
+                </div>
+
+
+                <div class="t396__elem tn-elem tn-elem__4482064821652890019758" data-elem-id="1652890019758"
+                    data-elem-type="shape" data-field-top-value="75" data-field-top-res-960-value="74"
+                    data-field-top-res-640-value="-170" data-field-left-value="689" data-field-left-res-960-value="459"
+                    data-field-left-res-640-value="-97" data-field-height-value="1" data-field-width-value="81"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
+                    data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889988277" data-elem-id="1652889988277"
+                    data-elem-type="shape" data-field-top-value="53" data-field-top-res-960-value="52"
+                    data-field-top-res-640-value="-192" data-field-left-value="689" data-field-left-res-960-value="459"
+                    data-field-left-res-640-value="-97" data-field-height-value="1" data-field-width-value="99"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
+                    data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889967579" style="cursor: pointer;" data-elem-id="1652889967579"
+                    data-elem-type="text" data-field-top-value="30" data-field-top-res-960-value="30"
+                    data-field-top-res-640-value="-214" data-field-left-value="688" data-field-left-res-960-value="459"
+                    data-field-left-res-640-value="-97" data-field-width-value="132" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652889967579"><a href="#rec448276217" style="color: #fff;">Калькулятор<br>стоимости</a></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889925174" data-elem-id="1652889925174"
+                    data-elem-type="image" data-field-top-value="30" data-field-top-res-960-value="30"
+                    data-field-top-res-640-value="-214" data-field-left-value="618" data-field-left-res-960-value="390"
+                    data-field-left-res-640-value="-165" data-field-width-value="51" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="51" data-field-fileheight-value="51">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3634-3566-4663-b763-323630373161/Group_27.svg"
+                            imgfield="tn_img_1652889925174"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889955121" style="cursor: pointer;" data-elem-id="1652889955121"
+                    data-elem-type="text" data-field-top-value="30" data-field-top-res-960-value="30"
+                    data-field-top-res-640-value="32" data-field-top-res-480-value="-70" data-field-left-value="448"
+                    data-field-left-res-960-value="219" data-field-left-res-640-value="218"
+                    data-field-left-res-480-value="378" data-field-width-value="132" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652889955121"><a href="https://yandex.ru/maps/43/kazan/?from=mapframe&ll=49.100137%2C55.796414&mode=routes&rtext=~55.796423%2C49.100200&rtt=mt&ruri=~&source=mapframe&um=constructor%3A93270dd67e1a7768e32e27dd5443d867d862039a3b18eba6ea9c101492bf501f&utm_source=mapframe&z=18.75" style="color: #fff;">г. Казань<br>ул. Ташаяк д. 2А</a></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889941287" data-elem-id="1652889941287"
+                    data-elem-type="image" data-field-top-value="30" data-field-top-res-960-value="30"
+                    data-field-top-res-640-value="32" data-field-top-res-480-value="-70" data-field-left-value="378"
+                    data-field-left-res-960-value="150" data-field-left-res-640-value="149"
+                    data-field-left-res-480-value="309" data-field-width-value="52" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="52" data-field-fileheight-value="51">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3930-3134-4131-b633-643361653562/fa-solid_map-marker-.svg"
+                            imgfield="tn_img_1652889941287"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890129622" data-elem-id="1652890129622"
+                    data-elem-type="image" data-field-top-value="40" data-field-top-res-960-value="40"
+                    data-field-top-res-640-value="-211" data-field-left-value="930" data-field-left-res-960-value="701"
+                    data-field-left-res-640-value="424" data-field-width-value="32" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="32" data-field-fileheight-value="31">
+                    <div class="tn-atom"> <a href="https://t.me/simprolitstoy_bot"><img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6166-3164-4234-b732-343530666666/logos_telegram.svg"
+                            imgfield="tn_img_1652890129622"></a> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890129613" data-elem-id="1652890129613"
+                    data-elem-type="image" data-field-top-value="40" data-field-top-res-960-value="40"
+                    data-field-top-res-640-value="-211" data-field-left-value="890" data-field-left-res-960-value="661"
+                    data-field-left-res-640-value="384" data-field-width-value="31" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="31" data-field-fileheight-value="31">
+                    <div class="tn-atom"> <a href="https://vk.me/public212435437"><img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6563-3833-4035-a439-633435626437/vk.svg"
+                            imgfield="tn_img_1652890129613"></a></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890129601" data-elem-id="1652890129601"
+                    data-elem-type="image" data-field-top-value="40" data-field-top-res-960-value="40"
+                    data-field-top-res-640-value="-211" data-field-left-value="850" data-field-left-res-960-value="622"
+                    data-field-left-res-640-value="346" data-field-width-value="30" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="30" data-field-fileheight-value="31">
+                    <div class="tn-atom"> <a href="whatsapp://send?phone=78432126177"><img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3065-6531-4066-b633-353563666664/logos_whatsapp.svg"
+                            imgfield="tn_img_1652890129601"></a></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890193389" data-elem-id="1652890193389"
+                    data-elem-type="text" data-field-top-value="59" data-field-top-res-960-value="59"
+                    data-field-top-res-640-value="63" data-field-top-res-480-value="63"
+                    data-field-top-res-320-value="63" data-field-left-value="1010" data-field-left-res-960-value="781"
+                    data-field-left-res-640-value="459" data-field-left-res-480-value="288"
+                    data-field-left-res-320-value="147" data-field-width-value="172"
+                    data-field-width-res-320-value="153" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom " field="tn_text_1652890193389"><u>Звоните, мы на связи</u></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890154364" data-elem-id="1652890154364"
+                    data-elem-type="text" data-field-top-value="28" data-field-top-res-960-value="28"
+                    data-field-top-res-640-value="32" data-field-top-res-480-value="32"
+                    data-field-top-res-320-value="32" data-field-left-value="1000" data-field-left-res-960-value="771"
+                    data-field-left-res-640-value="449" data-field-left-res-480-value="278"
+                    data-field-left-res-320-value="118" data-field-width-value="182" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom user-select-all" field="tn_text_1652890154364"><a href="tel:+7 (843) 212 61-77" style="color: #fff;" class="user-select-all">+7 (843) 212 61-77</a></div>
+                    
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652977244961" data-elem-id="1652977244961"
+                    data-elem-type="image" data-field-top-value="-120" data-field-top-res-640-value="157"
+                    data-field-top-res-480-value="157" data-field-top-res-320-value="157" data-field-left-value="260"
+                    data-field-left-res-640-value="100" data-field-left-res-480-value="89"
+                    data-field-left-res-320-value="100" data-field-width-value="52" data-field-width-res-640-value="17"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="52" data-field-fileheight-value="52">
+                    <a class="tn-atom" href="#menuopen"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3065-3936-4436-a566-353465323232/ant-design_left-outl.svg"
+                            imgfield="tn_img_1652977244961"> </a>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652977095391" data-elem-id="1652977095391"
+                    data-elem-type="text" data-field-top-value="-105" data-field-top-res-640-value="150"
+                    data-field-top-res-480-value="150" data-field-top-res-320-value="150" data-field-left-value="130"
+                    data-field-left-res-640-value="20" data-field-left-res-480-value="9"
+                    data-field-left-res-320-value="20" data-field-width-value="560" data-field-width-res-640-value="74"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px">
+                    <a class="tn-atom" href="#menuopen">МЕНЮ</a>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890487488" data-elem-id="1652890487488"
+                    data-elem-type="image" data-field-top-value="710" data-field-top-res-640-value="886"
+                    data-field-top-res-480-value="790" data-field-top-res-320-value="696" data-field-left-value="710"
+                    data-field-left-res-640-value="48" data-field-left-res-480-value="48"
+                    data-field-left-res-320-value="37" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890487488"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890487476" data-elem-id="1652890487476"
+                    data-elem-type="text" data-field-top-value="704" data-field-top-res-640-value="880"
+                    data-field-top-res-480-value="784" data-field-top-res-320-value="696" data-field-left-value="780"
+                    data-field-left-res-640-value="118" data-field-left-res-480-value="118"
+                    data-field-left-res-320-value="91" data-field-width-value="157" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890487476">Коммерческая недвижимость</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890487462" data-elem-id="1652890487462"
+                    data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="858"
+                    data-field-top-res-480-value="762" data-field-top-res-320-value="676" data-field-left-value="682"
+                    data-field-left-res-640-value="20" data-field-left-res-480-value="20"
+                    data-field-left-res-320-value="20" data-field-height-value="101"
+                    data-field-height-res-320-value="84" data-field-width-value="276"
+                    data-field-width-res-320-value="255" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890460016" data-elem-id="1652890460016"
+                    data-elem-type="image" data-field-top-value="708" data-field-top-res-640-value="768"
+                    data-field-top-res-480-value="906" data-field-top-res-320-value="789" data-field-left-value="333"
+                    data-field-left-res-640-value="332" data-field-left-res-480-value="42"
+                    data-field-left-res-320-value="37" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890460016"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890460004" data-elem-id="1652890460004"
+                    data-elem-type="text" data-field-top-value="702" data-field-top-res-640-value="762"
+                    data-field-top-res-480-value="900" data-field-top-res-320-value="789" data-field-left-value="403"
+                    data-field-left-res-640-value="386" data-field-left-res-480-value="96"
+                    data-field-left-res-320-value="91" data-field-width-value="256" data-field-width-res-640-value="231"
+                    data-field-width-res-320-value="191" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890460004">Бани, гаражи и хозпостройки</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890407942" data-elem-id="1652890407942"
+                    data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="742"
+                    data-field-top-res-480-value="880" data-field-top-res-320-value="770" data-field-left-value="311"
+                    data-field-left-res-640-value="310" data-field-left-res-480-value="20"
+                    data-field-left-res-320-value="20" data-field-height-value="101"
+                    data-field-height-res-640-value="101" data-field-height-res-320-value="84"
+                    data-field-width-value="356" data-field-width-res-640-value="319"
+                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890357567" data-elem-id="1652890357567"
+                    data-elem-type="image" data-field-top-value="711" data-field-top-res-640-value="770"
+                    data-field-top-res-480-value="674" data-field-top-res-320-value="602" data-field-left-value="48"
+                    data-field-left-res-640-value="48" data-field-left-res-480-value="48"
+                    data-field-left-res-320-value="38" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890357567"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890329115" data-elem-id="1652890329115"
+                    data-elem-type="text" data-field-top-value="705" data-field-top-res-640-value="764"
+                    data-field-top-res-480-value="668" data-field-top-res-320-value="602" data-field-left-value="118"
+                    data-field-left-res-640-value="118" data-field-left-res-480-value="118"
+                    data-field-left-res-320-value="91" data-field-width-value="157" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890329115">Загородные частные дома</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652890296134" data-elem-id="1652890296134"
+                    data-elem-type="shape" data-field-top-value="682" data-field-top-res-640-value="742"
+                    data-field-top-res-480-value="646" data-field-top-res-320-value="582" data-field-left-value="20"
+                    data-field-left-res-640-value="20" data-field-left-res-480-value="20"
+                    data-field-left-res-320-value="21" data-field-height-value="101"
+                    data-field-height-res-320-value="84" data-field-width-value="276"
+                    data-field-width-res-320-value="255" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652978256491" data-elem-id="1652978256491"
+                    data-elem-type="image" data-field-top-value="13" data-field-top-res-480-value="13"
+                    data-field-top-res-320-value="13" data-field-left-value="48" data-field-left-res-480-value="39"
+                    data-field-left-res-320-value="48" data-field-width-value="40" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="40" data-field-fileheight-value="40">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3234-3161-4562-a330-323865646436/ant-design_home-outl.svg"
+                            imgfield="tn_img_1652978256491"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889837016" data-elem-id="1652889837016"
+                    data-elem-type="text" data-field-top-value="60" data-field-top-res-640-value="60"
+                    data-field-top-res-480-value="60" data-field-top-res-320-value="60" data-field-left-value="33"
+                    data-field-left-res-640-value="33" data-field-left-res-480-value="24"
+                    data-field-left-res-320-value="33" data-field-width-value="71" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652889837016">СИМПРОЛИТ<br>СТРОЙ</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821652889825109" data-elem-id="1652889825109"
+                    data-elem-type="image" data-field-top-value="0" data-field-top-res-640-value="0"
+                    data-field-top-res-480-value="0" data-field-top-res-320-value="0" data-field-left-value="20"
+                    data-field-left-res-640-value="20" data-field-left-res-480-value="11"
+                    data-field-left-res-320-value="20" data-field-width-value="97" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="97" data-field-fileheight-value="106">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6330-3264-4231-a664-613936393163/Rectangle_10.svg"
+                            imgfield="tn_img_1652889825109"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821653010128302" data-elem-id="1653010128302"
+                    data-elem-type="image" data-field-top-value="-176" data-field-top-res-640-value="157"
+                    data-field-top-res-480-value="157" data-field-top-res-320-value="157" data-field-left-value="260"
+                    data-field-left-res-640-value="528" data-field-left-res-480-value="368"
+                    data-field-left-res-320-value="196" data-field-width-value="52" data-field-width-res-640-value="17"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="52" data-field-fileheight-value="52">
+                    <a class="tn-atom" href="#menuopen2"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3065-3936-4436-a566-353465323232/ant-design_left-outl.svg"
+                            imgfield="tn_img_1653010128302"> </a>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4482064821653010128310" data-elem-id="1653010128310"
+                    data-elem-type="text" data-field-top-value="-161" data-field-top-res-640-value="150"
+                    data-field-top-res-480-value="150" data-field-top-res-320-value="150" data-field-left-value="130"
+                    data-field-left-res-640-value="558" data-field-left-res-480-value="398"
+                    data-field-left-res-320-value="226" data-field-width-value="560" data-field-width-res-640-value="74"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px">
+                    <a class="tn-atom" href="#menuopen2">УСЛУГИ</a>
+                </div>
+            </div>
+        </div>
+        <script>t_onReady(function () {
+                t_onFuncLoad('t396_init', function () {
+                    t396_init('448206482');
+                });
+            });</script><!-- /T396 -->
+    </div>
     <div id="rec448782828" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; "
         data-animationappear="off" data-record-type="450">
         <!-- t450 -->
@@ -129,7 +2985,90 @@
                         style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span
                         style="background-color:#ffffff;"></span> </div>
             </div>
-            
+            <div class="t450__container t-align_left">
+                <div class="t450__top">
+                    <div class="t450__logowrapper">
+                        <a href="#" style><img src="fonts/ant-design_home-outl.svg" class="t450__logoimg" imgfield="img"
+                                style="max-width: 50px;" alt="СИМПРОЛИТСТРОЙ"></a>
+                    </div>
+                    <div class="t450__menu">
+                        <ul class="t450__list">
+                            <li class="t450__list_item"><a class="t-menu__link-item " data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="1" href="#rec448276217">ПРОЕКТЫ ДОМОВ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" data-menu-submenu-hook="link_sub3_448888611"
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="2">СТРОЙМАТЕРИЛЫ</a>
+                                   <div class="t-menusub" data-submenu-hook="link_sub3_448888611"
+                                        data-submenu-margin="15px" data-add-submenu-arrow>
+                                        <div class="t-menusub__menu">
+                                            <div class="t-menusub__content">
+                                                <ul class="t-menusub__list">
+                                                    <li class="t-menusub__list-item t-name t-name_xs" onclick="modalSow('Интересует газобетон?');">Газобетон</li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="2">Керамические блоки</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="3">Монолитные</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="4">Арболит</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="5">Кирпич</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="6">Теплоблоки</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
+                            </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="/" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="3">ДОКУМЕНТАЦИЯ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="#rec448407412" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="4">ОТЗЫВЫ</a> </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="#rec448425078" data-menu-submenu-hook
+                                    style="color:#ffffff;font-size:15px;" data-menu-item-number="5">КОНТАКТЫ</a> </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="t450__rightside">
+                    <div class="t450__rightcontainer">
+                        <div class="t450__right_social_links">
+                            <div class="t450__right_social_links_wrap">
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank"> <svg
+                                            version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                            height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99"
+                                            space="preserve">
+                                            <path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM22 34C22.4442 55.3198 33.1042 68.1323 51.7933 68.1323H52.8527V55.9351C59.7202 56.6182 64.9132 61.6409 66.9973 68.1323H76.7008C74.0359 58.4292 67.0314 53.0649 62.658 51.0149C67.0314 48.4866 73.1814 42.3367 74.6505 34H65.8353C63.922 40.7649 58.251 46.915 52.8527 47.4958V34H44.0374V57.6433C38.5707 56.2766 31.6692 49.6482 31.3617 34H22Z" />
+                                        </svg>
+                                    </a> </div>
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank">
+                                        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
+                                            width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
+                                            <desc>Telegram</desc>
+                                            <path style="fill:#ffffff;"
+                                                d="M30 0C13.4 0 0 13.4 0 30s13.4 30 30 30 30-13.4 30-30S46.6 0 30 0zm16.9 13.9l-6.7 31.5c-.1.6-.8.9-1.4.6l-10.3-6.9-5.5 5.2c-.5.4-1.2.2-1.4-.4L18 32.7l-9.5-3.9c-.7-.3-.7-1.5 0-1.8l37.1-14.1c.7-.2 1.4.3 1.3 1z" />
+                                            <path style="fill:#ffffff;" d="M22.7 40.6l.6-5.8 16.8-16.3-20.2 13.3" />
+                                        </svg> </a> </div>
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank"> <svg
+                                            version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                            height="30px" viewBox="0 0 99 99" style="enable-background:new 0 0 99 99;"
+                                            space="preserve">
+                                            <path style="fill:#ffffff;"
+                                                d="M63.892 53.114C63.143 52.739 59.462 50.928 58.775 50.678C58.089 50.428 57.589 50.303 57.09 51.053C56.591 51.803 55.156 53.489 54.719 53.989C54.282 54.489 53.845 54.551 53.097 54.176C52.348 53.801 49.935 53.011 47.075 50.459C44.849 48.473 43.346 46.021 42.909 45.272C42.472 44.522 42.862 44.117 43.237 43.744C43.574 43.408 43.986 42.869 44.36 42.432C44.734 41.995 44.859 41.682 45.109 41.183C45.359 40.683 45.234 40.246 45.047 39.871C44.86 39.496 43.362 35.81 42.738 34.311C42.13 32.851 41.513 33.049 41.053 33.026C40.617 33.004 40.117 33 39.618 33C39.119 33 38.308 33.187 37.621 33.937C36.935 34.687 35 36.498 35 40.184C35 43.87 37.683 47.431 38.058 47.93C38.432 48.43 43.338 55.993 50.85 59.237C52.637 60.009 54.031 60.469 55.119 60.814C56.913 61.384 58.545 61.304 59.836 61.111C61.275 60.896 64.266 59.3 64.89 57.551C65.514 55.802 65.514 54.302 65.327 53.99C65.14 53.677 64.641 53.489 63.892 53.114Z" />
+                                            <path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM50.221 17C58.238 17.003 65.763 20.124 71.421 25.789C77.08 31.454 80.194 38.983 80.189 46.992C80.182 63.515 66.737 76.96 50.22 76.96H50.208C45.193 76.958 40.264 75.7 35.887 73.312L20 77.479L24.252 61.949C21.63 57.405 20.25 52.249 20.252 46.967C20.258 30.443 33.703 17 50.221 17Z" />
+                                        </svg> </a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -174,13 +3113,150 @@
         </style>
 
     </div>
-  
+    <div id="rec448888603" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; "
+        data-animationappear="off" data-record-type="450">
+        <!-- t450 -->
+        <div id="nav448888603marker"></div>
+        <div class="t450__overlay ">
+            <div class="t450__overlay_bg" style=" "></div>
+        </div>
+        <div id="nav448888603" class="t450 t450__left " data-tooltip-hook="#menuopen2" style="max-width: 260px;">
+            <div class="t450__close t450_opened ">
+                <div class="t450__close_icon"> <span style="background-color:#ffffff;"></span> <span
+                        style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span
+                        style="background-color:#ffffff;"></span> </div>
+            </div>
+            <div class="t450__container t-align_left">
+                <div class="t450__top">
+                    <div class="t450__logowrapper">
+                        <a href="#" style><img src="fonts/ant-design_home-outl.svg" class="t450__logoimg" imgfield="img"
+                                style="max-width: 50px;" alt="СИМПРОЛИТСТРОЙ"></a>
+                    </div>
+                    <div class="t450__menu">
+                        <ul class="t450__list">
+                            <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" href="/"
+                                    data-menu-submenu-hook="link_sub1_448888603" style="color:#ffffff;font-size:15px;"
+                                    data-menu-item-number="1">Дом под ключ</a>
+                            </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" href
+                                    data-menu-submenu-hook="link_sub2_448888603" style="color:#ffffff;font-size:15px;"
+                                    data-menu-item-number="2">Утепление кровли</a>
+                            </li>
+                            <li class="t450__list_item"><a class="t-menu__link-item t450__link-item_submenu" href
+                                    data-menu-submenu-hook="link_sub3_448888603" style="color:#ffffff;font-size:15px;"
+                                    data-menu-item-number="3">Полусухая стяжка полов</a>
+                                <div class="t-menusub" data-submenu-hook="link_sub3_448888603"
+                                        data-submenu-margin="15px" data-add-submenu-arrow>
+                                        <div class="t-menusub__menu">
+                                            <div class="t-menusub__content">
+                                                <ul class="t-menusub__list">
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="1">Газобетон</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="2">Керамические блоки</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="3">Монолитные</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="4">Арболит</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="5">Кирпич</a></li>
+                                                    <li class="t-menusub__list-item t-name t-name_xs"><a
+                                                            class="t-menusub__link-item t-name t-name_xs" style href
+                                                            data-menu-item-number="6">Теплоблоки</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="t450__rightside">
+                    <div class="t450__rightcontainer">
+                        <div class="t450__right_social_links">
+                            <div class="t450__right_social_links_wrap">
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank"> <svg
+                                            version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                            height="30px" viewBox="0 0 99 99" enable-background="new 0 0 99 99"
+                                            space="preserve">
+                                            <path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM22 34C22.4442 55.3198 33.1042 68.1323 51.7933 68.1323H52.8527V55.9351C59.7202 56.6182 64.9132 61.6409 66.9973 68.1323H76.7008C74.0359 58.4292 67.0314 53.0649 62.658 51.0149C67.0314 48.4866 73.1814 42.3367 74.6505 34H65.8353C63.922 40.7649 58.251 46.915 52.8527 47.4958V34H44.0374V57.6433C38.5707 56.2766 31.6692 49.6482 31.3617 34H22Z" />
+                                        </svg>
+                                    </a> </div>
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank">
+                                        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
+                                            width="30px" height="30px" viewBox="0 0 60 60" space="preserve">
+                                            <desc>Telegram</desc>
+                                            <path style="fill:#ffffff;"
+                                                d="M30 0C13.4 0 0 13.4 0 30s13.4 30 30 30 30-13.4 30-30S46.6 0 30 0zm16.9 13.9l-6.7 31.5c-.1.6-.8.9-1.4.6l-10.3-6.9-5.5 5.2c-.5.4-1.2.2-1.4-.4L18 32.7l-9.5-3.9c-.7-.3-.7-1.5 0-1.8l37.1-14.1c.7-.2 1.4.3 1.3 1z" />
+                                            <path style="fill:#ffffff;" d="M22.7 40.6l.6-5.8 16.8-16.3-20.2 13.3" />
+                                        </svg> </a> </div>
+                                <div class="t450__right_social_links_item"> <a href="1" target="_blank"> <svg
+                                            version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                            height="30px" viewBox="0 0 99 99" style="enable-background:new 0 0 99 99;"
+                                            space="preserve">
+                                            <path style="fill:#ffffff;"
+                                                d="M63.892 53.114C63.143 52.739 59.462 50.928 58.775 50.678C58.089 50.428 57.589 50.303 57.09 51.053C56.591 51.803 55.156 53.489 54.719 53.989C54.282 54.489 53.845 54.551 53.097 54.176C52.348 53.801 49.935 53.011 47.075 50.459C44.849 48.473 43.346 46.021 42.909 45.272C42.472 44.522 42.862 44.117 43.237 43.744C43.574 43.408 43.986 42.869 44.36 42.432C44.734 41.995 44.859 41.682 45.109 41.183C45.359 40.683 45.234 40.246 45.047 39.871C44.86 39.496 43.362 35.81 42.738 34.311C42.13 32.851 41.513 33.049 41.053 33.026C40.617 33.004 40.117 33 39.618 33C39.119 33 38.308 33.187 37.621 33.937C36.935 34.687 35 36.498 35 40.184C35 43.87 37.683 47.431 38.058 47.93C38.432 48.43 43.338 55.993 50.85 59.237C52.637 60.009 54.031 60.469 55.119 60.814C56.913 61.384 58.545 61.304 59.836 61.111C61.275 60.896 64.266 59.3 64.89 57.551C65.514 55.802 65.514 54.302 65.327 53.99C65.14 53.677 64.641 53.489 63.892 53.114Z" />
+                                            <path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM50.221 17C58.238 17.003 65.763 20.124 71.421 25.789C77.08 31.454 80.194 38.983 80.189 46.992C80.182 63.515 66.737 76.96 50.22 76.96H50.208C45.193 76.958 40.264 75.7 35.887 73.312L20 77.479L24.252 61.949C21.63 57.405 20.25 52.249 20.252 46.967C20.258 30.443 33.703 17 50.221 17Z" />
+                                        </svg> </a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>t_onReady(function () {
+                var rec = document.querySelector('#rec448888603');
+                if (!rec) return;
+                rec.setAttribute('data-animationappear', 'off');
+                rec.style.opacity = 1;
+                t_onFuncLoad('t450_initMenu', function () { t450_initMenu('448888603'); });
+            });</script>
+        <style>
+            #rec448888603 .t-menu__link-item {}
+
+            @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+
+                #rec448888603 .t-menu__link-item,
+                #rec448888603 .t-menu__link-item.t-active {
+                    opacity: 1 !important;
+                }
+            }
+        </style>
+        <script> t_onReady(function () {
+                setTimeout(function () {
+                    t_onFuncLoad('t_menusub_init', function () {
+                        t_menusub_init('448888603');
+                    });
+                }, 500);
+            });</script>
+        <style>
+            @media screen and (max-width: 980px) {
+                #rec448888603 .t-menusub__menu .t-menusub__link-item {
+                    color: #ffffff !important;
+                }
+
+                #rec448888603 .t-menusub__menu .t-menusub__link-item.t-active {
+                    color: #ffffff !important;
+                }
+            }
+        </style>
+    </div>
     <div id="rec448276217" class="r t-rec t-rec_pt_45" style="padding-top:45px; " data-animationappear="off"
         data-record-type="396">
         <!-- T396 -->
         <style>
             #rec448276217 .t396__artboard {
-                height: 900px;
+                height: 970px;
                 background-color: #ffffff;
             }
 
@@ -198,7 +3274,7 @@
 
             @media screen and (max-width: 1199px) {
                 #rec448276217 .t396__artboard {
-                    height: 900px;
+                    height: 1270px;
                 }
 
                 #rec448276217 .t396__filter {
@@ -227,7 +3303,7 @@
 
             @media screen and (max-width: 639px) {
                 #rec448276217 .t396__artboard {
-                    height: 800px;
+                    height: 1980px;
                 }
 
                 #rec448276217 .t396__filter {
@@ -2068,7 +5144,6 @@
             }
         </style>
         <div class="t396 p-2" >
-           
             <div class="t396__artboard" style="max-height: 1100px !important" data-artboard-recid="448276217" data-artboard-height="970"
                 data-artboard-height-res-960="925" data-artboard-height-res-640="920"
                 data-artboard-height-res-480="1980" data-artboard-height-res-320="888" data-artboard-height_vh
@@ -2173,143 +5248,1809 @@
                     
                 </section>
         </div> 
-    </div> 
-<script>
-    $(document).ready(function(){ 
-        quizLoad(0);
-    });
-</script>
-
-    <div class="container">
-        <div class=" row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5 p-3">
-          
-                <div class="col">
-                    <div class="pb-3">
-                        <span  class="fs-1">
-                            Наша технология строительства домов
-                        </span>
-                        <span class="fs-1 fw-bold " >«СИМПРОЛИТ»</span>
-                    </div>
-                 
-                    <span class="fs-3 ">
-                        Это сверх легкий строительный материал, с наилучшими тепло-техническими свойствами
-                    </span>
-                    <br><br>
-
-                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 g-4 p-2">
-                        <div class="col">
-                            <div class="row p-3 "  style="background-color: #8ed834; border-radius: 20px;">
-                                    <div class="col-auto">
-                                        <img style="max-width: 40px;" class="h-100" src="images/bi_check (1) 1.svg" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <span class="fs-5 text-light ">Дома возводятся быстрее благодаря однослойной конструкции блока которая не нуждается в дополнительном утеплении</span>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="row p-3 "  style="background-color: #8ed834; border-radius: 20px;">
-                                    <div class="col-auto">
-                                        <img style="max-width: 40px;" class="h-100"  src="images/bi_check (1) 1.svg" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <span class="fs-5 text-light ">Собственное производство позволяет удешевить строительство вашего дом</span>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="row p-3 "  style="background-color: #8ed834; border-radius: 20px;">
-                                    <div class="col-auto">
-                                        <img style="max-width: 40px;" class="h-100"  src="images/bi_check (1) 1.svg" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <span class="fs-5 text-light ">Повышенная энергоэффективность в строительстве, полистеролбетона и строительных материалов.</span>
-                                    </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col ">
-                            <div class="row p-3 "  style="background: #FFFFFF;
-box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.04);
-border-radius: 20px; max-width:45   0px">
-                                   
-                                    <div class="col p-3">
-                                        <span class="fs-6 text-dark ">Наши блоки по своим свойствам значительно отличается от всех других   известных вариантов полистеролбетона</span>
-                                    </div>
-                            </div>
-                        </div>
-
-
-                        
-
-                        
-                    </div>
-                    
-                </div>
-
-                <div class="col">
-                    
-                    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-             
-                        <div class="carousel-inner" role="listbox" style="border-radius: 15px;" >
-                        <div class="carousel-item active " data-toggle="modal" data-target="#caruselModal">
-                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                        
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" style="">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next" style="">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row mt-3 ">
-                    <div class="col">
-                      <span data-bs-target="#carouselId" data-bs-slide-to="0" class="active">
-                                      <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/02/flat_ekp_17.jpg" alt="">
-                      </span> 
-                    </div>
-                    
-                    <div class="col">
-                      <span data-bs-target="#carouselId" data-bs-slide-to="1">
-                          <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/04/gelenjik01-600x338.jpg" alt="">
-                        </span>
-                    </div>
-            
-                    <div class="col">
-                      <span data-bs-target="#carouselId" data-bs-slide-to="2">
-                          <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
-                        </span> 
-                    </div>
-                  </div>
-                    
-                </div>
-        </div>
     </div>
+    <div id="rec448330549" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+        <!-- T396 -->
+        <style>
+            #rec448330549 .t396__artboard {
+                height: 1010px;
+                background-color: #ffffff;
+            }
 
+            #rec448330549 .t396__filter {
+                height: 1010px;
+            }
 
+            #rec448330549 .t396__carrier {
+                height: 1010px;
+                background-position: center center;
+                background-attachment: scroll;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
 
-    
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .t396__artboard {
+                    height: 900px;
+                }
+
+                #rec448330549 .t396__filter {
+                    height: 900px;
+                }
+
+                #rec448330549 .t396__carrier {
+                    height: 900px;
+                    background-attachment: scroll;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .t396__artboard {
+                    height: 1480px;
+                }
+
+                #rec448330549 .t396__filter {
+                    height: 1480px;
+                }
+
+                #rec448330549 .t396__carrier {
+                    height: 1480px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {}
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .t396__artboard {
+                    height: 1430px;
+                }
+
+                #rec448330549 .t396__filter {
+                    height: 1430px;
+                }
+
+                #rec448330549 .t396__carrier {
+                    height: 1430px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975639454"] {
+                z-index: 33;
+                top: -480px;
+                left: calc(50% - 600px + 1056px);
+                width: 41px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975639454"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975639454"] {
+                    top: -146px;
+                    left: calc(50% - 480px + 526px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975639454"] {
+                    top: -289px;
+                    left: calc(50% - 320px + -49px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975639454"] {
+                    top: 0px;
+                    left: calc(50% - 240px + 0px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975639454"] {
+                    top: 660px;
+                    left: calc(50% - 160px + 265px);
+                    width: 24px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                color: #000000;
+                z-index: 31;
+                top: -210px;
+                left: calc(50% - 600px + 186px);
+                width: 590px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975621450"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                    top: -341px;
+                    left: calc(50% - 480px + 656px);
+                    width: 465px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                    top: -429px;
+                    left: calc(50% - 320px + 325px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                    top: -140px;
+                    left: calc(50% - 240px + 366px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                    top: 545px;
+                    left: calc(50% - 160px + 29px);
+                    width: 260px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] {
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975621450"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 13px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975621434"] {
+                z-index: 27;
+                top: -210px;
+                left: calc(50% - 600px + 180px);
+                width: 357px;
+                height: 34px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975621434"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621434"] {
+                    top: -310px;
+                    left: calc(50% - 480px + 966px);
+                    width: 271px;
+                    height: 24px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621434"] {
+                    top: -414px;
+                    left: calc(50% - 320px + 681px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621434"] {
+                    top: -188px;
+                    left: calc(50% - 240px + 276px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975621434"] {
+                    top: 530px;
+                    left: calc(50% - 160px + 19px);
+                    width: 280px;
+                    height: 161px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975564476"] {
+                z-index: 30;
+                top: -480px;
+                left: calc(50% - 600px + 1056px);
+                width: 41px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975564476"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975564476"] {
+                    top: -164px;
+                    left: calc(50% - 480px + 158px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975564476"] {
+                    top: -123px;
+                    left: calc(50% - 320px + -104px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975564476"] {
+                    top: 0px;
+                    left: calc(50% - 240px + 0px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975564476"] {
+                    top: 471px;
+                    left: calc(50% - 160px + 254px);
+                    width: 24px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                color: #000000;
+                z-index: 29;
+                top: -220px;
+                left: calc(50% - 600px + 176px);
+                width: 590px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975467798"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                    top: -328px;
+                    left: calc(50% - 480px + 334px);
+                    width: 465px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                    top: -248px;
+                    left: calc(50% - 320px + 626px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                    top: -280px;
+                    left: calc(50% - 240px + 116px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                    top: 320px;
+                    left: calc(50% - 160px + 41px);
+                    width: 238px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] {
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975467798"] .tn-atom {
+                    font-size: 13px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975467783"] {
+                z-index: 26;
+                top: -220px;
+                left: calc(50% - 600px + 170px);
+                width: 357px;
+                height: 34px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975467783"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467783"] {
+                    top: -442px;
+                    left: calc(50% - 480px + 616px);
+                    width: 271px;
+                    height: 24px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467783"] {
+                    top: -248px;
+                    left: calc(50% - 320px + 362px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467783"] {
+                    top: -280px;
+                    left: calc(50% - 240px + 190px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975467783"] {
+                    top: 296px;
+                    left: calc(50% - 160px + 20px);
+                    width: 280px;
+                    height: 208px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753285"] {
+                z-index: 34;
+                top: -199px;
+                left: calc(50% - 600px + 190px);
+                width: 357px;
+                height: 34px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753285"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753285"] {
+                    top: -322px;
+                    left: calc(50% - 480px + 238px);
+                    width: 271px;
+                    height: 24px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753285"] {
+                    top: -346px;
+                    left: calc(50% - 320px + 50px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753285"] {
+                    top: -126px;
+                    left: calc(50% - 240px + 110px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753285"] {
+                    top: 720px;
+                    left: calc(50% - 160px + 17px);
+                    width: 280px;
+                    height: 131px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                color: #000000;
+                z-index: 35;
+                top: -199px;
+                left: calc(50% - 600px + 196px);
+                width: 590px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753303"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                    top: -368px;
+                    left: calc(50% - 480px + 360px);
+                    width: 465px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                    top: -318px;
+                    left: calc(50% - 320px + 308px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                    top: -220px;
+                    left: calc(50% - 240px + 190px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                    top: 735px;
+                    left: calc(50% - 160px + 27px);
+                    width: 260px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] {
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652975753303"] .tn-atom {
+                    color: #ffffff;
+                    font-size: 13px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753315"] {
+                z-index: 36;
+                top: -470px;
+                left: calc(50% - 600px + 1066px);
+                width: 41px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652975753315"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753315"] {
+                    top: -148px;
+                    left: calc(50% - 480px + 40px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753315"] {
+                    top: -248px;
+                    left: calc(50% - 320px + -12px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753315"] {
+                    top: 10px;
+                    left: calc(50% - 240px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652975753315"] {
+                    top: 817px;
+                    left: calc(50% - 160px + 263px);
+                    width: 24px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                color: #000000;
+                z-index: 23;
+                top: 420px;
+                left: calc(50% - 600px + 86px);
+                width: 590px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890748281"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                    top: 412px;
+                    left: calc(50% - 480px + 74px);
+                    width: 465px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                    top: 412px;
+                    left: calc(50% - 320px + 74px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                    top: 412px;
+                    left: calc(50% - 240px + 74px);
+                    width: 399px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] .tn-atom {
+                    font-size: 14px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                    top: 282px;
+                    left: calc(50% - 160px + 520px);
+                    width: 218px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] {
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890748281"] .tn-atom {
+                    font-size: 13px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
+                z-index: 22;
+                top: 420px;
+                left: calc(50% - 600px + 80px);
+                width: 282px;
+                height: 34px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890793547"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
+                    top: 412px;
+                    left: calc(50% - 480px + 68px);
+                    width: 215px;
+                    height: 24px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
+                    top: 412px;
+                    left: calc(50% - 320px + 68px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
+                    top: 412px;
+                    left: calc(50% - 240px + 68px);
+                    width: 200px;
+                    height: 21px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890793547"] {
+                    top: 280px;
+                    left: calc(50% - 160px + 512px);
+                    width: 252px;
+                    height: 152px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974309843"] {
+                z-index: 18;
+                top: 75px;
+                left: calc(50% - 600px + 680px);
+                width: 499px;
+                height: 627px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974309843"] .tn-atom {
+                border-radius: 20px;
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974309843"] {
+                    top: 79px;
+                    left: calc(50% - 480px + 526px);
+                    width: 425px;
+                    height: 581px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974309843"] {
+                    top: 832px;
+                    left: calc(50% - 320px + 11px);
+                    width: 617px;
+                    height: 412px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974309843"] {
+                    top: 832px;
+                    left: calc(50% - 240px + 14px);
+                    width: 457px;
+                    height: 412px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974309843"] {
+                    top: 1039px;
+                    left: calc(50% - 160px + 20px);
+                    width: 280px;
+                    height: 265px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652973731340"] {
+                z-index: 16;
+                top: 731px;
+                left: calc(50% - 600px + 853px);
+                width: 153px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652973731340"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731340"] {
+                    top: 670px;
+                    left: calc(50% - 480px + 812px);
+                    width: 136px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731340"] {
+                    top: 1263px;
+                    left: calc(50% - 320px + 440px);
+                    width: 190px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731340"] {
+                    top: 1263px;
+                    left: calc(50% - 240px + 168px);
+                    width: 144px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731340"] {
+                    top: 1325px;
+                    left: calc(50% - 160px + 115px);
+                    width: 88px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652973731333"] {
+                z-index: 15;
+                top: 731px;
+                left: calc(50% - 600px + 680px);
+                width: 153px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652973731333"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731333"] {
+                    top: 670px;
+                    left: calc(50% - 480px + 526px);
+                    width: 136px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731333"] {
+                    top: 1263px;
+                    left: calc(50% - 320px + 10px);
+                    width: 190px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731333"] {
+                    top: 1263px;
+                    left: calc(50% - 240px + 10px);
+                    width: 144px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652973731333"] {
+                    top: 1325px;
+                    left: calc(50% - 160px + 20px);
+                    width: 88px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910507"] {
+                z-index: 14;
+                top: 678px;
+                left: calc(50% - 600px + 20px);
+                width: 45px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910507"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910507"] {
+                    top: 614px;
+                    left: calc(50% - 480px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910507"] {
+                    top: 614px;
+                    left: calc(50% - 320px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910507"] {
+                    top: 608px;
+                    left: calc(50% - 240px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910507"] {
+                    top: 437px;
+                    left: calc(50% - 160px + 957px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910496"] {
+                color: #000000;
+                z-index: 13;
+                top: 670px;
+                left: calc(50% - 600px + 84px);
+                width: 621px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910496"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] {
+                    top: 614px;
+                    left: calc(50% - 480px + 73px);
+                    width: 407px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] {
+                    top: 614px;
+                    left: calc(50% - 320px + 73px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] {
+                    top: 609px;
+                    left: calc(50% - 240px + 73px);
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] .tn-atom {
+                    font-size: 14px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910496"] {
+                    top: 729px;
+                    left: calc(50% - 160px + 553px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910482"] {
+                z-index: 12;
+                top: 670px;
+                left: calc(50% - 600px + 78px);
+                width: 321px;
+                height: 33px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890910482"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910482"] {
+                    top: 614px;
+                    left: calc(50% - 480px + 67px);
+                    width: 242px;
+                    height: 25px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910482"] {
+                    top: 614px;
+                    left: calc(50% - 320px + 67px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910482"] {
+                    top: 609px;
+                    left: calc(50% - 240px + 67px);
+                    width: 227px;
+                    height: 21px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890910482"] .tn-atom {
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890910482"] {
+                    top: 729px;
+                    left: calc(50% - 160px + 547px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867803"] {
+                z-index: 11;
+                top: 568px;
+                left: calc(50% - 600px + 20px);
+                width: 45px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867803"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867803"] {
+                    top: 526px;
+                    left: calc(50% - 480px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867803"] {
+                    top: 526px;
+                    left: calc(50% - 320px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867803"] {
+                    top: 531px;
+                    left: calc(50% - 240px + 9px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867803"] {
+                    top: 453px;
+                    left: calc(50% - 160px + 867px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867791"] {
+                color: #000000;
+                z-index: 10;
+                top: 546px;
+                left: calc(50% - 600px + 84px);
+                width: 621px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867791"] .tn-atom {
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] {
+                    top: 514px;
+                    left: calc(50% - 480px + 73px);
+                    width: 384px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] .tn-atom {
+                    font-size: 15px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] {
+                    top: 514px;
+                    left: calc(50% - 320px + 73px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] {
+                    top: 522px;
+                    left: calc(50% - 240px + 73px);
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] .tn-atom {
+                    font-size: 14px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867791"] {
+                    top: 627px;
+                    left: calc(50% - 160px + 552px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867778"] {
+                z-index: 9;
+                top: 544px;
+                left: calc(50% - 600px + 78px);
+                width: 249px;
+                height: 35px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890867778"] .tn-atom {
+                border-radius: 15px;
+                background-color: #8ed834;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867778"] {
+                    top: 512px;
+                    left: calc(50% - 480px + 67px);
+                    width: 189px;
+                    height: 27px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867778"] {
+                    top: 513px;
+                    left: calc(50% - 320px + 67px);
+                    width: 189px;
+                    height: 26px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867778"] {
+                    top: 520px;
+                    left: calc(50% - 240px + 67px);
+                    width: 175px;
+                    height: 25px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890867778"] .tn-atom {
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890867778"] {
+                    top: 625px;
+                    left: calc(50% - 160px + 546px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890781249"] {
+                z-index: 8;
+                top: 444px;
+                left: calc(50% - 600px + 20px);
+                width: 45px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890781249"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890781249"] {
+                    top: 425px;
+                    left: calc(50% - 480px + 8px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890781249"] {
+                    top: 425px;
+                    left: calc(50% - 320px + 8px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890781249"] {
+                    top: 433px;
+                    left: calc(50% - 240px + 8px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890781249"] {
+                    top: 336px;
+                    left: calc(50% - 160px + 475px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                color: #000000;
+                z-index: 7;
+                top: 273px;
+                left: calc(50% - 600px + 20px);
+                width: 579px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890707551"] .tn-atom {
+                color: #000000;
+                font-size: 25px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                    top: 273px;
+                    left: calc(50% - 480px + 10px);
+                    width: 462px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] .tn-atom {
+                    font-size: 20px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                    top: 273px;
+                    left: calc(50% - 320px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                    top: 273px;
+                    left: calc(50% - 240px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                    top: 175px;
+                    left: calc(50% - 160px + 20px);
+                    width: 280px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] {
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890707551"] .tn-atom {
+                    font-size: 15px;
+                    opacity: 1;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                color: #000000;
+                z-index: 6;
+                top: 75px;
+                left: calc(50% - 600px + 20px);
+                width: 560px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652890690198"] .tn-atom {
+                color: #000000;
+                font-size: 40px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                    top: 75px;
+                    left: calc(50% - 480px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                    top: 75px;
+                    left: calc(50% - 320px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                    top: 75px;
+                    left: calc(50% - 240px + 10px);
+                    width: 464px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                    top: 41px;
+                    left: calc(50% - 160px + 20px);
+                    width: 280px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] {
+                    text-align: center;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652890690198"] .tn-atom {
+                    font-size: 25px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1653513286295"] {
+                z-index: 37;
+                top: 731px;
+                left: calc(50% - 600px + 1026px);
+                width: 153px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1653513286295"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1653513286295"] {
+                    top: 670px;
+                    left: calc(50% - 480px + 669px);
+                    width: 136px;
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1653513286295"] {
+                    top: 1263px;
+                    left: calc(50% - 320px + 225px);
+                    width: 190px;
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1653513286295"] {
+                    top: 1263px;
+                    left: calc(50% - 240px + 326px);
+                    width: 144px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1653513286295"] {
+                    top: 1325px;
+                    left: calc(50% - 160px + 211px);
+                    width: 88px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974838485"] {
+                z-index: 21;
+                top: 790px;
+                left: calc(50% - 600px + 470px);
+                width: 25px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974838485"] .tn-atom {
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974838485"] {
+                    top: 708px;
+                    left: calc(50% - 480px + 460px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974838485"] {
+                    top: 708px;
+                    left: calc(50% - 320px + 460px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974838485"] {
+                    top: 702px;
+                    left: calc(50% - 240px + 430px);
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974838485"] {
+                    top: 892px;
+                    left: calc(50% - 160px + 260px);
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652891000631"] {
+                color: #000000;
+                z-index: 20;
+                top: 796px;
+                left: calc(50% - 600px + 40px);
+                width: 418px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652891000631"] .tn-atom {
+                color: #000000;
+                font-size: 15px;
+                font-family: 'Montserrat', Arial, sans-serif;
+                line-height: 1.55;
+                font-weight: 400;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652891000631"] {
+                    top: 712px;
+                    left: calc(50% - 480px + 30px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652891000631"] {
+                    top: 721px;
+                    left: calc(50% - 320px + 28px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652891000631"] {
+                    top: 716px;
+                    left: calc(50% - 240px + 40px);
+                    width: 366px;
+                }
+
+                #rec448330549 .tn-elem[data-elem-id="1652891000631"] .tn-atom {
+                    font-size: 13px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652891000631"] {
+                    top: 901px;
+                    left: calc(50% - 160px + 50px);
+                    width: 223px;
+                }
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974727551"] {
+                z-index: 19;
+                top: 769px;
+                left: calc(50% - 600px + 20px);
+                width: 491px;
+                height: 100px;
+            }
+
+            #rec448330549 .tn-elem[data-elem-id="1652974727551"] .tn-atom {
+                border-radius: 20px;
+                background-color: #ffffff;
+                background-position: center center;
+                border-color: transparent;
+                border-style: solid;
+                box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.1);
+            }
+
+            @media screen and (max-width: 1199px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974727551"] {
+                    top: 687px;
+                    left: calc(50% - 480px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 959px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974727551"] {
+                    top: 687px;
+                    left: calc(50% - 320px + 10px);
+                }
+            }
+
+            @media screen and (max-width: 639px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974727551"] {
+                    top: 687px;
+                    left: calc(50% - 240px + 10px);
+                    width: 462px;
+                    height: 100px;
+                }
+            }
+
+            @media screen and (max-width: 479px) {
+                #rec448330549 .tn-elem[data-elem-id="1652974727551"] {
+                    top: 878px;
+                    left: calc(50% - 160px + 20px);
+                    width: 280px;
+                    height: 126px;
+                }
+            }
+        </style>
+        <div class="t396  " >
+            <div class="t396__artboard" style="max-height: 1800px !important;" data-artboard-recid="448330549" data-artboard-height="1010"
+                data-artboard-height-res-960="900" data-artboard-height-res-640="1480"
+                data-artboard-height-res-320="1430" data-artboard-height_vh data-artboard-valign="center"
+                data-artboard-upscale="grid" data-artboard-upscale-res-320="window" data-artboard-ovrflw>
+                <div class="t396__carrier" data-artboard-recid="448330549"></div>
+                <div class="t396__filter" data-artboard-recid="448330549"></div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975639454" data-elem-id="1652975639454"
+                    data-elem-type="image" data-field-top-value="-480" data-field-top-res-960-value="-146"
+                    data-field-top-res-640-value="-189" data-field-top-res-480-value="0"
+                    data-field-top-res-320-value="610" data-field-left-value="1056" data-field-left-res-960-value="526"
+                    data-field-left-res-640-value="-49" data-field-left-res-480-value="0"
+                    data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="41" data-field-fileheight-value="41">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3434-6338-4334-b235-336133626334/bi_check_3.svg"
+                            imgfield="tn_img_1652975639454"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975621450" data-elem-id="1652975621450"
+                    data-elem-type="text" data-field-top-value="-210" data-field-top-res-960-value="-341"
+                    data-field-top-res-640-value="-429" data-field-top-res-480-value="-140"
+                    data-field-top-res-320-value="515" data-field-left-value="186" data-field-left-res-960-value="656"
+                    data-field-left-res-640-value="325" data-field-left-res-480-value="366"
+                    data-field-left-res-320-value="29" data-field-width-value="590" data-field-width-res-960-value="465"
+                    data-field-width-res-320-value="260" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652975621450">Значительно улучшает конструкционные
+                        <br>теплотехнические и акустические показатели <br>полистиролбетона</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975621434" data-elem-id="1652975621434"
+                    data-elem-type="shape" data-field-top-value="-210" data-field-top-res-960-value="-310"
+                    data-field-top-res-640-value="-414" data-field-top-res-480-value="-188"
+                    data-field-top-res-320-value="500" data-field-left-value="180" data-field-left-res-960-value="966"
+                    data-field-left-res-640-value="681" data-field-left-res-480-value="276"
+                    data-field-left-res-320-value="19" data-field-height-value="34" data-field-height-res-960-value="24"
+                    data-field-height-res-320-value="161" data-field-width-value="357"
+                    data-field-width-res-960-value="271" data-field-width-res-320-value="280"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
+                    data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975564476" data-elem-id="1652975564476"
+                    data-elem-type="image" data-field-top-value="-480" data-field-top-res-960-value="-164"
+                    data-field-top-res-640-value="-123" data-field-top-res-480-value="0"
+                    data-field-top-res-320-value="415" data-field-left-value="1056" data-field-left-res-960-value="158"
+                    data-field-left-res-640-value="-104" data-field-left-res-480-value="0"
+                    data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="41" data-field-fileheight-value="41">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3434-6338-4334-b235-336133626334/bi_check_3.svg"
+                            imgfield="tn_img_1652975564476"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975467798" data-elem-id="1652975467798"
+                    data-elem-type="text" data-field-top-value="-220" data-field-top-res-960-value="-328"
+                    data-field-top-res-640-value="-248" data-field-top-res-480-value="-280"
+                    data-field-top-res-320-value="320" data-field-left-value="176" data-field-left-res-960-value="334"
+                    data-field-left-res-640-value="626" data-field-left-res-480-value="116"
+                    data-field-left-res-320-value="41" data-field-width-value="590" data-field-width-res-960-value="465"
+                    data-field-width-res-320-value="238" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652975467798"><span style="color: rgb(255, 255, 255);">Дома возводятся быстрее </span><br><span
+                            style="color: rgb(255, 255, 255);">благодаря однослойной конструкции блока,</span><br><span style="color: rgb(255, 255, 255);">которая не нуждается в дополнительном утеплении</span></div> 
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975467783" data-elem-id="1652975467783"
+                    data-elem-type="shape" data-field-top-value="-220" data-field-top-res-960-value="-442"
+                    data-field-top-res-640-value="-248" data-field-top-res-480-value="-280"
+                    data-field-top-res-320-value="296" data-field-left-value="170" data-field-left-res-960-value="616"
+                    data-field-left-res-640-value="362" data-field-left-res-480-value="190"
+                    data-field-left-res-320-value="20" data-field-height-value="34" data-field-height-res-960-value="24"
+                    data-field-height-res-320-value="158" data-field-width-value="357"
+                    data-field-width-res-960-value="271" data-field-width-res-320-value="280"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
+                    data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975753285" data-elem-id="1652975753285"
+                    data-elem-type="shape" data-field-top-value="-199" data-field-top-res-960-value="-322"
+                    data-field-top-res-640-value="-346" data-field-top-res-480-value="-126"
+                    data-field-top-res-320-value="720" data-field-left-value="190" data-field-left-res-960-value="238"
+                    data-field-left-res-640-value="50" data-field-left-res-480-value="110"
+                    data-field-left-res-320-value="17" data-field-height-value="34" data-field-height-res-960-value="24"
+                    data-field-height-res-320-value="131" data-field-width-value="357"
+                    data-field-width-res-960-value="271" data-field-width-res-320-value="280"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px"
+                    data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652975753303" data-elem-id="1652975753303"
+                    data-elem-type="text" data-field-top-value="-199" data-field-top-res-960-value="-368"
+                    data-field-top-res-640-value="-318" data-field-top-res-480-value="-220"
+                    data-field-top-res-320-value="735" data-field-left-value="196" data-field-left-res-960-value="360"
+                    data-field-left-res-640-value="308" data-field-left-res-480-value="190"
+                    data-field-left-res-320-value="27" data-field-width-value="590" data-field-width-res-960-value="465"
+                    data-field-width-res-320-value="260" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652975753303">Повышенная энергоэффективность<br>полистеролбетона и строительных материалов</div>
+                </div> 
+
+                <div class="t396__elem tn-elem tn-elem__4483305491652975753315" data-elem-id="1652975753315"
+                    data-elem-type="image" data-field-top-value="-470" data-field-top-res-960-value="-148"
+                    data-field-top-res-640-value="-248" data-field-top-res-480-value="10"
+                    data-field-top-res-320-value="817" data-field-left-value="1066" data-field-left-res-960-value="40"
+                    data-field-left-res-640-value="-12" data-field-left-res-480-value="10"
+                    data-field-left-res-320-value="265" data-field-width-value="41" data-field-width-res-320-value="24"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="41" data-field-fileheight-value="41">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild3434-6338-4334-b235-336133626334/bi_check_3.svg"
+                            imgfield="tn_img_1652975753315"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890748281" data-elem-id="1652890748281"
+                    data-elem-type="text" data-field-top-value="420" data-field-top-res-960-value="412"
+                    data-field-top-res-640-value="412" data-field-top-res-480-value="412"
+                    data-field-top-res-320-value="282" data-field-left-value="86" data-field-left-res-960-value="74"
+                    data-field-left-res-640-value="74" data-field-left-res-480-value="74"
+                    data-field-left-res-320-value="520" data-field-width-value="590"
+                    data-field-width-res-960-value="465" data-field-width-res-480-value="399"
+                    data-field-width-res-320-value="218" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890748281"><span style="color: rgb(255, 255, 255);">Дома возводятся быстрее </span>  благодаря однослойной конструкции блока которая не нуждается в дополнительном утеплении</div>
+
+                </div>
+
+                <div class="t396__elem tn-elem tn-elem__4483305491652890793547" data-elem-id="1652890793547"
+                    data-elem-type="shape" data-field-top-value="420" data-field-top-res-960-value="412"
+                    data-field-top-res-640-value="412" data-field-top-res-480-value="412"
+                    data-field-top-res-320-value="280" data-field-left-value="80" data-field-left-res-960-value="68"
+                    data-field-left-res-640-value="68" data-field-left-res-480-value="68"
+                    data-field-left-res-320-value="512" data-field-height-value="34"
+                    data-field-height-res-960-value="24" data-field-height-res-480-value="21"
+                    data-field-height-res-320-value="152" data-field-width-value="282px"
+                    data-field-width-res-960-value="215" data-field-width-res-480-value="200"
+                    data-field-width-res-320-value="252" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652974309843" data-elem-id="1652974309843"
+                    data-elem-type="shape" data-field-top-value="75" data-field-top-res-960-value="79"
+                    data-field-top-res-640-value="832" data-field-top-res-480-value="832"
+                    data-field-top-res-320-value="1039" data-field-left-value="680" data-field-left-res-960-value="526"
+                    data-field-left-res-640-value="11" data-field-left-res-480-value="14"
+                    data-field-left-res-320-value="20" data-field-height-value="627"
+                    data-field-height-res-960-value="581" data-field-height-res-640-value="412"
+                    data-field-height-res-480-value="412" data-field-height-res-320-value="265"
+                    data-field-width-value="499" data-field-width-res-960-value="425"
+                    data-field-width-res-640-value="617" data-field-width-res-480-value="457"
+                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom t-bgimg"
+                        data-original="https://simprolitstroy.ru/images/technologysimprolit1.jpeg"
+                        style="background-image:url('https://simprolitstroy.ru/images/technologysimprolit1.jpeg');"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652973731340" data-elem-id="1652973731340"
+                    data-elem-type="image" data-field-top-value="731" data-field-top-res-960-value="670"
+                    data-field-top-res-640-value="1263" data-field-top-res-480-value="1263"
+                    data-field-top-res-320-value="1325" data-field-left-value="853" data-field-left-res-960-value="812"
+                    data-field-left-res-640-value="440" data-field-left-res-480-value="168"
+                    data-field-left-res-320-value="115" data-field-width-value="153"
+                    data-field-width-res-960-value="136" data-field-width-res-640-value="190"
+                    data-field-width-res-480-value="144" data-field-width-res-320-value="88"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="189" data-field-fileheight-value="141">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;"
+                            data-original="https://simprolitstroy.ru/api/gallery/1.jpeg"
+                            imgfield="tn_img_1652973731340"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652973731333" data-elem-id="1652973731333"
+                    data-elem-type="image" data-field-top-value="731" data-field-top-res-960-value="670"
+                    data-field-top-res-640-value="1263" data-field-top-res-480-value="1263"
+                    data-field-top-res-320-value="1325" data-field-left-value="680" data-field-left-res-960-value="526"
+                    data-field-left-res-640-value="10" data-field-left-res-480-value="10"
+                    data-field-left-res-320-value="20" data-field-width-value="153" data-field-width-res-960-value="136"
+                    data-field-width-res-640-value="190" data-field-width-res-480-value="144"
+                    data-field-width-res-320-value="88" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px" data-field-filewidth-value="189"
+                    data-field-fileheight-value="141" >
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;"
+                            data-original="https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.24.jpeg"
+                            imgfield="tn_img_1652973731333"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890910507" data-elem-id="1652890910507"
+                    data-elem-type="image" data-field-top-value="678" data-field-top-res-960-value="614"
+                    data-field-top-res-640-value="614" data-field-top-res-480-value="608"
+                    data-field-top-res-320-value="437" data-field-left-value="20" data-field-left-res-960-value="9"
+                    data-field-left-res-640-value="9" data-field-left-res-480-value="9"
+                    data-field-left-res-320-value="957" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890910507"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890910496" data-elem-id="1652890910496"
+                    data-elem-type="text" data-field-top-value="670" data-field-top-res-960-value="614"
+                    data-field-top-res-640-value="614" data-field-top-res-480-value="609"
+                    data-field-top-res-320-value="729" data-field-left-value="84" data-field-left-res-960-value="73"
+                    data-field-left-res-640-value="73" data-field-left-res-480-value="73"
+                    data-field-left-res-320-value="553" data-field-width-value="621"
+                    data-field-width-res-960-value="407" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890910496"><span style="color: rgb(255, 255, 255);">Повышенная энергоэффективность</span> в строительстве, <br>полистеролбетона и строительных материалов.
+                    </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890910482" data-elem-id="1652890910482"
+                    data-elem-type="shape" data-field-top-value="670" data-field-top-res-960-value="614"
+                    data-field-top-res-640-value="614" data-field-top-res-480-value="609"
+                    data-field-top-res-320-value="729" data-field-left-value="78" data-field-left-res-960-value="67"
+                    data-field-left-res-640-value="67" data-field-left-res-480-value="67"
+                    data-field-left-res-320-value="547" data-field-height-value="33"
+                    data-field-height-res-960-value="25" data-field-height-res-480-value="21"
+                    data-field-width-value="387" data-field-width-res-960-value="292"
+                    data-field-width-res-480-value="227" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890867803" data-elem-id="1652890867803"
+                    data-elem-type="image" data-field-top-value="568" data-field-top-res-960-value="526"
+                    data-field-top-res-640-value="526" data-field-top-res-480-value="531"
+                    data-field-top-res-320-value="453" data-field-left-value="20" data-field-left-res-960-value="9"
+                    data-field-left-res-640-value="9" data-field-left-res-480-value="9"
+                    data-field-left-res-320-value="867" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890867803"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890867791" data-elem-id="1652890867791"
+                    data-elem-type="text" data-field-top-value="546" data-field-top-res-960-value="514"
+                    data-field-top-res-640-value="514" data-field-top-res-480-value="522"
+                    data-field-top-res-320-value="627" data-field-left-value="84" data-field-left-res-960-value="73"
+                    data-field-left-res-640-value="73" data-field-left-res-480-value="73"
+                    data-field-left-res-320-value="552" data-field-width-value="621"
+                    data-field-width-res-960-value="384" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890867791"><span
+                            style="color: rgb(255, 255, 255);">Собственное производство</span> позволяет удешевить строительство вашего дома</div>
+                </div>
+
+                <div class="t396__elem tn-elem tn-elem__4483305491652890867778" data-elem-id="1652890867778"
+                    data-elem-type="shape" data-field-top-value="544" data-field-top-res-960-value="512"
+                    data-field-top-res-640-value="513" data-field-top-res-480-value="520"
+                    data-field-top-res-320-value="625" data-field-left-value="78" data-field-left-res-960-value="67"
+                    data-field-left-res-640-value="67" data-field-left-res-480-value="67"
+                    data-field-left-res-320-value="546" data-field-height-value="35"
+                    data-field-height-res-960-value="27" data-field-height-res-640-value="26"
+                    data-field-height-res-480-value="25" data-field-width-value="300"
+                    data-field-width-res-960-value="227" data-field-width-res-640-value="227"
+                    data-field-width-res-480-value="212" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890781249" data-elem-id="1652890781249"
+                    data-elem-type="image" data-field-top-value="444" data-field-top-res-960-value="425"
+                    data-field-top-res-640-value="425" data-field-top-res-480-value="433"
+                    data-field-top-res-320-value="336" data-field-left-value="20" data-field-left-res-960-value="8"
+                    data-field-left-res-640-value="8" data-field-left-res-480-value="8"
+                    data-field-left-res-320-value="475" data-field-width-value="45" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="68" data-field-fileheight-value="68">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg"
+                            imgfield="tn_img_1652890781249"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890707551" data-elem-id="1652890707551"
+                    data-elem-type="text" data-field-top-value="273" data-field-top-res-960-value="273"
+                    data-field-top-res-640-value="273" data-field-top-res-480-value="273"
+                    data-field-top-res-320-value="175" data-field-left-value="20" data-field-left-res-960-value="10"
+                    data-field-left-res-640-value="10" data-field-left-res-480-value="10"
+                    data-field-left-res-320-value="20" data-field-width-value="579" data-field-width-res-960-value="462"
+                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890707551">Это сверх легкий строительный материал, с наилучшими тепло-техническими свойствами</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652890690198" data-elem-id="1652890690198"
+                    data-elem-type="text" data-field-top-value="75" data-field-top-res-960-value="75"
+                    data-field-top-res-640-value="75" data-field-top-res-480-value="75"
+                    data-field-top-res-320-value="41" data-field-left-value="20" data-field-left-res-960-value="10"
+                    data-field-left-res-640-value="10" data-field-left-res-480-value="10"
+                    data-field-left-res-320-value="20" data-field-width-value="560" data-field-width-res-480-value="464"
+                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652890690198">Наша технология<br>строительства
+                        домов<br><strong>«СИМПРОЛИТ»</strong></div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491653513286295" data-elem-id="1653513286295"
+                    data-elem-type="image" data-field-top-value="731" data-field-top-res-960-value="670"
+                    data-field-top-res-640-value="1263" data-field-top-res-480-value="1263"
+                    data-field-top-res-320-value="1325" data-field-left-value="1026" data-field-left-res-960-value="669"
+                    data-field-left-res-640-value="225" data-field-left-res-480-value="326"
+                    data-field-left-res-320-value="211" data-field-width-value="153"
+                    data-field-width-res-960-value="136" data-field-width-res-640-value="190"
+                    data-field-width-res-480-value="144" data-field-width-res-320-value="88"
+                    data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+                    data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value
+                    data-field-widthunits-value="px" data-field-filewidth-value="189" data-field-fileheight-value="141">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img" style="border-radius: 20px; object-fit: cover; height: 100px;" 
+                            data-original="https://simprolitstroy.ru/api/gallery/5.jpeg"
+                            imgfield="tn_img_1653513286295"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652974838485" data-elem-id="1652974838485"
+                    data-elem-type="image" data-field-top-value="790" data-field-top-res-960-value="708"
+                    data-field-top-res-640-value="708" data-field-top-res-480-value="702"
+                    data-field-top-res-320-value="892" data-field-left-value="470" data-field-left-res-960-value="460"
+                    data-field-left-res-640-value="460" data-field-left-res-480-value="430"
+                    data-field-left-res-320-value="260" data-field-width-value="25" data-field-axisy-value="top"
+                    data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px"
+                    data-field-leftunits-value="px" data-field-heightunits-value data-field-widthunits-value="px"
+                    data-field-filewidth-value="25" data-field-fileheight-value="25">
+                    <div class="tn-atom"> <img class="tn-atom__img t-img"
+                            data-original="https://static.tildacdn.info/tild6234-3733-4636-b564-643266656539/mdi_information-vari.svg"
+                            imgfield="tn_img_1652974838485"> </div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652891000631" data-elem-id="1652891000631"
+                    data-elem-type="text" data-field-top-value="796" data-field-top-res-960-value="712"
+                    data-field-top-res-640-value="721" data-field-top-res-480-value="716"
+                    data-field-top-res-320-value="901" data-field-left-value="40" data-field-left-res-960-value="30"
+                    data-field-left-res-640-value="28" data-field-left-res-480-value="40"
+                    data-field-left-res-320-value="50" data-field-width-value="418" data-field-width-res-480-value="366"
+                    data-field-width-res-320-value="223" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value data-field-widthunits-value="px">
+                    <div class="tn-atom" field="tn_text_1652891000631">Наши блоки по своим свойствам значительно отличается
+от всех других известных вариантов полистеролбетона</div>
+                </div>
+                <div class="t396__elem tn-elem tn-elem__4483305491652974727551" data-elem-id="1652974727551"
+                    data-elem-type="shape" data-field-top-value="769" data-field-top-res-960-value="687"
+                    data-field-top-res-640-value="687" data-field-top-res-480-value="687"
+                    data-field-top-res-320-value="878" data-field-left-value="20" data-field-left-res-960-value="10"
+                    data-field-left-res-640-value="10" data-field-left-res-480-value="10"
+                    data-field-left-res-320-value="20" data-field-height-value="116"
+                    data-field-height-res-480-value="116" data-field-height-res-320-value="138"
+                    data-field-width-value="491" data-field-width-res-480-value="462"
+                    data-field-width-res-320-value="280" data-field-axisy-value="top" data-field-axisx-value="left"
+                    data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
+                    data-field-heightunits-value="px" data-field-widthunits-value="px">
+                    <div class="tn-atom"> </div>
+                </div>
+            </div>
+        </div>
+        <script>t_onReady(function () {
+                t_onFuncLoad('t396_init', function () {
+                    t396_init('448330549');
+                });
+            });</script><!-- /T396 -->
+    </div>
     <div id="rec448333531" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
       
@@ -2421,8 +7162,7 @@ border-radius: 20px; max-width:45   0px">
                 <h1 class="f pb-4">Проекты</h1>
                
                 <div id="projects_block" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-2 ">
-
-                    <!--<div class="col" style="">
+                    <div class="col" style="">
                         <div class="card row-cols-1 h-100">
                             <img src="image.png" style="border-radius: 20px;" class="rounded-4">
                             <div class="card-body">
@@ -2460,20 +7200,18 @@ border-radius: 20px; max-width:45   0px">
                                 <div class="p-3 border-top border-success pt-4 full">ПОДРОБНЕЕ</div>
                             </div>
                         </div>
-                    </div> -->
+                    </div> 
                 </div>
-
-                <div class=" pt-4 mx-auto d-flex justify-content-center">
-                    <button style="max-width: 250px"  id="btnMoreProjects" onclick="return clickMoreProjects();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
-                  
+                <div class="w-100 pt-4 mx-auto d-flex justify-content-center">
+                    <button id="btnMoreProjects" onclick="return clickMoreProjects();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
                 </div>
             </div>
         </section>
-        <script>
-            $(document).ready(function(){ 
-                getCatalogProjects();
-            });
-        </script>
+        <script>t_onReady(function () {
+                t_onFuncLoad('t396_init', function () {
+                    t396_init('448333531');
+                });
+            });</script><!-- /T396 -->
     </div>
     <div id="rec448337565" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
@@ -2485,15 +7223,15 @@ border-radius: 20px; max-width:45   0px">
 				<div class="div p-2">
 				<h1 class="f pb-4">Галерея</h1>
                 <div id="galleryFirstBox" class="row row-cols-1 row-cols-md-2 g-4">
-                    <!--<div class="col">
+                    <div class="col">
                         <img class="w-100" src="one.webp">
                     </div>
                     <div class="col">
                         <img class="w-100" src="two.webp">
-                    </div>-->
+                    </div>
                 </div>
                 <div id="gallerySecondBox" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-3">
-                    <!--<div class="col"> 
+                    <div class="col"> 
                         <img class="w-100" src="three.webp">
                     </div>
                     <div class="col"> 
@@ -2504,11 +7242,11 @@ border-radius: 20px; max-width:45   0px">
                     </div>
                     <div class="col"> 
                         <img class="w-100" src="six.webp">
-                    </div>-->
+                    </div>
 				</div>
             </div>
 			<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-                <button style="max-width: 250px"   id="btnMoreGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
+				<button id="btnMoreGallery" onclick="return clickMoreGallery();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
 			</div>
         </div>
     </section>
@@ -2520,15 +7258,15 @@ border-radius: 20px; max-width:45   0px">
 			<div class="div">
 			<h1 class="f pb-4">Галерея</h1>
 			<div id="galleryMobFirstBox" class="row row-cols-1 row-cols-md-2 g-4">
-				<!--<div class="col">
+				<div class="col">
 					<img class="w-100" src="one.webp">
 				</div>
 				<div class="col">
 					<img class="w-100" src="two.webp">
-				</div>-->
+				</div>
 			</div>
 			<div id="galleryMobSecondBox" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-3">
-				<!--<div class="col"> 
+				<div class="col"> 
 					<img class="w-100" src="three.webp">
 				</div>
 				<div class="col"> 
@@ -2539,21 +7277,20 @@ border-radius: 20px; max-width:45   0px">
 				</div>
 				<div class="col"> 
 					<img class="w-100" src="six.webp">
-				</div>-->
+				</div>
 			</div>
 		</div>
 		<div class="w-100 pt-4 mx-auto d-flex justify-content-center">
-        <button style="max-width: 250px"  id="btnMoreMobGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Смотреть ещё</button>
-			
+			<button id="btnMoreMobGallery" onclick="return clickMoreGallery();" class="btn-style p-4"><span class="w-100 f">СМОТРЕТЬ ЕЩЕ</span></button>
 		</div>
 	</div>
 </section>
         </div>
-        <script>
-            $(document).ready(function(){ 
-                getGallery();
-            });
-        </script>
+        <script>t_onReady(function () {
+                t_onFuncLoad('t396_init', function () {
+                    t396_init('448337565');
+                });
+            });</script><!-- /T396 -->
     </div>
     <div id="rec448338964" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
@@ -10581,8 +15318,9 @@ color: #000000;
             <div class="t-container_100">
                 <div class="t142__wrapone">
                     <div class="t142__wraptwo">  
-                    <button style="max-width: 250px"   id="btnMoreGallery" onclick="return clickMoreGallery();" class="w-100 p-4 btn-successs">Показать ещё</button>
-                        
+                            <div class="t-btn t142__submit "
+                                style="color:#ffffff;background-color:#8ed834;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;font-family:Montserrat;font-weight:500;">
+                                <span class="t142__text">Показать ещё</span> </div>
                         </div>
                 </div>
             </div>
@@ -14850,18 +19588,18 @@ color: #000000;
       <?php include "layouts/footer.php"; ?>
 </footer>
 
-        <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
             <div class="modal-content text-center p-2 w-100 pb-4"  style="max-width: 700px !important; border-radius: 20px;">
              
                 
 
                 <div class="">
-                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#formModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
+                    <button type="button" class="close w-100 text-right p-3 " data-dismiss="modal" onclick="$('#exampleModal').modal('hide');" style="text-align: right; max-height: 0px; margin-top: -20px !important; background: none; border: none;">
 
                         <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
                     </button>
-                <h1 class="text-center w-100 mt-1 " id="formModalLabel">Оставьте свои контакты</h1>
+                <h1 class="text-center w-100 mt-1 " id="exampleModalLabel">Оставьте свои контакты</h1>
                 
                 </div>
                 <span class="mt-2 h5"><b>Оставьте контакты</b> и мы с вами свяжемся</span>
@@ -14950,46 +19688,42 @@ color: #000000;
             </div>
             </div>
         </div>
-        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="newleadModalLabelSuccess" aria-hidden="true">
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabelSuccess" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered " style="max-width: 700px !important; ">
                 <div class="modal-content text-center p-2 w-100"  style="max-width: 700px !important; border-radius: 20px;">
                     <div class=""> 
                         <button type="button" class="close w-100 text-right p-3 pb-3 " data-dismiss="modal" onclick="$('#successModal').modal('hide');" style="text-align: right; max-height: 50px; margin-top: -10px !important; background: none; border: none;">
                             <span aria-hidden="true" style=" font-size: 50px !important;">&times;</span>
                         </button>
-                        <h1 class="modal-title text-center w-100 mt-3 " id="newleadModalLabelSuccess">Заявка успешно отправлена</h1>
+                        <h1 class="modal-title text-center w-100 mt-3 " id="exampleModalLabelSuccess">Заявка успешно отправлена</h1>
                     </div>
                     <span class="mt-2 h5" style="padding-bottom: 50px;">Ожидайте, скоро мы с вами свяжемся</span>
                 </div>
             </div>
         </div>
-        <div class="mob-center fixed-bottom d-block d-sm-none" style=" z-index:10000; ">
-
-                <div id="mobFixedBottomsPhoneWhatsApp" class="row g-1 p-2" style="display: none!important">
-                   <div class="col">
-                       <a href="tel:+7 (843) 212 61-77">
-                       <img  class="w-100" href src="images/ws.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
-                       </a>
-                    </div>
-                   <div class="col">
-                    <a href="whatsapp://send?phone=78432126177">
-                       <img  class="w-100" src="images/call.svg" alt="" style="filter: drop-shadow(0px 11px 22px rgba(0, 0, 0, 0.4));">
-                    </a>
-                    </div>
-
-                </div>    
-
-            </div>
 
 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script>
-            quizLoad(0);
-            getCatalogProjects();
-            getGallery();
+   
+  
+        <script src="js/simprolitstroy.js?v=<?php echo filectime('js/simprolitstroy.js'); ?>" charset="utf-8" async></script>
+        <!— Yandex.Metrika counter —>
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88965053, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+        });
         </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/88965053" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!— /Yandex.Metrika counter —>
     </body>
 </html>
