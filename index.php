@@ -34,11 +34,7 @@
     <link rel="stylesheet" href="css/tilda-slds-1.4.min.css" type="text/css" media="print" onload="this.media='all';"
         onerror="this.loaderr='y';"><noscript>
         <link rel="stylesheet" href="css/tilda-slds-1.4.min.css" type="text/css" media="all">
-    </noscript>
-    <link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="print" onload="this.media='all';"
-        onerror="this.loaderr='y';"><noscript>
-        <link rel="stylesheet" href="css/tilda-zoom-2.0.min.css" type="text/css" media="all">
-    </noscript>
+    </noscript> 
     <link rel="stylesheet" href="css/tilda-menusub-1.0.min.css" type="text/css" media="print" onload="this.media='all';"
         onerror="this.loaderr='y';"><noscript>
         <link rel="stylesheet" href="css/tilda-menusub-1.0.min.css" type="text/css" media="all">
@@ -52,7 +48,6 @@
     <script src="js/tilda-zero-1.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script>
     <script src="js/tilda-slds-1.4.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/hammer.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
-    <script src="js/tilda-zoom-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-menusub-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-animation-sbs-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
@@ -2180,8 +2175,8 @@
     });
 </script>
 
-    <div class="container">
-        <div class=" row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5 p-3">
+    <div class="container p-3">
+        <div class=" row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5 ">
           
                 <div class="col">
                     <div class="pb-3">
@@ -2214,7 +2209,7 @@
                                         <img style="max-width: 40px;" class="h-100"  src="images/bi_check (1) 1.svg" alt="">
                                     </div>
                                     <div class="col">
-                                        <span class="fs-5 text-light ">Собственное производство позволяет удешевить строительство вашего дом</span>
+                                        <span class="fs-5 text-light ">Собственное производство позволяет удешевить строительство вашего дома</span>
                                     </div>
                             </div>
                         </div>
@@ -2225,19 +2220,19 @@
                                         <img style="max-width: 40px;" class="h-100"  src="images/bi_check (1) 1.svg" alt="">
                                     </div>
                                     <div class="col">
-                                        <span class="fs-5 text-light ">Повышенная энергоэффективность в строительстве, полистеролбетона и строительных материалов.</span>
+                                        <span class="fs-5 text-light ">Повышенная энергоэффективность в строительстве, полистеролбетона и строительных материалов</span>
                                     </div>
                             </div>
                         </div>
-
-
+ 
                         <div class="col ">
-                            <div class="row p-3 "  style="background: #FFFFFF;
-box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.04);
-border-radius: 20px; max-width:45   0px">
+                            <div class="row p-3" style="background: #FFFFFF; box-shadow: 0px 19px 26px rgba(0, 0, 0, 0.04); border-radius: 20px; max-width:45   0px">
                                    
-                                    <div class="col p-3">
-                                        <span class="fs-6 text-dark ">Наши блоки по своим свойствам значительно отличается от всех других   известных вариантов полистеролбетона</span>
+                                    <div class="col-auto">
+                                        <img style="max-width: 40px;" class="h-100" src="https://static.tildacdn.info/tild6234-3733-4636-b564-643266656539/mdi_information-vari.svg" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <span class="fs-6 text-dark ">Наши блоки по своим свойствам значительно отличаются от всех других известных вариантов полистеролбетона</span>
                                     </div>
                             </div>
                         </div>
@@ -2256,19 +2251,19 @@ border-radius: 20px; max-width:45   0px">
              
                         <div class="carousel-inner" role="listbox" style="border-radius: 15px;" >
                         <div class="carousel-item active " data-toggle="modal" data-target="#caruselModal">
-                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " alt="...">
+                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                         
                             </div>
-                        </div>
+                        </div> 
                         <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100" alt="...">
+                            <img src="https://simprolitstroy.ru/api/gallery/5.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             
                             </div>
                         </div>
                         <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " alt="...">
+                            <img src="https://simprolitstroy.ru/api/gallery/1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             
                             </div>
@@ -2286,19 +2281,19 @@ border-radius: 20px; max-width:45   0px">
                     <div class="row mt-3 ">
                     <div class="col">
                       <span data-bs-target="#carouselId" data-bs-slide-to="0" class="active">
-                                      <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/02/flat_ekp_17.jpg" alt="">
+                                      <img class="w-100 img-carusel" style="object-fit: cover; height: 100px;" src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" alt="">
                       </span> 
                     </div>
                     
                     <div class="col">
                       <span data-bs-target="#carouselId" data-bs-slide-to="1">
-                          <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/04/gelenjik01-600x338.jpg" alt="">
+                          <img class="w-100 img-carusel" style="object-fit: cover; height: 100px;" src="https://simprolitstroy.ru/api/gallery/5.jpeg" alt="">
                         </span>
                     </div>
             
                     <div class="col">
                       <span data-bs-target="#carouselId" data-bs-slide-to="2">
-                          <img class="w-100 img-carusel" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
+                          <img class="w-100 img-carusel" style="object-fit: cover; height: 100px;" src="https://simprolitstroy.ru/api/gallery/1.jpeg" alt="">
                         </span> 
                     </div>
                   </div>

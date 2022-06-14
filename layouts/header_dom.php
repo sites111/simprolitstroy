@@ -45,9 +45,9 @@
   <div class="container mt-4 pb-4 d-none d-sm-block" style="z-index: 1000 !important; color: #fff;">
     <!-- Button trigger modal -->
       <span style="    color: #ffffff; font-size: 45px; font-family: 'Montserrat', Arial, sans-serif; line-height: 1.55;font-weight: 400;">
-      Современный и уютный<br />
+      <strong>Современный и уютный<br />
       дом в Казани и республике Татарстан<br />
-      по цене <strong>20 000₽ за м2</strong>
+      по цене 20 000₽ за м2</strong>
     </span>
     <br />
     <br />
@@ -55,7 +55,7 @@
       По индивидуальному проекту<br />
       и по нашим типовым проектам
     </span>
-    
+
       <br />
       <br />
 
@@ -74,7 +74,7 @@
               <div class="col-auto">
                 <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="" />
               </div>
-              <div class="col">
+              <a class="col" href="#rec448333531" style="text-decoration: none !important;">
                 <span
                   style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
                 "
@@ -82,7 +82,7 @@
                   Загородные <br />
                   частные дома
                 </span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@
               <div class="col-auto">
                 <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="" />
               </div>
-              <div class="col">
+              <a class="col" href="#rec448333531" style="text-decoration: none !important;">
                 <span
                   style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
                 "
@@ -101,7 +101,7 @@
                   Бани, гаражи и <br />
                   хозпостройки
                 </span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
               <div class="col-auto">
                 <img class="mt-2" style="max-width:45px" src="https://static.tildacdn.info/tild6363-3630-4632-b963-616439313630/bi_check.svg" alt="" />
               </div>
-              <div class="col">
+              <a class="col" href="#rec448333531" style="text-decoration: none !important;">
                 <span
                   style="    color: #000000;font-size: 18px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55;font-weight: 400;background-position: center center;border-color: transparent;border-style: solid;
                 "
@@ -120,7 +120,7 @@
                   Коммерческая <br />
                   недвижимость
                 </span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -130,9 +130,9 @@
   <!-- mob -->
   <div class="container mt-4 pb-4 d-block d-sm-none" style="z-index: 1000 !important; color: #fff;">
     <span style="    color: #ffffff; font-size: 27px; font-family: 'Montserrat', Arial, sans-serif; line-height: 1.55;font-weight: 400;">
-      Современный и уютный<br />
+      <strong>Современный и уютный<br />
       дом в Казани и республике Татарстан<br />
-      по цене <strong>20 000₽ за м2</strong>
+      по цене 20 000₽ за м2</strong>
     </span>
     <br />
     <br />

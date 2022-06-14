@@ -1,7 +1,7 @@
 <div class="container d-none d-sm-block mt-4 pb-4" style="z-index: 1000 !important">
   <ul class="nav nav-fill justify-content-center" style="display: flex !important;">
     <li class="nav-item">
-      <a class="nav-link active text-light menu-up" href="../../#rec448276217">ПРОЕКТЫ ДОМОВ</a>
+      <a class="nav-link active text-light menu-up" href="../../#rec448333531">ПРОЕКТЫ ДОМОВ</a>
     </li>
     <li class="nav-item">
       <a class="nav-link text-light menu-up dropdown-toggle" id="navadv" role="button" data-toggle="dropdown" aria-expanded="false" href="#">УСЛУГИ</a>
