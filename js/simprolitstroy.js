@@ -408,6 +408,9 @@ function getProject(name){
 */
 
 function setProjectCart(project){
+	if(project['data'] == null) 
+		return document.location.href = `../../`;
+
 	let images = new Array();
 	images.push(project['data']['image']);
 
@@ -629,8 +632,11 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
         <div class="card h-100" style="background: #FFFFFF;
         box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.13);
         border-radius: 18px !important; border: none;">
-        <img src="${image}" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; border-top-right-radius: 20px;" 
-        	onclick="return clickProject('${name}');" class="h-100" alt="">
+    	 
+			<a href="//${window.location.hostname + "/" + name}" style="display: contents;"> 
+				<img src="${image}" loading="lazy" style="border-radius: 0px; height: 242px!important; object-fit: cover; cursor: pointer; border-top-left-radius: 20px; 
+	    	border-top-right-radius: 20px;" alt="">
+	    	</a>
         <div class="p-3">
           <span class="pb-3" style="font-family: 'Montserrat';
           font-style: normal;
@@ -644,7 +650,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/размердома.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/размердома.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Размеры: <br>${toFixed(parseFloat(width),1)}х${toFixed(parseFloat(length),1)} м</span>
@@ -656,7 +662,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/этажей.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/этажей.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Этажей: ${toFixed(parseFloat(levels),1)}</span>
@@ -669,7 +675,7 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
             <div class="col">
               <div class="row g-2">
                 <div class="col-auto">
-                  <img class="w-100" style="max-width:20px;" src="icons/площадь.svg" alt="">
+                  <img class="w-100" style="max-width:20px;" src="../icons/площадь.svg" alt="">
                 </div>
                 <div class="col">
                   <span>Площадь: <br>${toFixed(parseFloat(square),1)} м²</span>
@@ -694,15 +700,15 @@ function createProject(id, name, image, price, square, levels, rooms, width, len
           </div>
           
         </div>
-        <span onclick="return clickProject('${name}');" class="p-4 text-center border-top border-2 border-success" style="font-family: 'Montserrat';
+        <a href="//${window.location.hostname + "/" + name}" class="p-4 text-center border-top border-1 border-success" style="text-decoration: none !important;">
+        <span onclick="return clickProject('${name}');" class="text-center border-success" style="font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        border-top: 1px solid #6AA91B !important;
         line-height: 24px;
        cursor: pointer;
         color: #6AA91B;
-        ">Подробнее</span>
+        ">Подробнее</span> </a>
         </div>
       </div>`;
 }
@@ -890,7 +896,7 @@ function createQuizPageText(page, ask, responsesArray){// responses: ['Чере�
 										<div class="card-quizz h-100 ">
 											<div class="h-100 align-middle p-2" style="display: inline-flex;
 												align-items: center;">
-												<img src="images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
+												<img src="../images/check.png" class="img-fluid p-1" style="max-width: 60px; border-right: 10px solid #ffffff !important;" align="left" alt="">
 												<h5 class="h-100 align-middle" style="display: inline-flex;
 												align-items: center;">${responsesArray[i]}</h5>
 											</div>
@@ -942,7 +948,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
 																<div class="col-12">
-																		<img class="img-fluid" src="images/logos_whatsapp.png" alt="">
+																		<img class="img-fluid" src="../images/logos_whatsapp.png" alt="">
 																</div>
 																<div class="col-12">
 																	<span>Viber</span>
@@ -958,7 +964,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/logos_whatsapp-1.png" alt="">
+                                                                <img class="img-fluid" src="../images/logos_whatsapp-1.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Whatsapp</span>
@@ -972,7 +978,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/logos_telegram.png" alt="">
+                                                                <img class="img-fluid" src="../images/logos_telegram.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Telegram</span>
@@ -986,7 +992,7 @@ function createQuizPageForm(ask){
                                                     <div class="card-body text-center">
                                                         <div class="row g-2">
                                                             <div class="col-12">
-                                                                <img class="img-fluid" src="images/Frame 11.png" alt="">
+                                                                <img class="img-fluid" src="../images/Frame 11.png" alt="">
                                                             </div>
                                                             <div class="col-12">
                                                                 <span>Телефон</span>

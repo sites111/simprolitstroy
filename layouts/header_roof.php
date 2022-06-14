@@ -1,19 +1,11 @@
-<div class="header bg-dark" style="background-image: url('https://sun7-6.userapi.com/s/v1/d/N8aALwnmnh8IP0dChqRjyR-B0id0I4WTkyhJQ2QFd7SxMUSeqKel-v8-5bfoF8k72F6iTErEeepXtyWIV6hcsBgLxy-YSxOkKxxljeBLoP4XdGfDF6Iehw/oblozhka.png')  ">
+<div class="header bg-dark" style="background-image: url('../images/bg-roof.png')  ">
   
   <?php
-
-  include 'layouts/header.php';
-  ?>
-
-  <?php
-  include 'layouts/menu_desctop.php';
-
   include '../layouts/header.php';
   ?>
 
   <?php
   include '../layouts/menu_desctop.php';
-
   ?>
 
   <!-- мобильное -->
@@ -28,7 +20,7 @@
               </span>
             </div>
             <div class="col-auto">
-              <img class="pt-1" style="max-width: 25px; transform: rotate (180deg) !important;" src="ant-design_lerft-outl1.svg" alt="" />
+              <img class="pt-1" style="max-width: 25px; transform: rotate (180deg) !important;" src="../ant-design_lerft-outl1.svg" alt="" />
             </div>
           </div>
         </button>
@@ -37,7 +29,7 @@
         <button type="button" class="text-light border-0 bg-none" data-bs-toggle="modal" data-bs-target="#exampleModal2">
           <div class="row g-2">
             <div class="col-auto">
-              <img class="pt-1" style="max-width: 25px" src="ant-design_left-outl.svg" alt="" />
+              <img class="pt-1" style="max-width: 25px" src="../ant-design_left-outl.svg" alt="" />
             </div>
             <div class="col">
               <span class="h2">
@@ -52,15 +44,16 @@
   <!-- Button trigger modal -->
   <div class="container mt-4 pb-4 d-none d-sm-block" style="z-index: 1000 !important; color: #fff;">
     <span style="    color: #ffffff; font-size: 45px; font-family: 'Montserrat', Arial, sans-serif; line-height: 1.55;font-weight: 400;">
-      Современный и уютный<br />
-      дом в Казани и республике Татарстан<br />
-      по цене <strong>20 000₽ за м2</strong>
+      <strong>Заливка плоской кровли от 150 ₽/м2<br />
+      С фиксированной сметой и сроками<br />
+      + гарантия 5 лет</strong>
     </span>
+
+
     <br />
     <br />
     <span style="    color: #ffffff;font-size: 20px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55; font-weight: 400; background-position: center center; border-color: transparent;border-style: solid;">
-      По индивидуальному проекту<br />
-      и по нашим типовым проектам
+      Казань и Республика Татарстан<br />
     </span>
     <!-- Button trigger modal -->
     <div class="container mt-4 pb-4" style="z-index: 1000 !important; color: #fff;">
@@ -138,15 +131,14 @@
   <!-- mob -->
   <div class="container mt-4 pb-4 d-block d-sm-none" style="z-index: 1000 !important; color: #fff;">
     <span style="    color: #ffffff; font-size: 27px; font-family: 'Montserrat', Arial, sans-serif; line-height: 1.55;font-weight: 400;">
-      Современный и уютный<br />
-      дом в Казани и республике Татарстан<br />
-      по цене <strong>20 000₽ за м2</strong>
+      <strong>Заливка плоской кровли от 150 ₽/м2<br />
+      С фиксированной сметой и сроками<br />
+      + гарантия 5 лет</strong>
     </span>
     <br />
     <br />
     <span style="    color: #ffffff;font-size: 15px;font-family: 'Montserrat', Arial, sans-serif;line-height: 1.55; font-weight: 400; background-position: center center; border-color: transparent;border-style: solid;">
-      По индивидуальному проекту<br />
-      и по нашим типовым проектам
+      Казань и Республика Татарстан
     </span>
 
     <br />
@@ -167,7 +159,7 @@
         <div class="card-first p-2" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
           <div class="row g-1">
             <div class="col-auto">
-              <img class="p-3" style="max-width:45px" src="bi_check.svg" alt="" />
+              <img class="p-3" style="max-width:45px" src="../bi_check.svg" alt="" />
             </div>
             <div class="col pt-2">
               <span
@@ -186,7 +178,7 @@
         <div class="card-first p-2" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
           <div class="row g-1">
             <div class="col-auto">
-              <img class="p-3" style="max-width:45px" src="bi_check.svg" alt="" />
+              <img class="p-3" style="max-width:45px" src="../bi_check.svg" alt="" />
             </div>
             <div class="col pt-2">
               <span
@@ -204,7 +196,7 @@
         <div class="card-first p-2" style="    border-radius: 20px;background-color: #ffffff;background-position: center center;border-color: transparent;border-style: solid;">
           <div class="row g-1">
             <div class="col-auto">
-              <img class="p-3" style="max-width:45px" src="bi_check.svg" alt="" />
+              <img class="p-3" style="max-width:45px" src="../bi_check.svg" alt="" />
             </div>
             <div class="col pt-2">
               <span
@@ -222,10 +214,6 @@
   </div>
   <!-- Modal -->
   <?php
-
-  include 'layouts/menu_mobile.php';
-
   include '../layouts/menu_mobile.php';
-
   ?>
 </div>

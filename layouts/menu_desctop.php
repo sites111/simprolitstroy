@@ -8,7 +8,11 @@
       <ul class="dropdown-menu dropdown-menu-dark w-100 mt-2 p-0" aria-labelledby="navadv" style="background-color: rgba(52, 58, 64, 0.98); max-width: 230px !important;">
         <div class="row text-center p-3">
           <div class="col">
+
             <li onclick="modalSow('Интересует строительство под ключ?');" style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li>
+
+            <a href="../../" style="text-decoration: none !important;"><li style="cursor: pointer; text-align: left; color: #fff;">Строительство под ключ</li></a>
+
             <li onclick="modalSow('Интересует утепление крыш?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление крыш</li>
             <li onclick="modalSow('Интересует утепление полов?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление полов</li>
             <li onclick="modalSow('Интересует утепление стен?');" style="cursor: pointer; text-align: left; color: #fff;">Утепление стен</li>
