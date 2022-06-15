@@ -86,10 +86,10 @@
 </div>
 <div class="agency bg-dark">
     <div class="container p-3 text-center border-top">
-        <span class="text-light">Сайт разработан Digital-агентством "Лаборатория продаж"</span>
+        <a href="https://laboratorysales.ru/" style="text-decoration: none !important;"><span class="text-light">Сайт разработан Digital-агентством "Лаборатория продаж"</span></a>
+    <!--    <br />
         <br />
-        <br />
-        <a href="https://laboratorysales.ru/"><img style="width:300px;" src="../images/labsales_logo.svg" alt="" /></a>
+        <a href="https://laboratorysales.ru/"><img style="width:300px;" src="../images/labsales_logo.svg" alt="" /></a> -->
     </div>
 </div>
 <!— Yandex.Metrika counter —>
