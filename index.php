@@ -239,8 +239,8 @@
         quizLoad(0);
     });
 </script>
-
-    <div class="container p-3 mt-4">
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+    <div class="container p-3 mt-4 " >
         <div class=" row row-cols-1 row-cols-md-1 row-cols-lg-2 p-1 gy-4">
 
         <div class="col  d-block d-md-none">
@@ -383,7 +383,7 @@
                     
                 </div>
 
-                <div class="col">
+                <div  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="col" id="scrollspyHeading1">
                     
                     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
              
@@ -440,7 +440,7 @@
         </div>
     </div>
 
-
+</div>
 
     
     <div id="rec448333531" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">

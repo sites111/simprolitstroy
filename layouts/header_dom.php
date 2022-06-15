@@ -10,6 +10,7 @@
 
   <!-- мобильное -->
   <div class="container mt-2 pb-2 d-block d-sm-none">
+
 	<div class="row">
 		<div class="col text-light">
 			<div type="" class="text-light border-0 bg-none">
@@ -229,6 +230,7 @@
 		</div>
 	</div>
 </div>
+
 
   <!-- Button trigger modal -->
   <div class="container mt-4 pb-4 d-none d-sm-block" style="z-index: 1000 !important; color: #fff;">
