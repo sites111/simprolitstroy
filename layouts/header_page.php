@@ -1,4 +1,4 @@
-<div class="header bg-dark" style="background-image: url(bg.png)  ">
+<div class="header bg-dark" style="background-image: url(../bg.png)  ">
   <?php
     include 'header.php';
   ?>

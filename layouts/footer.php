@@ -1,36 +1,3 @@
-<div id="rec448423142" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
-    <!-- T123 -->
-    <div class="t123">
-        <div class="t-container_100">
-            <div class="t-width t-width_100">
-                <style>
-                    .t849__wrapper {
-                    background-color: white;
-                    border-radius: 20px;
-                    }
-                    .t849__title {
-                    padding-left: 42px;
-                    }
-                    .t849__text {
-                    padding-left: 42px;
-                    }
-                    .t849__accordion {
-                    padding-bottom: 19px;
-                    }
-                    .t849__border {
-                    border: 0px !important;
-                    }
-                    .t849__icon {
-                    padding-right: 60px;
-                    }
-                    .t849 .t-section__topwrapper {
-                    margin-bottom: 10px;
-                    }
-                </style>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="footer bg-dark w-100 relative-bottom">
     <div class="container pt-4">
         <ul class="nav nav-fill pb-4" style="display: flex !important;  margin: 0 !important; ">
