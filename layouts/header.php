@@ -86,7 +86,7 @@
                     padding-top: 10px !important;
                     border-color: #8ED834 !important;
                     color: #8ED834;
-                    ">Звоните, мы на связи</div>
+                    "><a href="#" onclick="modalSow('Заказать обратный звонок');" style="text-decoration: none !important; color: #8ED834;">Заказать звонок</a></div>
                 <!--<span
                   class="border-bottom border-1 border-success"
                   style="font-family: 'Montserrat';
