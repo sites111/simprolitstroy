@@ -752,16 +752,16 @@ function galleryBlockFill(count_max){
 	let jsonObjectParse = JSON.parse(galleryArray);
 
 	document.getElementById('galleryFirstBox').innerHTML = `<div class="col">
-									                      	  <img class="w-100 rounded-4" src="${jsonObjectParse[0]['url']}" style="border-radius: 20px; height: 432px; object-fit: cover;">
+									                      	  <img class="w-100 rounded-4" src="${jsonObjectParse[0]['url']}" style="border-radius: 20px; height: 432px; object-fit: cover; cursor: zoom-in;" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('${jsonObjectParse[0]['url']}');">
 										                    </div>
 										                    <div class="col">
-										                        <img class="w-100 rounded-4" src="${jsonObjectParse[1]['url']}" style="border-radius: 20px; height: 432px; object-fit: cover;">
+										                        <img class="w-100 rounded-4" src="${jsonObjectParse[1]['url']}" style="border-radius: 20px; height: 432px; object-fit: cover; cursor: zoom-in;"  data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('${jsonObjectParse[1]['url']}');">
 										                    </div>`;
 	count += 2;
 	for (var i = 0+2; i < jsonObjectParse.length; i++) { 
 		if(count >= count_max) break;
 		galleryBlockElementContent += `<div class="col"> 
-                        <img class="w-100 rounded-4" src="${jsonObjectParse[i]['url']}" style="border-radius: 20px; height: 210px; object-fit: cover;">
+                        <img class="w-100 rounded-4" src="${jsonObjectParse[i]['url']}" style="border-radius: 20px; height: 210px; object-fit: cover; cursor: zoom-in;"  data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('${jsonObjectParse[i]['url']}');">
                     </div>`;
 		count++;
 	}

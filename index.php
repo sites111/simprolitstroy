@@ -389,19 +389,19 @@
              
                         <div class="carousel-inner" role="listbox" style="border-radius: 15px;" >
                         <div class="carousel-item active " data-toggle="modal" data-target="#caruselModal">
-                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
+                            <img  src="https://simprolitstroy.ru/images/technologysimprolit1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px; cursor: zoom-in;" alt="..."  data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/images/technologysimprolit1.jpeg');">
                             <div class="carousel-caption d-none d-md-block">
                         
                             </div>
                         </div> 
                         <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img src="https://simprolitstroy.ru/api/gallery/5.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
+                            <img src="https://simprolitstroy.ru/api/gallery/5.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px; cursor: zoom-in;" alt="..." data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/5.jpeg');">
                             <div class="carousel-caption d-none d-md-block">
                             
                             </div>
                         </div>
                         <div class="carousel-item" data-toggle="modal" data-target="#caruselModal">
-                            <img src="https://simprolitstroy.ru/api/gallery/1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px;" alt="...">
+                            <img src="https://simprolitstroy.ru/api/gallery/1.jpeg" class="d-block w-100 " style="object-fit: cover; height: 580px; cursor: zoom-in;" alt="..." data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/1.jpeg');">
                             <div class="carousel-caption d-none d-md-block">
                             
                             </div>
@@ -8645,9 +8645,9 @@ color: #000000;
                                   <p class="card-text">Данная компания разработала проект дома, помогли и подсказали, где лучше построить дом на участке. Строят качественно. По ходу строительства уточняется проект, подсказывают, как лучше сделать</p>
                             </div>
                             <br>    
-                          <img src="https://simprolitstroy.ru/api/gallery/7.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">  
-                          <img src="https://simprolitstroy.ru/api/gallery/9.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt=""> 
-                          <img src="https://simprolitstroy.ru/api/gallery/8.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">
+                          <img src="https://simprolitstroy.ru/api/gallery/7.jpeg" style="cursor: zoom-in; width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/7.jpeg');">  
+                          <img src="https://simprolitstroy.ru/api/gallery/9.jpeg" style="cursor: zoom-in; width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/9.jpeg');"> 
+                          <img src="https://simprolitstroy.ru/api/gallery/8.jpeg" style="cursor: zoom-in; width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/8.jpeg');">
                         
                         </div>
                       </div>
@@ -8693,8 +8693,8 @@ color: #000000;
                                     <p class="card-text">Заказывал проект дома в компании СимпролитСтрой. Завершили строительство в срок. Вносил оплату частями, согласно договора. Работают четко, быстро и профессионально. Рекомендую.</p>
                               </div>
                               <br>    
-                            <img src="https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.23.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">
-                            <img src="https://simprolitstroy.ru/api/gallery/2.jpeg" style="width: 81px; height: 81px; object-fit: cover; border-radius: 20px;" alt="">                          
+                            <img src="https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.23.jpeg" style="width: 81px; height: 81px; cursor: zoom-in; object-fit: cover; border-radius: 20px;" alt="" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/catalog/WhatsApp%20Image%202022-05-18%20at%2015.23.23.jpeg');">
+                            <img src="https://simprolitstroy.ru/api/gallery/2.jpeg" style="width: 81px; height: 81px; cursor: zoom-in; object-fit: cover; border-radius: 20px;" alt="" data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('https://simprolitstroy.ru/api/gallery/2.jpeg');">                          
                           </div>
                         </div>
                       </div>
@@ -13113,7 +13113,11 @@ color: #000000;
                 </div>    
 
             </div>
-
+        <div class="modal fade" id="caruselModal" tabindex="-1" aria-labelledby="caruselModalLabel" aria-hidden="true" style="cursor: zoom-out;">
+          <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down ">
+                <img id="modalImageZoom" class="w-100" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
+          </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
