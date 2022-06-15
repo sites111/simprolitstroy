@@ -89,9 +89,9 @@
                 </div>
                
         <!-- Modal -->
-<div class="modal fade" id="caruselModal" tabindex="-1" aria-labelledby="caruselModalLabel" aria-hidden="true">
+<div class="modal fade" id="caruselModal" tabindex="-1" aria-labelledby="caruselModalLabel" aria-hidden="true" style="cursor: zoom-out;">
   <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down ">
-        <img class="w-100" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
+        <img id="modalImageZoom" class="w-100" src="https://фабрика-каркасов.рф/wp-content/uploads/2022/01/modern38_min.jpg" alt="">
   </div>
 </div>
             

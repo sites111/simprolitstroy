@@ -21,15 +21,6 @@ const QUIZ_ASK_TEXT = 0;
 const QUIZ_ASK_IMAGE = 1;
 const QUIZ_ASK_FORM = 2;
 var quizPage = 0;
-/*
-0. Есть ли готовый проект
-1. Строительство в этом году?
-2. Есть ли участок
-3. 1 или 2 этажа
-4. Ипотека, материнский капитал или обмен квартиры на дом
-5. Примерный бюджет
-6. Контакты
-*/
 
 let quizArray = [
 	{//0
@@ -364,7 +355,7 @@ $(window).scroll(function () {
     	showMobFixedButtomButton();
     }
 });
-//https://simprolitstroy.ru/api/mysql/catalog_get.php?not=Проект%20К-5
+
 function getCatalogProjects(){ 
  	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
 	var xhr = new XHR();
@@ -377,6 +368,10 @@ function getCatalogProjects(){
 	  alert( 'Ошибка ' + this.status );
 	}
 	xhr.send();
+}
+
+function setModalImageZoom(url){
+	$("#modalImageZoom").attr("src", url);
 }
 
 function getCatalogProjects(not){ 
@@ -410,13 +405,13 @@ function getProject(name){
 /*
 {"data":
 {"id":"1",
-"image":"https:\/\/simprolitstroy.ru\/api\/gallery\/K1\/8566c9e0dfc7d9f8dde632cf962bd0fc.jpg",
+"image":"https:////simprolitstroy.ru//api//gallery//K1//8566c9e0dfc7d9f8dde632cf962bd0fc.jpg",
 "name":"Проект К-1",
 "price":"1746000",
 "square":"97",
 "levels":"1",
 "rooms":"0",
-"description":"Дом размерами в осях 8,15х11,9 с интересным \r\nпланирововчным решением рассчитан на большую \r\nсемью. В доме расположены просторная кухня-гостиная с выходом на веранду, три просторные \r\nкомнаты, гардеробная и постирочная, а также \r\nпомещения санитарно-технического назначения.\r\n\r\nЭкспликация 1-го этажа\r\n01 Тамбур\r\n02 С\/у\r\n03 Кухня\r\n04 Гостиная\r\n05 Ванная\r\n06 Спальня\r\n07 Детская 1\r\n08 Детская 2\r\n09 Коридор",
+"description":"Дом размерами в осях 8,15х11,9 с интересным /r/nпланирововчным решением рассчитан на большую /r/nсемью. В доме расположены просторная кухня-гостиная с выходом на веранду, три просторные /r/nкомнаты, гардеробная и постирочная, а также /r/nпомещения санитарно-технического назначения./r/n/r/nЭкспликация 1-го этажа/r/n01 Тамбур/r/n02 С//у/r/n03 Кухня/r/n04 Гостиная/r/n05 Ванная/r/n06 Спальня/r/n07 Детская 1/r/n08 Детская 2/r/n09 Коридор",
 "width":"8.15",
 "length":"11.9"},
 "images":[{"url":"qwgqwgqwgqwg"}]}
@@ -480,8 +475,8 @@ function setAdditionImages(images){
 function setCarouselImages(images){
 	var result = "";
 	for(var i = 0; i < images.length; i++){
-		result += `<div class="carousel-item ${i == 0 ? 'active' : ""} " data-toggle="modal" data-target="#caruselModal">
-                    <img  src="${images[i]}" class="d-block w-100 " alt="...">
+		result += `<div class="carousel-item ${i == 0 ? 'active' : ""} " data-toggle="modal" data-target="#caruselModal" onclick="setModalImageZoom('${images[i]}');">
+                    <img  src="${images[i]}" class="d-block w-100 " style="cursor: zoom-in;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>`;
