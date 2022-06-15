@@ -10,7 +10,7 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <a href="https://simprolitstroy.ru/#rec448333531" style="text-decoration: none !important; color: #fff;" data-bs-dismiss="modal" aria-label="Close"><span class="h5" data-bs-dismiss="modal" aria-label="Close">ПРОЕКТЫ ДОМОВ</span></a>
+            <span class="h5" data-bs-dismiss="modal" aria-label="Close"><a href="../../#rec448333531" style="text-decoration: none !important; color: #fff;">ПРОЕКТЫ ДОМОВ</a></span>
           </div>
           <div class="col-12">
             <span class="h5" data-bs-dismiss="modal" aria-label="Close">СТРОЙМАТЕРИАЛЫ</span>
