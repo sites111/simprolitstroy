@@ -390,6 +390,7 @@ function getProject(name){
 	  alert( 'Ошибка ' + this.status );
 	}
 	xhr.send();
+	addProjectView(name);
 }
 
 /*
@@ -406,6 +407,13 @@ function getProject(name){
 "length":"11.9"},
 "images":[{"url":"qwgqwgqwgqwg"}]}
 */
+
+function addProjectView(name){
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+	xhr.open("GET", `https://simprolitstroy.ru/api/mysql/project_add_view.php?name=${name}&v=${Date()}`);
+	xhr.send();
+}
 
 function setProjectCart(project){
 	if(project['data'] == null) 

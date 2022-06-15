@@ -89,7 +89,7 @@
         <span class="text-light">Сайт разработан Digital-агентством "Лаборатория продаж"</span>
         <br />
         <br />
-        <a href="https://laboratorysales.ru/"><img style="width:300px;" src="images/labsales_logo.svg" alt="" /></a>
+        <a href="https://laboratorysales.ru/"><img style="width:300px;" src="../images/labsales_logo.svg" alt="" /></a>
     </div>
 </div>
 <!— Yandex.Metrika counter —>

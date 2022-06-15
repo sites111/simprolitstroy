@@ -5,7 +5,7 @@
 
 	$connect = mysqlconnect('artema41.beget.tech', 'artema41_simpro', 'QT3*a1uz', 'artema41_simpro');
 
-	$query = mysqlselectquery('SELECT * FROM projects');
+	$query = mysqlselectquery('SELECT * FROM `projects` ORDER BY `views` DESC');
 
 	$rows = array();
 	while($r = mysql_fetch_assoc($query)) {

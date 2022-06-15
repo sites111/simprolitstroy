@@ -1,9 +1,9 @@
 <div class="header bg-dark" style="background-image: url(bg.png)  ">
   <?php
-    include 'layouts/header.php';
+    include 'header.php';
   ?>
   <?php
-    include 'layouts/menu_desctop.php';
+    include 'menu_desctop.php';
   ?>
   <!-- мобильное -->
   <div class="container mt-2 pb-2 d-block d-sm-none">
@@ -41,6 +41,6 @@
   <!-- Button trigger modal --> 
   <!-- Modal --> 
   <?php
-    include 'layouts/menu_mobile.php';
+    include 'menu_mobile.php';
     ?>
 </div>
