@@ -10,21 +10,21 @@
       <div class="modal-body">
         <div class="row gy-3">
           <div class="col-12">
-            <a href="https://simprolitstroy.ru/#rec448333531" style="text-decoration: none !important; color: #fff;"><span class="h5">ПРОЕКТЫ ДОМОВ</span></a>
+            <a href="https://simprolitstroy.ru/#rec448333531" style="text-decoration: none !important; color: #fff;" data-bs-dismiss="modal" aria-label="Close"><span class="h5" data-bs-dismiss="modal" aria-label="Close">ПРОЕКТЫ ДОМОВ</span></a>
           </div>
           <div class="col-12">
-            <span class="h5">СТРОЙМАТЕРИАЛЫ</span>
-            <li class="nav-link text-light"><a class="border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют пенобетонные блоки?');">Пенобетонные блоки</a></li>
-            <li class="nav-link text-light"><a class="border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют полистеролбетонные блоки?');">Полистеролбетонные блоки</a></li>
+            <span class="h5" data-bs-dismiss="modal" aria-label="Close">СТРОЙМАТЕРИАЛЫ</span>
+            <li class="nav-link text-light" data-bs-dismiss="modal" aria-label="Close"><a class="border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют пенобетонные блоки?');">Пенобетонные блоки</a></li>
+            <li class="nav-link text-light" data-bs-dismiss="modal" aria-label="Close"><a class="border-bottom border-1 border-light text-light text-decoration-none" onclick="modalSow('Интересуют полистеролбетонные блоки?');">Полистеролбетонные блоки</a></li>
           </div>
           <div class="col-12">
-            <a href="https://simprolitstroy.ru/" style="text-decoration: none !important; color: #fff;"><span class="h5">ДОКУМЕНТАЦИЯ</span></a>
+            <a href="https://simprolitstroy.ru/" data-bs-dismiss="modal" aria-label="Close" style="text-decoration: none !important; color: #fff;"><span class="h5">ДОКУМЕНТАЦИЯ</span></a>
           </div>
           <div class="col-12">
-            <a href="https://simprolitstroy.ru/#rec448407412" style="text-decoration: none !important; color: #fff;"><span class="h5">ОТЗЫВЫ</span></a>
+            <a href="https://simprolitstroy.ru/#rec448407412" data-bs-dismiss="modal" aria-label="Close" style="text-decoration: none !important; color: #fff;"><span class="h5">ОТЗЫВЫ</span></a>
           </div>
           <div class="col-12">
-            <a href="https://simprolitstroy.ru/#rec448425078" style="text-decoration: none !important; color: #fff;"><span class="h5">КОНТАКТЫ</span></a>
+            <a href="https://simprolitstroy.ru/#rec448425078" data-bs-dismiss="modal" aria-label="Close" style="text-decoration: none !important; color: #fff;"><span class="h5">КОНТАКТЫ</span></a>
           </div>
         </div>
       </div>
@@ -88,17 +88,17 @@
         <div class="row gy-3">
           <div class="col-12">
 
-            <a href="../../" style="text-decoration: none !important; color: #fff;"><span class="h5">Строительство под ключ</span></a>
+            <a href="../../" style="text-decoration: none !important; color: #fff;" data-bs-dismiss="modal" aria-label="Close"><span class="h5">Строительство под ключ</span></a>
 
           </div>
           <div class="col-12">
-            <a href="../../roof" style="text-decoration: none !important; color: #fff;"><span class="h5">Утепление крыш</span></a>
+            <a href="../../roof" style="text-decoration: none !important; color: #fff;"data-bs-dismiss="modal" aria-label="Close"><span class="h5">Утепление крыш</span></a>
           </div>
           <div class="col-12">
-            <span class="h5" onclick="modalSow('Интересует утепление полов?');">Утепление полов</span>
+            <span class="h5"data-bs-dismiss="modal" aria-label="Close" onclick="modalSow('Интересует утепление полов?');">Утепление полов</span>
           </div>
           <div class="col-12">
-            <span class="h5" onclick="modalSow('Интересует утепление стен?');">Утепление стен</span>
+            <span class="h5"data-bs-dismiss="modal" aria-label="Close" onclick="modalSow('Интересует утепление стен?');">Утепление стен</span>
           </div>
         </div>
       </div>
