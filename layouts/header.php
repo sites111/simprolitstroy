@@ -77,30 +77,19 @@
                     font-size: 20px;
                     line-height: 24px;
                     color: #FFFFFF;">+7 (843) 212 61-77</a>
-                <br>
-                  <div style="font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 14px;
-                    padding-top: 10px !important;
-                    border-color: #8ED834 !important;
-                    color: #8ED834;
-                    "><a href="#" onclick="modalSow('Заказать обратный звонок');" style="text-decoration: none !important; color: #8ED834;">Заказать звонок</a></div>
-                <!--<span
+                <br> 
+                <div class="spinner-grow btn-successs "  role="status" style="max-width: 14px; max-height: 14px; margin-top: 0px;"></div>
+                <span
                   class="border-bottom border-1 border-success"
                   style="font-family: 'Montserrat';
                   font-style: normal;
                   font-weight: 500;
                   font-size: 14px;
                   line-height: 14px;
-                  padding-top: 30px !important;
                   border-color: #8ED834 !important;
-                  color: #8ED834;
-                  "
-                >
-                  Звоните, мы на связи
-                </span> -->
+                  color: #8ED834;">
+                  <a href="#" onclick="modalSow('Заказать обратный звонок');" style="text-decoration: none !important; color: #8ED834;">Заказать звонок</a>
+                </span> 
             </div>
           </div>
         </div>
