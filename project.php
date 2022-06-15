@@ -439,7 +439,7 @@
 
     <script>
       getProject('<?php echo $_GET['name']; ?>');
-      getCatalogProjects();
+      getCatalogProjects('<?php echo $_GET['name']; ?>');
     </script>
 </body>
 </html>

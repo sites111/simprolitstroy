@@ -5,7 +5,14 @@
 
 	$connect = mysqlconnect('artema41.beget.tech', 'artema41_simpro', 'QT3*a1uz', 'artema41_simpro');
 
-	$query = mysqlselectquery('SELECT * FROM `projects` ORDER BY `views` DESC');
+	if(!empty($_GET['not'])){
+		$query_text = "SELECT * FROM `projects` WHERE `name` != '".$_GET['not']."' ORDER BY `views` DESC";
+	} else {
+		$query_text = "SELECT * FROM `projects` ORDER BY `views` DESC";
+	}
+
+
+	$query = mysqlselectquery($query_text);
 
 	$rows = array();
 	while($r = mysql_fetch_assoc($query)) {

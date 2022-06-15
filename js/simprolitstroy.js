@@ -364,11 +364,25 @@ $(window).scroll(function () {
     	showMobFixedButtomButton();
     }
 });
-
+//https://simprolitstroy.ru/api/mysql/catalog_get.php?not=Проект%20К-5
 function getCatalogProjects(){ 
  	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
 	var xhr = new XHR();
 	xhr.open("GET", "https://simprolitstroy.ru/api/mysql/catalog_get.php?v="+Date());
+	xhr.onload = function() {
+	    projectsCatalogArray = this.responseText;
+		projectBlockFill(projectsCountMax);
+	}
+	xhr.onerror = function() {
+	  alert( 'Ошибка ' + this.status );
+	}
+	xhr.send();
+}
+
+function getCatalogProjects(not){ 
+ 	var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
+	var xhr = new XHR();
+	xhr.open("GET", `https://simprolitstroy.ru/api/mysql/catalog_get.php?not=${not}&v=${Date()}`);
 	xhr.onload = function() {
 	    projectsCatalogArray = this.responseText;
 		projectBlockFill(projectsCountMax);
