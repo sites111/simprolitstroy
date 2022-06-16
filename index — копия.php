@@ -3689,7 +3689,7 @@
                 }
                 #rec448342271 .tn-elem[data-elem-id="1653002434847"] .tn-atom {
                 color: #6aa91b;
-                font-size: 24px;
+                font-size: 25px;
                 font-family: 'Montserrat', Arial, sans-serif;
                 line-height: 1.55;
                 font-weight: 600;
@@ -11459,7 +11459,7 @@
                 });
                 });
             </script><!-- /T396 -->
-        </div> 
+        </div>
         <footer>
             <?php include "layouts/footer.php"; ?>
         </footer>

@@ -6,11 +6,7 @@
       }
       .dropdown-menu:hover > .dropdown-menu {
         display: block;
-      }
-
-      .dropdown-menu-item:hover{
-        color: #8ed834;
-      }
+      } 
     }
     </style>
     <li class="nav-item">
