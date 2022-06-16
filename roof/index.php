@@ -2173,12 +2173,7 @@
                     
                 </section>
         </div> 
-    </div> 
-<script>
-    $(document).ready(function(){ 
-        quizLoad(0);
-    });
-</script> 
+    </div>  
     <div id="rec448333531" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
       
@@ -12266,6 +12261,23 @@ color: #000000;
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <script>
+            quizArray = [
+                {//0
+                    type: QUIZ_ASK_TEXT,
+                    ask: 'Первый вопрос',
+                    responses: ['В ближайшее время','В этом году', 'В следующем году', 'Уже вчера'],
+                    images: [null,null]
+                },
+                {//1
+                    type: QUIZ_ASK_TEXT,
+                    ask: 'Второй вопрос',
+                    responses: ['Да','Нет', 'Другой ответ']
+                }, 
+                {//7
+                    type: QUIZ_ASK_FORM,
+                    ask: 'Куда вам отправить предварительный расчёт?'
+                }
+            ];
             quizLoad(0);
             getCatalogProjects();
             getGallery();
